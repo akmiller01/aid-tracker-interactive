@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="chart.js"></script>
+  </head>
+  <body>
+    <div id="chart1"></div>
+    <script>
+        d3.csv("overall_oda_oof.csv",function(data){
+            var selector_configs = [
+                {
+                    "column_name": "transaction_type",
+                    "selector_type": "dropdown",
+                    "order": ["commitments", "disbursements"],
+                    "defaults": ["disbursements"]
+                },
+                {
+                    "column_name": "variable",
+                    "selector_type": "dropdown",
+                    "order": ["absolute", "percent"],
+                    "defaults": ["percent"]
+                },
+                {
+                    "column_name": "org_type",
+                    "selector_type": "checkbox",
+                    "order": ["bilateral", "multilateral", "ifi"],
+                    "defaults": ["bilateral", "multilateral", "ifi"]
+                },
+                {
+                    "column_name": "flow_type",
+                    "selector_type": "checkbox",
+                    "order": ["ODA", "OOF", "Other flows", "Not specified"],
+                    "defaults": ["ODA", "OOF", "Other flows", "Not specified"]
+                },
+            ];
+            add_selectors("chart1", data, selector_configs);
+            var initial_data = subset_data(data, selector_configs);
+            console.log(initial_data);
+        })
+    </script>
+  </body>
+</html>
