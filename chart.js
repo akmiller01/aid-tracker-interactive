@@ -76,11 +76,6 @@ function add_selectors(chart_id, data, selector_configs){
         }
         // Set "current_seletion"
         selector_configs[config_index].current_selection = selector_configs[config_index].defaults;
-        // Setup on change events. TODO: Set this up in a draw_chart function instead, so it can subset data, redraw charts
-        selector_configs[config_index].element.on("change", function(d){
-            set_selections(selector_configs, config_index);
-            console.log(selector_configs[config_index].current_selection);
-        })
     })
 }
 
@@ -93,4 +88,9 @@ function subset_data(data, selector_configs){
         })
     });
     return(filtered_data);
+}
+
+function erase_chart(chart_id){
+    var svg = d3.select("#" + chart_id).select("svg");
+    svg.selectAll("*").remove();
 }

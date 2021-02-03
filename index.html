@@ -34,9 +34,43 @@
                     "defaults": ["ODA", "OOF", "Other flows", "Not specified"]
                 },
             ];
+            var chart_config = {
+                "chart_type": "bar",
+                "chart_direction": "horizontal",
+                "x_axis": ["org_type", "year"],
+                "x_axis_label": "",
+                "y_axis": ["value"],
+                "y_axis_label": {
+                    "variable": {
+                        "absolute": "Total commitments January-November (US$ millions)",
+                        "percent": "Total commitments January-November (%)"
+                    }
+                },
+                "y_axis_scale": {
+                    "variable": {
+                        "absolute": function(d){return "$"+d3.format(",")(d)},
+                        "percent": d3.format(".0%")
+                    }
+                },
+                "colour_axis": ["flow_type"],
+                "colour_axis_scale": d3.scaleOrdinal().domain(["ODA", "OOF", "Other flows", "Not specified"]).range(d3.schemeSet2),
+                get tooltip_label() {
+                    return function(d){return this.y_axis_scale.variable[d.variable](d.value)}
+                }
+            };
+            console.log(chart_config)
             add_selectors("chart1", data, selector_configs);
             var initial_data = subset_data(data, selector_configs);
             console.log(initial_data);
+            selector_configs.forEach(function(selector_config, config_index){
+                selector_config.element.on("change", function(d){
+                    set_selections(selector_configs, config_index);
+                    var filtered_data = subset_data(data, selector_configs);
+                    console.log(selector_configs[config_index].current_selection);
+                    // erase_chart("chart1");
+                    // draw_chart("chart1", filtered_data, chart_config, selector_configs);
+                })
+            });
         })
     </script>
   </body>
