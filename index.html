@@ -3,10 +3,67 @@
     <script src="https://d3js.org/d3.v4.js"></script>
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
     <script src="chart.js"></script>
-  </head>
+    <style>
+      @font-face {
+        font-family: 'Averta';
+        src: url('fonts/Averta-Regular.woff');
+        font-weight: normal;
+      }
+      @font-face {
+        font-family: 'Averta';
+        src: url('fonts/Averta-Bold.woff');
+        font-weight: bold;
+      }
+      @font-face {
+        font-family: 'Averta';
+        src: url('fonts/Averta-BoldItalic.woff');
+        font-weight: bold;
+        font-style: italic;
+      }
+      @font-face {
+        font-family: 'Averta';
+        src: url('fonts/Averta-RegularItalic.woff');
+        font-weight: normal;
+        font-style: italic;
+      }
+      @font-face {
+        font-family: 'Averta';
+        src: url('fonts/Averta-Semibold.woff');
+        font-weight:600;
+      }
+      @font-face {
+        font-family: 'Averta';
+        src: url('fonts/Averta-SemiboldItalic.woff');
+        font-weight:600;
+        font-style: italic;
+      }
+      .xaxis text {font-size:10px; font-weight: 100; fill:#443e42 ; font-family: 'Averta',sans-serif; }
+      .xaxis line {stroke:transparent;}
+      .xaxis path {stroke:#443e42;}
+      .yaxistitle {font-size:10px; font-weight: 100; fill:#ffffff; font-family: 'Averta',sans-serif; }
+      .yaxis text {font-size:10px; font-weight: 100; fill:#ffffff; font-family: 'Averta',sans-serif; }
+      .yaxis line {stroke:#ffffff;}
+      .yaxis path {stroke:transparent;}
+      .tooltip {pointer-events: none;}
+      .tooltip-bg {pointer-events: none;}
+      .chart-wrapper-third {float:left; width: 33%;}
+      .chart-wrapper-half {float:left; width:50%;}
+      .chart-wrapper-full {float:left; width:100%;}
+      h1 {font-family: 'Averta';float:left; width: 100%;color:#443e42;}
+      h2 {font-family: 'Averta';font-size:25px;color:#443e42;}
+      body {font-family: 'Averta';color:#443e42;}
+    </style>
+</head>  
   <body>
-    <div id="chart1"></div>
+    <h1>Volumes from donors</h1>
+    <div class="chart-wrapper-full">
+      <h2>Overall</h2>
+      <div id="chart1"></div>
+    </div>
     <script>
+        var margin2 = {top: 10, right: 300, bottom: 30, left: 45},
+        width2 = 800 - margin2.left - margin2.right,
+        height2 = 200 - margin2.top - margin2.bottom;
         d3.csv("overall_oda_oof.csv",function(data){
             var selector_configs = [
                 {
@@ -34,6 +91,7 @@
                     "defaults": ["ODA", "OOF", "Other flows", "Not specified"]
                 },
             ];
+            console.log(selector_configs)
             var chart_config = {
                 "chart_type": "bar",
                 "chart_direction": "horizontal",
@@ -42,8 +100,8 @@
                 "y_axis": ["value"],
                 "y_axis_label": {
                     "variable": {
-                        "absolute": "Total commitments January-November (US$ millions)",
-                        "percent": "Total commitments January-November (%)"
+                        "absolute": "Total commitments January-December (US$ millions)",
+                        "percent": "Total commitments January-December (%)"
                     }
                 },
                 "y_axis_scale": {
@@ -58,10 +116,11 @@
                     return function(d){return this.y_axis_scale.variable[d.variable](d.value)}
                 }
             };
-            console.log(chart_config)
+            //console.log(chart_config)
             add_selectors("chart1", data, selector_configs);
             var initial_data = subset_data(data, selector_configs);
             console.log(initial_data);
+            draw_bar_chart(initial_data, "chart1", margin2, width2, height2);
             selector_configs.forEach(function(selector_config, config_index){
                 selector_config.element.on("change", function(d){
                     set_selections(selector_configs, config_index);
@@ -71,6 +130,7 @@
                     // draw_chart("chart1", filtered_data, chart_config, selector_configs);
                 })
             });
+            // draw_bar_chart(filtered_data, "chart1", margin2, width2, height2);
         })
     </script>
   </body>

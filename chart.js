@@ -90,6 +90,110 @@ function subset_data(data, selector_configs){
     return(filtered_data);
 }
 
+function draw_bar_chart(filtered_data, chart_id, margin, width, height){
+    var chartNode = d3.select("#" + chart_id);
+    var svg = chartNode
+    .append("svg")
+      .attr('preserveAspectRatio', 'xMinYMin meet')
+      .attr("viewBox", "0 0 " + (width + margin.left + margin.right) + " " + (height + margin.top + margin.bottom))
+      .attr("style","background-color: white;")
+    .append("g")
+      .attr("transform",
+            "translate(" + margin.left + "," + margin.top + ")");
+    var y = d3.scaleLinear()
+            .rangeRound([height, 0]);
+    
+    var yAxis = d3.axisLeft().ticks(5).scale(y).tickSize(0).tickSizeOuter(0).tickSizeInner(-width).tickFormat( function(d) { return d } );
+          svg.append("g")
+            .attr('class', 'yaxis')
+            .call(yAxis);
+    var x_max = d3.max(filtered_data, function(d) { return d.year; });
+    var x = d3.scaleBand()
+            .rangeRound([0, width])
+            .paddingInner(0.05)
+            .align(0.1);
+    var xAxis = d3.axisBottom(x).tickValues(filtered_data.map(function(d){ return d.year })).tickFormat(d3.format("d"));
+    var z = d3.scaleOrdinal()
+    .range(["#0c457b", "#88bae5", "#5da3d9", "#443e42"]);
+
+    var keys = ["ODA", "OOF", "Other flows", "Not specified"];
+
+    filtered_data.sort(function(a, b) { return b.total - a.total; });
+    x.domain(filtered_data.map(function(d) { return d.year; }));
+    y.domain([0, d3.max(filtered_data, function(d) { return d.value; })]).nice();
+    z.domain(keys);
+
+    console.log(filtered_data)
+  
+    svg.append("g")
+      .selectAll("g")
+      .data(d3.stack().keys(keys)(filtered_data))
+      .enter().append("g")
+        .attr("fill", function(d) { return z(d.key); })
+      .selectAll("rect")
+      .data(function(d) { return d; })
+      .enter().append("rect")
+        .attr("x", function(d) { return x(d.data.year); })
+        .attr("y", function(d) { return y(d[1]); })
+        .attr("height", function(d) { return y(d[0]) - y(d[1]); })
+        .attr("width", x.bandwidth())
+      .on("mouseover", function() { tooltip.style("display", null); })
+      .on("mouseout", function() { tooltip.style("display", "none"); })
+      .on("mousemove", function(d) {
+        // console.log(d);
+        var xPosition = d3.mouse(this)[0] - 5;
+        var yPosition = d3.mouse(this)[1] - 5;
+        tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+        tooltip.select("text").text(d[1]-d[0]);
+      });
+  
+    svg.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(d3.axisBottom(x));
+  
+    svg.append("g")
+        .attr("class", "axis")
+        .call(d3.axisLeft(y).ticks(null, "s"))
+      .append("text")
+        .attr("x", 2)
+        .attr("y", y(y.ticks().pop()) + 0.5)
+        .attr("dy", "0.32em")
+        .attr("fill", "#000")
+        .attr("font-weight", "bold")
+        .attr("text-anchor", "start");
+
+    var legend = svg.append("g")
+        .attr("font-family", "sans-serif")
+        .attr("font-size", 10)
+        .attr("text-anchor", "end")
+      .selectAll("g")
+      .data(keys.slice().reverse())
+      .enter().append("g")
+        .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+  
+    legend.append("rect")
+        .attr("x", width - 19)
+        .attr("width", 19)
+        .attr("height", 19)
+        .attr("fill", z);
+  
+    legend.append("text")
+        .attr("x", width - 24)
+        .attr("y", 9.5)
+        .attr("dy", "0.32em")
+        .text(function(d) { return d; });
+
+    // var tooltip = svg.append("text")
+    //   .attr("class","tooltip")
+    //   .attr("font-size",12)
+    //   .style("fill", "#475C6D");
+    // var tooltipBackground = svg.append("rect")
+    //   .attr("class","tooltip-bg")
+    //   .attr("fill","black")
+    //   .attr("rx",5);
+}
+
 function erase_chart(chart_id){
     var svg = d3.select("#" + chart_id).select("svg");
     svg.selectAll("*").remove();
