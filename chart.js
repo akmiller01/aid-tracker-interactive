@@ -90,7 +90,26 @@ function subset_data(data, selector_configs){
     return(filtered_data);
 }
 
-function draw_bar_chart(filtered_data, chart_id, margin, width, height){
+function draw_bar_chart(data, chart_id, margin, width, height,chart_config){
+    data.forEach(function(d, d_index){
+        data[d_index]["year_org"] = d["org_type"] + d["year"]
+     })
+    var data_wide = d3.nest()
+     .key(function(d) { return d["year_org"] }) // sort by key
+     .rollup(function(d) { // do this to each grouping
+       // reduce takes a list and returns one value
+       // in this case, the list is all the grouped elements
+       // and the final value is an object with keys
+       return d.reduce(function(prev, curr) {
+         prev["year_org"] = curr["year_org"];
+         prev[curr["flow_type"]] = curr["value"];
+         return prev;
+       }, {});
+     }).entries(data)
+     .map(function(d) { // pull out only the values
+        return d.value;
+      }); // tell it what data to process
+
     var chartNode = d3.select("#" + chart_id);
     var svg = chartNode
     .append("svg")
@@ -103,50 +122,47 @@ function draw_bar_chart(filtered_data, chart_id, margin, width, height){
     var y = d3.scaleLinear()
             .rangeRound([height, 0]);
     
-    var yAxis = d3.axisLeft().ticks(5).scale(y).tickSize(0).tickSizeOuter(0).tickSizeInner(-width).tickFormat( function(d) { return d } );
-          svg.append("g")
-            .attr('class', 'yaxis')
-            .call(yAxis);
-    var x_max = d3.max(filtered_data, function(d) { return d.year; });
+    // var yAxis = d3.axisLeft().ticks(5).scale(y).tickSize(0).tickSizeOuter(0).tickSizeInner(-width).tickFormat( function(d) { return d } );
+    //       svg.append("g")
+    //         .attr('class', 'yaxis')
+    //         .call(yAxis);
     var x = d3.scaleBand()
             .rangeRound([0, width])
             .paddingInner(0.05)
             .align(0.1);
-    var xAxis = d3.axisBottom(x).tickValues(filtered_data.map(function(d){ return d.year })).tickFormat(d3.format("d"));
+    // var xAxis = d3.axisBottom(x).tickValues(data.map(function(d){ return d.year_org })).tickFormat(d3.format("d"));
     var z = d3.scaleOrdinal()
     .range(["#0c457b", "#88bae5", "#5da3d9", "#443e42"]);
-
     var keys = ["ODA", "OOF", "Other flows", "Not specified"];
-
-    filtered_data.sort(function(a, b) { return b.total - a.total; });
-    x.domain(filtered_data.map(function(d) { return d.year; }));
-    y.domain([0, d3.max(filtered_data, function(d) { return d.value; })]).nice();
+    x.domain(data.map(function(d) { return d.year_org; }));
+    y.domain([0, d3.max(data, function(d) { return d.value; })]);
     z.domain(keys);
 
-    console.log(filtered_data)
-  
+    console.log(d3.max(data, function(d) { return d.value; })) ;
+    console.log(data)
+    console.log(d3.stack().keys(keys)(data_wide))
     svg.append("g")
       .selectAll("g")
-      .data(d3.stack().keys(keys)(filtered_data))
+      .data(d3.stack().keys(keys)(data_wide))
       .enter().append("g")
         .attr("fill", function(d) { return z(d.key); })
       .selectAll("rect")
-      .data(function(d) { return d; })
+      .data(function(d) {return d; })
       .enter().append("rect")
-        .attr("x", function(d) { return x(d.data.year); })
+        .attr("x", function(d) {  return x(d.data.year_org); })
         .attr("y", function(d) { return y(d[1]); })
         .attr("height", function(d) { return y(d[0]) - y(d[1]); })
         .attr("width", x.bandwidth())
       .on("mouseover", function() { tooltip.style("display", null); })
       .on("mouseout", function() { tooltip.style("display", "none"); })
       .on("mousemove", function(d) {
-        // console.log(d);
+        console.log(d);
         var xPosition = d3.mouse(this)[0] - 5;
         var yPosition = d3.mouse(this)[1] - 5;
         tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
         tooltip.select("text").text(d[1]-d[0]);
       });
-  
+      
     svg.append("g")
         .attr("class", "axis")
         .attr("transform", "translate(0," + height + ")")

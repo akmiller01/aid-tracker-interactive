@@ -53,7 +53,7 @@
       h2 {font-family: 'Averta';font-size:25px;color:#443e42;}
       body {font-family: 'Averta';color:#443e42;}
     </style>
-</head>  
+</head>
   <body>
     <h1>Volumes from donors</h1>
     <div class="chart-wrapper-full">
@@ -91,7 +91,7 @@
                     "defaults": ["ODA", "OOF", "Other flows", "Not specified"]
                 },
             ];
-            console.log(selector_configs)
+            //console.log(selector_configs)
             var chart_config = {
                 "chart_type": "bar",
                 "chart_direction": "horizontal",
@@ -119,8 +119,8 @@
             //console.log(chart_config)
             add_selectors("chart1", data, selector_configs);
             var initial_data = subset_data(data, selector_configs);
-            console.log(initial_data);
-            draw_bar_chart(initial_data, "chart1", margin2, width2, height2);
+            //console.log(initial_data);
+            draw_bar_chart(initial_data, "chart1", margin2, width2, height2, chart_config);
             selector_configs.forEach(function(selector_config, config_index){
                 selector_config.element.on("change", function(d){
                     set_selections(selector_configs, config_index);
