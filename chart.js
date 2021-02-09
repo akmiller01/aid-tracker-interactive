@@ -90,7 +90,7 @@ function subset_data(data, selector_configs){
     return(filtered_data);
 }
 
-function draw_bar_chart(data, chart_id, margin, width, height,chart_config){
+function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selector_configs){
     data.forEach(function(d, d_index){
         data[d_index]["year_org"] = d["org_type"] + d["year"]
      })
@@ -121,26 +121,21 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config){
             "translate(" + margin.left + "," + margin.top + ")");
     var y = d3.scaleLinear()
             .rangeRound([height, 0]);
-    
-    // var yAxis = d3.axisLeft().ticks(5).scale(y).tickSize(0).tickSizeOuter(0).tickSizeInner(-width).tickFormat( function(d) { return d } );
-    //       svg.append("g")
-    //         .attr('class', 'yaxis')
-    //         .call(yAxis);
     var x = d3.scaleBand()
             .rangeRound([0, width])
             .paddingInner(0.05)
             .align(0.1);
-    // var xAxis = d3.axisBottom(x).tickValues(data.map(function(d){ return d.year_org })).tickFormat(d3.format("d"));
+    var xAxis = d3.axisBottom(x)
     var z = d3.scaleOrdinal()
     .range(["#0c457b", "#88bae5", "#5da3d9", "#443e42"]);
-    var keys = ["ODA", "OOF", "Other flows", "Not specified"];
+    var keys = selector_configs[3]["current_selection"];
     x.domain(data.map(function(d) { return d.year_org; }));
     y.domain([0, d3.max(data, function(d) { return d.value; })]);
     z.domain(keys);
 
-    console.log(d3.max(data, function(d) { return d.value; })) ;
+    // console.log(d3.max(data, function(d) { return d.value; })) ;
     console.log(data)
-    console.log(d3.stack().keys(keys)(data_wide))
+    // console.log(d3.stack().keys(keys)(data_wide))
     svg.append("g")
       .selectAll("g")
       .data(d3.stack().keys(keys)(data_wide))
@@ -162,31 +157,41 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config){
         tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
         tooltip.select("text").text(d[1]-d[0]);
       });
-      
+    console.log(selector_configs[1]["current_selection"] == "percent")
+    if (selector_configs[1]["current_selection"] == "percent"){
+        var yAxis = d3.axisLeft().ticks(5).scale(y).tickSize(0).tickSizeInner(0).tickFormat( function(d) { return 100*d + "%" } )
+    } 
+    if (selector_configs[1]["current_selection"] == "absolute"){
+        var yAxis = d3.axisLeft().ticks(5).scale(y).tickSize(0).tickSizeInner(0).tickFormat( function(d) { return d } )
+    }
     svg.append("g")
-        .attr("class", "axis")
-        .attr("transform", "translate(0," + height + ")")
-        .call(d3.axisBottom(x));
-  
+      .attr("class", "axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x).tickSizeOuter(0))
+      .selectAll("text")  
+            .style("text-anchor", "end")
+            .attr("dx", "-0.6em")
+            .attr("dy", ".15em")
+            .attr("transform", "rotate(-45)" );
     svg.append("g")
-        .attr("class", "axis")
-        .call(d3.axisLeft(y).ticks(null, "s"))
-      .append("text")
-        .attr("x", 2)
-        .attr("y", y(y.ticks().pop()) + 0.5)
-        .attr("dy", "0.32em")
-        .attr("fill", "#000")
-        .attr("font-weight", "bold")
-        .attr("text-anchor", "start");
-
+      .attr("class", "axis")
+      .call(yAxis);
+    svg.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0-margin.left)
+      .attr("x",0 - (height / 5))
+      .attr("dy", "1em")
+      .attr('class','yaxistitle')
+      .style("text-anchor", "middle")
+      .text("Prevalence (%)");
     var legend = svg.append("g")
         .attr("font-family", "sans-serif")
         .attr("font-size", 10)
         .attr("text-anchor", "end")
-      .selectAll("g")
-      .data(keys.slice().reverse())
-      .enter().append("g")
-        .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+        .selectAll("g")
+        .data(keys.slice().reverse())
+        .enter().append("g")
+        .attr("transform", function(d, i) { return "translate(100," + i * 20 + ")"; });
   
     legend.append("rect")
         .attr("x", width - 19)
@@ -199,15 +204,6 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config){
         .attr("y", 9.5)
         .attr("dy", "0.32em")
         .text(function(d) { return d; });
-
-    // var tooltip = svg.append("text")
-    //   .attr("class","tooltip")
-    //   .attr("font-size",12)
-    //   .style("fill", "#475C6D");
-    // var tooltipBackground = svg.append("rect")
-    //   .attr("class","tooltip-bg")
-    //   .attr("fill","black")
-    //   .attr("rx",5);
 }
 
 function erase_chart(chart_id){

@@ -37,12 +37,13 @@
         font-weight:600;
         font-style: italic;
       }
+      .axis text {font-size:10px; font-weight: 100; fill:#443e42 ; font-family: 'Averta',sans-serif; }
       .xaxis text {font-size:10px; font-weight: 100; fill:#443e42 ; font-family: 'Averta',sans-serif; }
       .xaxis line {stroke:transparent;}
       .xaxis path {stroke:#443e42;}
-      .yaxistitle {font-size:10px; font-weight: 100; fill:#ffffff; font-family: 'Averta',sans-serif; }
-      .yaxis text {font-size:10px; font-weight: 100; fill:#ffffff; font-family: 'Averta',sans-serif; }
-      .yaxis line {stroke:#ffffff;}
+      .yaxistitle {font-size:10px; font-weight: 100; fill:#443e42; font-family: 'Averta',sans-serif; }
+      .yaxis text {font-size:10px; font-weight: 100; fill:#443e42; font-family: 'Averta',sans-serif; }
+      .yaxis line {stroke:#443e42;}
       .yaxis path {stroke:transparent;}
       .tooltip {pointer-events: none;}
       .tooltip-bg {pointer-events: none;}
@@ -61,9 +62,9 @@
       <div id="chart1"></div>
     </div>
     <script>
-        var margin2 = {top: 10, right: 300, bottom: 30, left: 45},
+        var margin2 = {top: 10, right: 300, bottom: 80, left: 45},
         width2 = 800 - margin2.left - margin2.right,
-        height2 = 200 - margin2.top - margin2.bottom;
+        height2 = 300 - margin2.top - margin2.bottom;
         d3.csv("overall_oda_oof.csv",function(data){
             var selector_configs = [
                 {
@@ -116,18 +117,15 @@
                     return function(d){return this.y_axis_scale.variable[d.variable](d.value)}
                 }
             };
-            //console.log(chart_config)
             add_selectors("chart1", data, selector_configs);
             var initial_data = subset_data(data, selector_configs);
-            //console.log(initial_data);
-            draw_bar_chart(initial_data, "chart1", margin2, width2, height2, chart_config);
+            draw_bar_chart(initial_data, "chart1", margin2, width2, height2, chart_config,selector_configs);
             selector_configs.forEach(function(selector_config, config_index){
                 selector_config.element.on("change", function(d){
                     set_selections(selector_configs, config_index);
                     var filtered_data = subset_data(data, selector_configs);
-                    console.log(selector_configs[config_index].current_selection);
-                    // erase_chart("chart1");
-                    // draw_chart("chart1", filtered_data, chart_config, selector_configs);
+                    erase_chart("chart1");
+                    draw_bar_chart(filtered_data, "chart1", margin2, width2, height2, chart_config,selector_configs);
                 })
             });
             // draw_bar_chart(filtered_data, "chart1", margin2, width2, height2);
