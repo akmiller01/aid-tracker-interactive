@@ -86,6 +86,7 @@ function subset_data(data, selector_configs){
         filtered_data = filtered_data.filter(function(d){
             return(selector_config.current_selection.includes(d[selector_config.column_name]))
         })
+        filtered_data = filtered_data.slice().sort((a, b) => d3.ascending(a.org_type, b.org_type))
     });
     return(filtered_data);
 }
@@ -93,7 +94,18 @@ function subset_data(data, selector_configs){
 function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selector_configs){
     data.forEach(function(d, d_index){
         data[d_index]["year_org"] = d["org_type"] + d["year"]
-     })
+     });
+     var data_total = d3.nest().key(function(d){
+        return d.year_org; })
+    .rollup(function(leaves){
+        return d3.sum(leaves, function(d){
+            return d.value;
+        });
+    }).entries(data)
+    .map(function(d){
+        return { year_org: d.key, total: d.value};
+    });
+    console.log(data_total)
     var data_wide = d3.nest()
      .key(function(d) { return d["year_org"] }) // sort by key
      .rollup(function(d) { // do this to each grouping
@@ -112,13 +124,12 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
 
     var chartNode = d3.select("#" + chart_id);
     var svg = chartNode
-    .append("svg")
-      .attr('preserveAspectRatio', 'xMinYMin meet')
-      .attr("viewBox", "0 0 " + (width + margin.left + margin.right) + " " + (height + margin.top + margin.bottom))
-      .attr("style","background-color: white;")
-    .append("g")
-      .attr("transform",
-            "translate(" + margin.left + "," + margin.top + ")");
+        .append("svg")
+            .attr('preserveAspectRatio', 'xMinYMin meet')
+            .attr("viewBox", "0 0 " + (width + margin.left + margin.right) + " " + (height + margin.top + margin.bottom))
+            .attr("style","background-color: white;")
+        .append("g")
+            .attr("transform","translate(" + margin.left + "," + margin.top + ")");
     var y = d3.scaleLinear()
             .rangeRound([height, 0]);
     var x = d3.scaleBand()
@@ -130,12 +141,12 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
     .range(["#0c457b", "#88bae5", "#5da3d9", "#443e42"]);
     var keys = selector_configs[3]["current_selection"];
     x.domain(data.map(function(d) { return d.year_org; }));
-    y.domain([0, d3.max(data, function(d) { return d.value; })]).nice();
+    y.domain([0, d3.max(data_total, function(d) { return d.total; })]).nice();
     z.domain(keys);
 
     // console.log(d3.max(data, function(d) { return d.value; })) ;
-    console.log(d3.max(data, function(d) { return d.value; }))
-    console.log(data)
+    // console.log(d3.max(data, function(d) { return d.value; }))
+    console.log(d3.stack().keys(keys)(data_wide))
     // console.log(d3.stack().keys(keys)(data_wide))
     svg.append("g")
       .selectAll("g")
@@ -152,8 +163,7 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
       .on("mouseover", function() { tooltip.style("display", null); })
       .on("mouseout", function() { tooltip.style("display", "none"); })
       .on("mousemove", function(d) {
-        console.log(d);
-        console.log(d3.mouse(this));
+        //console.log(d);
         var xPosition = d3.mouse(this)[0]+10;
         var yPosition = d3.mouse(this)[1]-20;
         tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
@@ -162,7 +172,7 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
         } else {tooltip.select("text").text("US$"+parseFloat((d[1]-d[0])/1000).toFixed(1)+"bn")};
         
       });
-    console.log(selector_configs[1]["current_selection"] == "percent")
+
     if (selector_configs[1]["current_selection"] == "percent"){
         var yAxis = d3.axisLeft().ticks(6).scale(y).tickSize(0).tickSizeInner(0).tickFormat( function(d) { return 100*d + "%" } )
     } 
@@ -184,11 +194,11 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
     svg.append("text")
       .attr("transform", "rotate(-90)")
       .attr("y", 0-margin.left)
-      .attr("x",0 - (height / 5))
+      .attr("x",0 - (height / 1.8))
       .attr("dy", "1em")
       .attr('class','yaxistitle')
       .style("text-anchor", "middle")
-      .text("Prevalence (%)");
+      .text(chart_config.y_axis_label["variable"][selector_configs[1]["current_selection"]]);
     var legend = svg.append("g")
         .attr("class", "axis")
         .attr("text-anchor", "end")
@@ -229,5 +239,6 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
 
 function erase_chart(chart_id){
     var svg = d3.select("#" + chart_id).select("svg");
-    svg.selectAll("*").remove();
+    console.log(svg)
+    svg.remove();
 }

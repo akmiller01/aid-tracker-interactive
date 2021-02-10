@@ -137,3 +137,9 @@ year,org_type,flow_type,transaction_type,indicator,variable,value
 2020,multilateral,OOF,disbursements,overall,percent,0.114140424
 2020,multilateral,Other flows,disbursements,overall,percent,0
 2020,multilateral,Not specified,disbursements,overall,percent,0.08140639
+2018,multilateral,Other flows,commitments,overall,percent,0
+2018,multilateral,Other flows,commitments,overall,absolute,0
+2019,multilateral,Other flows,commitments,overall,percent,0
+2019,multilateral,Other flows,commitments,overall,absolute,0
+2020,multilateral,Other flows,commitments,overall,percent,0
+2020,multilateral,Other flows,commitments,overall,absolute,0
