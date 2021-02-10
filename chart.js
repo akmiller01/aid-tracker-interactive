@@ -92,9 +92,11 @@ function subset_data(data, selector_configs){
 }
 
 function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selector_configs){
+    
     data.forEach(function(d, d_index){
         data[d_index]["year_org"] = d["org_type"] + "_" + d["year"]
      });
+
      var data_total = d3.nest().key(function(d){
         return d.year_org; })
     .rollup(function(leaves){
@@ -105,22 +107,19 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
     .map(function(d){
         return { year_org: d.key, total: d.value};
     });
-    console.log(data_total)
+
     var data_wide = d3.nest()
-     .key(function(d) { return d["year_org"] }) // sort by key
-     .rollup(function(d) { // do this to each grouping
-       // reduce takes a list and returns one value
-       // in this case, the list is all the grouped elements
-       // and the final value is an object with keys
+     .key(function(d) { return d["year_org"] })
+     .rollup(function(d) { 
        return d.reduce(function(prev, curr) {
          prev["year_org"] = curr["year_org"];
          prev[curr["flow_type"]] = curr["value"];
          return prev;
        }, {});
      }).entries(data)
-     .map(function(d) { // pull out only the values
+     .map(function(d) { 
         return d.value;
-      }); // tell it what data to process
+      }); 
 
     var chartNode = d3.select("#" + chart_id);
     var svg = chartNode
@@ -142,7 +141,7 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
         var org_type = split_arr[0];
         var year = split_arr[1];
         if(year=="2019"){
-            return(org_type + " " + year)
+            return(year+"_"+org_type)
         }else{
             return(year)
         }
@@ -154,10 +153,8 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
     y.domain([0, d3.max(data_total, function(d) { return d.total; })]).nice();
     z.domain(keys);
 
-    // console.log(d3.max(data, function(d) { return d.value; })) ;
-    // console.log(d3.max(data, function(d) { return d.value; }))
-    console.log(d3.stack().keys(keys)(data_wide))
-    // console.log(d3.stack().keys(keys)(data_wide))
+    var tooltip_formatter = chart_config.tooltip_type.variable[selector_configs[1]["current_selection"]];
+    console.log(tooltip_formatter);
     svg.append("g")
       .selectAll("g")
       .data(d3.stack().keys(keys)(data_wide))
@@ -173,14 +170,11 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
       .on("mouseover", function() { tooltip.style("display", null); })
       .on("mouseout", function() { tooltip.style("display", "none"); })
       .on("mousemove", function(d) {
-        //console.log(d);
+        console.log(d);
         var xPosition = d3.mouse(this)[0]+10;
         var yPosition = d3.mouse(this)[1]-20;
         tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
-        if (selector_configs[1]["current_selection"] == "percent"){
-        tooltip.select("text").text(parseFloat(100*(d[1]-d[0])).toFixed(1)+"%")
-        } else {tooltip.select("text").text("US$"+parseFloat((d[1]-d[0])/1000).toFixed(1)+"bn")};
-        
+        tooltip.select("text").text(tooltip_formatter(d))        
       });
     var y_formatter = chart_config.y_axis_scale.variable[selector_configs[1]["current_selection"]];
     var yAxis = d3.axisLeft().ticks(6).scale(y).tickSize(0).tickSizeInner(0).tickFormat( function(d) { return y_formatter(d) } )
@@ -189,11 +183,23 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
       .attr("class", "axis")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis)
-      .selectAll("text")  
-            .style("text-anchor", "end")
-            .attr("dx", "-0.6em")
-            .attr("dy", ".15em")
-            .attr("transform", "rotate(-45)" );
+      .selectAll("text")
+            .call(function(t){                
+                t.each(function(d){ // for each one
+                var self = d3.select(this);
+                var s = self.text().split('_');  // get the text and split it
+                self.text(''); // clear it out
+                self.append("tspan") // insert two tspans
+                    .attr("x", 0)
+                    .attr("dy","1em")
+                    .text(s[0]);
+                self.append("tspan")
+                    .attr("x", 0)
+                    .attr("dy","2em")
+                    .text(s[1]);
+                })
+            });
+
     svg.append("g")
       .attr("class", "axis")
       .call(yAxis);
