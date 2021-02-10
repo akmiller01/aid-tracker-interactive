@@ -1,3 +1,10 @@
+var pal = {
+    "blue1": "#0089CC",
+    "blue2": "#88BAE5",
+    "blue3": "#0C457B",
+    "blue4": "#A9A6AA"
+  };
+
 function set_selections(selector_configs, config_index){
     var selector_element = selector_configs[config_index].element;
     var selector_type = selector_configs[config_index].selector_type;
@@ -146,15 +153,15 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
             return(year)
         }
     });
-    var z = d3.scaleOrdinal()
-    .range(["#0c457b", "#88bae5", "#5da3d9", "#443e42"]);
+    var z = chart_config.colour_axis_scale;
     var keys = selector_configs[3]["current_selection"];
     x.domain(data.map(function(d) { return d.year_org; }));
     y.domain([0, d3.max(data_total, function(d) { return d.total; })]).nice();
-    z.domain(keys);
+    console.log(z("OOF"));
 
     var tooltip_formatter = chart_config.tooltip_type.variable[selector_configs[1]["current_selection"]];
-    console.log(tooltip_formatter);
+    console.log(d3.stack().keys(keys)(data_wide))
+    console.log(chart_config["colour_axis_scale"])
     svg.append("g")
       .selectAll("g")
       .data(d3.stack().keys(keys)(data_wide))
@@ -223,7 +230,7 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
         .attr("x", width - 19)
         .attr("width", 19)
         .attr("height", 19)
-        .attr("fill", z);
+        .attr("fill", z)
   
     legend.append("text")
         .attr("x", width - 24)
