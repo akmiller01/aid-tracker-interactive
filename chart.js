@@ -86,11 +86,171 @@ function subset_data(data, selector_configs){
         filtered_data = filtered_data.filter(function(d){
             return(selector_config.current_selection.includes(d[selector_config.column_name]))
         })
+        filtered_data = filtered_data.slice().sort((a, b) => d3.ascending(a.org_type, b.org_type))
     });
     return(filtered_data);
 }
 
+function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selector_configs){
+    
+    data.forEach(function(d, d_index){
+        data[d_index]["year_org"] = d["org_type"] + "_" + d["year"]
+     });
+
+     var data_total = d3.nest().key(function(d){
+        return d.year_org; })
+    .rollup(function(leaves){
+        return d3.sum(leaves, function(d){
+            return d.value;
+        });
+    }).entries(data)
+    .map(function(d){
+        return { year_org: d.key, total: d.value};
+    });
+
+    var data_wide = d3.nest()
+     .key(function(d) { return d["year_org"] })
+     .rollup(function(d) { 
+       return d.reduce(function(prev, curr) {
+         prev["year_org"] = curr["year_org"];
+         prev[curr["flow_type"]] = curr["value"];
+         return prev;
+       }, {});
+     }).entries(data)
+     .map(function(d) { 
+        return d.value;
+      }); 
+
+    var chartNode = d3.select("#" + chart_id);
+    var svg = chartNode
+        .append("svg")
+            .attr('preserveAspectRatio', 'xMinYMin meet')
+            .attr("viewBox", "0 0 " + (width + margin.left + margin.right) + " " + (height + margin.top + margin.bottom))
+            .attr("style","background-color: white;")
+        .append("g")
+            .attr("transform","translate(" + margin.left + "," + margin.top + ")");
+    var y = d3.scaleLinear()
+            .rangeRound([height, 0]);
+    var x = d3.scaleBand()
+            .rangeRound([0, width])
+            .paddingInner(0.05)
+            .align(0.1);
+    var xAxis = d3.axisBottom(x).tickSizeOuter(0)
+    .tickFormat(function(d){ 
+        var split_arr = d.split("_");
+        var org_type = split_arr[0];
+        var year = split_arr[1];
+        if(year=="2019"){
+            return(year+"_"+org_type)
+        }else{
+            return(year)
+        }
+    });
+    var z = d3.scaleOrdinal()
+    .range(["#0c457b", "#88bae5", "#5da3d9", "#443e42"]);
+    var keys = selector_configs[3]["current_selection"];
+    x.domain(data.map(function(d) { return d.year_org; }));
+    y.domain([0, d3.max(data_total, function(d) { return d.total; })]).nice();
+    z.domain(keys);
+
+    var tooltip_formatter = chart_config.tooltip_type.variable[selector_configs[1]["current_selection"]];
+    console.log(tooltip_formatter);
+    svg.append("g")
+      .selectAll("g")
+      .data(d3.stack().keys(keys)(data_wide))
+      .enter().append("g")
+        .attr("fill", function(d) { return z(d.key); })
+      .selectAll("rect")
+      .data(function(d) {return d; })
+      .enter().append("rect")
+        .attr("x", function(d) {  return x(d.data.year_org); })
+        .attr("y", function(d) { return y(d[1]); })
+        .attr("height", function(d) { return y(d[0]) - y(d[1]); })
+        .attr("width", x.bandwidth())
+      .on("mouseover", function() { tooltip.style("display", null); })
+      .on("mouseout", function() { tooltip.style("display", "none"); })
+      .on("mousemove", function(d) {
+        console.log(d);
+        var xPosition = d3.mouse(this)[0]+10;
+        var yPosition = d3.mouse(this)[1]-20;
+        tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+        tooltip.select("text").text(tooltip_formatter(d))        
+      });
+    var y_formatter = chart_config.y_axis_scale.variable[selector_configs[1]["current_selection"]];
+    var yAxis = d3.axisLeft().ticks(6).scale(y).tickSize(0).tickSizeInner(0).tickFormat( function(d) { return y_formatter(d) } )
+
+    svg.append("g")
+      .attr("class", "axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+      .selectAll("text")
+            .call(function(t){                
+                t.each(function(d){ // for each one
+                var self = d3.select(this);
+                var s = self.text().split('_');  // get the text and split it
+                self.text(''); // clear it out
+                self.append("tspan") // insert two tspans
+                    .attr("x", 0)
+                    .attr("dy","1em")
+                    .text(s[0]);
+                self.append("tspan")
+                    .attr("x", 0)
+                    .attr("dy","2em")
+                    .text(s[1]);
+                })
+            });
+
+    svg.append("g")
+      .attr("class", "axis")
+      .call(yAxis);
+    svg.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0-margin.left)
+      .attr("x",0 - (height / 1.8))
+      .attr("dy", "1em")
+      .attr('class','yaxistitle')
+      .style("text-anchor", "middle")
+      .text(chart_config.y_axis_label["variable"][selector_configs[1]["current_selection"]]);
+    var legend = svg.append("g")
+        .attr("class", "axis")
+        .attr("text-anchor", "end")
+        .selectAll("g")
+        .data(keys.slice().reverse())
+        .enter().append("g")
+        .attr("transform", function(d, i) { return "translate(100," + i * 20 + ")"; });
+  
+    legend.append("rect")
+        .attr("x", width - 19)
+        .attr("width", 19)
+        .attr("height", 19)
+        .attr("fill", z);
+  
+    legend.append("text")
+        .attr("x", width - 24)
+        .attr("y", 9.5)
+        .attr("dy", "0.32em")
+        .text(function(d) { return d; });
+    
+    var tooltip = svg.append("g")
+        .attr("class", "tooltip")
+        .style("display", "none");
+          
+    tooltip.append("rect")
+        .attr("width", 70)
+        .attr("height", 20)
+        .attr("fill", "white")
+        .style("opacity", 0.5);
+    
+    tooltip.append("text")
+        .attr("x", 35)
+        .attr("dy", "1.2em")
+        .style("text-anchor", "middle")
+        .attr("font-size", "12px")
+        .attr("font-weight", "bold");
+}
+
 function erase_chart(chart_id){
     var svg = d3.select("#" + chart_id).select("svg");
-    svg.selectAll("*").remove();
+    console.log(svg)
+    svg.remove();
 }

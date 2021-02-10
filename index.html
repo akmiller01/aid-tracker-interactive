@@ -3,29 +3,88 @@
     <script src="https://d3js.org/d3.v4.js"></script>
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
     <script src="chart.js"></script>
-  </head>
+    <style>
+      @font-face {
+        font-family: 'Averta';
+        src: url('fonts/Averta-Regular.woff');
+        font-weight: normal;
+      }
+      @font-face {
+        font-family: 'Averta';
+        src: url('fonts/Averta-Bold.woff');
+        font-weight: bold;
+      }
+      @font-face {
+        font-family: 'Averta';
+        src: url('fonts/Averta-BoldItalic.woff');
+        font-weight: bold;
+        font-style: italic;
+      }
+      @font-face {
+        font-family: 'Averta';
+        src: url('fonts/Averta-RegularItalic.woff');
+        font-weight: normal;
+        font-style: italic;
+      }
+      @font-face {
+        font-family: 'Averta';
+        src: url('fonts/Averta-Semibold.woff');
+        font-weight:600;
+      }
+      @font-face {
+        font-family: 'Averta';
+        src: url('fonts/Averta-SemiboldItalic.woff');
+        font-weight:600;
+        font-style: italic;
+      }
+      .axis text {font-size:10px; font-weight: 100; fill:#443e42 ; font-family: 'Averta',sans-serif; }
+      .xaxis text {font-size:10px; font-weight: 100; fill:#443e42 ; font-family: 'Averta',sans-serif; }
+      .xaxis line {stroke:transparent;}
+      .xaxis path {stroke:#443e42;}
+      .yaxistitle {font-size:10px; font-weight: 100; fill:#443e42; font-family: 'Averta',sans-serif; }
+      .yaxis text {font-size:10px; font-weight: 100; fill:#443e42; font-family: 'Averta',sans-serif; }
+      .yaxis line {stroke:#443e42;}
+      .yaxis path {stroke:transparent;}
+      .tooltip {pointer-events: none;}
+      .tooltip-bg {pointer-events: none;}
+      .chart-wrapper-third {float:left; width: 33%;}
+      .chart-wrapper-half {float:left; width:50%;}
+      .chart-wrapper-full {float:left; width:100%;}
+      h1 {font-family: 'Averta';float:left; width: 100%;color:#443e42;}
+      h2 {font-family: 'Averta';font-size:25px;color:#443e42;}
+      body, select, label {font-family: 'Averta';color:#443e42;}
+      select {font-size:15px;}
+    </style>
+</head>
   <body>
-    <div id="chart1"></div>
+    <h1>Aid from key bilateral donors, IFIs and multilateral institutions (January-December during the years 2018-2020)</h1>
+    <div class="chart-wrapper-full">
+      <h2>Overall</h2>
+      <div id="chart1"></div>
+    </div>
     <script>
+        var margin2 = {top: 10, right: 300, bottom: 80, left: 50},
+        width2 = 800 - margin2.left - margin2.right,
+        height2 = 300 - margin2.top - margin2.bottom;
         d3.csv("overall_oda_oof.csv",function(data){
             var selector_configs = [
                 {
                     "column_name": "transaction_type",
                     "selector_type": "dropdown",
-                    "order": ["commitments", "disbursements"],
-                    "defaults": ["disbursements"]
+                    "order": ["Commitments", "Disbursements"],
+                    "defaults": ["Commitments"]
                 },
                 {
                     "column_name": "variable",
                     "selector_type": "dropdown",
-                    "order": ["absolute", "percent"],
-                    "defaults": ["percent"]
+                    "order": ["Volume", "Proportion"],
+                    "defaults": ["Volume"]
                 },
                 {
                     "column_name": "org_type",
                     "selector_type": "checkbox",
-                    "order": ["bilateral", "multilateral", "ifi"],
-                    "defaults": ["bilateral", "multilateral", "ifi"]
+                    "order": ["Bilateral", "Multilateral", "IFI"],
+                    "defaults": ["Bilateral", "Multilateral", "IFI"]
                 },
                 {
                     "column_name": "flow_type",
@@ -42,33 +101,41 @@
                 "y_axis": ["value"],
                 "y_axis_label": {
                     "variable": {
-                        "absolute": "Total commitments January-November (US$ millions)",
-                        "percent": "Total commitments January-November (%)"
+                        "Volume": "Volume (US$ billions)",
+                        "Proportion": "Proportions of total volumes (%)"
                     }
                 },
                 "y_axis_scale": {
                     "variable": {
-                        "absolute": function(d){return "$"+d3.format(",")(d)},
-                        "percent": d3.format(".0%")
+                        "Volume": function(d){return "$"+d3.format(",")(d/1000)+"bn"},
+                        "Proportion": d3.format(".0%")
                     }
                 },
+                "tooltip_type": {
+                  "variable": {
+                      "Volume": function(d){return "US$"+parseFloat((d[1]-d[0])/1000).toFixed(1)+"bn"},
+                      "Proportion": function(d){return parseFloat(100*(d[1]-d[0])).toFixed(1)+"%"}
+                  }
+              },
                 "colour_axis": ["flow_type"],
                 "colour_axis_scale": d3.scaleOrdinal().domain(["ODA", "OOF", "Other flows", "Not specified"]).range(d3.schemeSet2),
                 get tooltip_label() {
                     return function(d){return this.y_axis_scale.variable[d.variable](d.value)}
                 }
             };
-            console.log(chart_config)
+            console.log(data);
+            console.log(selector_configs);
             add_selectors("chart1", data, selector_configs);
+            console.log(selector_configs);
             var initial_data = subset_data(data, selector_configs);
             console.log(initial_data);
+            draw_bar_chart(initial_data, "chart1", margin2, width2, height2, chart_config,selector_configs);
             selector_configs.forEach(function(selector_config, config_index){
                 selector_config.element.on("change", function(d){
                     set_selections(selector_configs, config_index);
                     var filtered_data = subset_data(data, selector_configs);
-                    console.log(selector_configs[config_index].current_selection);
-                    // erase_chart("chart1");
-                    // draw_chart("chart1", filtered_data, chart_config, selector_configs);
+                    erase_chart("chart1");
+                    draw_bar_chart(filtered_data, "chart1", margin2, width2, height2, chart_config,selector_configs);
                 })
             });
         })
