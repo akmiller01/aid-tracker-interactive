@@ -130,10 +130,11 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
     .range(["#0c457b", "#88bae5", "#5da3d9", "#443e42"]);
     var keys = selector_configs[3]["current_selection"];
     x.domain(data.map(function(d) { return d.year_org; }));
-    y.domain([0, d3.max(data, function(d) { return d.value; })]);
+    y.domain([0, d3.max(data, function(d) { return d.value; })]).nice();
     z.domain(keys);
 
     // console.log(d3.max(data, function(d) { return d.value; })) ;
+    console.log(d3.max(data, function(d) { return d.value; }))
     console.log(data)
     // console.log(d3.stack().keys(keys)(data_wide))
     svg.append("g")
@@ -152,17 +153,21 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
       .on("mouseout", function() { tooltip.style("display", "none"); })
       .on("mousemove", function(d) {
         console.log(d);
-        var xPosition = d3.mouse(this)[0] - 5;
-        var yPosition = d3.mouse(this)[1] - 5;
+        console.log(d3.mouse(this));
+        var xPosition = d3.mouse(this)[0]+10;
+        var yPosition = d3.mouse(this)[1]-20;
         tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
-        tooltip.select("text").text(d[1]-d[0]);
+        if (selector_configs[1]["current_selection"] == "percent"){
+        tooltip.select("text").text(parseFloat(100*(d[1]-d[0])).toFixed(1)+"%")
+        } else {tooltip.select("text").text("US$"+parseFloat((d[1]-d[0])/1000).toFixed(1)+"bn")};
+        
       });
     console.log(selector_configs[1]["current_selection"] == "percent")
     if (selector_configs[1]["current_selection"] == "percent"){
-        var yAxis = d3.axisLeft().ticks(5).scale(y).tickSize(0).tickSizeInner(0).tickFormat( function(d) { return 100*d + "%" } )
+        var yAxis = d3.axisLeft().ticks(6).scale(y).tickSize(0).tickSizeInner(0).tickFormat( function(d) { return 100*d + "%" } )
     } 
     if (selector_configs[1]["current_selection"] == "absolute"){
-        var yAxis = d3.axisLeft().ticks(5).scale(y).tickSize(0).tickSizeInner(0).tickFormat( function(d) { return d } )
+        var yAxis = d3.axisLeft().ticks(6).scale(y).tickSize(0).tickSizeInner(0).tickFormat( function(d) { return d } )
     }
     svg.append("g")
       .attr("class", "axis")
@@ -185,8 +190,7 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
       .style("text-anchor", "middle")
       .text("Prevalence (%)");
     var legend = svg.append("g")
-        .attr("font-family", "sans-serif")
-        .attr("font-size", 10)
+        .attr("class", "axis")
         .attr("text-anchor", "end")
         .selectAll("g")
         .data(keys.slice().reverse())
@@ -204,6 +208,23 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
         .attr("y", 9.5)
         .attr("dy", "0.32em")
         .text(function(d) { return d; });
+    
+    var tooltip = svg.append("g")
+        .attr("class", "tooltip")
+        .style("display", "none");
+          
+    tooltip.append("rect")
+        .attr("width", 70)
+        .attr("height", 20)
+        .attr("fill", "white")
+        .style("opacity", 0.5);
+    
+    tooltip.append("text")
+        .attr("x", 35)
+        .attr("dy", "1.2em")
+        .style("text-anchor", "middle")
+        .attr("font-size", "12px")
+        .attr("font-weight", "bold");
 }
 
 function erase_chart(chart_id){
