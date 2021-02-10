@@ -93,7 +93,7 @@ function subset_data(data, selector_configs){
 
 function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selector_configs){
     data.forEach(function(d, d_index){
-        data[d_index]["year_org"] = d["org_type"] + d["year"]
+        data[d_index]["year_org"] = d["org_type"] + "_" + d["year"]
      });
      var data_total = d3.nest().key(function(d){
         return d.year_org; })
@@ -136,7 +136,17 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
             .rangeRound([0, width])
             .paddingInner(0.05)
             .align(0.1);
-    var xAxis = d3.axisBottom(x)
+    var xAxis = d3.axisBottom(x).tickSizeOuter(0)
+    .tickFormat(function(d){ 
+        var split_arr = d.split("_");
+        var org_type = split_arr[0];
+        var year = split_arr[1];
+        if(year=="2019"){
+            return(org_type + " " + year)
+        }else{
+            return(year)
+        }
+    });
     var z = d3.scaleOrdinal()
     .range(["#0c457b", "#88bae5", "#5da3d9", "#443e42"]);
     var keys = selector_configs[3]["current_selection"];
@@ -172,17 +182,13 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
         } else {tooltip.select("text").text("US$"+parseFloat((d[1]-d[0])/1000).toFixed(1)+"bn")};
         
       });
+    var y_formatter = chart_config.y_axis_scale.variable[selector_configs[1]["current_selection"]];
+    var yAxis = d3.axisLeft().ticks(6).scale(y).tickSize(0).tickSizeInner(0).tickFormat( function(d) { return y_formatter(d) } )
 
-    if (selector_configs[1]["current_selection"] == "percent"){
-        var yAxis = d3.axisLeft().ticks(6).scale(y).tickSize(0).tickSizeInner(0).tickFormat( function(d) { return 100*d + "%" } )
-    } 
-    if (selector_configs[1]["current_selection"] == "absolute"){
-        var yAxis = d3.axisLeft().ticks(6).scale(y).tickSize(0).tickSizeInner(0).tickFormat( function(d) { return d } )
-    }
     svg.append("g")
       .attr("class", "axis")
       .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x).tickSizeOuter(0))
+      .call(xAxis)
       .selectAll("text")  
             .style("text-anchor", "end")
             .attr("dx", "-0.6em")
