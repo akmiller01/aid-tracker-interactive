@@ -169,8 +169,6 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
     y.domain([0, d3.max(data_total, function(d) { return d.total; })]).nice();
 
     var tooltip_formatter = chart_config.tooltip_type.variable[selector_configs[1]["current_selection"]];
-    console.log(d3.stack().keys(keys)(data_wide));
-    console.log(data_wide);
     svg.append("g")
       .selectAll("g")
       .data(d3.stack().keys(keys)(data_wide))
