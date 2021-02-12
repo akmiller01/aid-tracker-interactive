@@ -99,7 +99,7 @@ function subset_data(data, selector_configs){
 }
 
 function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selector_configs){
-    
+
     data.forEach(function(d, d_index){
         data[d_index]["year_org"] = d["org_type"] + "_" + d["year"]
      });
@@ -126,7 +126,17 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
      }).entries(data)
      .map(function(d) { 
         return d.value;
-      }); 
+      });
+      var index;
+      for(index=1;index<data_wide.length;index++){
+          if (data_wide[index].year_org.split("_")[0]!=data_wide[index-1].year_org.split("_")[0]){
+              const empty_array = Object.assign({}, data_wide[index]);
+                for (const property in selector_configs[3].current_selection) {
+                    empty_array[selector_configs[3].current_selection[property]] = "";
+                };
+              empty_array.year_org=data_wide[index-1].year_org.split("_")[0];
+              data_wide.splice(index,0,empty_array); index = index +1}
+       };
 
     var chartNode = d3.select("#" + chart_id);
     var svg = chartNode
@@ -140,9 +150,9 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
             .rangeRound([height, 0]);
     var x = d3.scaleBand()
             .rangeRound([0, width])
-            .paddingInner(0.05)
-            .align(0.1);
-    var xAxis = d3.axisBottom(x).tickSizeOuter(0)
+            .padding(0.1)
+            .align(0.4);
+    var xAxis = d3.axisBottom(x)
     .tickFormat(function(d){ 
         var split_arr = d.split("_");
         var org_type = split_arr[0];
@@ -152,16 +162,15 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
         }else{
             return(year)
         }
-    });
+    }).tickSize(0)
     var z = chart_config.colour_axis_scale;
     var keys = selector_configs[3]["current_selection"];
-    x.domain(data.map(function(d) { return d.year_org; }));
+    x.domain(data_wide.map(function(d) { return d.year_org; }));
     y.domain([0, d3.max(data_total, function(d) { return d.total; })]).nice();
-    console.log(z("OOF"));
 
     var tooltip_formatter = chart_config.tooltip_type.variable[selector_configs[1]["current_selection"]];
-    console.log(d3.stack().keys(keys)(data_wide))
-    console.log(chart_config["colour_axis_scale"])
+    console.log(d3.stack().keys(keys)(data_wide));
+    console.log(data_wide);
     svg.append("g")
       .selectAll("g")
       .data(d3.stack().keys(keys)(data_wide))
@@ -185,7 +194,7 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
       });
     var y_formatter = chart_config.y_axis_scale.variable[selector_configs[1]["current_selection"]];
     var yAxis = d3.axisLeft().ticks(6).scale(y).tickSize(0).tickSizeInner(0).tickFormat( function(d) { return y_formatter(d) } )
-
+    
     svg.append("g")
       .attr("class", "axis")
       .attr("transform", "translate(0," + height + ")")
@@ -258,6 +267,5 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
 
 function erase_chart(chart_id){
     var svg = d3.select("#" + chart_id).select("svg");
-    console.log(svg)
     svg.remove();
 }

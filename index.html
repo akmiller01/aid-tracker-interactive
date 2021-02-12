@@ -99,6 +99,12 @@
                     "order": ["ODA", "OOF", "Other flows", "Not specified"],
                     "defaults": ["ODA", "OOF", "Other flows", "Not specified"]
                 },
+                {
+                  "column_name": "year",
+                  "selector_type": "checkbox",
+                  "order": ["2018", "2019", "2020"],
+                  "defaults": ["2018", "2019", "2020"]
+              },
             ];
             var chart_config = {
                 "chart_type": "bar",
@@ -127,12 +133,8 @@
                 "colour_axis": ["flow_type"],
                 "colour_axis_scale": d3.scaleOrdinal().domain(["ODA", "OOF", "Other flows", "Not specified"]).range([pal.blue1,pal.blue2,pal.blue3,pal.blue4])
             };
-            console.log(data);
-            console.log(selector_configs);
             add_selectors("chart1", data, selector_configs);
-            console.log(selector_configs);
             var initial_data = subset_data(data, selector_configs);
-            console.log(initial_data);
             draw_bar_chart(initial_data, "chart1", margin2, width2, height2, chart_config,selector_configs);
             selector_configs.forEach(function(selector_config, config_index){
                 selector_config.element.on("change", function(d){
