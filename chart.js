@@ -68,12 +68,13 @@ function add_selectors(chart_id, data, selector_configs){
                 .attr("name", chart_id+"_"+column_name+"_radio")
                 .attr("checked", 
                     (config_defaults !== undefined && config_defaults.includes(column_value)) ? true : undefined
-                );
+                )
+                .attr("dy","0.5em")
                 radio
                 .append('label')
                 .attr("for", column_value+"_"+chart_id+"_"+column_name+"_radio")
                 .text(column_value);
-            };
+            };           
             // Set "element" in parent object for later reference
             selector_configs[config_index].element = radio;
             // Set "defaults" as all column values if not set
@@ -168,6 +169,34 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
     x.domain(data_wide.map(function(d) { return d.year_org; }));
     y.domain([0, d3.max(data_total, function(d) { return d.total; })]).nice();
 
+    var y_formatter = chart_config.y_axis_scale.variable[selector_configs[1]["current_selection"]];
+    var yAxis = d3.axisLeft().ticks(6).scale(y).tickSize(0).tickSizeInner(-width).tickFormat( function(d) { return y_formatter(d) } );
+
+    svg.append("g")
+    .attr("class", "xaxis")
+    .attr("transform", "translate(0," + height + ")")
+    .call(xAxis)
+    .selectAll("text")
+          .call(function(t){                
+              t.each(function(d){ // for each one
+              var self = d3.select(this);
+              var s = self.text().split('_');  // get the text and split it
+              self.text(''); // clear it out
+              self.append("tspan") // insert two tspans
+                  .attr("x", 0)
+                  .attr("dy","1em")
+                  .text(s[0]);
+              self.append("tspan")
+                  .attr("x", 0)
+                  .attr("dy","2em")
+                  .text(s[1]);
+              })
+          });
+
+  svg.append("g")
+    .attr("class", "yaxis")
+    .call(yAxis);
+
     var tooltip_formatter = chart_config.tooltip_type.variable[selector_configs[1]["current_selection"]];
     svg.append("g")
       .selectAll("g")
@@ -190,33 +219,7 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
         tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
         tooltip.select("text").text(tooltip_formatter(d))        
       });
-    var y_formatter = chart_config.y_axis_scale.variable[selector_configs[1]["current_selection"]];
-    var yAxis = d3.axisLeft().ticks(6).scale(y).tickSize(0).tickSizeInner(0).tickFormat( function(d) { return y_formatter(d) } )
     
-    svg.append("g")
-      .attr("class", "axis")
-      .attr("transform", "translate(0," + height + ")")
-      .call(xAxis)
-      .selectAll("text")
-            .call(function(t){                
-                t.each(function(d){ // for each one
-                var self = d3.select(this);
-                var s = self.text().split('_');  // get the text and split it
-                self.text(''); // clear it out
-                self.append("tspan") // insert two tspans
-                    .attr("x", 0)
-                    .attr("dy","1em")
-                    .text(s[0]);
-                self.append("tspan")
-                    .attr("x", 0)
-                    .attr("dy","2em")
-                    .text(s[1]);
-                })
-            });
-
-    svg.append("g")
-      .attr("class", "axis")
-      .call(yAxis);
     svg.append("text")
       .attr("transform", "rotate(-90)")
       .attr("y", 0-margin.left)
