@@ -197,10 +197,17 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
     .attr("class", "yaxis")
     .call(yAxis);
 
+    var data_wide = d3.stack().keys(keys)(data_wide)
+    data_wide.forEach(function(d, d_index){
+        d.forEach(function(i){
+        i["key"] = data_wide[d_index]["key"]
+        })
+     });
+    console.log(data_wide)
     var tooltip_formatter = chart_config.tooltip_type.variable[selector_configs[1]["current_selection"]];
     svg.append("g")
       .selectAll("g")
-      .data(d3.stack().keys(keys)(data_wide))
+      .data(data_wide)
       .enter().append("g")
         .attr("fill", function(d) { return z(d.key); })
       .selectAll("rect")
@@ -214,10 +221,10 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
       .on("mouseout", function() { tooltip.style("display", "none"); })
       .on("mousemove", function(d) {
         console.log(d);
-        var xPosition = d3.mouse(this)[0]+10;
-        var yPosition = d3.mouse(this)[1]-20;
+        var xPosition = d3.mouse(this)[0]+20;
+        var yPosition = d3.mouse(this)[1]+10;
         tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
-        tooltip.select("text").text(tooltip_formatter(d))        
+        tooltip.select("text").text(d.key + ", " + tooltip_formatter(d))        
       });
     
     svg.append("text")
@@ -253,15 +260,15 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
         .style("display", "none");
           
     tooltip.append("rect")
-        .attr("width", 70)
+        .attr("width", 100)
         .attr("height", 20)
         .attr("fill", "white")
-        .style("opacity", 0.5);
+        .style("opacity", 0);
     
     tooltip.append("text")
-        .attr("x", 35)
+        .attr("x", 2)
         .attr("dy", "1.2em")
-        .style("text-anchor", "middle")
+        .style("text-anchor", "left")
         .attr("font-size", "12px")
         .attr("font-weight", "bold");
 }

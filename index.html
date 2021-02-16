@@ -92,8 +92,8 @@
                 {
                     "column_name": "org_type",
                     "selector_type": "checkbox",
-                    "order": ["Bilateral", "Multilateral", "IFI"],
-                    "defaults": ["Bilateral", "Multilateral", "IFI"]
+                    "order": ["Bilateral", "IFI", "Multilateral"],
+                    "defaults": ["Bilateral", "IFI", "Multilateral"]
                 },
                 {
                     "column_name": "flow_type",
@@ -128,8 +128,8 @@
                 },
                 "tooltip_type": {
                   "variable": {
-                      "Volume": function(d){return "US$"+parseFloat((d[1]-d[0])/1000).toFixed(1)+"bn"},
-                      "Proportion": function(d){return parseFloat(100*(d[1]-d[0])).toFixed(1)+"%"}
+                      "Volume": function(d){return "US$"+parseFloat((d[1]-d[0])/1000).toFixed(2)+"bn"},
+                      "Proportion": function(d){return parseFloat(100*(d[1]-d[0])).toFixed(2)+"%"}
                   }
               },
                 "colour_axis": ["flow_type"],
