@@ -13,6 +13,14 @@ function set_selections(selector_configs, config_index){
     }else if(selector_type == "radio" || selector_type == "checkbox"){
         var new_selection = selector_element.selectAll("input:checked").nodes().map(function(d){return d.value});
     }
+    if (new_selection == "Proportion" & selector_configs[config_index].current_selection == "Volume"){
+        selector_configs.forEach(function(d){
+            if(d.selector_type == "checkbox" || d.selector_type == "radio"){
+                d.element.selectAll("input")._groups[0].forEach( function(d2) {
+                    if (d.defaults.includes(d2.value)){d2.checked=true} else{d2.checked=false}})
+                var defaults = d.defaults;
+                d.current_selection=defaults}});
+    }
     selector_configs[config_index].current_selection = new_selection;
 }
 
@@ -37,7 +45,7 @@ function add_selectors(chart_id, data, selector_configs){
         if(selector_type == "dropdown"){
             // Draw dropdown
             var dropdown = chartNode
-            .append("select");
+            .append("select").attr("class","spacing");
             dropdown
             .selectAll("option")
             .data(column_values)
@@ -57,7 +65,7 @@ function add_selectors(chart_id, data, selector_configs){
         }else if(selector_type == "radio" || selector_type == "checkbox"){
             // Draw radio/checkbox inputs and labels
             var radio = chartNode
-            .append("div");
+            .append("div").attr("class","spacing");
             for(var i = 0; i < column_values.length; i++){
                 column_value = column_values[i]
                 radio
@@ -203,7 +211,7 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
         i["key"] = data_wide[d_index]["key"]
         })
      });
-    console.log(data_wide)
+
     var tooltip_formatter = chart_config.tooltip_type.variable[selector_configs[1]["current_selection"]];
     svg.append("g")
       .selectAll("g")
