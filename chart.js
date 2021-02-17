@@ -229,8 +229,8 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
       .on("mouseout", function() { tooltip.style("display", "none"); })
       .on("mousemove", function(d) {
         console.log(d);
-        var xPosition = d3.mouse(this)[0]+10;
-        var yPosition = d3.mouse(this)[1]+10;
+        var xPosition = d3.mouse(this)[0]+5;
+        var yPosition = d3.mouse(this)[1];
         tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
         tooltip.select("text").text(d.key + ", " + tooltip_formatter(d))        
       });
