@@ -65,13 +65,22 @@
       <h2>Overall</h2>
       <div id="chart1"></div>
     </div>
+    <h1>Aid targeting poverty from key bilateral donors, IFIs and multilateral institutions (January-December during the years 2018-2020)</h1>
+    <div class="chart-wrapper-full">
+      <h2>Overall</h2>
+      <div id="chart2"></div>
+    </div>
     <script>
       var legend_orders = {
         "flow_type":{
           "ODA": pal.blue1,
           "OOF": pal.blue2,
           "Other flows": pal.blue3,
-          "Not specified": pal.blue4}
+          "Not specified": pal.blue4},
+          "Missing": pal.blue1,
+          "Less than 5%": pal.blue2,
+          "5-20%": pal.blue3,
+          "Above 20%": pal.blue4
         }
         var margin2 = {top: 10, right: 300, bottom: 80, left: 50},
         width2 = 800 - margin2.left - margin2.right,
@@ -148,6 +157,90 @@
                 })
             });
         })
+        d3.csv("donors_poverty.csv",function(data){
+          var selector_configs = [
+              {
+                "column_name": "measure",
+                "selector_type": "dropdown",
+                "order": ["Poverty", "Income"],
+                "defaults": ["Poverty"]
+              },
+              {
+                "column_name": "aggregate_type",
+                "selector_type": "dropdown",
+                "order": ["Organisation type", "Donor"],
+                "defaults": ["Organisation type"]
+              },
+              {
+                  "column_name": "transaction_type",
+                  "selector_type": "dropdown",
+                  "order": ["Commitments", "Disbursements"],
+                  "defaults": ["Commitments"]
+              },
+              {
+                  "column_name": "variable",
+                  "selector_type": "dropdown",
+                  "order": ["Volume", "Proportion"],
+                  "defaults": ["Volume"]
+              },
+              {
+                  "column_name": "org_type",
+                  "selector_type": "checkbox",
+                  "order": ["Bilateral", "IFI", "Multilateral"],
+                  "defaults": ["Bilateral", "IFI", "Multilateral"]
+              },
+              {
+                  "column_name": "flow_type",
+                  "selector_type": "checkbox",
+                  "order": ["Missing", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower-middle-income","Upper-middle-income","High-income"],                  ],
+                  "defaults": ["Missing", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower-middle-income","Upper-middle-income","High-income"]
+              },
+              {
+                "column_name": "year",
+                "selector_type": "checkbox",
+                "order": ["2018", "2019", "2020"],
+                "defaults": ["2018", "2019", "2020"]
+            },
+          ];
+          var chart_config = {
+              "chart_type": "bar",
+              "chart_direction": "horizontal",
+              "x_axis": ["org_type", "year"],
+              "x_axis_label": "",
+              "y_axis": ["value"],
+              "y_axis_label": {
+                  "variable": {
+                      "Volume": "Volume (US$ billions)",
+                      "Proportion": "Proportions of total volumes (%)"
+                  }
+              },
+              "y_axis_scale": {
+                  "variable": {
+                      "Volume": function(d){return "$"+d3.format(",")(d/1000)+"bn"},
+                      "Proportion": d3.format(".0%")
+                  }
+              },
+              "tooltip_type": {
+                "variable": {
+                    "Volume": function(d){return "US$"+parseFloat((d[1]-d[0])/1000).toFixed(2)+"bn"},
+                    "Proportion": function(d){return parseFloat(100*(d[1]-d[0])).toFixed(2)+"%"}
+                }
+            },
+              "colour_axis": ["flow_type"],
+              "colour_axis_scale": d3.scaleOrdinal().domain(["Missing", "Less than 5%", "5-20%", "Above 20%"]).range([pal.blue1,pal.blue2,pal.blue3,pal.blue4])
+          };
+          add_selectors("chart2", data, selector_configs);
+          var initial_data = subset_data(data, selector_configs);
+          draw_bar_chart(initial_data, "chart2", margin2, width2, height2, chart_config,selector_configs);
+          selector_configs.forEach(function(selector_config, config_index){
+              selector_config.element.on("change", function(d){
+                  set_selections(selector_configs, config_index);
+                  var filtered_data = subset_data(data, selector_configs);
+                  erase_chart("chart2");
+                  draw_bar_chart(filtered_data, "chart2", margin2, width2, height2, chart_config,selector_configs);
+              })
+          });
+      })
     </script>
   </body>
 </html>

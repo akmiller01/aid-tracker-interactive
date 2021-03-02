@@ -97,6 +97,8 @@ function add_selectors(chart_id, data, selector_configs){
 
 function subset_data(data, selector_configs){
     var filtered_data = data;
+    console.log(filtered_data);
+    console.log(selector_configs);
     // Filter data for each current selection in selector_configs
     selector_configs.forEach(function(selector_config){
         filtered_data = filtered_data.filter(function(d){
@@ -108,7 +110,7 @@ function subset_data(data, selector_configs){
 }
 
 function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selector_configs){
-
+    console.log(data);
     data.forEach(function(d, d_index){
         data[d_index]["year_org"] = d["org_type"] + "_" + d["year"]
      });
@@ -124,6 +126,8 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
         return { year_org: d.key, total: d.value};
     });
 
+    var result = selector_configs.filter(function(x) { return x.column_name == "flow_type" })[0];
+    var result2 = selector_configs.filter(function(x) { return x.column_name == "variable" })[0];
     var data_wide = d3.nest()
      .key(function(d) { return d["year_org"] })
      .rollup(function(d) { 
@@ -140,8 +144,8 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
       for(index=1;index<data_wide.length;index++){
           if (data_wide[index].year_org.split("_")[0]!=data_wide[index-1].year_org.split("_")[0]){
               const empty_array = Object.assign({}, data_wide[index]);
-                for (const property in selector_configs[3].current_selection) {
-                    empty_array[selector_configs[3].current_selection[property]] = "";
+                for (const property in result.current_selection) {
+                    empty_array[result.current_selection[property]] = "";
                 };
               empty_array.year_org=data_wide[index-1].year_org.split("_")[0];
               data_wide.splice(index,0,empty_array); index = index +1}
@@ -173,11 +177,11 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
         }
     }).tickSize(0)
     var z = chart_config.colour_axis_scale;
-    var keys = selector_configs[3]["current_selection"];
+    var keys = result["current_selection"];
     x.domain(data_wide.map(function(d) { return d.year_org; }));
     y.domain([0, d3.max(data_total, function(d) { return d.total; })]).nice();
 
-    var y_formatter = chart_config.y_axis_scale.variable[selector_configs[1]["current_selection"]];
+    var y_formatter = chart_config.y_axis_scale.variable[result2["current_selection"]];
     var yAxis = d3.axisLeft().ticks(6).scale(y).tickSize(0).tickSizeInner(-width).tickFormat( function(d) { return y_formatter(d) } );
 
     svg.append("g")
@@ -212,7 +216,7 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
         })
      });
 
-    var tooltip_formatter = chart_config.tooltip_type.variable[selector_configs[1]["current_selection"]];
+    var tooltip_formatter = chart_config.tooltip_type.variable[result2["current_selection"]];
     svg.append("g")
       .selectAll("g")
       .data(data_wide)

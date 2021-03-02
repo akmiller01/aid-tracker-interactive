@@ -1,0 +1,655 @@
+"","country","org_type","flow_type","transaction_type","year","aggregate_type","variable","value"
+"1","African Development Bank Group","IFI","Not specified","Disbursements","2018","Donor","Volume",4406.93835201647
+"2","Asian Development Bank","IFI","ODA","Disbursements","2018","Donor","Volume",1694.26658453
+"3","Asian Development Bank","IFI","OOF","Disbursements","2018","Donor","Volume",10111.03260621
+"4","Australia","Bilateral","ODA","Disbursements","2018","Donor","Volume",2847.8364348316
+"5","Belgium","Bilateral","ODA","Disbursements","2018","Donor","Volume",1189.44032454369
+"6","Canada","Bilateral","ODA","Disbursements","2018","Donor","Volume",2512.0505499453
+"7","Canada","Bilateral","OOF","Disbursements","2018","Donor","Volume",93.620606256697
+"8","Denmark","Bilateral","ODA","Disbursements","2018","Donor","Volume",2625.14171138155
+"9","Denmark","Bilateral","OOF","Disbursements","2018","Donor","Volume",0
+"10","EC","Bilateral","ODA","Disbursements","2018","Donor","Volume",12378.7685955342
+"11","EC","Bilateral","OOF","Disbursements","2018","Donor","Volume",0.002252659715
+"12","EC","Bilateral","Other flows","Disbursements","2018","Donor","Volume",515.200600127095
+"13","European Bank for Reconstruction and Development","IFI","Other flows","Disbursements","2018","Donor","Volume",1081.70028785104
+"14","Finland","Bilateral","ODA","Disbursements","2018","Donor","Volume",712.931966260062
+"15","Germany","Bilateral","ODA","Disbursements","2018","Donor","Volume",2626.49736200078
+"16","Global Fund","Multilateral","ODA","Disbursements","2018","Donor","Volume",3197.05691538
+"17","Inter-American Development Bank","IFI","Not specified","Disbursements","2018","Donor","Volume",299.09072
+"18","Inter-American Development Bank","IFI","ODA","Disbursements","2018","Donor","Volume",934.516255
+"19","Inter-American Development Bank","IFI","OOF","Disbursements","2018","Donor","Volume",8630.331559
+"20","International Committee of the Red Cross","Multilateral","OOF","Disbursements","2018","Donor","Volume",1976.31262763364
+"21","International Fund for Agricultural Development","Multilateral","OOF","Disbursements","2018","Donor","Volume",920.208853594483
+"22","Multilateral Investment Fund","IFI","Not specified","Disbursements","2018","Donor","Volume",13.022097
+"23","Multilateral Investment Fund","IFI","ODA","Disbursements","2018","Donor","Volume",0.054963
+"24","Multilateral Investment Fund","IFI","OOF","Disbursements","2018","Donor","Volume",0.46
+"25","Netherlands","Bilateral","Not specified","Disbursements","2018","Donor","Volume",16.436387520665
+"26","Netherlands","Bilateral","ODA","Disbursements","2018","Donor","Volume",3856.83336459144
+"27","Netherlands","Bilateral","Other flows","Disbursements","2018","Donor","Volume",131.0228486997
+"28","New Zealand","Bilateral","ODA","Disbursements","2018","Donor","Volume",479.16203851593
+"29","Norway","Bilateral","ODA","Disbursements","2018","Donor","Volume",1838.580069735
+"30","Spain","Bilateral","ODA","Disbursements","2018","Donor","Volume",282.757215339811
+"31","Sweden","Bilateral","ODA","Disbursements","2018","Donor","Volume",5889.22969229266
+"32","Sweden","Bilateral","OOF","Disbursements","2018","Donor","Volume",94.1750674261254
+"33","Switzerland","Bilateral","ODA","Disbursements","2018","Donor","Volume",1636.1190387344
+"34","UK","Bilateral","ODA","Disbursements","2018","Donor","Volume",15403.13552207
+"35","UNDP","Multilateral","ODA","Disbursements","2018","Donor","Volume",4368.327781
+"36","UNICEF","Multilateral","ODA","Disbursements","2018","Donor","Volume",5386.84749300001
+"37","UNIDO","Multilateral","Not specified","Disbursements","2018","Donor","Volume",189.66409051
+"38","Unitaid","Multilateral","OOF","Disbursements","2018","Donor","Volume",177.76522665
+"39","Unitaid","Multilateral","Other flows","Disbursements","2018","Donor","Volume",0.977481
+"40","UNOCHA","Multilateral","ODA","Disbursements","2018","Donor","Volume",496.538067
+"41","UNOCHA","Multilateral","OOF","Disbursements","2018","Donor","Volume",257.509725
+"42","UNRWA","Multilateral","Not specified","Disbursements","2018","Donor","Volume",NA
+"43","US","Bilateral","ODA","Disbursements","2018","Donor","Volume",18146.51491911
+"44","World Bank","IFI","Not specified","Disbursements","2018","Donor","Volume",-0.068965
+"45","World Bank","IFI","ODA","Disbursements","2018","Donor","Volume",15817.463475
+"46","World Bank","IFI","OOF","Disbursements","2018","Donor","Volume",16256.001303
+"47","World Food Programme","Multilateral","ODA","Disbursements","2018","Donor","Volume",6674.533909
+"48","African Development Bank Group","IFI","ODA","Commitments","2018","Donor","Volume",11666.2547320909
+"49","African Development Bank Group","IFI","OOF","Commitments","2018","Donor","Volume",1238.7785995122
+"50","Asian Development Bank","IFI","ODA","Commitments","2018","Donor","Volume",5282.734
+"51","Asian Development Bank","IFI","OOF","Commitments","2018","Donor","Volume",13158.79
+"52","Belgium","Bilateral","ODA","Commitments","2018","Donor","Volume",553.78380941615
+"53","Canada","Bilateral","ODA","Commitments","2018","Donor","Volume",1813.04785214039
+"54","Canada","Bilateral","OOF","Commitments","2018","Donor","Volume",55.484224891618
+"55","Denmark","Bilateral","ODA","Commitments","2018","Donor","Volume",1875.49463593008
+"56","EC","Bilateral","ODA","Commitments","2018","Donor","Volume",12692.2717049804
+"57","EC","Bilateral","Other flows","Commitments","2018","Donor","Volume",3658.89380349938
+"58","European Bank for Reconstruction and Development","IFI","Other flows","Commitments","2018","Donor","Volume",6217.57838768319
+"59","Germany","Bilateral","ODA","Commitments","2018","Donor","Volume",11199.9120106717
+"60","Global Fund","Multilateral","ODA","Commitments","2018","Donor","Volume",3951.98615331
+"61","Inter-American Development Bank","IFI","Not specified","Commitments","2018","Donor","Volume",130
+"62","Inter-American Development Bank","IFI","ODA","Commitments","2018","Donor","Volume",1292.503
+"63","Inter-American Development Bank","IFI","OOF","Commitments","2018","Donor","Volume",9340.839242
+"64","International Finance Corporation","IFI","Other flows","Commitments","2018","Donor","Volume",9277.31
+"65","Multilateral Investment Fund","IFI","Not specified","Commitments","2018","Donor","Volume",14.483
+"66","Netherlands","Bilateral","Not specified","Commitments","2018","Donor","Volume",8.84088098726
+"67","Netherlands","Bilateral","ODA","Commitments","2018","Donor","Volume",3266.73998999825
+"68","Netherlands","Bilateral","Other flows","Commitments","2018","Donor","Volume",230.45093313831
+"69","New Zealand","Bilateral","ODA","Commitments","2018","Donor","Volume",39.08823415497
+"70","Norway","Bilateral","ODA","Commitments","2018","Donor","Volume",2491.832289669
+"71","Spain","Bilateral","ODA","Commitments","2018","Donor","Volume",285.947613504231
+"72","Sweden","Bilateral","ODA","Commitments","2018","Donor","Volume",6831.73498607776
+"73","Switzerland","Bilateral","ODA","Commitments","2018","Donor","Volume",2096.36338788999
+"74","UK","Bilateral","ODA","Commitments","2018","Donor","Volume",11644.5044432353
+"75","UNFPA","Multilateral","OOF","Commitments","2018","Donor","Volume",34.87959773
+"76","UNICEF","Multilateral","ODA","Commitments","2018","Donor","Volume",5248.31235300003
+"77","Unitaid","Multilateral","Not specified","Commitments","2018","Donor","Volume",NA
+"78","Unitaid","Multilateral","OOF","Commitments","2018","Donor","Volume",80.862152
+"79","UNOCHA","Multilateral","OOF","Commitments","2018","Donor","Volume",268.49690081
+"80","US","Bilateral","ODA","Commitments","2018","Donor","Volume",35467.7686179101
+"81","US","Bilateral","OOF","Commitments","2018","Donor","Volume",11887.25030713
+"82","US","Bilateral","Other flows","Commitments","2018","Donor","Volume",5992.29588438
+"83","World Bank","IFI","Not specified","Commitments","2018","Donor","Volume",-0.070663
+"84","World Bank","IFI","ODA","Commitments","2018","Donor","Volume",23354.938251
+"85","World Bank","IFI","OOF","Commitments","2018","Donor","Volume",16037.418655
+"86","World Food Programme","Multilateral","ODA","Commitments","2018","Donor","Volume",6674.533909
+"87","African Development Bank Group","IFI","Not specified","Disbursements","2019","Donor","Volume",4102.87680485575
+"88","Asian Development Bank","IFI","ODA","Disbursements","2019","Donor","Volume",2483.77495593
+"89","Asian Development Bank","IFI","OOF","Disbursements","2019","Donor","Volume",11183.57000801
+"90","Australia","Bilateral","ODA","Disbursements","2019","Donor","Volume",2848.90202223481
+"91","Belgium","Bilateral","ODA","Disbursements","2019","Donor","Volume",1255.90578484299
+"92","Canada","Bilateral","ODA","Disbursements","2019","Donor","Volume",2464.20716860174
+"93","Canada","Bilateral","OOF","Disbursements","2019","Donor","Volume",57.106207331014
+"94","Denmark","Bilateral","ODA","Disbursements","2019","Donor","Volume",2710.85536318758
+"95","Denmark","Bilateral","OOF","Disbursements","2019","Donor","Volume",NA
+"96","EC","Bilateral","ODA","Disbursements","2019","Donor","Volume",11725.2448609426
+"97","EC","Bilateral","OOF","Disbursements","2019","Donor","Volume",NA
+"98","EC","Bilateral","Other flows","Disbursements","2019","Donor","Volume",480.642938070746
+"99","European Bank for Reconstruction and Development","IFI","Other flows","Disbursements","2019","Donor","Volume",857.603433373038
+"100","Finland","Bilateral","ODA","Disbursements","2019","Donor","Volume",761.885025095612
+"101","Germany","Bilateral","ODA","Disbursements","2019","Donor","Volume",2496.99260400729
+"102","Global Fund","Multilateral","ODA","Disbursements","2019","Donor","Volume",3512.2336414
+"103","Inter-American Development Bank","IFI","Not specified","Disbursements","2019","Donor","Volume",134.600423
+"104","Inter-American Development Bank","IFI","ODA","Disbursements","2019","Donor","Volume",698.768683
+"105","Inter-American Development Bank","IFI","OOF","Disbursements","2019","Donor","Volume",8009.273727
+"106","International Committee of the Red Cross","Multilateral","OOF","Disbursements","2019","Donor","Volume",2014.67062812851
+"107","International Fund for Agricultural Development","Multilateral","OOF","Disbursements","2019","Donor","Volume",951.720426439617
+"108","Multilateral Investment Fund","IFI","Not specified","Disbursements","2019","Donor","Volume",13.221988
+"109","Multilateral Investment Fund","IFI","ODA","Disbursements","2019","Donor","Volume",NA
+"110","Multilateral Investment Fund","IFI","OOF","Disbursements","2019","Donor","Volume",NA
+"111","Netherlands","Bilateral","Not specified","Disbursements","2019","Donor","Volume",26.246819989445
+"112","Netherlands","Bilateral","ODA","Disbursements","2019","Donor","Volume",3611.90192274305
+"113","Netherlands","Bilateral","Other flows","Disbursements","2019","Donor","Volume",105.430082112729
+"114","New Zealand","Bilateral","ODA","Disbursements","2019","Donor","Volume",474.129187867872
+"115","Norway","Bilateral","ODA","Disbursements","2019","Donor","Volume",3276.835190718
+"116","Spain","Bilateral","ODA","Disbursements","2019","Donor","Volume",296.228780426602
+"117","Sweden","Bilateral","ODA","Disbursements","2019","Donor","Volume",5696.47552217029
+"118","Sweden","Bilateral","OOF","Disbursements","2019","Donor","Volume",88.7994893664273
+"119","Switzerland","Bilateral","ODA","Disbursements","2019","Donor","Volume",1503.3275609472
+"120","UK","Bilateral","ODA","Disbursements","2019","Donor","Volume",15548.503509279
+"121","UNDP","Multilateral","ODA","Disbursements","2019","Donor","Volume",4265.13989999999
+"122","UNICEF","Multilateral","ODA","Disbursements","2019","Donor","Volume",5641.791524
+"123","UNIDO","Multilateral","Not specified","Disbursements","2019","Donor","Volume",190.25866697
+"124","Unitaid","Multilateral","OOF","Disbursements","2019","Donor","Volume",215.407708
+"125","Unitaid","Multilateral","Other flows","Disbursements","2019","Donor","Volume",NA
+"126","UNOCHA","Multilateral","ODA","Disbursements","2019","Donor","Volume",533.773271
+"127","UNOCHA","Multilateral","OOF","Disbursements","2019","Donor","Volume",248.093259
+"128","UNRWA","Multilateral","Not specified","Disbursements","2019","Donor","Volume",945.0999002
+"129","US","Bilateral","ODA","Disbursements","2019","Donor","Volume",19482.04816296
+"130","World Bank","IFI","Not specified","Disbursements","2019","Donor","Volume",NA
+"131","World Bank","IFI","ODA","Disbursements","2019","Donor","Volume",18451.100549
+"132","World Bank","IFI","OOF","Disbursements","2019","Donor","Volume",18956.913892
+"133","World Food Programme","Multilateral","ODA","Disbursements","2019","Donor","Volume",7627.77375
+"134","African Development Bank Group","IFI","ODA","Commitments","2019","Donor","Volume",7482.37058534874
+"135","African Development Bank Group","IFI","OOF","Commitments","2019","Donor","Volume",1442.94967629454
+"136","Asian Development Bank","IFI","ODA","Commitments","2019","Donor","Volume",4427.765
+"137","Asian Development Bank","IFI","OOF","Commitments","2019","Donor","Volume",14183.8876
+"138","Belgium","Bilateral","ODA","Commitments","2019","Donor","Volume",1075.65763742496
+"139","Canada","Bilateral","ODA","Commitments","2019","Donor","Volume",2323.89151093028
+"140","Canada","Bilateral","OOF","Commitments","2019","Donor","Volume",56.4184200254
+"141","Denmark","Bilateral","ODA","Commitments","2019","Donor","Volume",1721.5463584461
+"142","EC","Bilateral","ODA","Commitments","2019","Donor","Volume",12113.3685595384
+"143","EC","Bilateral","Other flows","Commitments","2019","Donor","Volume",2127.23265128094
+"144","European Bank for Reconstruction and Development","IFI","Other flows","Commitments","2019","Donor","Volume",7660.13823030598
+"145","Germany","Bilateral","ODA","Commitments","2019","Donor","Volume",9916.35848123628
+"146","Global Fund","Multilateral","ODA","Commitments","2019","Donor","Volume",3143.52789786
+"147","Inter-American Development Bank","IFI","Not specified","Commitments","2019","Donor","Volume",195
+"148","Inter-American Development Bank","IFI","ODA","Commitments","2019","Donor","Volume",281.125
+"149","Inter-American Development Bank","IFI","OOF","Commitments","2019","Donor","Volume",8284.7
+"150","International Finance Corporation","IFI","Other flows","Commitments","2019","Donor","Volume",13375.67
+"151","Multilateral Investment Fund","IFI","Not specified","Commitments","2019","Donor","Volume",15.775
+"152","Netherlands","Bilateral","Not specified","Commitments","2019","Donor","Volume",31.023780409226
+"153","Netherlands","Bilateral","ODA","Commitments","2019","Donor","Volume",4639.19822182661
+"154","Netherlands","Bilateral","Other flows","Commitments","2019","Donor","Volume",140.083909414427
+"155","New Zealand","Bilateral","ODA","Commitments","2019","Donor","Volume",131.740721908128
+"156","Norway","Bilateral","ODA","Commitments","2019","Donor","Volume",2743.033802819
+"157","Spain","Bilateral","ODA","Commitments","2019","Donor","Volume",303.422711177597
+"158","Sweden","Bilateral","ODA","Commitments","2019","Donor","Volume",2678.33098234507
+"159","Switzerland","Bilateral","ODA","Commitments","2019","Donor","Volume",1232.8946396032
+"160","UK","Bilateral","ODA","Commitments","2019","Donor","Volume",12971.0289146125
+"161","UNFPA","Multilateral","OOF","Commitments","2019","Donor","Volume",819.048598950005
+"162","UNICEF","Multilateral","ODA","Commitments","2019","Donor","Volume",5446.08492700004
+"163","Unitaid","Multilateral","Not specified","Commitments","2019","Donor","Volume",NA
+"164","Unitaid","Multilateral","OOF","Commitments","2019","Donor","Volume",239.710212
+"165","UNOCHA","Multilateral","OOF","Commitments","2019","Donor","Volume",270.69467599
+"166","US","Bilateral","ODA","Commitments","2019","Donor","Volume",35191.0444490401
+"167","US","Bilateral","OOF","Commitments","2019","Donor","Volume",11183.05749229
+"168","US","Bilateral","Other flows","Commitments","2019","Donor","Volume",25.93821971
+"169","World Bank","IFI","Not specified","Commitments","2019","Donor","Volume",NA
+"170","World Bank","IFI","ODA","Commitments","2019","Donor","Volume",15722.22284
+"171","World Bank","IFI","OOF","Commitments","2019","Donor","Volume",19765.928933
+"172","World Food Programme","Multilateral","ODA","Commitments","2019","Donor","Volume",7627.77375
+"173","African Development Bank Group","IFI","Not specified","Disbursements","2020","Donor","Volume",6517.76490846828
+"174","Asian Development Bank","IFI","ODA","Disbursements","2020","Donor","Volume",13849.86806666
+"175","Asian Development Bank","IFI","OOF","Disbursements","2020","Donor","Volume",6739.77265034
+"176","Australia","Bilateral","ODA","Disbursements","2020","Donor","Volume",2061.4016680796
+"177","Belgium","Bilateral","ODA","Disbursements","2020","Donor","Volume",1314.59270126864
+"178","Canada","Bilateral","ODA","Disbursements","2020","Donor","Volume",1938.72163432
+"179","Canada","Bilateral","OOF","Disbursements","2020","Donor","Volume",4.093749443162
+"180","Denmark","Bilateral","ODA","Disbursements","2020","Donor","Volume",2181.35523735902
+"181","Denmark","Bilateral","OOF","Disbursements","2020","Donor","Volume",NA
+"182","EC","Bilateral","ODA","Disbursements","2020","Donor","Volume",12922.3354009489
+"183","EC","Bilateral","OOF","Disbursements","2020","Donor","Volume",NA
+"184","EC","Bilateral","Other flows","Disbursements","2020","Donor","Volume",622.422175890375
+"185","European Bank for Reconstruction and Development","IFI","Other flows","Disbursements","2020","Donor","Volume",1465.28755024693
+"186","Finland","Bilateral","ODA","Disbursements","2020","Donor","Volume",NA
+"187","Germany","Bilateral","ODA","Disbursements","2020","Donor","Volume",1556.6855795378
+"188","Global Fund","Multilateral","ODA","Disbursements","2020","Donor","Volume",4253.52138458
+"189","Inter-American Development Bank","IFI","Not specified","Disbursements","2020","Donor","Volume",665.339803
+"190","Inter-American Development Bank","IFI","ODA","Disbursements","2020","Donor","Volume",731.322664
+"191","Inter-American Development Bank","IFI","OOF","Disbursements","2020","Donor","Volume",11076.862296
+"192","International Committee of the Red Cross","Multilateral","OOF","Disbursements","2020","Donor","Volume",1739.26890331349
+"193","International Fund for Agricultural Development","Multilateral","OOF","Disbursements","2020","Donor","Volume",850.129090557296
+"194","Multilateral Investment Fund","IFI","Not specified","Disbursements","2020","Donor","Volume",20.390458
+"195","Multilateral Investment Fund","IFI","ODA","Disbursements","2020","Donor","Volume",NA
+"196","Multilateral Investment Fund","IFI","OOF","Disbursements","2020","Donor","Volume",NA
+"197","Netherlands","Bilateral","Not specified","Disbursements","2020","Donor","Volume",9.092893187925
+"198","Netherlands","Bilateral","ODA","Disbursements","2020","Donor","Volume",3827.54665521837
+"199","Netherlands","Bilateral","Other flows","Disbursements","2020","Donor","Volume",84.64639092741
+"200","New Zealand","Bilateral","ODA","Disbursements","2020","Donor","Volume",490.71553887772
+"201","Norway","Bilateral","ODA","Disbursements","2020","Donor","Volume",2431.8545337464
+"202","Spain","Bilateral","ODA","Disbursements","2020","Donor","Volume",235.414950597585
+"203","Sweden","Bilateral","ODA","Disbursements","2020","Donor","Volume",4547.23940050765
+"204","Sweden","Bilateral","OOF","Disbursements","2020","Donor","Volume",NA
+"205","Switzerland","Bilateral","ODA","Disbursements","2020","Donor","Volume",1873.71458109867
+"206","UK","Bilateral","ODA","Disbursements","2020","Donor","Volume",12454.8583973482
+"207","UNDP","Multilateral","ODA","Disbursements","2020","Donor","Volume",4345.849284
+"208","UNICEF","Multilateral","ODA","Disbursements","2020","Donor","Volume",5680.800324
+"209","UNIDO","Multilateral","Not specified","Disbursements","2020","Donor","Volume",177.672671649999
+"210","Unitaid","Multilateral","OOF","Disbursements","2020","Donor","Volume",223.345299
+"211","Unitaid","Multilateral","Other flows","Disbursements","2020","Donor","Volume",NA
+"212","UNOCHA","Multilateral","ODA","Disbursements","2020","Donor","Volume",780.514404
+"213","UNOCHA","Multilateral","OOF","Disbursements","2020","Donor","Volume",154.142747
+"214","UNRWA","Multilateral","Not specified","Disbursements","2020","Donor","Volume",1566.13866690667
+"215","US","Bilateral","ODA","Disbursements","2020","Donor","Volume",17787.28427097
+"216","World Bank","IFI","Not specified","Disbursements","2020","Donor","Volume",NA
+"217","World Bank","IFI","ODA","Disbursements","2020","Donor","Volume",21060.733264
+"218","World Bank","IFI","OOF","Disbursements","2020","Donor","Volume",21031.371599
+"219","World Food Programme","Multilateral","ODA","Disbursements","2020","Donor","Volume",8079.460295
+"220","African Development Bank Group","IFI","ODA","Commitments","2020","Donor","Volume",10227.657164846
+"221","African Development Bank Group","IFI","OOF","Commitments","2020","Donor","Volume",1108.17873474778
+"222","Asian Development Bank","IFI","ODA","Commitments","2020","Donor","Volume",25990.351604
+"223","Asian Development Bank","IFI","OOF","Commitments","2020","Donor","Volume",150
+"224","Belgium","Bilateral","ODA","Commitments","2020","Donor","Volume",3415.65544325129
+"225","Canada","Bilateral","ODA","Commitments","2020","Donor","Volume",1163.67757153917
+"226","Canada","Bilateral","OOF","Commitments","2020","Donor","Volume",0.319178914176
+"227","Denmark","Bilateral","ODA","Commitments","2020","Donor","Volume",1746.70631565034
+"228","EC","Bilateral","ODA","Commitments","2020","Donor","Volume",11172.249901053
+"229","EC","Bilateral","Other flows","Commitments","2020","Donor","Volume",2227.01129670225
+"230","European Bank for Reconstruction and Development","IFI","Other flows","Commitments","2020","Donor","Volume",8721.43336974497
+"231","Germany","Bilateral","ODA","Commitments","2020","Donor","Volume",3107.45616944917
+"232","Global Fund","Multilateral","ODA","Commitments","2020","Donor","Volume",3890.48355538
+"233","Inter-American Development Bank","IFI","Not specified","Commitments","2020","Donor","Volume",630
+"234","Inter-American Development Bank","IFI","ODA","Commitments","2020","Donor","Volume",405.01
+"235","Inter-American Development Bank","IFI","OOF","Commitments","2020","Donor","Volume",6142.1
+"236","International Finance Corporation","IFI","Other flows","Commitments","2020","Donor","Volume",5670.89
+"237","Multilateral Investment Fund","IFI","Not specified","Commitments","2020","Donor","Volume",12.75
+"238","Netherlands","Bilateral","Not specified","Commitments","2020","Donor","Volume",7.37669329074
+"239","Netherlands","Bilateral","ODA","Commitments","2020","Donor","Volume",4528.02706160553
+"240","Netherlands","Bilateral","Other flows","Commitments","2020","Donor","Volume",43.68452467437
+"241","New Zealand","Bilateral","ODA","Commitments","2020","Donor","Volume",338.84041455004
+"242","Norway","Bilateral","ODA","Commitments","2020","Donor","Volume",3151.9458636372
+"243","Spain","Bilateral","ODA","Commitments","2020","Donor","Volume",229.806200246895
+"244","Sweden","Bilateral","ODA","Commitments","2020","Donor","Volume",3365.52356604448
+"245","Switzerland","Bilateral","ODA","Commitments","2020","Donor","Volume",1400.019738848
+"246","UK","Bilateral","ODA","Commitments","2020","Donor","Volume",6935.40963436351
+"247","UNFPA","Multilateral","OOF","Commitments","2020","Donor","Volume",223.10368313
+"248","UNICEF","Multilateral","ODA","Commitments","2020","Donor","Volume",5437.51652499997
+"249","Unitaid","Multilateral","Not specified","Commitments","2020","Donor","Volume",6.962027
+"250","Unitaid","Multilateral","OOF","Commitments","2020","Donor","Volume",55.172086
+"251","UNOCHA","Multilateral","OOF","Commitments","2020","Donor","Volume",284.81690947
+"252","US","Bilateral","ODA","Commitments","2020","Donor","Volume",23872.9944801901
+"253","US","Bilateral","OOF","Commitments","2020","Donor","Volume",7.98487363
+"254","US","Bilateral","Other flows","Commitments","2020","Donor","Volume",2.565
+"255","World Bank","IFI","Not specified","Commitments","2020","Donor","Volume",NA
+"256","World Bank","IFI","ODA","Commitments","2020","Donor","Volume",25425.965732
+"257","World Bank","IFI","OOF","Commitments","2020","Donor","Volume",16016.920565
+"258","World Food Programme","Multilateral","ODA","Commitments","2020","Donor","Volume",8079.460295
+"259","African Development Bank Group","IFI","Not specified","Disbursements","2018","Donor","Proportion",1
+"260","Asian Development Bank","IFI","ODA","Disbursements","2018","Donor","Proportion",0.143517462552662
+"261","Asian Development Bank","IFI","OOF","Disbursements","2018","Donor","Proportion",0.856482537447338
+"262","Australia","Bilateral","ODA","Disbursements","2018","Donor","Proportion",1
+"263","Belgium","Bilateral","ODA","Disbursements","2018","Donor","Proportion",1
+"264","Canada","Bilateral","ODA","Disbursements","2018","Donor","Proportion",0.964070444563251
+"265","Canada","Bilateral","OOF","Disbursements","2018","Donor","Proportion",0.0359295554367488
+"266","Denmark","Bilateral","ODA","Disbursements","2018","Donor","Proportion",1
+"267","Denmark","Bilateral","OOF","Disbursements","2018","Donor","Proportion",0
+"268","EC","Bilateral","ODA","Disbursements","2018","Donor","Proportion",0.960043121325982
+"269","EC","Bilateral","OOF","Disbursements","2018","Donor","Proportion",1.74706429592205e-07
+"270","EC","Bilateral","Other flows","Disbursements","2018","Donor","Proportion",0.039956703967588
+"271","European Bank for Reconstruction and Development","IFI","Other flows","Disbursements","2018","Donor","Proportion",1
+"272","Finland","Bilateral","ODA","Disbursements","2018","Donor","Proportion",1
+"273","Germany","Bilateral","ODA","Disbursements","2018","Donor","Proportion",1
+"274","Global Fund","Multilateral","ODA","Disbursements","2018","Donor","Proportion",1
+"275","Inter-American Development Bank","IFI","Not specified","Disbursements","2018","Donor","Proportion",0.0303216325780077
+"276","Inter-American Development Bank","IFI","ODA","Disbursements","2018","Donor","Proportion",0.0947406810959757
+"277","Inter-American Development Bank","IFI","OOF","Disbursements","2018","Donor","Proportion",0.874937686326017
+"278","International Committee of the Red Cross","Multilateral","OOF","Disbursements","2018","Donor","Proportion",1
+"279","International Fund for Agricultural Development","Multilateral","OOF","Disbursements","2018","Donor","Proportion",1
+"280","Multilateral Investment Fund","IFI","Not specified","Disbursements","2018","Donor","Proportion",0.961959022121495
+"281","Multilateral Investment Fund","IFI","ODA","Disbursements","2018","Donor","Proportion",0.00406018736712403
+"282","Multilateral Investment Fund","IFI","OOF","Disbursements","2018","Donor","Proportion",0.0339807905113814
+"283","Netherlands","Bilateral","Not specified","Disbursements","2018","Donor","Proportion",0.00410469192918939
+"284","Netherlands","Bilateral","ODA","Disbursements","2018","Donor","Proportion",0.963174710012333
+"285","Netherlands","Bilateral","Other flows","Disbursements","2018","Donor","Proportion",0.0327205980584779
+"286","New Zealand","Bilateral","ODA","Disbursements","2018","Donor","Proportion",1
+"287","Norway","Bilateral","ODA","Disbursements","2018","Donor","Proportion",1
+"288","Spain","Bilateral","ODA","Disbursements","2018","Donor","Proportion",1
+"289","Sweden","Bilateral","ODA","Disbursements","2018","Donor","Proportion",0.984260622303186
+"290","Sweden","Bilateral","OOF","Disbursements","2018","Donor","Proportion",0.0157393776968135
+"291","Switzerland","Bilateral","ODA","Disbursements","2018","Donor","Proportion",1
+"292","UK","Bilateral","ODA","Disbursements","2018","Donor","Proportion",1
+"293","UNDP","Multilateral","ODA","Disbursements","2018","Donor","Proportion",1
+"294","UNICEF","Multilateral","ODA","Disbursements","2018","Donor","Proportion",1
+"295","UNIDO","Multilateral","Not specified","Disbursements","2018","Donor","Proportion",1
+"296","Unitaid","Multilateral","OOF","Disbursements","2018","Donor","Proportion",0.994531351724211
+"297","Unitaid","Multilateral","Other flows","Disbursements","2018","Donor","Proportion",0.00546864827578883
+"298","UNOCHA","Multilateral","ODA","Disbursements","2018","Donor","Proportion",0.658496811830728
+"299","UNOCHA","Multilateral","OOF","Disbursements","2018","Donor","Proportion",0.341503188169272
+"300","UNRWA","Multilateral","Not specified","Disbursements","2018","Donor","Proportion",NA
+"301","US","Bilateral","ODA","Disbursements","2018","Donor","Proportion",1
+"302","World Bank","IFI","Not specified","Disbursements","2018","Donor","Proportion",-2.15022445400206e-06
+"303","World Bank","IFI","ODA","Disbursements","2018","Donor","Proportion",0.493164601815841
+"304","World Bank","IFI","OOF","Disbursements","2018","Donor","Proportion",0.506837548408613
+"305","World Food Programme","Multilateral","ODA","Disbursements","2018","Donor","Proportion",1
+"306","African Development Bank Group","IFI","ODA","Commitments","2018","Donor","Proportion",0.904008105389503
+"307","African Development Bank Group","IFI","OOF","Commitments","2018","Donor","Proportion",0.0959918946104973
+"308","Asian Development Bank","IFI","ODA","Commitments","2018","Donor","Proportion",0.286458646259387
+"309","Asian Development Bank","IFI","OOF","Commitments","2018","Donor","Proportion",0.713541353740613
+"310","Belgium","Bilateral","ODA","Commitments","2018","Donor","Proportion",1
+"311","Canada","Bilateral","ODA","Commitments","2018","Donor","Proportion",0.970305982127024
+"312","Canada","Bilateral","OOF","Commitments","2018","Donor","Proportion",0.0296940178729763
+"313","Denmark","Bilateral","ODA","Commitments","2018","Donor","Proportion",1
+"314","EC","Bilateral","ODA","Commitments","2018","Donor","Proportion",0.776230397667869
+"315","EC","Bilateral","Other flows","Commitments","2018","Donor","Proportion",0.223769602332131
+"316","European Bank for Reconstruction and Development","IFI","Other flows","Commitments","2018","Donor","Proportion",1
+"317","Germany","Bilateral","ODA","Commitments","2018","Donor","Proportion",1
+"318","Global Fund","Multilateral","ODA","Commitments","2018","Donor","Proportion",1
+"319","Inter-American Development Bank","IFI","Not specified","Commitments","2018","Donor","Proportion",0.012078032740864
+"320","Inter-American Development Bank","IFI","ODA","Commitments","2018","Donor","Proportion",0.120083796551268
+"321","Inter-American Development Bank","IFI","OOF","Commitments","2018","Donor","Proportion",0.867838170707868
+"322","International Finance Corporation","IFI","Other flows","Commitments","2018","Donor","Proportion",1
+"323","Multilateral Investment Fund","IFI","Not specified","Commitments","2018","Donor","Proportion",1
+"324","Netherlands","Bilateral","Not specified","Commitments","2018","Donor","Proportion",0.0025216203050016
+"325","Netherlands","Bilateral","ODA","Commitments","2018","Donor","Proportion",0.931748532958511
+"326","Netherlands","Bilateral","Other flows","Commitments","2018","Donor","Proportion",0.0657298467364877
+"327","New Zealand","Bilateral","ODA","Commitments","2018","Donor","Proportion",1
+"328","Norway","Bilateral","ODA","Commitments","2018","Donor","Proportion",1
+"329","Spain","Bilateral","ODA","Commitments","2018","Donor","Proportion",1
+"330","Sweden","Bilateral","ODA","Commitments","2018","Donor","Proportion",1
+"331","Switzerland","Bilateral","ODA","Commitments","2018","Donor","Proportion",1
+"332","UK","Bilateral","ODA","Commitments","2018","Donor","Proportion",1
+"333","UNFPA","Multilateral","OOF","Commitments","2018","Donor","Proportion",1
+"334","UNICEF","Multilateral","ODA","Commitments","2018","Donor","Proportion",1
+"335","Unitaid","Multilateral","Not specified","Commitments","2018","Donor","Proportion",NA
+"336","Unitaid","Multilateral","OOF","Commitments","2018","Donor","Proportion",1
+"337","UNOCHA","Multilateral","OOF","Commitments","2018","Donor","Proportion",1
+"338","US","Bilateral","ODA","Commitments","2018","Donor","Proportion",0.664846370330287
+"339","US","Bilateral","OOF","Commitments","2018","Donor","Proportion",0.222827528425685
+"340","US","Bilateral","Other flows","Commitments","2018","Donor","Proportion",0.112326101244029
+"341","World Bank","IFI","Not specified","Commitments","2018","Donor","Proportion",-1.79382835421381e-06
+"342","World Bank","IFI","ODA","Commitments","2018","Donor","Proportion",0.592881004847749
+"343","World Bank","IFI","OOF","Commitments","2018","Donor","Proportion",0.407120788980605
+"344","World Food Programme","Multilateral","ODA","Commitments","2018","Donor","Proportion",1
+"345","African Development Bank Group","IFI","Not specified","Disbursements","2019","Donor","Proportion",1
+"346","Asian Development Bank","IFI","ODA","Disbursements","2019","Donor","Proportion",0.181730611357451
+"347","Asian Development Bank","IFI","OOF","Disbursements","2019","Donor","Proportion",0.818269388642549
+"348","Australia","Bilateral","ODA","Disbursements","2019","Donor","Proportion",1
+"349","Belgium","Bilateral","ODA","Disbursements","2019","Donor","Proportion",1
+"350","Canada","Bilateral","ODA","Disbursements","2019","Donor","Proportion",0.977350611044179
+"351","Canada","Bilateral","OOF","Disbursements","2019","Donor","Proportion",0.0226493889558206
+"352","Denmark","Bilateral","ODA","Disbursements","2019","Donor","Proportion",1
+"353","Denmark","Bilateral","OOF","Disbursements","2019","Donor","Proportion",NA
+"354","EC","Bilateral","ODA","Disbursements","2019","Donor","Proportion",0.960622041920654
+"355","EC","Bilateral","OOF","Disbursements","2019","Donor","Proportion",NA
+"356","EC","Bilateral","Other flows","Disbursements","2019","Donor","Proportion",0.0393779580793458
+"357","European Bank for Reconstruction and Development","IFI","Other flows","Disbursements","2019","Donor","Proportion",1
+"358","Finland","Bilateral","ODA","Disbursements","2019","Donor","Proportion",1
+"359","Germany","Bilateral","ODA","Disbursements","2019","Donor","Proportion",1
+"360","Global Fund","Multilateral","ODA","Disbursements","2019","Donor","Proportion",1
+"361","Inter-American Development Bank","IFI","Not specified","Disbursements","2019","Donor","Proportion",0.0152217414569412
+"362","Inter-American Development Bank","IFI","ODA","Disbursements","2019","Donor","Proportion",0.0790226062724431
+"363","Inter-American Development Bank","IFI","OOF","Disbursements","2019","Donor","Proportion",0.905755652270616
+"364","International Committee of the Red Cross","Multilateral","OOF","Disbursements","2019","Donor","Proportion",1
+"365","International Fund for Agricultural Development","Multilateral","OOF","Disbursements","2019","Donor","Proportion",1
+"366","Multilateral Investment Fund","IFI","Not specified","Disbursements","2019","Donor","Proportion",1
+"367","Multilateral Investment Fund","IFI","ODA","Disbursements","2019","Donor","Proportion",NA
+"368","Multilateral Investment Fund","IFI","OOF","Disbursements","2019","Donor","Proportion",NA
+"369","Netherlands","Bilateral","Not specified","Disbursements","2019","Donor","Proportion",0.00701115729559405
+"370","Netherlands","Bilateral","ODA","Disbursements","2019","Donor","Proportion",0.964825930409621
+"371","Netherlands","Bilateral","Other flows","Disbursements","2019","Donor","Proportion",0.0281629122947846
+"372","New Zealand","Bilateral","ODA","Disbursements","2019","Donor","Proportion",1
+"373","Norway","Bilateral","ODA","Disbursements","2019","Donor","Proportion",1
+"374","Spain","Bilateral","ODA","Disbursements","2019","Donor","Proportion",1
+"375","Sweden","Bilateral","ODA","Disbursements","2019","Donor","Proportion",0.984650774735972
+"376","Sweden","Bilateral","OOF","Disbursements","2019","Donor","Proportion",0.0153492252640277
+"377","Switzerland","Bilateral","ODA","Disbursements","2019","Donor","Proportion",1
+"378","UK","Bilateral","ODA","Disbursements","2019","Donor","Proportion",1
+"379","UNDP","Multilateral","ODA","Disbursements","2019","Donor","Proportion",1
+"380","UNICEF","Multilateral","ODA","Disbursements","2019","Donor","Proportion",1
+"381","UNIDO","Multilateral","Not specified","Disbursements","2019","Donor","Proportion",1
+"382","Unitaid","Multilateral","OOF","Disbursements","2019","Donor","Proportion",1
+"383","Unitaid","Multilateral","Other flows","Disbursements","2019","Donor","Proportion",NA
+"384","UNOCHA","Multilateral","ODA","Disbursements","2019","Donor","Proportion",0.682691035514719
+"385","UNOCHA","Multilateral","OOF","Disbursements","2019","Donor","Proportion",0.317308964485281
+"386","UNRWA","Multilateral","Not specified","Disbursements","2019","Donor","Proportion",1
+"387","US","Bilateral","ODA","Disbursements","2019","Donor","Proportion",1
+"388","World Bank","IFI","Not specified","Disbursements","2019","Donor","Proportion",NA
+"389","World Bank","IFI","ODA","Disbursements","2019","Donor","Proportion",0.493239238294807
+"390","World Bank","IFI","OOF","Disbursements","2019","Donor","Proportion",0.506760761705192
+"391","World Food Programme","Multilateral","ODA","Disbursements","2019","Donor","Proportion",1
+"392","African Development Bank Group","IFI","ODA","Commitments","2019","Donor","Proportion",0.838330767524876
+"393","African Development Bank Group","IFI","OOF","Commitments","2019","Donor","Proportion",0.161669232475124
+"394","Asian Development Bank","IFI","ODA","Commitments","2019","Donor","Proportion",0.237902839428671
+"395","Asian Development Bank","IFI","OOF","Commitments","2019","Donor","Proportion",0.762097160571329
+"396","Belgium","Bilateral","ODA","Commitments","2019","Donor","Proportion",1
+"397","Canada","Bilateral","ODA","Commitments","2019","Donor","Proportion",0.976297868066808
+"398","Canada","Bilateral","OOF","Commitments","2019","Donor","Proportion",0.0237021319331926
+"399","Denmark","Bilateral","ODA","Commitments","2019","Donor","Proportion",1
+"400","EC","Bilateral","ODA","Commitments","2019","Donor","Proportion",0.850621991319807
+"401","EC","Bilateral","Other flows","Commitments","2019","Donor","Proportion",0.149378008680193
+"402","European Bank for Reconstruction and Development","IFI","Other flows","Commitments","2019","Donor","Proportion",1
+"403","Germany","Bilateral","ODA","Commitments","2019","Donor","Proportion",1
+"404","Global Fund","Multilateral","ODA","Commitments","2019","Donor","Proportion",1
+"405","Inter-American Development Bank","IFI","Not specified","Commitments","2019","Donor","Proportion",0.0222581777401101
+"406","Inter-American Development Bank","IFI","ODA","Commitments","2019","Donor","Proportion",0.0320888729086587
+"407","Inter-American Development Bank","IFI","OOF","Commitments","2019","Donor","Proportion",0.945652949351231
+"408","International Finance Corporation","IFI","Other flows","Commitments","2019","Donor","Proportion",1
+"409","Multilateral Investment Fund","IFI","Not specified","Commitments","2019","Donor","Proportion",1
+"410","Netherlands","Bilateral","Not specified","Commitments","2019","Donor","Proportion",0.00644944021836289
+"411","Netherlands","Bilateral","ODA","Commitments","2019","Donor","Proportion",0.964428937999714
+"412","Netherlands","Bilateral","Other flows","Commitments","2019","Donor","Proportion",0.0291216217819229
+"413","New Zealand","Bilateral","ODA","Commitments","2019","Donor","Proportion",1
+"414","Norway","Bilateral","ODA","Commitments","2019","Donor","Proportion",1
+"415","Spain","Bilateral","ODA","Commitments","2019","Donor","Proportion",1
+"416","Sweden","Bilateral","ODA","Commitments","2019","Donor","Proportion",1
+"417","Switzerland","Bilateral","ODA","Commitments","2019","Donor","Proportion",1
+"418","UK","Bilateral","ODA","Commitments","2019","Donor","Proportion",1
+"419","UNFPA","Multilateral","OOF","Commitments","2019","Donor","Proportion",1
+"420","UNICEF","Multilateral","ODA","Commitments","2019","Donor","Proportion",1
+"421","Unitaid","Multilateral","Not specified","Commitments","2019","Donor","Proportion",NA
+"422","Unitaid","Multilateral","OOF","Commitments","2019","Donor","Proportion",1
+"423","UNOCHA","Multilateral","OOF","Commitments","2019","Donor","Proportion",1
+"424","US","Bilateral","ODA","Commitments","2019","Donor","Proportion",0.758427025642714
+"425","US","Bilateral","OOF","Commitments","2019","Donor","Proportion",0.241013961485315
+"426","US","Bilateral","Other flows","Commitments","2019","Donor","Proportion",0.000559012871971156
+"427","World Bank","IFI","Not specified","Commitments","2019","Donor","Proportion",NA
+"428","World Bank","IFI","ODA","Commitments","2019","Donor","Proportion",0.443027378280143
+"429","World Bank","IFI","OOF","Commitments","2019","Donor","Proportion",0.556972621719857
+"430","World Food Programme","Multilateral","ODA","Commitments","2019","Donor","Proportion",1
+"431","African Development Bank Group","IFI","Not specified","Disbursements","2020","Donor","Proportion",1
+"432","Asian Development Bank","IFI","ODA","Disbursements","2020","Donor","Proportion",0.672661959333013
+"433","Asian Development Bank","IFI","OOF","Disbursements","2020","Donor","Proportion",0.327338040666987
+"434","Australia","Bilateral","ODA","Disbursements","2020","Donor","Proportion",1
+"435","Belgium","Bilateral","ODA","Disbursements","2020","Donor","Proportion",1
+"436","Canada","Bilateral","ODA","Disbursements","2020","Donor","Proportion",0.997892877790975
+"437","Canada","Bilateral","OOF","Disbursements","2020","Donor","Proportion",0.00210712220902459
+"438","Denmark","Bilateral","ODA","Disbursements","2020","Donor","Proportion",1
+"439","Denmark","Bilateral","OOF","Disbursements","2020","Donor","Proportion",NA
+"440","EC","Bilateral","ODA","Disbursements","2020","Donor","Proportion",0.954047005097036
+"441","EC","Bilateral","OOF","Disbursements","2020","Donor","Proportion",NA
+"442","EC","Bilateral","Other flows","Disbursements","2020","Donor","Proportion",0.0459529949029638
+"443","European Bank for Reconstruction and Development","IFI","Other flows","Disbursements","2020","Donor","Proportion",1
+"444","Finland","Bilateral","ODA","Disbursements","2020","Donor","Proportion",NA
+"445","Germany","Bilateral","ODA","Disbursements","2020","Donor","Proportion",1
+"446","Global Fund","Multilateral","ODA","Disbursements","2020","Donor","Proportion",1
+"447","Inter-American Development Bank","IFI","Not specified","Disbursements","2020","Donor","Proportion",0.0533401597095943
+"448","Inter-American Development Bank","IFI","ODA","Disbursements","2020","Donor","Proportion",0.058629992555858
+"449","Inter-American Development Bank","IFI","OOF","Disbursements","2020","Donor","Proportion",0.888029847734548
+"450","International Committee of the Red Cross","Multilateral","OOF","Disbursements","2020","Donor","Proportion",1
+"451","International Fund for Agricultural Development","Multilateral","OOF","Disbursements","2020","Donor","Proportion",1
+"452","Multilateral Investment Fund","IFI","Not specified","Disbursements","2020","Donor","Proportion",1
+"453","Multilateral Investment Fund","IFI","ODA","Disbursements","2020","Donor","Proportion",NA
+"454","Multilateral Investment Fund","IFI","OOF","Disbursements","2020","Donor","Proportion",NA
+"455","Netherlands","Bilateral","Not specified","Disbursements","2020","Donor","Proportion",0.00231885491866733
+"456","Netherlands","Bilateral","ODA","Disbursements","2020","Donor","Proportion",0.976094759330083
+"457","Netherlands","Bilateral","Other flows","Disbursements","2020","Donor","Proportion",0.02158638575125
+"458","New Zealand","Bilateral","ODA","Disbursements","2020","Donor","Proportion",1
+"459","Norway","Bilateral","ODA","Disbursements","2020","Donor","Proportion",1
+"460","Spain","Bilateral","ODA","Disbursements","2020","Donor","Proportion",1
+"461","Sweden","Bilateral","ODA","Disbursements","2020","Donor","Proportion",1
+"462","Sweden","Bilateral","OOF","Disbursements","2020","Donor","Proportion",NA
+"463","Switzerland","Bilateral","ODA","Disbursements","2020","Donor","Proportion",1
+"464","UK","Bilateral","ODA","Disbursements","2020","Donor","Proportion",1
+"465","UNDP","Multilateral","ODA","Disbursements","2020","Donor","Proportion",1
+"466","UNICEF","Multilateral","ODA","Disbursements","2020","Donor","Proportion",1
+"467","UNIDO","Multilateral","Not specified","Disbursements","2020","Donor","Proportion",1
+"468","Unitaid","Multilateral","OOF","Disbursements","2020","Donor","Proportion",1
+"469","Unitaid","Multilateral","Other flows","Disbursements","2020","Donor","Proportion",NA
+"470","UNOCHA","Multilateral","ODA","Disbursements","2020","Donor","Proportion",0.835080973985936
+"471","UNOCHA","Multilateral","OOF","Disbursements","2020","Donor","Proportion",0.164919026014064
+"472","UNRWA","Multilateral","Not specified","Disbursements","2020","Donor","Proportion",1
+"473","US","Bilateral","ODA","Disbursements","2020","Donor","Proportion",1
+"474","World Bank","IFI","Not specified","Disbursements","2020","Donor","Proportion",NA
+"475","World Bank","IFI","ODA","Disbursements","2020","Donor","Proportion",0.500348778768555
+"476","World Bank","IFI","OOF","Disbursements","2020","Donor","Proportion",0.499651221231445
+"477","World Food Programme","Multilateral","ODA","Disbursements","2020","Donor","Proportion",1
+"478","African Development Bank Group","IFI","ODA","Commitments","2020","Donor","Proportion",0.902241110001646
+"479","African Development Bank Group","IFI","OOF","Commitments","2020","Donor","Proportion",0.097758889998354
+"480","Asian Development Bank","IFI","ODA","Commitments","2020","Donor","Proportion",0.99426174512599
+"481","Asian Development Bank","IFI","OOF","Commitments","2020","Donor","Proportion",0.00573825487401045
+"482","Belgium","Bilateral","ODA","Commitments","2020","Donor","Proportion",1
+"483","Canada","Bilateral","ODA","Commitments","2020","Donor","Proportion",0.999725790545333
+"484","Canada","Bilateral","OOF","Commitments","2020","Donor","Proportion",0.000274209454667024
+"485","Denmark","Bilateral","ODA","Commitments","2020","Donor","Proportion",1
+"486","EC","Bilateral","ODA","Commitments","2020","Donor","Proportion",0.833795963536009
+"487","EC","Bilateral","Other flows","Commitments","2020","Donor","Proportion",0.166204036463991
+"488","European Bank for Reconstruction and Development","IFI","Other flows","Commitments","2020","Donor","Proportion",1
+"489","Germany","Bilateral","ODA","Commitments","2020","Donor","Proportion",1
+"490","Global Fund","Multilateral","ODA","Commitments","2020","Donor","Proportion",1
+"491","Inter-American Development Bank","IFI","Not specified","Commitments","2020","Donor","Proportion",0.0877790642751748
+"492","Inter-American Development Bank","IFI","ODA","Commitments","2020","Donor","Proportion",0.0564307917810929
+"493","Inter-American Development Bank","IFI","OOF","Commitments","2020","Donor","Proportion",0.855790143943732
+"494","International Finance Corporation","IFI","Other flows","Commitments","2020","Donor","Proportion",1
+"495","Multilateral Investment Fund","IFI","Not specified","Commitments","2020","Donor","Proportion",1
+"496","Netherlands","Bilateral","Not specified","Commitments","2020","Donor","Proportion",0.00161095240807012
+"497","Netherlands","Bilateral","ODA","Commitments","2020","Donor","Proportion",0.988849042681069
+"498","Netherlands","Bilateral","Other flows","Commitments","2020","Donor","Proportion",0.00954000491086101
+"499","New Zealand","Bilateral","ODA","Commitments","2020","Donor","Proportion",1
+"500","Norway","Bilateral","ODA","Commitments","2020","Donor","Proportion",1
+"501","Spain","Bilateral","ODA","Commitments","2020","Donor","Proportion",1
+"502","Sweden","Bilateral","ODA","Commitments","2020","Donor","Proportion",1
+"503","Switzerland","Bilateral","ODA","Commitments","2020","Donor","Proportion",1
+"504","UK","Bilateral","ODA","Commitments","2020","Donor","Proportion",1
+"505","UNFPA","Multilateral","OOF","Commitments","2020","Donor","Proportion",1
+"506","UNICEF","Multilateral","ODA","Commitments","2020","Donor","Proportion",1
+"507","Unitaid","Multilateral","Not specified","Commitments","2020","Donor","Proportion",0.112048384757661
+"508","Unitaid","Multilateral","OOF","Commitments","2020","Donor","Proportion",0.887951615242339
+"509","UNOCHA","Multilateral","OOF","Commitments","2020","Donor","Proportion",1
+"510","US","Bilateral","ODA","Commitments","2020","Donor","Proportion",0.999558278558923
+"511","US","Bilateral","OOF","Commitments","2020","Donor","Proportion",0.00033432532088659
+"512","US","Bilateral","Other flows","Commitments","2020","Donor","Proportion",0.000107396120190584
+"513","World Bank","IFI","Not specified","Commitments","2020","Donor","Proportion",NA
+"514","World Bank","IFI","ODA","Commitments","2020","Donor","Proportion",0.613518217572615
+"515","World Bank","IFI","OOF","Commitments","2020","Donor","Proportion",0.386481782427385
+"516","World Food Programme","Multilateral","ODA","Commitments","2020","Donor","Proportion",1
+"517",NA,"IFI","Not specified","Disbursements","2018","Organisation type","Volume",4718.98220401647
+"518",NA,"IFI","ODA","Disbursements","2018","Organisation type","Volume",18446.30127753
+"519",NA,"IFI","OOF","Disbursements","2018","Organisation type","Volume",34997.82546821
+"520",NA,"Bilateral","ODA","Disbursements","2018","Organisation type","Volume",72424.9988048864
+"521",NA,"Bilateral","OOF","Disbursements","2018","Organisation type","Volume",187.797926342537
+"522",NA,"Bilateral","Other flows","Disbursements","2018","Organisation type","Volume",646.223448826795
+"523",NA,"IFI","Other flows","Disbursements","2018","Organisation type","Volume",1081.70028785104
+"524",NA,"Multilateral","ODA","Disbursements","2018","Organisation type","Volume",20123.30416538
+"525",NA,"Multilateral","OOF","Disbursements","2018","Organisation type","Volume",3331.79643287812
+"526",NA,"Bilateral","Not specified","Disbursements","2018","Organisation type","Volume",16.436387520665
+"527",NA,"Multilateral","Not specified","Disbursements","2018","Organisation type","Volume",189.66409051
+"528",NA,"Multilateral","Other flows","Disbursements","2018","Organisation type","Volume",0.977481
+"529",NA,"IFI","ODA","Commitments","2018","Organisation type","Volume",41596.4299830909
+"530",NA,"IFI","OOF","Commitments","2018","Organisation type","Volume",39775.8264965122
+"531",NA,"Bilateral","ODA","Commitments","2018","Organisation type","Volume",90258.4895755783
+"532",NA,"Bilateral","OOF","Commitments","2018","Organisation type","Volume",11942.7345320216
+"533",NA,"Bilateral","Other flows","Commitments","2018","Organisation type","Volume",9881.64062101769
+"534",NA,"IFI","Other flows","Commitments","2018","Organisation type","Volume",15494.8883876832
+"535",NA,"Multilateral","ODA","Commitments","2018","Organisation type","Volume",15874.83241531
+"536",NA,"IFI","Not specified","Commitments","2018","Organisation type","Volume",144.412337
+"537",NA,"Bilateral","Not specified","Commitments","2018","Organisation type","Volume",8.84088098726
+"538",NA,"Multilateral","OOF","Commitments","2018","Organisation type","Volume",384.23865054
+"539",NA,"Multilateral","Not specified","Commitments","2018","Organisation type","Volume",0
+"540",NA,"IFI","Not specified","Disbursements","2019","Organisation type","Volume",4250.69921585575
+"541",NA,"IFI","ODA","Disbursements","2019","Organisation type","Volume",21633.64418793
+"542",NA,"IFI","OOF","Disbursements","2019","Organisation type","Volume",38149.75762701
+"543",NA,"Bilateral","ODA","Disbursements","2019","Organisation type","Volume",74153.4426660246
+"544",NA,"Bilateral","OOF","Disbursements","2019","Organisation type","Volume",145.905696697441
+"545",NA,"Bilateral","Other flows","Disbursements","2019","Organisation type","Volume",586.073020183475
+"546",NA,"IFI","Other flows","Disbursements","2019","Organisation type","Volume",857.603433373038
+"547",NA,"Multilateral","ODA","Disbursements","2019","Organisation type","Volume",21580.7120864
+"548",NA,"Multilateral","OOF","Disbursements","2019","Organisation type","Volume",3429.89202156813
+"549",NA,"Bilateral","Not specified","Disbursements","2019","Organisation type","Volume",26.246819989445
+"550",NA,"Multilateral","Not specified","Disbursements","2019","Organisation type","Volume",1135.35856717
+"551",NA,"Multilateral","Other flows","Disbursements","2019","Organisation type","Volume",0
+"552",NA,"IFI","ODA","Commitments","2019","Organisation type","Volume",27913.4834253487
+"553",NA,"IFI","OOF","Commitments","2019","Organisation type","Volume",43677.4662092945
+"554",NA,"Bilateral","ODA","Commitments","2019","Organisation type","Volume",87041.5169909082
+"555",NA,"Bilateral","OOF","Commitments","2019","Organisation type","Volume",11239.4759123154
+"556",NA,"Bilateral","Other flows","Commitments","2019","Organisation type","Volume",2293.25478040537
+"557",NA,"IFI","Other flows","Commitments","2019","Organisation type","Volume",21035.808230306
+"558",NA,"Multilateral","ODA","Commitments","2019","Organisation type","Volume",16217.38657486
+"559",NA,"IFI","Not specified","Commitments","2019","Organisation type","Volume",210.775
+"560",NA,"Bilateral","Not specified","Commitments","2019","Organisation type","Volume",31.023780409226
+"561",NA,"Multilateral","OOF","Commitments","2019","Organisation type","Volume",1329.45348694
+"562",NA,"Multilateral","Not specified","Commitments","2019","Organisation type","Volume",0
+"563",NA,"IFI","Not specified","Disbursements","2020","Organisation type","Volume",7203.49516946828
+"564",NA,"IFI","ODA","Disbursements","2020","Organisation type","Volume",35641.92399466
+"565",NA,"IFI","OOF","Disbursements","2020","Organisation type","Volume",38848.00654534
+"566",NA,"Bilateral","ODA","Disbursements","2020","Organisation type","Volume",65623.7205498786
+"567",NA,"Bilateral","OOF","Disbursements","2020","Organisation type","Volume",4.093749443162
+"568",NA,"Bilateral","Other flows","Disbursements","2020","Organisation type","Volume",707.068566817785
+"569",NA,"IFI","Other flows","Disbursements","2020","Organisation type","Volume",1465.28755024693
+"570",NA,"Multilateral","ODA","Disbursements","2020","Organisation type","Volume",23140.14569158
+"571",NA,"Multilateral","OOF","Disbursements","2020","Organisation type","Volume",2966.88603987079
+"572",NA,"Bilateral","Not specified","Disbursements","2020","Organisation type","Volume",9.092893187925
+"573",NA,"Multilateral","Not specified","Disbursements","2020","Organisation type","Volume",1743.81133855667
+"574",NA,"Multilateral","Other flows","Disbursements","2020","Organisation type","Volume",0
+"575",NA,"IFI","ODA","Commitments","2020","Organisation type","Volume",62048.984500846
+"576",NA,"IFI","OOF","Commitments","2020","Organisation type","Volume",23417.1992997478
+"577",NA,"Bilateral","ODA","Commitments","2020","Organisation type","Volume",64428.3123604287
+"578",NA,"Bilateral","OOF","Commitments","2020","Organisation type","Volume",8.304052544176
+"579",NA,"Bilateral","Other flows","Commitments","2020","Organisation type","Volume",2273.26082137662
+"580",NA,"IFI","Other flows","Commitments","2020","Organisation type","Volume",14392.323369745
+"581",NA,"Multilateral","ODA","Commitments","2020","Organisation type","Volume",17407.46037538
+"582",NA,"IFI","Not specified","Commitments","2020","Organisation type","Volume",642.75
+"583",NA,"Bilateral","Not specified","Commitments","2020","Organisation type","Volume",7.37669329074
+"584",NA,"Multilateral","OOF","Commitments","2020","Organisation type","Volume",563.0926786
+"585",NA,"Multilateral","Not specified","Commitments","2020","Organisation type","Volume",6.962027
+"586",NA,"IFI","Not specified","Disbursements","2018","Organisation type","Proportion",0.0796522474245887
+"587",NA,"IFI","ODA","Disbursements","2018","Organisation type","Proportion",0.311357256693142
+"588",NA,"IFI","OOF","Disbursements","2018","Organisation type","Proportion",0.590732351383689
+"589",NA,"Bilateral","ODA","Disbursements","2018","Organisation type","Proportion",0.988393688657461
+"590",NA,"Bilateral","OOF","Disbursements","2018","Organisation type","Proportion",0.00256290353058866
+"591",NA,"Bilateral","Other flows","Disbursements","2018","Organisation type","Proportion",0.00881909822330253
+"592",NA,"IFI","Other flows","Disbursements","2018","Organisation type","Proportion",0.0182581444985799
+"593",NA,"Multilateral","ODA","Disbursements","2018","Organisation type","Proportion",0.851032884521101
+"594",NA,"Multilateral","OOF","Disbursements","2018","Organisation type","Proportion",0.140904709564918
+"595",NA,"Bilateral","Not specified","Disbursements","2018","Organisation type","Proportion",0.000224309588647966
+"596",NA,"Multilateral","Not specified","Disbursements","2018","Organisation type","Proportion",0.00802106735108073
+"597",NA,"Multilateral","Other flows","Disbursements","2018","Organisation type","Proportion",4.13385628999094e-05
+"598",NA,"IFI","ODA","Commitments","2018","Organisation type","Proportion",0.428778087702452
+"599",NA,"IFI","OOF","Commitments","2018","Organisation type","Proportion",0.410011215599318
+"600",NA,"Bilateral","ODA","Commitments","2018","Organisation type","Proportion",0.805220056958829
+"601",NA,"Bilateral","OOF","Commitments","2018","Organisation type","Proportion",0.106544319823413
+"602",NA,"Bilateral","Other flows","Commitments","2018","Organisation type","Proportion",0.0881567513606551
+"603",NA,"IFI","Other flows","Commitments","2018","Organisation type","Proportion",0.159722087081379
+"604",NA,"Multilateral","ODA","Commitments","2018","Organisation type","Proportion",0.976367736570938
+"605",NA,"IFI","Not specified","Commitments","2018","Organisation type","Proportion",0.00148860961685109
+"606",NA,"Bilateral","Not specified","Commitments","2018","Organisation type","Proportion",7.88718571028903e-05
+"607",NA,"Multilateral","OOF","Commitments","2018","Organisation type","Proportion",0.0236322634290615
+"608",NA,"Multilateral","Not specified","Commitments","2018","Organisation type","Proportion",0
+"609",NA,"IFI","Not specified","Disbursements","2019","Organisation type","Proportion",0.0655045086418227
+"610",NA,"IFI","ODA","Disbursements","2019","Organisation type","Proportion",0.333380735897844
+"611",NA,"IFI","OOF","Disbursements","2019","Organisation type","Proportion",0.587898837640721
+"612",NA,"Bilateral","ODA","Disbursements","2019","Organisation type","Proportion",0.989878405393179
+"613",NA,"Bilateral","OOF","Disbursements","2019","Organisation type","Proportion",0.00194770321096391
+"614",NA,"Bilateral","Other flows","Disbursements","2019","Organisation type","Proportion",0.00782352114487855
+"615",NA,"IFI","Other flows","Disbursements","2019","Organisation type","Proportion",0.0132159178196125
+"616",NA,"Multilateral","ODA","Disbursements","2019","Organisation type","Proportion",0.825393669934396
+"617",NA,"Multilateral","OOF","Disbursements","2019","Organisation type","Proportion",0.131182472192143
+"618",NA,"Bilateral","Not specified","Disbursements","2019","Organisation type","Proportion",0.000350370250978214
+"619",NA,"Multilateral","Not specified","Disbursements","2019","Organisation type","Proportion",0.0434238578734605
+"620",NA,"Multilateral","Other flows","Disbursements","2019","Organisation type","Proportion",0
+"621",NA,"IFI","ODA","Commitments","2019","Organisation type","Proportion",0.300670241484707
+"622",NA,"IFI","OOF","Commitments","2019","Organisation type","Proportion",0.470472069446655
+"623",NA,"Bilateral","ODA","Commitments","2019","Organisation type","Proportion",0.865178491387716
+"624",NA,"Bilateral","OOF","Commitments","2019","Organisation type","Proportion",0.111718558568106
+"625",NA,"Bilateral","Other flows","Commitments","2019","Organisation type","Proportion",0.0227945787236914
+"626",NA,"IFI","Other flows","Commitments","2019","Organisation type","Proportion",0.226587324987479
+"627",NA,"Multilateral","ODA","Commitments","2019","Organisation type","Proportion",0.924234022635548
+"628",NA,"IFI","Not specified","Commitments","2019","Organisation type","Proportion",0.00227036408115901
+"629",NA,"Bilateral","Not specified","Commitments","2019","Organisation type","Proportion",0.00030837132048608
+"630",NA,"Multilateral","OOF","Commitments","2019","Organisation type","Proportion",0.0757659773644522
+"631",NA,"Multilateral","Not specified","Commitments","2019","Organisation type","Proportion",0
+"632",NA,"IFI","Not specified","Disbursements","2020","Organisation type","Proportion",0.0866234563655507
+"633",NA,"IFI","ODA","Disbursements","2020","Organisation type","Proportion",0.42860119640555
+"634",NA,"IFI","OOF","Disbursements","2020","Organisation type","Proportion",0.46715497417586
+"635",NA,"Bilateral","ODA","Disbursements","2020","Organisation type","Proportion",0.989143623046323
+"636",NA,"Bilateral","OOF","Disbursements","2020","Organisation type","Proportion",6.17049158768037e-05
+"637",NA,"Bilateral","Other flows","Disbursements","2020","Organisation type","Proportion",0.0106576152352217
+"638",NA,"IFI","Other flows","Disbursements","2020","Organisation type","Proportion",0.0176203730530396
+"639",NA,"Multilateral","ODA","Disbursements","2020","Organisation type","Proportion",0.830859792409645
+"640",NA,"Multilateral","OOF","Disbursements","2020","Organisation type","Proportion",0.106527692264577
+"641",NA,"Bilateral","Not specified","Disbursements","2020","Organisation type","Proportion",0.000137056802578591
+"642",NA,"Multilateral","Not specified","Disbursements","2020","Organisation type","Proportion",0.0626125153257776
+"643",NA,"Multilateral","Other flows","Disbursements","2020","Organisation type","Proportion",0
+"644",NA,"IFI","ODA","Commitments","2020","Organisation type","Proportion",0.617395107761485
+"645",NA,"IFI","OOF","Commitments","2020","Organisation type","Proportion",0.233004043522144
+"646",NA,"Bilateral","ODA","Commitments","2020","Organisation type","Proportion",0.965691909776531
+"647",NA,"Bilateral","OOF","Commitments","2020","Organisation type","Proportion",0.000124466341992768
+"648",NA,"Bilateral","Other flows","Commitments","2020","Organisation type","Proportion",0.0340730573809608
+"649",NA,"IFI","Other flows","Commitments","2020","Organisation type","Proportion",0.143205406329908
+"650",NA,"Multilateral","ODA","Commitments","2020","Organisation type","Proportion",0.968290684055489
+"651",NA,"IFI","Not specified","Commitments","2020","Organisation type","Proportion",0.00639544238646297
+"652",NA,"Bilateral","Not specified","Commitments","2020","Organisation type","Proportion",0.000110566500514853
+"653",NA,"Multilateral","OOF","Commitments","2020","Organisation type","Proportion",0.0313220529124043
+"654",NA,"Multilateral","Not specified","Commitments","2020","Organisation type","Proportion",0.000387263032106465
