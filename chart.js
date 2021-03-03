@@ -8,6 +8,7 @@ var pal = {
 function set_selections(selector_configs, config_index){
     var selector_element = selector_configs[config_index].element;
     var selector_type = selector_configs[config_index].selector_type;
+    var result = selector_configs.filter(function(x) { return x.column_name == "measure" })[0];
     if(selector_type == "dropdown"){
         var new_selection = [selector_element.property("value")];
     }else if(selector_type == "radio" || selector_type == "checkbox"){
@@ -16,9 +17,15 @@ function set_selections(selector_configs, config_index){
     if (new_selection == "Proportion" & selector_configs[config_index].current_selection == "Volume"){
         selector_configs.forEach(function(d){
             if(d.selector_type == "checkbox" || d.selector_type == "radio"){
+                if (typeof d.order.length == 'undefined'){
+                d.element.selectAll("input")._groups[0].forEach( function(d2) {
+                    if (d.defaults.variable[result.current_selection[0]].includes(d2.value)){d2.checked=true} else{d2.checked=false}})
+                var defaults = d.defaults;
+                } else{
                 d.element.selectAll("input")._groups[0].forEach( function(d2) {
                     if (d.defaults.includes(d2.value)){d2.checked=true} else{d2.checked=false}})
                 var defaults = d.defaults;
+                }
                 d.current_selection=defaults}});
     }
     selector_configs[config_index].current_selection = new_selection;
@@ -103,10 +110,12 @@ function add_selectors(chart_id, data, selector_configs){
 }
 
 function subset_data(data, selector_configs){
+    console.log(data);
+    console.log(selector_configs);
     var filtered_data = data;
     // Filter data for each current selection in selector_configs
     selector_configs.forEach(function(selector_config){
-        if (typeof selector_config.order.length == 'undefined'){
+        if (typeof selector_config.current_selection.length == 'undefined'){
             var result = selector_configs.filter(function(x) { return x.column_name == "measure" })[0];
             filtered_data = filtered_data.filter(function(d){
                 return(selector_config.current_selection.variable[result.current_selection[0]].includes(d[selector_config.column_name]))
@@ -119,6 +128,7 @@ function subset_data(data, selector_configs){
                 filtered_data = filtered_data.slice().sort((a, b) => d3.ascending(a.org_type, b.org_type))
             }
     });
+    console.log(filtered_data);
     return(filtered_data);
 }
 
@@ -139,7 +149,7 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
     });
     var result0 = selector_configs.filter(function(x) { return x.column_name == "flow_type" })[0];
     var result1 = selector_configs.filter(function(x) { return x.column_name == "measure" })[0];
-    if (typeof result0.order.length == 'undefined'){
+    if (typeof result0.current_selection.length == 'undefined'){
         var result0 = result0.current_selection.variable[result1.current_selection[0]]
     } else {
         var result0 = result0.current_selection 
