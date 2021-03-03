@@ -32,8 +32,15 @@ function add_selectors(chart_id, data, selector_configs){
         // Grab expected configurations from object
         var column_name = selector_config.column_name;
         var selector_type = selector_config.selector_type;
+        if (typeof selector_config.order.length == 'undefined'){
+        var result = selector_configs.filter(function(x) { return x.column_name == "measure" })[0];
+        var config_order = selector_config.order.variable[result.current_selection[0]];
+        var config_defaults = selector_config.defaults.variable[result.current_selection[0]];
+        } else {
         var config_order = selector_config.order;
-        var config_defaults = selector_config.defaults;
+        var config_defaults = selector_config.defaults
+        }
+
         // Find unique column values from data
         var column_values = d3.map(data, function(d){return(d[column_name])}).keys();
         // Reorder column values if "order" is specified, otherwise set "order"
@@ -97,20 +104,25 @@ function add_selectors(chart_id, data, selector_configs){
 
 function subset_data(data, selector_configs){
     var filtered_data = data;
-    console.log(filtered_data);
-    console.log(selector_configs);
     // Filter data for each current selection in selector_configs
     selector_configs.forEach(function(selector_config){
-        filtered_data = filtered_data.filter(function(d){
-            return(selector_config.current_selection.includes(d[selector_config.column_name]))
-        })
-        filtered_data = filtered_data.slice().sort((a, b) => d3.ascending(a.org_type, b.org_type))
+        if (typeof selector_config.order.length == 'undefined'){
+            var result = selector_configs.filter(function(x) { return x.column_name == "measure" })[0];
+            filtered_data = filtered_data.filter(function(d){
+                return(selector_config.current_selection.variable[result.current_selection[0]].includes(d[selector_config.column_name]))
+            })
+            filtered_data = filtered_data.slice().sort((a, b) => d3.ascending(a.org_type, b.org_type))
+            } else {
+                filtered_data = filtered_data.filter(function(d){
+                    return(selector_config.current_selection.includes(d[selector_config.column_name]))
+                })
+                filtered_data = filtered_data.slice().sort((a, b) => d3.ascending(a.org_type, b.org_type))
+            }
     });
     return(filtered_data);
 }
 
 function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selector_configs){
-    console.log(data);
     data.forEach(function(d, d_index){
         data[d_index]["year_org"] = d["org_type"] + "_" + d["year"]
      });
@@ -125,8 +137,13 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
     .map(function(d){
         return { year_org: d.key, total: d.value};
     });
-
-    var result = selector_configs.filter(function(x) { return x.column_name == "flow_type" })[0];
+    var result0 = selector_configs.filter(function(x) { return x.column_name == "flow_type" })[0];
+    var result1 = selector_configs.filter(function(x) { return x.column_name == "measure" })[0];
+    if (typeof result0.order.length == 'undefined'){
+        var result0 = result0.current_selection.variable[result1.current_selection[0]]
+    } else {
+        var result0 = result0.current_selection 
+    }
     var result2 = selector_configs.filter(function(x) { return x.column_name == "variable" })[0];
     var data_wide = d3.nest()
      .key(function(d) { return d["year_org"] })
@@ -144,8 +161,8 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
       for(index=1;index<data_wide.length;index++){
           if (data_wide[index].year_org.split("_")[0]!=data_wide[index-1].year_org.split("_")[0]){
               const empty_array = Object.assign({}, data_wide[index]);
-                for (const property in result.current_selection) {
-                    empty_array[result.current_selection[property]] = "";
+                for (const property in result0) {
+                    empty_array[result0[property]] = "";
                 };
               empty_array.year_org=data_wide[index-1].year_org.split("_")[0];
               data_wide.splice(index,0,empty_array); index = index +1}
@@ -177,7 +194,7 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
         }
     }).tickSize(0)
     var z = chart_config.colour_axis_scale;
-    var keys = result["current_selection"];
+    var keys = result0;
     x.domain(data_wide.map(function(d) { return d.year_org; }));
     y.domain([0, d3.max(data_total, function(d) { return d.total; })]).nice();
 
@@ -238,7 +255,6 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
         tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
         tooltip.select("text").text(d.key + ", " + tooltip_formatter(d))        
       });
-    
     svg.append("text")
       .attr("transform", "rotate(-90)")
       .attr("y", 0-margin.left)

@@ -192,8 +192,18 @@
               {
                   "column_name": "flow_type",
                   "selector_type": "checkbox",
-                  "order": ["Missing", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower-middle-income","Upper-middle-income","High-income"],
-                  "defaults": ["Missing", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower-middle-income","Upper-middle-income","High-income"]
+                  "order": {
+                    "variable": {
+                        "Poverty": ["Missing", "Less than 5%", "5-20%", "Above 20%"],
+                        "Income": ["Low-income","Lower-middle-income","Upper-middle-income","High-income"]
+                  }
+                },
+                  "defaults": {
+                    "variable": {
+                        "Poverty": ["Missing", "Less than 5%", "5-20%", "Above 20%"],
+                        "Income": ["Low-income","Lower-middle-income","Upper-middle-income","High-income"]
+                  }
+                }
               },
               {
                 "column_name": "year",
@@ -227,7 +237,7 @@
                 }
             },
               "colour_axis": ["flow_type"],
-              "colour_axis_scale": d3.scaleOrdinal().domain(["Missing", "Less than 5%", "5-20%", "Above 20%"]).range([pal.blue1,pal.blue2,pal.blue3,pal.blue4])
+              "colour_axis_scale": d3.scaleOrdinal().domain(["Missing", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower-middle-income","Upper-middle-income","High-income"]).range([pal.blue1,pal.blue2,pal.blue3,pal.blue4,pal.blue1,pal.blue2,pal.blue3,pal.blue4])
           };
           add_selectors("chart2", data, selector_configs);
           var initial_data = subset_data(data, selector_configs);
