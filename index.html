@@ -193,13 +193,13 @@
                   "column_name": "flow_type",
                   "selector_type": "checkbox",
                   "order": {
-                    "variable": {
+                    "measure": {
                         "Poverty": ["Missing", "Less than 5%", "5-20%", "Above 20%"],
                         "Income": ["Low-income","Lower-middle-income","Upper-middle-income","High-income"]
                   }
                 },
                   "defaults": {
-                    "variable": {
+                    "measure": {
                         "Poverty": ["Missing", "Less than 5%", "5-20%", "Above 20%"],
                         "Income": ["Low-income","Lower-middle-income","Upper-middle-income","High-income"]
                   }
@@ -244,7 +244,7 @@
           draw_bar_chart(initial_data, "chart2", margin2, width2, height2, chart_config,selector_configs);
           selector_configs.forEach(function(selector_config, config_index){
               selector_config.element.on("change", function(d){
-                  set_selections(selector_configs, config_index);
+                  set_selections("chart2", selector_configs, config_index);
                   var filtered_data = subset_data(data, selector_configs);
                   erase_chart("chart2");
                   draw_bar_chart(filtered_data, "chart2", margin2, width2, height2, chart_config,selector_configs);

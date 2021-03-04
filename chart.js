@@ -5,10 +5,59 @@ var pal = {
     "blue4": "#A9A6AA"
   };
 
-function set_selections(selector_configs, config_index){
+
+function draw_dependent_selectors(chart_id, parent_name, parent_selection, selector_configs){
+    selector_configs.forEach(function(child){
+        if(!Array.isArray(child.order)){
+            var child_column_name = child.column_name;
+            var child_element = child.element;
+            var selector_type = child.selector_type;
+            var dependent_name = Object.keys(child.order)[0];
+            if(parent_name == dependent_name){ // Something is dependent on me
+                var new_config_order = child.order[dependent_name][parent_selection[0]];
+                var new_config_defaults = child.defaults[dependent_name][parent_selection[0]];
+                child_element.selectAll("*").remove()
+                if(selector_type == "dropdown"){
+                    // Draw dropdown
+                    child_element
+                    .selectAll("option")
+                    .data(new_config_order)
+                    .enter()
+                    .append("option")
+                    .text(function (d) { return d; })
+                    .attr("value", function (d) { return d; })
+                    .attr("selected", function (d) {
+                        if(new_config_defaults !== undefined && new_config_defaults.includes(d)){return true}
+                    });
+                }else if(selector_type == "radio" || selector_type == "checkbox"){
+                    // Draw radio/checkbox inputs and labels
+                    for(var i = 0; i < new_config_order.length; i++){
+                        column_value = new_config_order[i]
+                        child_element
+                        .append("input")
+                        .attr("value", column_value)
+                        .attr("id", column_value+"_"+chart_id+"_"+child_column_name+"_radio")
+                        .attr("type", selector_type)
+                        .attr("name", chart_id+"_"+child_column_name+"_radio")
+                        .attr("checked", 
+                            (new_config_defaults !== undefined && new_config_defaults.includes(column_value)) ? true : undefined
+                        )
+                        .attr("dy","0.5em")
+                        child_element
+                        .append('label')
+                        .attr("for", column_value+"_"+chart_id+"_"+child_column_name+"_radio")
+                        .text(column_value);
+                    };           
+                }
+            }
+        }
+    });
+}
+
+function set_selections(chart_id, selector_configs, config_index){
     var selector_element = selector_configs[config_index].element;
     var selector_type = selector_configs[config_index].selector_type;
-    var result = selector_configs.filter(function(x) { return x.column_name == "measure" })[0];
+    var column_name = selector_configs[config_index].column_name;
     if(selector_type == "dropdown"){
         var new_selection = [selector_element.property("value")];
     }else if(selector_type == "radio" || selector_type == "checkbox"){
@@ -17,19 +66,27 @@ function set_selections(selector_configs, config_index){
     if (new_selection == "Proportion" & selector_configs[config_index].current_selection == "Volume"){
         selector_configs.forEach(function(d){
             if(d.selector_type == "checkbox" || d.selector_type == "radio"){
-                if (typeof d.order.length == 'undefined'){
-                d.element.selectAll("input")._groups[0].forEach( function(d2) {
-                    if (d.defaults.variable[result.current_selection[0]].includes(d2.value)){d2.checked=true} else{d2.checked=false}})
-                var defaults = d.defaults;
-                } else{
-                d.element.selectAll("input")._groups[0].forEach( function(d2) {
-                    if (d.defaults.includes(d2.value)){d2.checked=true} else{d2.checked=false}})
-                var defaults = d.defaults;
+                if (!Array.isArray(d.order)){
+                    var dependent_name = Object.keys(selector_config.order)[0];
+                    var result = selector_configs.filter(function(x) { return x.column_name == dependent_name })[0];
+                    d.element.selectAll("input")._groups[0].forEach( function(d2) {
+                        if (d.defaults[dependent_name][result.current_selection[0]].includes(d2.value)){d2.checked=true} else{d2.checked=false}
+                    })
+                    var defaults = d.defaults;
+                } else {
+                    d.element.selectAll("input")._groups[0].forEach( function(d2) {
+                        if (d.defaults.includes(d2.value)){d2.checked=true} else{d2.checked=false}
+                    })
+                    var defaults = d.defaults;
                 }
-                d.current_selection=defaults}});
+                d.current_selection=defaults
+            }
+        });
     }
+    draw_dependent_selectors(chart_id, column_name, new_selection, selector_configs);
     selector_configs[config_index].current_selection = new_selection;
 }
+
 
 function add_selectors(chart_id, data, selector_configs){
     // Select chart node by ID
@@ -39,13 +96,14 @@ function add_selectors(chart_id, data, selector_configs){
         // Grab expected configurations from object
         var column_name = selector_config.column_name;
         var selector_type = selector_config.selector_type;
-        if (typeof selector_config.order.length == 'undefined'){
-        var result = selector_configs.filter(function(x) { return x.column_name == "measure" })[0];
-        var config_order = selector_config.order.variable[result.current_selection[0]];
-        var config_defaults = selector_config.defaults.variable[result.current_selection[0]];
+        if (!Array.isArray(selector_config.order)){
+            var dependent_name = Object.keys(selector_config.order)[0];
+            var result = selector_configs.filter(function(x) { return x.column_name == dependent_name })[0];
+            var config_order = selector_config.order[dependent_name][result.current_selection[0]];
+            var config_defaults = selector_config.defaults[dependent_name][result.current_selection[0]];
         } else {
-        var config_order = selector_config.order;
-        var config_defaults = selector_config.defaults
+            var config_order = selector_config.order;
+            var config_defaults = selector_config.defaults
         }
 
         // Find unique column values from data
@@ -115,20 +173,20 @@ function subset_data(data, selector_configs){
     var filtered_data = data;
     // Filter data for each current selection in selector_configs
     selector_configs.forEach(function(selector_config){
-        if (typeof selector_config.current_selection.length == 'undefined'){
-            var result = selector_configs.filter(function(x) { return x.column_name == "measure" })[0];
+        if (!Array.isArray(selector_config.current_selection)){
+            var dependent_name = Object.keys(selector_config.order)[0];
+            var result = selector_configs.filter(function(x) { return x.column_name == dependent_name })[0];
             filtered_data = filtered_data.filter(function(d){
-                return(selector_config.current_selection.variable[result.current_selection[0]].includes(d[selector_config.column_name]))
+                return(selector_config.current_selection[dependent_name][result.current_selection[0]].includes(d[selector_config.column_name]))
             })
             filtered_data = filtered_data.slice().sort((a, b) => d3.ascending(a.org_type, b.org_type))
-            } else {
-                filtered_data = filtered_data.filter(function(d){
-                    return(selector_config.current_selection.includes(d[selector_config.column_name]))
-                })
-                filtered_data = filtered_data.slice().sort((a, b) => d3.ascending(a.org_type, b.org_type))
-            }
+        } else {
+            filtered_data = filtered_data.filter(function(d){
+                return(selector_config.current_selection.includes(d[selector_config.column_name]))
+            })
+            filtered_data = filtered_data.slice().sort((a, b) => d3.ascending(a.org_type, b.org_type))
+        }
     });
-    console.log(filtered_data);
     return(filtered_data);
 }
 
@@ -150,7 +208,7 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
     var result0 = selector_configs.filter(function(x) { return x.column_name == "flow_type" })[0];
     var result1 = selector_configs.filter(function(x) { return x.column_name == "measure" })[0];
     if (typeof result0.current_selection.length == 'undefined'){
-        var result0 = result0.current_selection.variable[result1.current_selection[0]]
+        var result0 = result0.current_selection.measure[result1.current_selection[0]]
     } else {
         var result0 = result0.current_selection 
     }
