@@ -7,7 +7,7 @@ var pal = {
 
 
 function draw_dependent_selectors(chart_id, parent_name, parent_selection, selector_configs){
-    selector_configs.forEach(function(child){
+    selector_configs.forEach(function(child, config_index){
         if(!Array.isArray(child.order)){
             var child_column_name = child.column_name;
             var child_element = child.element;
@@ -49,6 +49,7 @@ function draw_dependent_selectors(chart_id, parent_name, parent_selection, selec
                         .text(column_value);
                     };           
                 }
+                selector_configs[config_index].current_selection = new_config_order;
             }
         }
     });
