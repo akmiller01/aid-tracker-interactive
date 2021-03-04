@@ -68,7 +68,7 @@ function set_selections(chart_id, selector_configs, config_index){
         selector_configs.forEach(function(d){
             if(d.selector_type == "checkbox" || d.selector_type == "radio"){
                 if (!Array.isArray(d.order)){
-                    var dependent_name = Object.keys(selector_config.order)[0];
+                    var dependent_name = Object.keys(d.order)[0];
                     var result = selector_configs.filter(function(x) { return x.column_name == dependent_name })[0];
                     d.element.selectAll("input")._groups[0].forEach( function(d2) {
                         if (d.defaults[dependent_name][result.current_selection[0]].includes(d2.value)){d2.checked=true} else{d2.checked=false}
