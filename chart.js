@@ -338,7 +338,7 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
         .selectAll("g")
         .data(keys.slice().reverse())
         .enter().append("g")
-        .attr("transform", function(d, i) { return "translate(100," + i * 20 + ")"; });
+        .attr("transform", function(d, i) { return "translate(150," + i * 20 + ")"; });
   
     legend.append("rect")
         .attr("x", width - 19)
