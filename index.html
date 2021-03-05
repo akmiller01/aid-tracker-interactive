@@ -70,6 +70,11 @@
       <h2>Overall</h2>
       <div id="chart2"></div>
     </div>
+    <h2>Aid by sector from key bilateral donors, IFIs and multilateral institutions (January-December during the years 2018-2020)</h2>
+    <div class="chart-wrapper-full">
+      <h2>Overall</h2>
+      <div id="chart3"></div>
+    </div>
     <script>
       var legend_orders = {
         "flow_type":{
@@ -80,7 +85,11 @@
           "Missing": pal.blue1,
           "Less than 5%": pal.blue2,
           "5-20%": pal.blue3,
-          "Above 20%": pal.blue4
+          "Above 20%": pal.blue4,
+          "Low-income": pal.blue1,
+          "Lower-middle-income": pal.blue2,
+          "Upper-middle-income": pal.blue3,
+          "High-income": pal.blue4
         }
         var margin2 = {top: 10, right: 300, bottom: 80, left: 50},
         width2 = 800 - margin2.left - margin2.right,
@@ -251,6 +260,100 @@
               })
           });
       })
+      d3.csv("donors_sector.csv",function(data){
+        var selector_configs = [
+            {
+              "column_name": "measure",
+              "selector_type": "dropdown",
+              "order": ["Category", "DAC3 Sector"],
+              "defaults": ["Category"]
+            },
+            {
+              "column_name": "aggregate_type",
+              "selector_type": "dropdown",
+              "order": ["Organisation type", "Donor"],
+              "defaults": ["Organisation type"]
+            },
+            {
+                "column_name": "transaction_type",
+                "selector_type": "dropdown",
+                "order": ["Commitments", "Disbursements"],
+                "defaults": ["Commitments"]
+            },
+            {
+                "column_name": "variable",
+                "selector_type": "dropdown",
+                "order": ["Volume", "Proportion"],
+                "defaults": ["Volume"]
+            },
+            {
+                "column_name": "org_type",
+                "selector_type": "checkbox",
+                "order": ["Bilateral", "IFI", "Multilateral"],
+                "defaults": ["Bilateral", "IFI", "Multilateral"]
+            },
+            {
+                "column_name": "flow_type",
+                "selector_type": "checkbox",
+                "order": {
+                  "measure": {
+                      "Category": ["Economic infrastructure","Governance, peace and security","Production","Social infrastructure"],
+                      "DAC3 Sector": ["Banking & Financial Services","Communications","Energy distribution","Energy generation, renewable sources","Transport & Storage","Government & Civil Society-general","Agriculture","Fishing","Forestry","Industry","Basic Education","Basic Health","Education, Level Unspecified","Health, General","Population Policies/Programmes & Reproductive Health","Post-Secondary Education","Secondary Education","Water Supply & Sanitation","Business & Other Services","Energy generation, non-renewable sources","Energy Policy","Mineral Resources & Mining","Tourism","Trade Policies & Regulations","Other Social Infrastructure & Services","Conflict, Peace & Security","Construction","Non-communicable diseases (NCDs)","Hybrid energy plants","Nuclear energy plants"]
+                }
+              },
+                "defaults": {
+                  "measure": {
+                      "Category": ["Economic infrastructure","Governance, peace and security","Production","Social infrastructure"],
+                      "DAC3 Sector": ["Banking & Financial Services","Communications","Energy distribution","Energy generation, renewable sources","Transport & Storage","Government & Civil Society-general","Agriculture","Fishing","Forestry","Industry","Basic Education","Basic Health","Education, Level Unspecified","Health, General","Population Policies/Programmes & Reproductive Health","Post-Secondary Education","Secondary Education","Water Supply & Sanitation","Business & Other Services","Energy generation, non-renewable sources","Energy Policy","Mineral Resources & Mining","Tourism","Trade Policies & Regulations","Other Social Infrastructure & Services","Conflict, Peace & Security","Construction","Non-communicable diseases (NCDs)","Hybrid energy plants","Nuclear energy plants"]
+                }
+              }
+            },
+            {
+              "column_name": "year",
+              "selector_type": "checkbox",
+              "order": ["2018", "2019", "2020"],
+              "defaults": ["2018", "2019", "2020"]
+          },
+        ];
+        var chart_config = {
+            "chart_type": "bar",
+            "chart_direction": "horizontal",
+            "x_axis": ["org_type", "year"],
+            "x_axis_label": "",
+            "y_axis": ["value"],
+            "y_axis_label": {
+                "variable": {
+                    "Volume": "Volume (US$ billions)",
+                    "Proportion": "Proportions of total volumes (%)"
+                }
+            },
+            "y_axis_scale": {
+                "variable": {
+                    "Volume": function(d){return "$"+d3.format(",")(d/1000)+"bn"},
+                    "Proportion": d3.format(".0%")
+                }
+            },
+            "tooltip_type": {
+              "variable": {
+                  "Volume": function(d){return "US$"+parseFloat((d[1]-d[0])/1000).toFixed(2)+"bn"},
+                  "Proportion": function(d){return parseFloat(100*(d[1]-d[0])).toFixed(2)+"%"}
+              }
+          },
+            "colour_axis": ["flow_type"],
+            "colour_axis_scale": d3.scaleOrdinal().domain(["Missing", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower-middle-income","Upper-middle-income","High-income"]).range([pal.blue1,pal.blue2,pal.blue3,pal.blue4,pal.blue1,pal.blue2,pal.blue3,pal.blue4])
+        };
+        add_selectors("chart3", data, selector_configs);
+        var initial_data = subset_data(data, selector_configs);
+        draw_bar_chart(initial_data, "chart3", margin2, width2, height2, chart_config,selector_configs);
+        selector_configs.forEach(function(selector_config, config_index){
+            selector_config.element.on("change", function(d){
+                set_selections("chart3", selector_configs, config_index);
+                var filtered_data = subset_data(data, selector_configs);
+                erase_chart("chart3");
+                draw_bar_chart(filtered_data, "chart3", margin2, width2, height2, chart_config,selector_configs);
+            })
+        });
+    })
     </script>
   </body>
 </html>
