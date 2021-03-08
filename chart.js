@@ -8,11 +8,15 @@ var pal = {
 
 function draw_dependent_selectors(chart_id, parent_name, parent_selection, selector_configs){
     selector_configs.forEach(function(child, config_index){
+        console.log(child);
         if(!Array.isArray(child.order)){
             var child_column_name = child.column_name;
             var child_element = child.element;
-            var selector_type = child.selector_type;
             var dependent_name = Object.keys(child.order)[0];
+            if(!(child.selector_type == "dropdown" || child.selector_type == "checkbox")){
+                var selector_type = child.selector_type[dependent_name][parent_selection[0]];
+            } else {var selector_type = child.selector_type;}
+            console.log(child_element);
             if(parent_name == dependent_name){ // Something is dependent on me
                 var new_config_order = child.order[dependent_name][parent_selection[0]];
                 var new_config_defaults = child.defaults[dependent_name][parent_selection[0]];
@@ -28,7 +32,7 @@ function draw_dependent_selectors(chart_id, parent_name, parent_selection, selec
                     .attr("value", function (d) { return d; })
                     .attr("selected", function (d) {
                         if(new_config_defaults !== undefined && new_config_defaults.includes(d)){return true}
-                    });
+                    }); console.log(child_element);
                 }else if(selector_type == "radio" || selector_type == "checkbox"){
                     // Draw radio/checkbox inputs and labels
                     for(var i = 0; i < new_config_order.length; i++){
@@ -56,6 +60,7 @@ function draw_dependent_selectors(chart_id, parent_name, parent_selection, selec
 }
 
 function set_selections(chart_id, selector_configs, config_index){
+    console.log(selector_configs);
     var selector_element = selector_configs[config_index].element;
     var selector_type = selector_configs[config_index].selector_type;
     var column_name = selector_configs[config_index].column_name;
@@ -102,6 +107,9 @@ function add_selectors(chart_id, data, selector_configs){
             var result = selector_configs.filter(function(x) { return x.column_name == dependent_name })[0];
             var config_order = selector_config.order[dependent_name][result.current_selection[0]];
             var config_defaults = selector_config.defaults[dependent_name][result.current_selection[0]];
+            if(!(selector_type == "dropdown" || selector_type == "checkbox")){
+                var selector_type = selector_type[dependent_name][result.current_selection[0]];
+            }
         } else {
             var config_order = selector_config.order;
             var config_defaults = selector_config.defaults
@@ -169,8 +177,8 @@ function add_selectors(chart_id, data, selector_configs){
 }
 
 function subset_data(data, selector_configs){
-    console.log(data);
-    console.log(selector_configs);
+    // console.log(data);
+    // console.log(selector_configs);
     var filtered_data = data;
     // Filter data for each current selection in selector_configs
     selector_configs.forEach(function(selector_config){
@@ -312,7 +320,7 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
       .data(function(d) {return d; })
       .enter().append("rect")
         .attr("x", function(d) {  return x(d.data.year_org); })
-        .attr("y", function(d) { return y(d[1]); })
+        .attr("y", function(d) {   return y(d[1]); })
         .attr("height", function(d) { return y(d[0]) - y(d[1]); })
         .attr("width", x.bandwidth())
       .on("mouseover", function() { tooltip.style("display", null); })

@@ -94,8 +94,14 @@
         var margin2 = {top: 10, right: 300, bottom: 80, left: 50},
         width2 = 800 - margin2.left - margin2.right,
         height2 = 300 - margin2.top - margin2.bottom;
-        d3.csv("overall_oda_oof.csv",function(data){
+        d3.csv("donors_oda_oof.csv",function(data){
             var selector_configs = [
+                {
+                  "column_name": "aggregate_type",
+                  "selector_type": "dropdown",
+                  "order": ["Organisation type", "Donor"],
+                  "defaults": ["Organisation type"]
+                },
                 {
                     "column_name": "transaction_type",
                     "selector_type": "dropdown",
@@ -110,9 +116,32 @@
                 },
                 {
                     "column_name": "org_type",
-                    "selector_type": "checkbox",
-                    "order": ["Bilateral", "IFI", "Multilateral"],
-                    "defaults": ["Bilateral", "IFI", "Multilateral"]
+                    "selector_type": {                      
+                      "aggregate_type": {
+                        "Organisation type": "checkbox",
+                        "Donor": "dropdown"
+                      }
+                  },
+                    "order": {
+                      "aggregate_type": {
+                        "Organisation type": ["Bilateral", "IFI", "Multilateral"],
+                          "Donor": ["African Development Bank Group","Asian Development Bank","Australia","Belgium","Canada","Denmark"
+                          ,"EC","European Bank for Reconstruction and Development","Finland","Germany","Global Fund","Inter-American Development Bank"
+                          ,"International Committee of the Red Cross","International Fund for Agricultural Development","Multilateral Investment Fund"
+                          ,"Netherlands","New Zealand","Norway","Spain","Sweden","Switzerland","UK","UNDP","UNICEF","UNIDO","Unitaid","UNOCHA","UNRWA"
+                          ,"US","World Bank","World Food Programme"]
+                    }
+                  },
+                    "defaults": {
+                      "aggregate_type": {
+                        "Organisation type": ["Bilateral", "IFI", "Multilateral"],
+                        "Donor": ["African Development Bank Group","Asian Development Bank","Australia","Belgium","Canada","Denmark"
+                        ,"EC","European Bank for Reconstruction and Development","Finland","Germany","Global Fund","Inter-American Development Bank"
+                        ,"International Committee of the Red Cross","International Fund for Agricultural Development","Multilateral Investment Fund"
+                        ,"Netherlands","New Zealand","Norway","Spain","Sweden","Switzerland","UK","UNDP","UNICEF","UNIDO","Unitaid","UNOCHA","UNRWA"
+                        ,"US","World Bank","World Food Programme"]
+                    }
+                  }
                 },
                 {
                     "column_name": "flow_type",
@@ -155,11 +184,14 @@
                 "colour_axis_scale": d3.scaleOrdinal().domain(["ODA", "OOF", "Other flows", "Not specified"]).range([pal.blue1,pal.blue2,pal.blue3,pal.blue4])
             };
             add_selectors("chart1", data, selector_configs);
+            console.log(selector_configs);
             var initial_data = subset_data(data, selector_configs);
             draw_bar_chart(initial_data, "chart1", margin2, width2, height2, chart_config,selector_configs);
             selector_configs.forEach(function(selector_config, config_index){
                 selector_config.element.on("change", function(d){
-                    set_selections(selector_configs, config_index);
+                    console.log(selector_config.element);
+                    console.log(selector_configs);
+                    set_selections("chart1",selector_configs, config_index);
                     var filtered_data = subset_data(data, selector_configs);
                     erase_chart("chart1");
                     draw_bar_chart(filtered_data, "chart1", margin2, width2, height2, chart_config,selector_configs);
