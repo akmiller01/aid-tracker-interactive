@@ -9,6 +9,21 @@ var pal = {
 function draw_dependent_selectors(chart_id, parent_name, parent_selection, selector_configs){
     selector_configs.forEach(function(child, config_index){
         console.log(child);
+        if (Object.keys(child).includes("selector_type_dependency")){
+            var dependent_name = Object.keys(child.selector_type_dependency)[0];
+            if(parent_name == dependent_name){ var selector_type = child.selector_type_dependency[dependent_name][parent_selection[0]];
+                selector_configs[config_index].selector_type = selector_type;
+                var child_element = child.element._groups[0][0];
+                if(selector_type == "dropdown"){
+                    var newItem = document.createElement('select'); console.log(child_element);
+                    child_element.parentNode.replaceChild(newItem,child_element);
+                    selector_configs[config_index].element = d3.select(newItem);
+                    child.element = d3.select(newItem);
+                    child.element.attr('class','spacing');
+                }
+
+            }
+        }
         if(!Array.isArray(child.order)){
             var child_column_name = child.column_name;
             var child_element = child.element;
