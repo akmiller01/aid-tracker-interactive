@@ -136,11 +136,7 @@
                     "defaults": {
                       "aggregate_type": {
                         "Organisation type": ["Bilateral", "IFI", "Multilateral"],
-                        "Donor": ["African Development Bank Group","Asian Development Bank","Australia","Belgium","Canada","Denmark"
-                        ,"EC","European Bank for Reconstruction and Development","Finland","Germany","Global Fund","Inter-American Development Bank"
-                        ,"International Committee of the Red Cross","International Fund for Agricultural Development","Multilateral Investment Fund"
-                        ,"Netherlands","New Zealand","Norway","Spain","Sweden","Switzerland","UK","UNDP","UNICEF","UNIDO","Unitaid","UNOCHA","UNRWA"
-                        ,"US","World Bank","World Food Programme"]
+                        "Donor": ["African Development Bank Group"]
                     }
                   }
                 },
@@ -185,14 +181,11 @@
                 "colour_axis_scale": d3.scaleOrdinal().domain(["ODA", "OOF", "Other flows", "Not specified"]).range([pal.blue1,pal.blue2,pal.blue3,pal.blue4])
             };
             add_selectors("chart1", data, selector_configs);
-            console.log(selector_configs);
             var initial_data = subset_data(data, selector_configs);
             draw_bar_chart(initial_data, "chart1", margin2, width2, height2, chart_config,selector_configs);
             selector_configs.forEach(function(selector_config, config_index){
                 selector_config.element.on("change", function(d){
-                    console.log(selector_config.element);
-                    console.log(selector_configs);
-                    set_selections("chart1",selector_configs, config_index);
+                    set_selections("chart1",selector_configs, config_index,margin2, width2, height2,chart_config,data);
                     var filtered_data = subset_data(data, selector_configs);
                     erase_chart("chart1");
                     draw_bar_chart(filtered_data, "chart1", margin2, width2, height2, chart_config,selector_configs);
@@ -226,10 +219,30 @@
                   "defaults": ["Volume"]
               },
               {
-                  "column_name": "org_type",
-                  "selector_type": "checkbox",
-                  "order": ["Bilateral", "IFI", "Multilateral"],
-                  "defaults": ["Bilateral", "IFI", "Multilateral"]
+                "column_name": "org_type",
+                "selector_type": "checkbox",
+                "selector_type_dependency":{         
+                  "aggregate_type": {
+                    "Organisation type": "checkbox",
+                    "Donor": "dropdown"
+                }
+              },            
+                  "order": {
+                    "aggregate_type": {
+                      "Organisation type": ["Bilateral", "IFI", "Multilateral"],
+                        "Donor": ["African Development Bank Group","Asian Development Bank","Australia","Belgium","Canada","Denmark"
+                        ,"EC","European Bank for Reconstruction and Development","Finland","Germany","Global Fund","Inter-American Development Bank"
+                        ,"International Committee of the Red Cross","International Finance Corporation","International Fund for Agricultural Development"
+                        ,"Multilateral Investment Fund","Netherlands","New Zealand","Norway","Spain","Sweden","Switzerland","UK","UNDP","UNICEF"
+                        ,"UNIDO","Unitaid","UNOCHA","UNRWA","US","World Bank","World Food Programme"]
+                  }
+                },
+                  "defaults": {
+                    "aggregate_type": {
+                      "Organisation type": ["Bilateral", "IFI", "Multilateral"],
+                      "Donor": ["African Development Bank Group"]
+                  }
+                }
               },
               {
                   "column_name": "flow_type",
@@ -286,7 +299,7 @@
           draw_bar_chart(initial_data, "chart2", margin2, width2, height2, chart_config,selector_configs);
           selector_configs.forEach(function(selector_config, config_index){
               selector_config.element.on("change", function(d){
-                  set_selections("chart2", selector_configs, config_index);
+                  set_selections("chart2", selector_configs, config_index,margin2, width2, height2,chart_config,data);
                   var filtered_data = subset_data(data, selector_configs);
                   erase_chart("chart2");
                   draw_bar_chart(filtered_data, "chart2", margin2, width2, height2, chart_config,selector_configs);
@@ -295,12 +308,6 @@
       })
       d3.csv("donors_sector.csv",function(data){
         var selector_configs = [
-            {
-              "column_name": "measure",
-              "selector_type": "dropdown",
-              "order": ["Category", "DAC3 Sector"],
-              "defaults": ["Category"]
-            },
             {
               "column_name": "aggregate_type",
               "selector_type": "dropdown",
@@ -320,26 +327,36 @@
                 "defaults": ["Volume"]
             },
             {
-                "column_name": "org_type",
-                "selector_type": "checkbox",
-                "order": ["Bilateral", "IFI", "Multilateral"],
-                "defaults": ["Bilateral", "IFI", "Multilateral"]
+              "column_name": "org_type",
+              "selector_type": "checkbox",
+              "selector_type_dependency":{         
+                "aggregate_type": {
+                  "Organisation type": "checkbox",
+                  "Donor": "dropdown"
+              }
+            },            
+                "order": {
+                  "aggregate_type": {
+                    "Organisation type": ["Bilateral", "IFI", "Multilateral"],
+                      "Donor": ["African Development Bank Group","Asian Development Bank","Australia","Belgium","Canada","Denmark"
+                      ,"EC","European Bank for Reconstruction and Development","Finland","Germany","Global Fund","Inter-American Development Bank"
+                      ,"International Fund for Agricultural Development","Multilateral Investment Fund"
+                      ,"Netherlands","New Zealand","Norway","Spain","Sweden","Switzerland","UK","UNDP","UNFPA","UNICEF","UNIDO","Unitaid","UNRWA"
+                      ,"US","World Bank","World Food Programme"]
+                }
+              },
+                "defaults": {
+                  "aggregate_type": {
+                    "Organisation type": ["Bilateral", "IFI", "Multilateral"],
+                    "Donor": ["African Development Bank Group"]
+                }
+              }
             },
             {
                 "column_name": "flow_type",
                 "selector_type": "checkbox",
-                "order": {
-                  "measure": {
-                      "Category": ["Economic infrastructure","Governance, peace and security","Production","Social infrastructure"],
-                      "DAC3 Sector": ["Banking & Financial Services","Communications","Energy distribution","Energy generation, renewable sources","Transport & Storage","Government & Civil Society-general","Agriculture","Fishing","Forestry","Industry","Basic Education","Basic Health","Education, Level Unspecified","Health, General","Population Policies/Programmes & Reproductive Health","Post-Secondary Education","Secondary Education","Water Supply & Sanitation","Business & Other Services","Energy generation, non-renewable sources","Energy Policy","Mineral Resources & Mining","Tourism","Trade Policies & Regulations","Other Social Infrastructure & Services","Conflict, Peace & Security","Construction","Non-communicable diseases (NCDs)","Hybrid energy plants","Nuclear energy plants"]
-                }
-              },
-                "defaults": {
-                  "measure": {
-                      "Category": ["Economic infrastructure","Governance, peace and security","Production","Social infrastructure"],
-                      "DAC3 Sector": ["Banking & Financial Services","Communications","Energy distribution","Energy generation, renewable sources","Transport & Storage","Government & Civil Society-general","Agriculture","Fishing","Forestry","Industry","Basic Education","Basic Health","Education, Level Unspecified","Health, General","Population Policies/Programmes & Reproductive Health","Post-Secondary Education","Secondary Education","Water Supply & Sanitation","Business & Other Services","Energy generation, non-renewable sources","Energy Policy","Mineral Resources & Mining","Tourism","Trade Policies & Regulations","Other Social Infrastructure & Services","Conflict, Peace & Security","Construction","Non-communicable diseases (NCDs)","Hybrid energy plants","Nuclear energy plants"]
-                }
-              }
+                "order": ["Agriculture & food security","Business & industry","Education","Governance & security","Health","Infrastructure","Other social services","Water & sanitation"],
+                "defaults": ["Agriculture & food security","Business & industry","Education","Governance & security","Health","Infrastructure","Other social services","Water & sanitation"]
             },
             {
               "column_name": "year",
@@ -377,10 +394,10 @@
         };
         add_selectors("chart3", data, selector_configs);
         var initial_data = subset_data(data, selector_configs);
-        draw_bar_chart(initial_data, "chart3", margin2, width2, height2, chart_config,selector_configs);
+        draw_bar_chart(initial_data, "chart3", margin2, width2, height2, chart_config,selector_configs,margin2, width2, height2,chart_config,data);
         selector_configs.forEach(function(selector_config, config_index){
             selector_config.element.on("change", function(d){
-                set_selections("chart3", selector_configs, config_index);
+                set_selections("chart3", selector_configs, config_index,margin2, width2, height2,chart_config,data);
                 var filtered_data = subset_data(data, selector_configs);
                 erase_chart("chart3");
                 draw_bar_chart(filtered_data, "chart3", margin2, width2, height2, chart_config,selector_configs);

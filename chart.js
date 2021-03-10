@@ -6,20 +6,25 @@ var pal = {
   };
 
 
-function draw_dependent_selectors(chart_id, parent_name, parent_selection, selector_configs){
+function draw_dependent_selectors(chart_id, parent_name, parent_selection, selector_configs,margin2, width2, height2,chart_config,data){
     selector_configs.forEach(function(child, config_index){
-        console.log(child);
         if (Object.keys(child).includes("selector_type_dependency")){
             var dependent_name = Object.keys(child.selector_type_dependency)[0];
             if(parent_name == dependent_name){ var selector_type = child.selector_type_dependency[dependent_name][parent_selection[0]];
                 selector_configs[config_index].selector_type = selector_type;
                 var child_element = child.element._groups[0][0];
                 if(selector_type == "dropdown"){
-                    var newItem = document.createElement('select'); console.log(child_element);
+                    var newItem = document.createElement('select');
                     child_element.parentNode.replaceChild(newItem,child_element);
                     selector_configs[config_index].element = d3.select(newItem);
                     child.element = d3.select(newItem);
                     child.element.attr('class','spacing');
+                    selector_configs[config_index].element.on("change", function(d){
+                        set_selections(chart_id,selector_configs, config_index,margin2, width2, height2,chart_config,data);
+                        var filtered_data = subset_data(data, selector_configs);
+                        erase_chart(chart_id);
+                        draw_bar_chart(filtered_data, chart_id, margin2, width2, height2, chart_config,selector_configs);
+                    })
                 }
 
             }
@@ -31,7 +36,6 @@ function draw_dependent_selectors(chart_id, parent_name, parent_selection, selec
             if(!(child.selector_type == "dropdown" || child.selector_type == "checkbox")){
                 var selector_type = child.selector_type[dependent_name][parent_selection[0]];
             } else {var selector_type = child.selector_type;}
-            console.log(child_element);
             if(parent_name == dependent_name){ // Something is dependent on me
                 var new_config_order = child.order[dependent_name][parent_selection[0]];
                 var new_config_defaults = child.defaults[dependent_name][parent_selection[0]];
@@ -47,7 +51,7 @@ function draw_dependent_selectors(chart_id, parent_name, parent_selection, selec
                     .attr("value", function (d) { return d; })
                     .attr("selected", function (d) {
                         if(new_config_defaults !== undefined && new_config_defaults.includes(d)){return true}
-                    }); console.log(child_element);
+                    });
                 }else if(selector_type == "radio" || selector_type == "checkbox"){
                     // Draw radio/checkbox inputs and labels
                     for(var i = 0; i < new_config_order.length; i++){
@@ -68,14 +72,13 @@ function draw_dependent_selectors(chart_id, parent_name, parent_selection, selec
                         .text(column_value);
                     };           
                 }
-                selector_configs[config_index].current_selection = new_config_order;
+                selector_configs[config_index].current_selection = new_config_defaults;
             }
         }
     });
 }
 
-function set_selections(chart_id, selector_configs, config_index){
-    console.log(selector_configs);
+function set_selections(chart_id, selector_configs, config_index,margin2, width2, height2,chart_config,data){
     var selector_element = selector_configs[config_index].element;
     var selector_type = selector_configs[config_index].selector_type;
     var column_name = selector_configs[config_index].column_name;
@@ -104,7 +107,7 @@ function set_selections(chart_id, selector_configs, config_index){
             }
         });
     }
-    draw_dependent_selectors(chart_id, column_name, new_selection, selector_configs);
+    draw_dependent_selectors(chart_id, column_name, new_selection, selector_configs,margin2, width2, height2,chart_config,data);
     selector_configs[config_index].current_selection = new_selection;
 }
 
@@ -192,11 +195,10 @@ function add_selectors(chart_id, data, selector_configs){
 }
 
 function subset_data(data, selector_configs){
-    // console.log(data);
-    // console.log(selector_configs);
     var filtered_data = data;
     // Filter data for each current selection in selector_configs
     selector_configs.forEach(function(selector_config){
+        console.log(!Array.isArray(selector_config.current_selection));
         if (!Array.isArray(selector_config.current_selection)){
             var dependent_name = Object.keys(selector_config.order)[0];
             var result = selector_configs.filter(function(x) { return x.column_name == dependent_name })[0];
