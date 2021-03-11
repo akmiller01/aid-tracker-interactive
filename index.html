@@ -197,7 +197,7 @@
               {
                 "column_name": "measure",
                 "selector_type": "dropdown",
-                "order": ["Poverty", "Income"],
+                "order": ["Poverty", "Income","LDC"],
                 "defaults": ["Poverty"]
               },
               {
@@ -249,13 +249,15 @@
                   "selector_type": "checkbox",
                   "order": {
                     "measure": {
-                        "Poverty": ["Missing", "Less than 5%", "5-20%", "Above 20%"],
+                        "LDC":["LDC","Non-LDC"],
+                        "Poverty": ["Not specified", "Less than 5%", "5-20%", "Above 20%"],
                         "Income": ["Low-income","Lower-middle-income","Upper-middle-income","High-income"]
                   }
                 },
                   "defaults": {
                     "measure": {
-                        "Poverty": ["Missing", "Less than 5%", "5-20%", "Above 20%"],
+                        "LDC":["LDC","Non-LDC"],
+                        "Poverty": ["Not specified", "Less than 5%", "5-20%", "Above 20%"],
                         "Income": ["Low-income","Lower-middle-income","Upper-middle-income","High-income"]
                   }
                 }
@@ -292,7 +294,7 @@
                 }
             },
               "colour_axis": ["flow_type"],
-              "colour_axis_scale": d3.scaleOrdinal().domain(["Missing", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower-middle-income","Upper-middle-income","High-income"]).range([pal.blue1,pal.blue2,pal.blue3,pal.blue4,pal.blue1,pal.blue2,pal.blue3,pal.blue4])
+              "colour_axis_scale": d3.scaleOrdinal().domain(["Not specified", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower-middle-income","Upper-middle-income","High-income","LDC","Non-LDC"]).range([pal.blue1,pal.blue2,pal.blue3,pal.blue4,pal.blue1,pal.blue2,pal.blue3,pal.blue4])
           };
           add_selectors("chart2", data, selector_configs);
           var initial_data = subset_data(data, selector_configs);
@@ -390,7 +392,7 @@
               }
           },
             "colour_axis": ["flow_type"],
-            "colour_axis_scale": d3.scaleOrdinal().domain(["Missing", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower-middle-income","Upper-middle-income","High-income"]).range([pal.blue1,pal.blue2,pal.blue3,pal.blue4,pal.blue1,pal.blue2,pal.blue3,pal.blue4])
+            "colour_axis_scale": d3.scaleOrdinal().domain(["Not specified", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower-middle-income","Upper-middle-income","High-income","LDC","Non-LDC"]).range([pal.blue1,pal.blue2,pal.blue3,pal.blue4,pal.blue1,pal.blue2,pal.blue3,pal.blue4])
         };
         add_selectors("chart3", data, selector_configs);
         var initial_data = subset_data(data, selector_configs);
