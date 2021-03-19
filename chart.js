@@ -15,18 +15,18 @@ function draw_dependent_selectors(chart_id, parent_name, parent_selection, selec
                 var child_element = child.element._groups[0][0];
                 if(selector_type == "dropdown"){
                     var newItem = document.createElement('select');
-                    child_element.parentNode.replaceChild(newItem,child_element);
-                    selector_configs[config_index].element = d3.select(newItem);
-                    child.element = d3.select(newItem);
-                    child.element.attr('class','spacing');
-                    selector_configs[config_index].element.on("change", function(d){
-                        set_selections(chart_id,selector_configs, config_index,margin2, width2, height2,chart_config,data);
-                        var filtered_data = subset_data(data, selector_configs);
-                        erase_chart(chart_id);
-                        draw_bar_chart(filtered_data, chart_id, margin2, width2, height2, chart_config,selector_configs);
-                    })
+                }else if(selector_type == "radio" || selector_type == "checkbox"){
+                    var newItem = document.createElement('div');
                 }
-
+                child_element.parentNode.replaceChild(newItem,child_element);
+                selector_configs[config_index].element = d3.select(newItem);
+                child.element = d3.select(newItem);
+                selector_configs[config_index].element.on("change", function(d){
+                    set_selections(chart_id,selector_configs, config_index,margin2, width2, height2,chart_config,data);
+                    var filtered_data = subset_data(data, selector_configs);
+                    erase_chart(chart_id);
+                    draw_bar_chart(filtered_data, chart_id, margin2, width2, height2, chart_config,selector_configs);
+                })
             }
         }
         if(!Array.isArray(child.order)){
@@ -141,10 +141,15 @@ function add_selectors(chart_id, data, selector_configs){
         }else{
             selector_configs[config_index].order = column_values;
         }
+        var controlWrapper = chartNode
+            .append("div")
+        controlWrapper.attr("class","spacing")
+        if(Object.keys(selector_config).includes("control_title")){
+            controlWrapper.append("h3").attr("class","control-title").text(selector_config.control_title)
+        }
         if(selector_type == "dropdown"){
             // Draw dropdown
-            var dropdown = chartNode
-            .append("select").attr("class","spacing");
+            var dropdown = controlWrapper.append("select");
             dropdown
             .selectAll("option")
             .data(column_values)
@@ -163,11 +168,11 @@ function add_selectors(chart_id, data, selector_configs){
             }
         }else if(selector_type == "radio" || selector_type == "checkbox"){
             // Draw radio/checkbox inputs and labels
-            var radio = chartNode
-            .append("div").attr("class","spacing");
+            var radio = controlWrapper.append("div");
             for(var i = 0; i < column_values.length; i++){
                 column_value = column_values[i]
-                radio
+                var radio_pair = radio.append("nobr");
+                radio_pair
                 .append("input")
                 .attr("value", column_value)
                 .attr("id", column_value+"_"+chart_id+"_"+column_name+"_radio")
@@ -177,7 +182,7 @@ function add_selectors(chart_id, data, selector_configs){
                     (config_defaults !== undefined && config_defaults.includes(column_value)) ? true : undefined
                 )
                 .attr("dy","0.5em")
-                radio
+                radio_pair
                 .append('label')
                 .attr("for", column_value+"_"+chart_id+"_"+column_name+"_radio")
                 .text(column_value);
@@ -198,7 +203,6 @@ function subset_data(data, selector_configs){
     var filtered_data = data;
     // Filter data for each current selection in selector_configs
     selector_configs.forEach(function(selector_config){
-        console.log(!Array.isArray(selector_config.current_selection));
         if (!Array.isArray(selector_config.current_selection)){
             var dependent_name = Object.keys(selector_config.order)[0];
             var result = selector_configs.filter(function(x) { return x.column_name == dependent_name })[0];
@@ -340,14 +344,20 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
         .attr("y", function(d) {   return y(d[1]); })
         .attr("height", function(d) { return y(d[0]) - y(d[1]); })
         .attr("width", x.bandwidth())
-      .on("mouseover", function() { tooltip.style("display", null); })
-      .on("mouseout", function() { tooltip.style("display", "none"); })
+      .on("mouseover", function() { tooltip.style("display", null); tooltipBackground.style("display", null); })
+      .on("mouseout", function() { tooltip.style("display", "none"); tooltipBackground.style("display", "none"); })
       .on("mousemove", function(d) {
-        console.log(d);
         var xPosition = d3.mouse(this)[0]+5;
         var yPosition = d3.mouse(this)[1];
-        tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
-        tooltip.select("text").text(d.key + ", " + tooltip_formatter(d))        
+        tooltip.attr("x", xPosition).attr("y", yPosition);
+        tooltip.text(d.key + ", " + tooltip_formatter(d));
+        var tooltip_bbox = tooltip.node().getBBox();
+          tooltipBackground
+          .attr("x",tooltip_bbox.x - 2)
+          .attr("y",tooltip_bbox.y - 2)
+          .attr("height", tooltip_bbox.height + 4)
+          .attr("width", tooltip_bbox.width + 4)
+          .style("opacity","0.8"); 
       });
     svg.append("text")
       .attr("transform", "rotate(-90)")
@@ -359,40 +369,65 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
       .text(chart_config.y_axis_label["variable"][selector_configs[1]["current_selection"]]);
     var legend = svg.append("g")
         .attr("class", "axis")
-        .attr("text-anchor", "end")
-        .selectAll("g")
-        .data(keys.slice().reverse())
-        .enter().append("g")
-        .attr("transform", function(d, i) { return "translate(180," + i * 20 + ")"; });
-  
-    legend.append("rect")
-        .attr("x", width - 19)
-        .attr("width", 19)
-        .attr("height", 19)
-        .attr("fill", z)
-  
-    legend.append("text")
-        .attr("x", width - 24)
-        .attr("y", 9.5)
-        .attr("dy", "0.32em")
-        .text(function(d) { return d; });
+        .attr("text-anchor", "start")
+        .attr("transform", "translate(" + (5 - margin.left) + ", " + (5 - margin.top) + ")")
+
+    var previous_offset_x = 0;
+    var previous_offset_y = 0;
+    var element_ruler = d3.select(".element_ruler");
+    element_ruler
+        .attr('preserveAspectRatio', 'xMinYMin meet')
+        .attr("viewBox", "0 0 " + (width + margin.left + margin.right) + " " + (height + margin.top + margin.bottom))
+    var element_ruler_text = element_ruler.select("text");
+    for(var i=0; i < keys.length; i++){
+        var d = keys[i];
+        
+        var legend_item = legend.append("g")
+            .attr("transform", "translate(" + previous_offset_x + ", " + previous_offset_y + ")");
+
+        legend_item.append("rect")
+            .attr("x", 0)
+            .attr("width", 19)
+            .attr("height", 19)
+            .attr("fill", z(d))
+      
+        legend_item.append("text")
+            .attr("x", 21)
+            .attr("y", 9.5)
+            .attr("dy", "0.32em")
+            .text(d);
+        element_ruler_text.text(d);
+        element_ruler_text.attr("style",
+            "font-size:10px;font-weight:100;font-family:'Averta',sans-serif;"
+        )
+        var text_ruler_bbox = element_ruler_text.node().getBBox();
+        previous_offset_x += text_ruler_bbox.width + 29;
+        if(previous_offset_x >= (width - (margin.left + margin.right))){
+            previous_offset_x = 0;
+            previous_offset_y += 25;
+        }
+    }
+    // Readjust if necessary
+    var legend_height = (25 + previous_offset_y);
+    chartNode.select("svg").attr("viewBox", "0 0 " + (width + margin.left + margin.right) + " " + (height + margin.top + margin.bottom + legend_height))
+    svg.attr("transform","translate(" + margin.left + "," + (margin.top + legend_height) + ")");
+    legend.attr("transform", "translate(" + (5 - margin.left) + ", " + (5 - margin.top - legend_height) + ")")
     
-    var tooltip = svg.append("g")
+    var tooltipBackground = svg.append("rect")
+        .attr("class","tooltip-bg")
+        .attr("fill","white")
+        .attr("rx",5);
+
+    var tooltip = svg.append("text")
         .attr("class", "tooltip")
-        .style("display", "none");
-          
-    tooltip.append("rect")
-        .attr("width", 100)
-        .attr("height", 20)
-        .attr("fill", "white")
-        .style("opacity", 0);
-    
-    tooltip.append("text")
-        .attr("x", 2)
+        .attr("x", 0)
+        .attr("y", 0)
         .attr("dy", "1.2em")
         .style("text-anchor", "left")
         .attr("font-size", "12px")
-        .attr("font-weight", "bold");
+        .attr("font-weight", "bold")
+        .style("fill", "#443e42")
+        .style("display", "none");
 }
 
 function erase_chart(chart_id){

@@ -57,16 +57,16 @@
       h2 {font-family: 'Averta';font-size:25px;color:#443e42;}
       body, select, label {font-family: 'Averta';color:#443e42;}
       select {font-size:15px;}
-      .spacing {margin-bottom:5px}
-      /* .ui-tabs-vertical { width: 100%; }
-      .ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 15%; }
-      .ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
-      .ui-tabs-vertical .ui-tabs-nav li a { display:block; }
-      .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
-      .ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 80%;} */
+      .spacing {float: left; margin:5px; padding: 10px 5px 10px 5px; border: transparent #443e42 1px; border-radius: 5px; width: 30%;}
+      .spacing select {width: 100%;}
+      .spacing div label{margin-right: 5px;}
+      .control-title {margin-top: 0;}
     </style>
 </head>
   <body>
+    <svg class="element_ruler" style="visibility:hidden;height:0;width:0;margin:0;padding:0;">
+      <text style="visibility: visible"></text>
+    </svg>
     <div id="tabs">
       <ul>
         <li><a href="#tabs-1">Flows by donor</a></li>
@@ -74,23 +74,17 @@
         <li><a href="#tabs-3">Sector targeting</a></li>
       </ul>
       <div id="tabs-1">    
-        <h1>Aid from key bilateral donors, IFIs and multilateral institutions (January-December during the years 2018-2020)</h1>
         <div class="chart-wrapper-full">
-          <h2>Overall</h2>
           <div id="chart1"></div>
         </div>
       </div>
       <div id="tabs-2">
-        <h1>Aid targeting poverty from key bilateral donors, IFIs and multilateral institutions (January-December during the years 2018-2020)</h1>
         <div class="chart-wrapper-full">
-          <h2>Overall</h2>
           <div id="chart2"></div>
         </div>
       </div>
       <div id="tabs-3">
-        <h1>Aid by sector from key bilateral donors, IFIs and multilateral institutions (January-December during the years 2018-2020)</h1>
         <div class="chart-wrapper-full">
-          <h2>Overall</h2>
           <div id="chart3"></div>
         </div>
      </div>
@@ -111,30 +105,34 @@
           "Upper-middle-income": pal.blue3,
           "High-income": pal.blue4
         }
-        var margin2 = {top: 10, right: 300, bottom: 80, left: 50},
+        var margin2 = {top: 10, right: 50, bottom: 40, left: 50},
         width2 = 800 - margin2.left - margin2.right,
         height2 = 300 - margin2.top - margin2.bottom;
         d3.csv("donors_oda_oof.csv",function(data){
             var selector_configs = [
                 {
+                  "control_title": "Aggregation type",
                   "column_name": "aggregate_type",
                   "selector_type": "dropdown",
                   "order": ["Organisation type", "Donor"],
                   "defaults": ["Organisation type"]
                 },
                 {
+                  "control_title": "Transaction type",
                     "column_name": "transaction_type",
                     "selector_type": "dropdown",
                     "order": ["Commitments", "Disbursements"],
                     "defaults": ["Commitments"]
                 },
                 {
+                  "control_title": "Measure",
                     "column_name": "variable",
                     "selector_type": "dropdown",
                     "order": ["Volume", "Proportion"],
                     "defaults": ["Volume"]
                 },
                 {
+                  "control_title": "Aggregation",
                     "column_name": "org_type",
                     "selector_type": "checkbox",
                     "selector_type_dependency":{         
@@ -161,12 +159,14 @@
                   }
                 },
                 {
+                  "control_title": "Flow type",
                     "column_name": "flow_type",
                     "selector_type": "checkbox",
                     "order": ["ODA", "OOF", "Other flows", "Not specified"],
                     "defaults": ["ODA", "OOF", "Other flows", "Not specified"]
                 },
                 {
+                  "control_title": "Year",
                   "column_name": "year",
                   "selector_type": "checkbox",
                   "order": ["2018", "2019", "2020"],
@@ -215,30 +215,35 @@
         d3.csv("donors_poverty.csv",function(data){
           var selector_configs = [
               {
+                "control_title": "Poverty type",
                 "column_name": "measure",
                 "selector_type": "dropdown",
                 "order": ["Poverty", "Income","LDC"],
                 "defaults": ["Poverty"]
               },
               {
+                "control_title": "Aggregation type",
                 "column_name": "aggregate_type",
                 "selector_type": "dropdown",
                 "order": ["Organisation type", "Donor"],
                 "defaults": ["Organisation type"]
               },
               {
+                "control_title": "Transaction type",
                   "column_name": "transaction_type",
                   "selector_type": "dropdown",
                   "order": ["Commitments", "Disbursements"],
                   "defaults": ["Commitments"]
               },
               {
+                "control_title": "Measure",
                   "column_name": "variable",
                   "selector_type": "dropdown",
                   "order": ["Volume", "Proportion"],
                   "defaults": ["Volume"]
               },
               {
+                "control_title": "Aggregation",
                 "column_name": "org_type",
                 "selector_type": "checkbox",
                 "selector_type_dependency":{         
@@ -265,6 +270,7 @@
                 }
               },
               {
+                "control_title": "Flow type",
                   "column_name": "flow_type",
                   "selector_type": "checkbox",
                   "order": {
@@ -283,6 +289,7 @@
                 }
               },
               {
+                "control_title": "Year",
                 "column_name": "year",
                 "selector_type": "checkbox",
                 "order": ["2018", "2019", "2020"],
@@ -331,24 +338,28 @@
       d3.csv("donors_sector.csv",function(data){
         var selector_configs = [
             {
+              "control_title": "Aggregation type",
               "column_name": "aggregate_type",
               "selector_type": "dropdown",
               "order": ["Organisation type", "Donor"],
               "defaults": ["Organisation type"]
             },
             {
+              "control_title": "Transaction type",
                 "column_name": "transaction_type",
                 "selector_type": "dropdown",
                 "order": ["Commitments", "Disbursements"],
                 "defaults": ["Commitments"]
             },
             {
+              "control_title": "Measure",
                 "column_name": "variable",
                 "selector_type": "dropdown",
                 "order": ["Volume", "Proportion"],
                 "defaults": ["Volume"]
             },
             {
+              "control_title": "Aggregation",
               "column_name": "org_type",
               "selector_type": "checkbox",
               "selector_type_dependency":{         
@@ -375,12 +386,14 @@
               }
             },
             {
+              "control_title": "Flow type",
                 "column_name": "flow_type",
                 "selector_type": "checkbox",
                 "order": ["Administrative Costs of Donors","Agriculture & food security","Business & industry","Debt relief","Education","Environment","General budget support","Governance & security","Health","Humanitarian","Infrastructure","Not specified","Other","Other social services","Refugees in Donor Countries","Water & sanitation"],
                 "defaults": ["Administrative Costs of Donors","Agriculture & food security","Business & industry","Debt relief","Education","Environment","General budget support","Governance & security","Health","Humanitarian","Infrastructure","Not specified","Other","Other social services","Refugees in Donor Countries","Water & sanitation"]
             },
             {
+              "control_title": "Year",
               "column_name": "year",
               "selector_type": "checkbox",
               "order": ["2018", "2019", "2020"],
@@ -426,10 +439,6 @@
             })
         });
     })
-    // $( function() {
-    //   $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
-    //   $( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
-    // } );
     $( function() {
       $( "#tabs" ).tabs();
     } );
