@@ -147,6 +147,9 @@ function add_selectors(chart_id, data, selector_configs){
         if(Object.keys(selector_config).includes("control_title")){
             controlWrapper.append("h3").attr("class","control-title").text(selector_config.control_title)
         }
+        if(Object.keys(selector_config).includes("control_info")){
+            controlWrapper.append("span").attr("class","ui-icon ui-icon-info").attr("title",selector_config.control_info)
+        }
         if(selector_type == "dropdown"){
             // Draw dropdown
             var dropdown = controlWrapper.append("select");
