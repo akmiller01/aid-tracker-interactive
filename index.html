@@ -40,31 +40,30 @@
         font-weight:600;
         font-style: italic;
       }
-      .axis text {font-size:10px; font-weight: 100; fill:#443e42 ; font-family: 'Averta',sans-serif; }
-      .axis line {stroke:#a9a6aa;}
-      .axis path {stroke:#a9a6aa;}
-      .xaxis text {font-size:10px; font-weight: 100; fill:#443e42 ; font-family: 'Averta',sans-serif; }
-      .xaxis line {stroke:transparent;}
-      .xaxis path {stroke:#a9a6aa;}
-      .yaxistitle {font-size:10px; font-weight: 100; fill:#443e42; font-family: 'Averta',sans-serif; }
-      .yaxis text {font-size:10px; font-weight: 100; fill:#443e42; font-family: 'Averta',sans-serif; }
-      .yaxis line {stroke:#a9a6aa;}
-      .yaxis path {stroke:transparent;}
-      .tooltip {pointer-events: none;}
-      .tooltip-bg {pointer-events: none;}
-      .chart-wrapper-full {width:100%;}
-      h1 {font-family: 'Averta';float:left; width: 100%;color:#443e42;}
-      h2 {font-family: 'Averta';font-size:25px;color:#443e42;}
-      body, select, label {font-family: 'Averta';color:#443e42;}
-      select {font-size:15px;}
-      .spacing {float: left; margin:5px; padding: 10px 5px 10px 5px; border: transparent #443e42 1px; border-radius: 5px; width: 30%;}
-      .spacing select {width: 100%;}
-      .spacing div label{margin-right: 5px;}
-      .control-title {margin-top: 0;}
+      .axis text {font-size:10px !important; font-weight: 100 !important; fill:#443e42  !important; font-family: 'Averta','Geomanist Regular',sans-serif !important; }
+      .axis line {stroke:#a9a6aa !important;}
+      .axis path {stroke:#a9a6aa !important;}
+      .xaxis text {font-size:10px !important; font-weight: 100 !important; fill:#443e42  !important; font-family: 'Averta','Geomanist Regular',sans-serif !important; }
+      .xaxis line {stroke:transparent !important;}
+      .xaxis path {stroke:#a9a6aa !important;}
+      .yaxistitle {font-size:10px !important; font-weight: 100 !important; fill:#443e42 !important; font-family: 'Averta','Geomanist Regular',sans-serif !important; }
+      .yaxis text {font-size:10px !important; font-weight: 100 !important; fill:#443e42 !important; font-family: 'Averta','Geomanist Regular',sans-serif !important; }
+      .yaxis line {stroke:#a9a6aa !important;}
+      .yaxis path {stroke:transparent !important;}
+      .tooltip {pointer-events: none !important;}
+      .tooltip-bg {pointer-events: none !important;}
+      .chart-wrapper-full {width:100% !important;}
+      h3 {font-family: 'Averta','Geomanist Regular' !important;font-size:15px !important;color:#443e42 !important;font-weight: bold !important;}
+      select, label {font-family: 'Averta','Geomanist Regular' !important;color:#443e42 !important;}
+      select {font-size:15px !important;}
+      .spacing {float: left !important; margin:5px !important; padding: 10px 5px 10px 5px !important; border-left: solid #443e42 2px !important; width: 30% !important;}
+      .spacing select {width: 100% !important;}
+      .spacing div label{margin-left: 5px !important;margin-right: 5px !important; display: inline !important;}
+      .control-title {margin-top: 0 !important;}
     </style>
 </head>
   <body>
-    <svg class="element_ruler" style="visibility:hidden;height:0;width:0;margin:0;padding:0;">
+    <svg class="element_ruler" style="visibility:hidden !important;height:0 !important;width:0 !important;margin:0 !important;padding:0 !important;">
       <text style="visibility: visible"></text>
     </svg>
     <div id="tabs">
@@ -108,7 +107,7 @@
         var margin2 = {top: 10, right: 50, bottom: 40, left: 50},
         width2 = 800 - margin2.left - margin2.right,
         height2 = 300 - margin2.top - margin2.bottom;
-        d3.csv("donors_oda_oof.csv",function(data){
+        d3.csv("https://raw.githubusercontent.com/akmiller01/aid-tracker-interactive/main/donors_oda_oof.csv",function(data){
             var selector_configs = [
                 {
                   "control_title": "Aggregation type",
@@ -212,7 +211,7 @@
                 })
             });
         })
-        d3.csv("donors_poverty.csv",function(data){
+        d3.csv("https://raw.githubusercontent.com/akmiller01/aid-tracker-interactive/main/donors_poverty.csv",function(data){
           var selector_configs = [
               {
                 "control_title": "Poverty type",
@@ -335,7 +334,7 @@
               })
           });
       })
-      d3.csv("donors_sector.csv",function(data){
+      d3.csv("https://raw.githubusercontent.com/akmiller01/aid-tracker-interactive/main/donors_sector.csv",function(data){
         var selector_configs = [
             {
               "control_title": "Aggregation type",
