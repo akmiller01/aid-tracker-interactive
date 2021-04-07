@@ -409,9 +409,9 @@
               "control_title": "Flow type",
               "control_info": "Hover text 5",
                 "column_name": "flow_type",
-                "selector_type": "checkbox",
+                "selector_type": "dropdown",
                 "order": ["Administrative Costs of Donors","Agriculture & food security","Business & industry","Debt relief","Education","Environment","General budget support","Governance & security","Health","Humanitarian","Infrastructure","Not specified","Other","Other social services","Refugees in Donor Countries","Water & sanitation"],
-                "defaults": ["Administrative Costs of Donors","Agriculture & food security","Business & industry","Debt relief","Education","Environment","General budget support","Governance & security","Health","Humanitarian","Infrastructure","Not specified","Other","Other social services","Refugees in Donor Countries","Water & sanitation"]
+                "defaults": ["Health"]
             },
             {
               "control_title": "Year",
@@ -447,7 +447,7 @@
               }
           },
             "colour_axis": ["flow_type"],
-            "colour_axis_scale": d3.scaleOrdinal().domain(["Not specified", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower-middle-income","Upper-middle-income","High-income","LDC","Non-LDC"]).range([pal.blue1,pal.blue2,pal.blue3,pal.blue4,pal.blue1,pal.blue2,pal.blue3,pal.blue4])
+            "colour_axis_scale": d3.scaleOrdinal().domain(["Not specified", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower-middle-income","Upper-middle-income","High-income","LDC","Non-LDC"]).range([pal.blue1])
         };
         add_selectors("chart3", data, selector_configs);
         var initial_data = subset_data(data, selector_configs);
