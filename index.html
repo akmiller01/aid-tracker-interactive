@@ -56,7 +56,7 @@
       .spacing h3 {display: inline !important; font-family: 'Averta','Geomanist Regular' !important;font-size:15px !important;color:#443e42 !important;font-weight: bold !important;}
       select, label {font-family: 'Averta','Geomanist Regular' !important;color:#443e42 !important;}
       select {font-size:15px !important;}
-      .spacing {float: left !important; margin:5px !important; padding: 10px 5px 10px 5px !important; border-left: solid #443e42 2px !important; width: 30% !important;}
+      .spacing {float: left !important; margin:5px !important; padding: 10px 5px 10px 5px !important; border-left: solid #443e42 2px !important; width: 30% !important; height: 30px !important;}
       .spacing select {width: 100% !important;}
       .spacing div label{margin-left: 5px !important;margin-right: 5px !important; display: inline !important;}
       .control-title {margin-top: 0 !important;}
@@ -94,7 +94,7 @@
     </div>
     <script>
       var legend_orders = {
-        "flow_type":{
+        "flow_type": {
           "ODA": pal.blue1,
           "OOF": pal.blue2,
           "Other flows": pal.blue3,
@@ -107,106 +107,109 @@
           "Lower-middle-income": pal.blue2,
           "Upper-middle-income": pal.blue6,
           "High-income": pal.blue3
-        }}
+        }
+      }
         var margin2 = {top: 10, right: 50, bottom: 40, left: 50},
         width2 = 800 - margin2.left - margin2.right,
         height2 = 300 - margin2.top - margin2.bottom;
         d3.csv("https://raw.githubusercontent.com/akmiller01/aid-tracker-interactive/main/donors_oda_oof.csv",function(data){
-            var selector_configs = [
+          var selector_configs = [
+            {
+              "control_title": "Donor",
+              "control_info": "Hover text 1",
+              "column_name": "aggregate_type",
+              "selector_type": "dropdown",
+              "order": ["Organisation type", "Donor"],
+              "defaults": ["Organisation type"]
+            },
+            {
+              "control_title": "Transaction",
+              "control_info": "Hover text 2",
+              "column_name": "transaction_type",
+              "selector_type": "dropdown",
+              "order": ["Commitments", "Disbursements"],
+              "defaults": ["Commitments"]
+            },
+            {
+              "control_title": "Measure",
+              "control_info": "Hover text 3",
+              "column_name": "variable",
+              "selector_type": "dropdown",
+              "order": ["Volume", "Proportion"],
+              "defaults": ["Volume"]
+            },
+            {
+              "control_title": "Year",
+              "control_info": "Hover text 6",
+              "column_name": "year",
+              "selector_type": "checkbox",
+              "order": ["2018", "2019", "2020"],
+              "defaults": ["2018", "2019", "2020"]
+            },
             {
               "control_title": "Flow",
               "control_info": "Hover text 5",
-                "column_name": "flow_type",
-                "selector_type": "checkbox",
-                "order": ["ODA", "OOF", "Other flows", "Not specified"],
-                "defaults": ["ODA", "OOF", "Other flows", "Not specified"]
+              "column_name": "flow_type",
+              "selector_type": "checkbox",
+              "order": ["ODA", "OOF", "Other flows", "Not specified"],
+              "defaults": ["ODA", "OOF", "Other flows", "Not specified"]
             },
-                {
-                  "control_title": "Donor",
-                  "control_info": "Hover text 1",
-                  "column_name": "aggregate_type",
-                  "selector_type": "dropdown",
-                  "order": ["Organisation type", "Donor"],
-                  "defaults": ["Organisation type"]
-                },
-                {
-                  "control_title": "Transaction",
-                  "control_info": "Hover text 2",
-                    "column_name": "transaction_type",
-                    "selector_type": "dropdown",
-                    "order": ["Commitments", "Disbursements"],
-                    "defaults": ["Commitments"]
-                },
-                {
-                  "control_title": "Year",
-                  "control_info": "Hover text 6",
-                  "column_name": "year",
-                  "selector_type": "checkbox",
-                  "order": ["2018", "2019", "2020"],
-                  "defaults": ["2018", "2019", "2020"]
+            {
+              "control_title": "",
+              "column_name": "org_type",
+              "selector_type": "checkbox",
+              "selector_type_dependency":{
+                "aggregate_type": {
+                  "Organisation type": "checkbox",
+                  "Donor": "dropdown"
+                }
+              },            
+              "order": {
+                "aggregate_type": {
+                  "Organisation type": ["Bilateral", "IFI", "Multilateral"],
+                  "Donor": [
+                    "African Development Bank Group","Asian Development Bank","Australia","Belgium","Canada","Denmark"
+                    ,"EC","European Bank for Reconstruction and Development","Finland","Germany","Global Fund","Inter-American Development Bank"
+                    ,"International Committee of the Red Cross","International Fund for Agricultural Development","Multilateral Investment Fund"
+                    ,"Netherlands","New Zealand","Norway","Spain","Sweden","Switzerland","UK","UNDP","UNICEF","UNIDO","Unitaid","UNOCHA","UNRWA"
+                    ,"US","World Bank","World Food Programme"
+                  ]
+                }
               },
-                {
-                  "control_title": "",
-                    "column_name": "org_type",
-                    "selector_type": "checkbox",
-                    "selector_type_dependency":{         
-                      "aggregate_type": {
-                        "Organisation type": "checkbox",
-                        "Donor": "dropdown"
-                    }
-                },            
-                    "order": {
-                      "aggregate_type": {
-                        "Organisation type": ["Bilateral", "IFI", "Multilateral"],
-                          "Donor": ["African Development Bank Group","Asian Development Bank","Australia","Belgium","Canada","Denmark"
-                          ,"EC","European Bank for Reconstruction and Development","Finland","Germany","Global Fund","Inter-American Development Bank"
-                          ,"International Committee of the Red Cross","International Fund for Agricultural Development","Multilateral Investment Fund"
-                          ,"Netherlands","New Zealand","Norway","Spain","Sweden","Switzerland","UK","UNDP","UNICEF","UNIDO","Unitaid","UNOCHA","UNRWA"
-                          ,"US","World Bank","World Food Programme"]
-                    }
-                  },
-                    "defaults": {
-                      "aggregate_type": {
-                        "Organisation type": ["Bilateral", "IFI", "Multilateral"],
-                        "Donor": ["African Development Bank Group"]
-                    }
-                  }
-                },
-              {
-                "control_title": "Measure",
-                "control_info": "Hover text 3",
-                  "column_name": "variable",
-                  "selector_type": "dropdown",
-                  "order": ["Volume", "Proportion"],
-                  "defaults": ["Volume"]
+              "defaults": {
+                "aggregate_type": {
+                  "Organisation type": ["Bilateral", "IFI", "Multilateral"],
+                  "Donor": ["African Development Bank Group"]
+                }
               }
-            ];
+            }
+          ];
             var chart_config = {
-                "chart_type": "bar",
-                "chart_direction": "horizontal",
-                "x_axis": ["org_type", "year"],
-                "x_axis_label": "",
-                "y_axis": ["value"],
-                "y_axis_label": {
-                    "variable": {
-                        "Volume": "Volume (US$ billions)",
-                        "Proportion": "Proportions of total volumes (%)"
-                    }
-                },
-                "y_axis_scale": {
-                    "variable": {
-                        "Volume": function(d){return "$"+d3.format(",")(d/1000)+"bn"},
-                        "Proportion": d3.format(".0%")
-                    }
-                },
-                "tooltip_type": {
+              "chart_type": "bar",
+              "chart_direction": "horizontal",
+              "x_axis": ["org_type", "year"],
+              "x_axis_label": "",
+              "y_axis": ["value"],
+              "y_axis_label": {
                   "variable": {
-                      "Volume": function(d){return "US$"+parseFloat((d[1]-d[0])/1000).toFixed(2)+"bn"},
-                      "Proportion": function(d){return parseFloat(100*(d[1]-d[0])).toFixed(2)+"%"}
+                      "Volume": "Volume (US$ billions)",
+                      "Proportion": "Proportions of total volumes (%)"
                   }
               },
-                "colour_axis": ["flow_type"],
-                "colour_axis_scale": d3.scaleOrdinal().domain(["ODA", "OOF", "Other flows", "Not specified"]).range([pal.blue1,pal.blue2,pal.blue3,pal.blue4])
+              "y_axis_scale": {
+                  "variable": {
+                      "Volume": function(d){return "$" + d3.format(",")(d / 1000) + "bn"},
+                      "Proportion": d3.format(".0%")
+                  }
+              },
+              "tooltip_type": {
+                "variable": {
+                    "Volume": function(d){return "US$" + parseFloat((d[1] - d[0]) / 1000).toFixed(2) + "bn"},
+                    "Proportion": function(d){return parseFloat(100 * (d[1] - d[0])).toFixed(2) + "%"}
+                }
+            },
+              "colour_axis": ["flow_type"],
+              "colour_axis_scale": d3.scaleOrdinal().domain(["ODA", "OOF", "Other flows", "Not specified"]).range([pal.blue1, pal.blue2, pal.blue3, pal.blue4])
             };
             add_selectors("chart1", data, selector_configs);
             var initial_data = subset_data(data, selector_configs);
@@ -222,120 +225,122 @@
         })
         d3.csv("https://raw.githubusercontent.com/akmiller01/aid-tracker-interactive/main/donors_poverty.csv",function(data){
           var selector_configs = [
-              {
-                "control_title": "Poverty indicator",
-                "control_info": "Hover text 1",
-                "column_name": "measure",
-                "selector_type": "dropdown",
-                "order": ["Poverty", "Income","LDC"],
-                "defaults": ["Poverty"]
-              },
-              {
-                "control_title": "Donor",
-                "control_info": "Hover text 2",
-                "column_name": "aggregate_type",
-                "selector_type": "dropdown",
-                "order": ["Organisation type", "Donor"],
-                "defaults": ["Organisation type"]
-              },
-              {
-                "control_title": "Transaction",
-                "control_info": "Hover text 3",
-                  "column_name": "transaction_type",
-                  "selector_type": "dropdown",
-                  "order": ["Commitments", "Disbursements"],
-                  "defaults": ["Commitments"]
-              },
-              {
-                "control_title": "Flow",
-                "control_info": "Hover text 6",
-                  "column_name": "flow_type",
-                  "selector_type": "checkbox",
-                  "order": {
-                    "measure": {
-                        "LDC":["LDC","Non-LDC"],
-                        "Poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
-                        "Income": ["Low-income","Lower-middle-income","Upper-middle-income","High-income"]
-                  }
-                },
-                  "defaults": {
-                    "measure": {
-                        "LDC":["LDC","Non-LDC"],
-                        "Poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
-                        "Income": ["Low-income","Lower-middle-income","Upper-middle-income","High-income"]
-                  }
-                }
-              },
-              {
-                "control_title": "",
-                "column_name": "org_type",
-                "selector_type": "checkbox",
-                "selector_type_dependency":{         
-                  "aggregate_type": {
-                    "Organisation type": "checkbox",
-                    "Donor": "dropdown"
-                }
-              },            
-                  "order": {
-                    "aggregate_type": {
-                      "Organisation type": ["Bilateral", "IFI", "Multilateral"],
-                        "Donor": ["African Development Bank Group","Asian Development Bank","Australia","Belgium","Canada","Denmark"
-                        ,"EC","European Bank for Reconstruction and Development","Finland","Germany","Global Fund","Inter-American Development Bank"
-                        ,"International Committee of the Red Cross","International Finance Corporation","International Fund for Agricultural Development"
-                        ,"Multilateral Investment Fund","Netherlands","New Zealand","Norway","Spain","Sweden","Switzerland","UK","UNDP","UNICEF"
-                        ,"UNIDO","Unitaid","UNOCHA","UNRWA","US","World Bank","World Food Programme"]
-                  }
-                },
-                  "defaults": {
-                    "aggregate_type": {
-                      "Organisation type": ["Bilateral", "IFI", "Multilateral"],
-                      "Donor": ["African Development Bank Group"]
-                  }
-                }
-              },
-              {
-                "control_title": "Measure",
-                "control_info": "Hover text 4",
-                  "column_name": "variable",
-                  "selector_type": "dropdown",
-                  "order": ["Volume", "Proportion"],
-                  "defaults": ["Volume"]
-              },
-              {
-                "control_title": "Year",
-                "control_info": "Hover text 7",
-                "column_name": "year",
-                "selector_type": "checkbox",
-                "order": ["2018", "2019", "2020"],
-                "defaults": ["2018", "2019", "2020"]
+            {
+              "control_title": "Donor",
+              "control_info": "Hover text 2",
+              "column_name": "aggregate_type",
+              "selector_type": "dropdown",
+              "order": ["Organisation type", "Donor"],
+              "defaults": ["Organisation type"]
             },
+            {
+              "control_title": "Transaction",
+              "control_info": "Hover text 3",
+              "column_name": "transaction_type",
+              "selector_type": "dropdown",
+              "order": ["Commitments", "Disbursements"],
+              "defaults": ["Commitments"]
+            },
+            {
+              "control_title": "Measure",
+              "control_info": "Hover text 4",
+              "column_name": "variable",
+              "selector_type": "dropdown",
+              "order": ["Volume", "Proportion"],
+              "defaults": ["Volume"]
+            },
+            {
+              "control_title": "Poverty indicator",
+              "control_info": "Hover text 1",
+              "column_name": "measure",
+              "selector_type": "dropdown",
+              "order": ["Poverty", "Income","LDC"],
+              "defaults": ["Poverty"]
+            },
+            {
+              "control_title": "Year",
+              "control_info": "Hover text 7",
+              "column_name": "year",
+              "selector_type": "checkbox",
+              "order": ["2018", "2019", "2020"],
+              "defaults": ["2018", "2019", "2020"]
+            },
+            {
+              "control_title": "Flow",
+              "control_info": "Hover text 6",
+              "column_name": "flow_type",
+              "selector_type": "checkbox",
+              "order": {
+                "measure": {
+                  "LDC":["LDC", "Non-LDC"],
+                  "Poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
+                  "Income": ["Low-income", "Lower-middle-income", "Upper-middle-income", "High-income"]
+                }
+              },
+              "defaults": {
+                "measure": {
+                  "LDC":["LDC","Non-LDC"],
+                  "Poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
+                  "Income": ["Low-income","Lower-middle-income","Upper-middle-income","High-income"]
+                }
+              }
+            },
+            {
+              "control_title": "",
+              "column_name": "org_type",
+              "selector_type": "checkbox",
+              "selector_type_dependency":{
+                "aggregate_type": {
+                  "Organisation type": "checkbox",
+                  "Donor": "dropdown"
+                }
+              },
+              "order": {
+                "aggregate_type": {
+                  "Organisation type": ["Bilateral", "IFI", "Multilateral"],
+                  "Donor": [
+                    "African Development Bank Group","Asian Development Bank","Australia","Belgium","Canada","Denmark"
+                    ,"EC","European Bank for Reconstruction and Development","Finland","Germany","Global Fund","Inter-American Development Bank"
+                    ,"International Committee of the Red Cross","International Finance Corporation","International Fund for Agricultural Development"
+                    ,"Multilateral Investment Fund","Netherlands","New Zealand","Norway","Spain","Sweden","Switzerland","UK","UNDP","UNICEF"
+                    ,"UNIDO","Unitaid","UNOCHA","UNRWA","US","World Bank","World Food Programme"
+                  ]
+                }
+              },
+              "defaults": {
+                "aggregate_type": {
+                  "Organisation type": ["Bilateral", "IFI", "Multilateral"],
+                  "Donor": ["African Development Bank Group"]
+                }
+              }
+            }
           ];
           var chart_config = {
-              "chart_type": "bar",
-              "chart_direction": "horizontal",
-              "x_axis": ["org_type", "year"],
-              "x_axis_label": "",
-              "y_axis": ["value"],
-              "y_axis_label": {
-                  "variable": {
-                      "Volume": "Volume (US$ billions)",
-                      "Proportion": "Proportions of total volumes (%)"
-                  }
-              },
-              "y_axis_scale": {
-                  "variable": {
-                      "Volume": function(d){return "$"+d3.format(",")(d/1000)+"bn"},
-                      "Proportion": d3.format(".0%")
-                  }
-              },
-              "tooltip_type": {
-                "variable": {
-                    "Volume": function(d){return "US$"+parseFloat((d[1]-d[0])/1000).toFixed(2)+"bn"},
-                    "Proportion": function(d){return parseFloat(100*(d[1]-d[0])).toFixed(2)+"%"}
-                }
+            "chart_type": "bar",
+            "chart_direction": "horizontal",
+            "x_axis": ["org_type", "year"],
+            "x_axis_label": "",
+            "y_axis": ["value"],
+            "y_axis_label": {
+              "variable": {
+                "Volume": "Volume (US$ billions)",
+                "Proportion": "Proportions of total volumes (%)"
+              }
             },
-              "colour_axis": ["flow_type"],
-              "colour_axis_scale": d3.scaleOrdinal().domain(["Not specified", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower-middle-income","Upper-middle-income","High-income","LDC","Non-LDC"]).range([pal.blue4,pal.blue1,pal.blue2,pal.blue3,pal.blue1,pal.blue2,pal.blue6,pal.blue3,pal.blue1,pal.blue3])
+            "y_axis_scale": {
+              "variable": {
+                "Volume": function(d){return "$" + d3.format(",")(d / 1000) + "bn"},
+                "Proportion": d3.format(".0%")
+              }
+            },
+            "tooltip_type": {
+              "variable": {
+                "Volume": function(d){return "US$" + parseFloat((d[1] - d[0]) / 1000).toFixed(2) + "bn"},
+                "Proportion": function(d){return parseFloat(100 * (d[1] - d[0])).toFixed(2) + "%"}
+              }
+            },
+            "colour_axis": ["flow_type"],
+            "colour_axis_scale": d3.scaleOrdinal().domain(["Not specified", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower-middle-income","Upper-middle-income","High-income","LDC","Non-LDC"]).range([pal.blue4,pal.blue1,pal.blue2,pal.blue3,pal.blue1,pal.blue2,pal.blue6,pal.blue3,pal.blue1,pal.blue3])
           };
           add_selectors("chart2", data, selector_configs);
           var initial_data = subset_data(data, selector_configs);
@@ -351,100 +356,102 @@
       })
       d3.csv("https://raw.githubusercontent.com/akmiller01/aid-tracker-interactive/main/donors_sector.csv",function(data){
         var selector_configs = [
-        {
-          "control_title": "Flow",
-          "control_info": "Hover text 5",
+          {
+            "control_title": "Donor",
+            "control_info": "Hover text 1",
+            "column_name": "aggregate_type",
+            "selector_type": "dropdown",
+            "order": ["Organisation type", "Donor"],
+            "defaults": ["Organisation type"]
+          },
+          {
+            "control_title": "Transaction",
+            "control_info": "Hover text 2",
+            "column_name": "transaction_type",
+            "selector_type": "dropdown",
+            "order": ["Commitments", "Disbursements"],
+            "defaults": ["Commitments"]
+          },
+          {
+            "control_title": "Measure",
+            "control_info": "Hover text 3",
+            "column_name": "variable",
+            "selector_type": "dropdown",
+            "order": ["Volume", "Proportion"],
+            "defaults": ["Volume"]
+          },
+          {
+            "control_title": "Year",
+            "control_info": "Hover text 6",
+            "column_name": "year",
+            "selector_type": "checkbox",
+            "order": ["2018", "2019", "2020"],
+            "defaults": ["2018", "2019", "2020"]
+          },
+          {
+            "control_title": "Flow",
+            "control_info": "Hover text 5",
             "column_name": "flow_type",
             "selector_type": "dropdown",
             "order": ["Administrative Costs of Donors","Agriculture & food security","Business & industry","Debt relief","Education","Environment","General budget support","Governance & security","Health","Humanitarian","Infrastructure","Not specified","Other","Other social services","Refugees in Donor Countries","Water & sanitation"],
             "defaults": ["Health"]
-        },
-            {
-              "control_title": "Donor",
-              "control_info": "Hover text 1",
-              "column_name": "aggregate_type",
-              "selector_type": "dropdown",
-              "order": ["Organisation type", "Donor"],
-              "defaults": ["Organisation type"]
-            },
-            {
-              "control_title": "Transaction",
-              "control_info": "Hover text 2",
-                "column_name": "transaction_type",
-                "selector_type": "dropdown",
-                "order": ["Commitments", "Disbursements"],
-                "defaults": ["Commitments"]
-            },
-            {
-              "control_title": "Year",
-              "control_info": "Hover text 6",
-              "column_name": "year",
-              "selector_type": "checkbox",
-              "order": ["2018", "2019", "2020"],
-              "defaults": ["2018", "2019", "2020"]
           },
-            {
-              "control_title": "",
-              "column_name": "org_type",
-              "selector_type": "checkbox",
-              "selector_type_dependency":{         
-                "aggregate_type": {
-                  "Organisation type": "checkbox",
-                  "Donor": "dropdown"
-              }
-            },            
-                "order": {
-                  "aggregate_type": {
-                    "Organisation type": ["Bilateral", "IFI", "Multilateral"],
-                      "Donor": ["African Development Bank Group","Asian Development Bank","Australia","Belgium","Canada","Denmark"
-                      ,"EC","European Bank for Reconstruction and Development","Finland","Germany","Global Fund","Inter-American Development Bank"
-                      ,"International Fund for Agricultural Development","Multilateral Investment Fund"
-                      ,"Netherlands","New Zealand","Norway","Spain","Sweden","Switzerland","UK","UNDP","UNFPA","UNICEF","UNIDO","Unitaid","UNRWA"
-                      ,"US","World Bank","World Food Programme"]
-                }
-              },
-                "defaults": {
-                  "aggregate_type": {
-                    "Organisation type": ["Bilateral", "IFI", "Multilateral"],
-                    "Donor": ["African Development Bank Group"]
-                }
-              }
-            },
           {
-            "control_title": "Measure",
-            "control_info": "Hover text 3",
-              "column_name": "variable",
-              "selector_type": "dropdown",
-              "order": ["Volume", "Proportion"],
-              "defaults": ["Volume"]
-          },
+            "control_title": "",
+            "column_name": "org_type",
+            "selector_type": "checkbox",
+            "selector_type_dependency":{
+              "aggregate_type": {
+                "Organisation type": "checkbox",
+                "Donor": "dropdown"
+              }
+            },
+            "order": {
+              "aggregate_type": {
+                "Organisation type": ["Bilateral", "IFI", "Multilateral"],
+                "Donor": [
+                  "African Development Bank Group","Asian Development Bank","Australia","Belgium","Canada","Denmark"
+                  ,"EC","European Bank for Reconstruction and Development","Finland","Germany","Global Fund","Inter-American Development Bank"
+                  ,"International Fund for Agricultural Development","Multilateral Investment Fund"
+                  ,"Netherlands","New Zealand","Norway","Spain","Sweden","Switzerland","UK","UNDP","UNFPA","UNICEF","UNIDO","Unitaid","UNRWA"
+                  ,"US","World Bank","World Food Programme"
+                ]
+              }
+            },
+            "defaults": {
+              "aggregate_type": {
+                "Organisation type": ["Bilateral", "IFI", "Multilateral"],
+                "Donor": ["African Development Bank Group"]
+              }
+            }
+          }
         ];
         var chart_config = {
-            "chart_type": "bar",
-            "chart_direction": "horizontal",
-            "x_axis": ["org_type", "year"],
-            "x_axis_label": "",
-            "y_axis": ["value"],
-            "y_axis_label": {
-                "variable": {
-                    "Volume": "Volume (US$ billions)",
-                    "Proportion": "Proportions of total volumes (%)"
-                }
-            },
-            "y_axis_scale": {
-                "variable": {
-                    "Volume": function(d){return "$"+d3.format(",")(d/1000)+"bn"},
-                    "Proportion": d3.format(".0%")
-                }
-            },
-            "tooltip_type": {
-              "variable": {
-                  "Volume": function(d){return "US$"+parseFloat((d[1]-d[0])/1000).toFixed(2)+"bn"},
-                  "Proportion": function(d){return parseFloat(100*(d[1]-d[0])).toFixed(2)+"%"}
-              }
+          "chart_type": "bar",
+          "chart_direction": "horizontal",
+          "x_axis": ["org_type", "year"],
+          "x_axis_label": "",
+          "y_axis": ["value"],
+          "y_axis_label": {
+            "variable": {
+              "Volume": "Volume (US$ billions)",
+              "Proportion": "Proportions of total volumes (%)"
+            }
           },
-            "colour_axis": ["flow_type"],
-            "colour_axis_scale": d3.scaleOrdinal().domain(["Not specified", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower-middle-income","Upper-middle-income","High-income","LDC","Non-LDC"]).range([pal.blue1])
+          "y_axis_scale": {
+            "variable": {
+              "Volume": function(d){return "$" + d3.format(",")(d / 1000) + "bn"},
+              "Proportion": d3.format(".0%")
+            }
+          },
+          "tooltip_type": {
+            "variable": {
+                "Volume": function(d){return "US$" + parseFloat((d[1] - d[0]) / 1000).toFixed(2) + "bn"},
+                "Proportion": function(d){return parseFloat(100 * (d[1] - d[0])).toFixed(2) + "%"}
+            }
+        },
+          "colour_axis": ["flow_type"],
+          "colour_axis_scale": d3.scaleOrdinal().domain(["Not specified", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower-middle-income","Upper-middle-income","High-income","LDC","Non-LDC"]).range([pal.blue1])
         };
         add_selectors("chart3", data, selector_configs);
         var initial_data = subset_data(data, selector_configs);
