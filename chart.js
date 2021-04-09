@@ -355,7 +355,12 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
         var xPosition = d3.mouse(this)[0]+5;
         var yPosition = d3.mouse(this)[1];
         tooltip.attr("x", xPosition).attr("y", yPosition);
-        tooltip.text(d.key +", " + tooltip_formatter(d));
+        tooltip_line0.attr("x", xPosition);
+        tooltip_line1.attr("x", xPosition);
+        tooltip_line2.attr("x", xPosition);
+        tooltip_line0.text(d.key);
+        tooltip_line1.text(d.data.year_org.split("_")[1]);
+        tooltip_line2.text(tooltip_formatter(d))
         var tooltip_bbox = tooltip.node().getBBox();
           tooltipBackground
           .attr("x",tooltip_bbox.x - 2)
@@ -420,8 +425,7 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
     
     var tooltipBackground = svg.append("rect")
         .attr("class","tooltip-bg")
-        .attr("fill","white")
-        .attr("rx",5);
+        .attr("fill","white");
 
     var tooltip = svg.append("text")
         .attr("class", "tooltip")
@@ -430,9 +434,19 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
         .attr("dy", "1.2em")
         .style("text-anchor", "left")
         .attr("font-size", "12px")
-        .attr("font-weight", "bold")
+        .attr("font-weight", "normal")
         .style("fill", "#443e42")
         .style("display", "none");
+
+    var tooltip_line0 = tooltip.append("tspan")
+        .attr("x", 0)
+        .attr("dy", "1.2em");
+    var tooltip_line1 = tooltip.append("tspan")
+        .attr("x", 0)
+        .attr("dy", "1.2em");
+    var tooltip_line2 = tooltip.append("tspan")
+        .attr("x", 0)
+        .attr("dy", "1.2em");
 }
 
 function erase_chart(chart_id){
