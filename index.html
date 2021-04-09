@@ -114,7 +114,7 @@
         d3.csv("https://raw.githubusercontent.com/akmiller01/aid-tracker-interactive/main/donors_oda_oof.csv",function(data){
             var selector_configs = [
             {
-              "control_title": "Flow type",
+              "control_title": "Flow",
               "control_info": "Hover text 5",
                 "column_name": "flow_type",
                 "selector_type": "checkbox",
@@ -130,7 +130,7 @@
                   "defaults": ["Organisation type"]
                 },
                 {
-                  "control_title": "Transaction type",
+                  "control_title": "Transaction",
                   "control_info": "Hover text 2",
                     "column_name": "transaction_type",
                     "selector_type": "dropdown",
@@ -223,7 +223,7 @@
         d3.csv("https://raw.githubusercontent.com/akmiller01/aid-tracker-interactive/main/donors_poverty.csv",function(data){
           var selector_configs = [
               {
-                "control_title": "Poverty type",
+                "control_title": "Poverty indicator",
                 "control_info": "Hover text 1",
                 "column_name": "measure",
                 "selector_type": "dropdown",
@@ -239,7 +239,7 @@
                 "defaults": ["Organisation type"]
               },
               {
-                "control_title": "Transaction type",
+                "control_title": "Transaction",
                 "control_info": "Hover text 3",
                   "column_name": "transaction_type",
                   "selector_type": "dropdown",
@@ -247,21 +247,21 @@
                   "defaults": ["Commitments"]
               },
               {
-                "control_title": "Flow type",
+                "control_title": "Flow",
                 "control_info": "Hover text 6",
                   "column_name": "flow_type",
                   "selector_type": "checkbox",
                   "order": {
                     "measure": {
                         "LDC":["LDC","Non-LDC"],
-                        "Poverty": ["Not specified", "Less than 5%", "5-20%", "Above 20%"],
+                        "Poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
                         "Income": ["Low-income","Lower-middle-income","Upper-middle-income","High-income"]
                   }
                 },
                   "defaults": {
                     "measure": {
                         "LDC":["LDC","Non-LDC"],
-                        "Poverty": ["Not specified", "Less than 5%", "5-20%", "Above 20%"],
+                        "Poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
                         "Income": ["Low-income","Lower-middle-income","Upper-middle-income","High-income"]
                   }
                 }
@@ -352,7 +352,7 @@
       d3.csv("https://raw.githubusercontent.com/akmiller01/aid-tracker-interactive/main/donors_sector.csv",function(data){
         var selector_configs = [
         {
-          "control_title": "Flow type",
+          "control_title": "Flow",
           "control_info": "Hover text 5",
             "column_name": "flow_type",
             "selector_type": "dropdown",
@@ -368,7 +368,7 @@
               "defaults": ["Organisation type"]
             },
             {
-              "control_title": "Transaction type",
+              "control_title": "Transaction",
               "control_info": "Hover text 2",
                 "column_name": "transaction_type",
                 "selector_type": "dropdown",
