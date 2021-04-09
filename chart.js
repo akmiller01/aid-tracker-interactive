@@ -377,7 +377,7 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
         .attr("text-anchor", "start")
         .attr("transform", "translate(" + (5 - margin.left) + ", " + (5 - margin.top) + ")")
 
-    var previous_offset_x = 0;
+    var previous_offset_x = 50;
     var previous_offset_y = 0;
     var element_ruler = d3.select(".element_ruler");
     element_ruler
@@ -392,13 +392,13 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
 
         legend_item.append("rect")
             .attr("x", 0)
-            .attr("width", 19)
-            .attr("height", 19)
+            .attr("width", 12)
+            .attr("height", 12)
             .attr("fill", z(d))
       
         legend_item.append("text")
-            .attr("x", 21)
-            .attr("y", 9.5)
+            .attr("x", 19)
+            .attr("y", 7)
             .attr("dy", "0.32em")
             .text(d);
         element_ruler_text.text(d);
