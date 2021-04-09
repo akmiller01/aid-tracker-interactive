@@ -2,7 +2,9 @@ var pal = {
     "blue1": "#0089CC",
     "blue2": "#88BAE5",
     "blue3": "#0C457B",
-    "blue4": "#A9A6AA"
+    "blue4": "#A9A6AA",
+    "blue5": "#5da3d9",
+    "blue6": "#0071b1"
   };
 
 
