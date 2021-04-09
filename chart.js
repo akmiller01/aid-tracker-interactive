@@ -1,10 +1,10 @@
 var pal = {
-    "blue1": "#0089CC",
-    "blue2": "#88BAE5",
-    "blue3": "#0C457B",
-    "blue4": "#A9A6AA",
-    "blue5": "#5da3d9",
-    "blue6": "#0071b1"
+    "blue1": "#893f90",
+    "blue2": "#c189bb",
+    "blue3": "#a45ea1",
+    "blue4": "#a9a6aa",
+    "blue5": "#7b3b89",
+    "blue6": "#551f65"
   };
 
 
@@ -355,7 +355,7 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
         var xPosition = d3.mouse(this)[0]+5;
         var yPosition = d3.mouse(this)[1];
         tooltip.attr("x", xPosition).attr("y", yPosition);
-        tooltip.text(d.key + ", " + tooltip_formatter(d));
+        tooltip.text(d.key +", " + tooltip_formatter(d));
         var tooltip_bbox = tooltip.node().getBBox();
           tooltipBackground
           .attr("x",tooltip_bbox.x - 2)
