@@ -34,7 +34,7 @@
       .spacing h3 {display: inline !important; font-family: 'Averta','Geomanist Regular' !important;font-size:15px !important;color:#443e42 !important;font-weight: bold !important;}
       select, label {font-family: 'Averta','Geomanist Regular' !important;color:#443e42 !important;}
       select {font-size:15px !important;}
-      .spacing {height: 50px !important; float: left !important; margin:5px !important; padding: 10px 5px 10px 5px !important; border-left: solid #443e42 2px !important; width: 30% !important;}
+      .spacing {min-height: 50px !important; float: left !important; margin:5px !important; padding: 10px 5px 10px 5px !important; border-left: solid #443e42 2px !important; width: 30% !important;}
       .spacing select {width: 100% !important;}
       .spacing div label{margin-left: 5px !important;margin-right: 5px !important; display: inline !important;}
       .control-title {margin-top: 0 !important;}
@@ -42,6 +42,7 @@
       .ui-tooltip{font-size: 20px !important; border: none !important; -webkit-box-shadow: none !important; box-shadow: none; color: rgb(68, 62, 66) !important; background-color: rgba(255, 255, 255, 0.8) !important;}
       .ui-state-active a, .ui-state-default a{color: #443e42 !important;}
       .ui-widget-content{color: #443e42 !important;}
+      .intro-text{font-size: 15px !important;}
       #chart1 svg, #chart2 svg, #chart3 svg {margin-top: 20px !important;}
     </style>
 </head>
@@ -56,19 +57,19 @@
         <li><a href="#tabs-3">Sector targeting</a></li>
       </ul>
       <div id="tabs-1">
-        <p>Introductory copy chart 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse augue enim, congue et euismod id, elementum eu quam. </p>    
+        <p class="intro-text">Introductory copy chart 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse augue enim, congue et euismod id, elementum eu quam. </p>
         <div class="chart-wrapper-full">
           <div id="chart1"></div>
         </div>
       </div>
       <div id="tabs-2">
-        <p>Introductory copy chart 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse augue enim, congue et euismod id, elementum eu quam. </p>   
+        <p class="intro-text">Introductory copy chart 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse augue enim, congue et euismod id, elementum eu quam. </p>
         <div class="chart-wrapper-full">
           <div id="chart2"></div>
         </div>
       </div>
       <div id="tabs-3">
-        <p>Introductory copy chart 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse augue enim, congue et euismod id, elementum eu quam. </p>   
+        <p class="intro-text">Introductory copy chart 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse augue enim, congue et euismod id, elementum eu quam. </p>
         <div class="chart-wrapper-full">
           <div id="chart3"></div>
         </div>
