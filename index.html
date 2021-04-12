@@ -26,7 +26,7 @@
       .yaxistitle {font-size:10px !important; font-weight: 100 !important; fill:#443e42 !important; font-family: 'Averta','Geomanist Regular',sans-serif !important; }
       .yaxis text {font-size:10px !important; font-weight: 100 !important; fill:#443e42 !important; font-family: 'Averta','Geomanist Regular',sans-serif !important; }
       .yaxis line {stroke:#a9a6aa !important;}
-      .yaxis path {stroke:#a9a6aa !important;}
+      .yaxis path {stroke:transparent !important;}
       .tooltip {pointer-events: none !important;}
       .tooltip-bg {pointer-events: none !important;}
       .chart-wrapper-full {width:100% !important;}
@@ -118,6 +118,22 @@
               "defaults": ["Organisation type"]
             },
             {
+              "control_title": "Transaction",
+              "control_info": "Hover text 2",
+              "column_name": "transaction_type",
+              "selector_type": "dropdown",
+              "order": ["Commitments", "Disbursements"],
+              "defaults": ["Commitments"]
+            },
+            {
+              "control_title": "Measure",
+              "control_info": "Hover text 3",
+              "column_name": "variable",
+              "selector_type": "dropdown",
+              "order": ["Volume", "Proportion"],
+              "defaults": ["Volume"]
+            },
+            {
               "control_title": "",
               "column_name": "org_type",
               "selector_type": "checkbox",
@@ -145,22 +161,6 @@
                   "Donor": ["African Development Bank Group"]
                 }
               }
-            },
-            {
-              "control_title": "Transaction",
-              "control_info": "Hover text 2",
-              "column_name": "transaction_type",
-              "selector_type": "dropdown",
-              "order": ["Commitments", "Disbursements"],
-              "defaults": ["Commitments"]
-            },
-            {
-              "control_title": "Measure",
-              "control_info": "Hover text 3",
-              "column_name": "variable",
-              "selector_type": "dropdown",
-              "order": ["Volume", "Proportion"],
-              "defaults": ["Volume"]
             }
           ];
             var chart_config = {
@@ -205,6 +205,22 @@
         d3.csv("https://raw.githubusercontent.com/akmiller01/aid-tracker-interactive/main/donors_poverty.csv",function(data){
           var selector_configs = [
             {
+              "control_title": "Poverty indicator",
+              "control_info": "Hover text 1",
+              "column_name": "measure",
+              "selector_type": "dropdown",
+              "order": ["Poverty", "Income","LDC"],
+              "defaults": ["Poverty"]
+            },
+            {
+              "control_title": "Years",
+              "control_info": "Hover text 7",
+              "column_name": "year",
+              "selector_type": "checkbox",
+              "order": ["2018", "2019", "2020"],
+              "defaults": ["2018", "2019", "2020"]
+            },
+            {
               "control_title": "Donor",
               "control_info": "Hover text 2",
               "column_name": "aggregate_type",
@@ -227,42 +243,6 @@
               "selector_type": "dropdown",
               "order": ["Volume", "Proportion"],
               "defaults": ["Volume"]
-            },
-            {
-              "control_title": "Poverty indicator",
-              "control_info": "Hover text 1",
-              "column_name": "measure",
-              "selector_type": "dropdown",
-              "order": ["Poverty", "Income","LDC"],
-              "defaults": ["Poverty"]
-            },
-            {
-              "control_title": "Years",
-              "control_info": "Hover text 7",
-              "column_name": "year",
-              "selector_type": "checkbox",
-              "order": ["2018", "2019", "2020"],
-              "defaults": ["2018", "2019", "2020"]
-            },
-            {
-              "control_title": "Flow",
-              "control_info": "Hover text 6",
-              "column_name": "flow_type",
-              "selector_type": "checkbox",
-              "order": {
-                "measure": {
-                  "LDC":["LDC", "Non-LDC"],
-                  "Poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
-                  "Income": ["Low-income", "Lower-middle-income", "Upper-middle-income", "High-income"]
-                }
-              },
-              "defaults": {
-                "measure": {
-                  "LDC":["LDC","Non-LDC"],
-                  "Poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
-                  "Income": ["Low-income","Lower-middle-income","Upper-middle-income","High-income"]
-                }
-              }
             },
             {
               "column_name": "org_type",
@@ -289,6 +269,26 @@
                 "aggregate_type": {
                   "Organisation type": ["Bilateral", "IFI", "Multilateral"],
                   "Donor": ["African Development Bank Group"]
+                }
+              }
+            },
+            {
+              "control_title": "Flow",
+              "control_info": "Hover text 6",
+              "column_name": "flow_type",
+              "selector_type": "checkbox",
+              "order": {
+                "measure": {
+                  "LDC":["LDC", "Non-LDC"],
+                  "Poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
+                  "Income": ["Low-income", "Lower-middle-income", "Upper-middle-income", "High-income"]
+                }
+              },
+              "defaults": {
+                "measure": {
+                  "LDC":["LDC","Non-LDC"],
+                  "Poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
+                  "Income": ["Low-income","Lower-middle-income","Upper-middle-income","High-income"]
                 }
               }
             }
