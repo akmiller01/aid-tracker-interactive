@@ -145,7 +145,12 @@ function add_selectors(chart_id, data, selector_configs){
         }
         var controlWrapper = chartNode
             .append("div")
-        controlWrapper.attr("class","spacing")
+        if(Object.keys(selector_config).includes("control_class")){
+            var control_class = selector_config.control_class;
+        }else{
+            var control_class = "spacing";
+        }
+        controlWrapper.attr("class", control_class)
         if(Object.keys(selector_config).includes("control_title")){
             controlWrapper.append("h3").attr("class","control-title").text(selector_config.control_title)
         }

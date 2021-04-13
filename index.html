@@ -31,12 +31,13 @@
       .tooltip {pointer-events: none !important;}
       .tooltip-bg {pointer-events: none !important;}
       .chart-wrapper-full {width:100% !important;}
-      .spacing h3 {display: inline !important; font-family: 'Averta','Geomanist Regular' !important;font-size:15px !important;color:#443e42 !important;font-weight: bold !important;}
+      .spacing h3, .spacing-merge h3 {display: inline !important; font-family: 'Averta','Geomanist Regular' !important;font-size:15px !important;color:#443e42 !important;font-weight: bold !important;}
       select, label {font-family: 'Averta','Geomanist Regular' !important;color:#443e42 !important;}
       select {font-size:15px !important;}
-      .spacing {height: 100px !important; float: left !important; margin:5px !important; padding: 10px 5px 10px 5px !important; border-left: solid #443e42 2px !important; width: 30% !important;}
-      .spacing select {width: 100% !important;}
-      .spacing div label{margin-left: 5px !important;margin-right: 5px !important; display: inline !important;}
+      .spacing, .spacing-merge {height: 100px !important; float: left !important; margin:5px !important; padding: 10px 5px 10px 5px !important; border-left: solid #443e42 2px !important; width: 30% !important;}
+      .spacing select, .spacing-merge select {width: 100% !important;}
+      .spacing div label, .spacing-merge div label{margin-left: 5px !important;margin-right: 5px !important; display: inline !important;}
+      .spacing-merge{border-left: none !important;}
       .control-title {margin-top: 0 !important;}
       .ui-widget{color: #443e42 !important;font-family:'Averta','Geomanist Regular',sans-serif !important; font-size: 1.0em !important;}
       .ui-tooltip{font-size: 20px !important; border: none !important; -webkit-box-shadow: none !important; box-shadow: none; color: rgb(68, 62, 66) !important; background-color: rgba(255, 255, 255, 0.8) !important;}
@@ -114,14 +115,6 @@
               "defaults": ["2018", "2019", "2020"]
             },
             {
-              "control_title": "Donor",
-              "control_info": "Hover text 1",
-              "column_name": "aggregate_type",
-              "selector_type": "dropdown",
-              "order": ["Organisation type", "Donor"],
-              "defaults": ["Organisation type"]
-            },
-            {
               "control_title": "Transaction",
               "control_info": "Hover text 2",
               "column_name": "transaction_type",
@@ -130,15 +123,16 @@
               "defaults": ["Commitments"]
             },
             {
-              "control_title": "Measure",
-              "control_info": "Hover text 3",
-              "column_name": "variable",
+              "control_title": "Donor",
+              "control_info": "Hover text 1",
+              "column_name": "aggregate_type",
               "selector_type": "dropdown",
-              "order": ["Volume", "Proportion"],
-              "defaults": ["Volume"]
+              "order": ["Organisation type", "Donor"],
+              "defaults": ["Organisation type"]
             },
             {
               "control_title": "",
+              "control_class": "spacing-merge",
               "column_name": "org_type",
               "selector_type": "checkbox",
               "selector_type_dependency":{
@@ -165,6 +159,14 @@
                   "Donor": ["African Development Bank Group"]
                 }
               }
+            },
+            {
+              "control_title": "Measure",
+              "control_info": "Hover text 3",
+              "column_name": "variable",
+              "selector_type": "dropdown",
+              "order": ["Volume", "Proportion"],
+              "defaults": ["Volume"]
             }
           ];
             var chart_config = {
