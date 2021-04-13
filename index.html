@@ -37,7 +37,7 @@
       .spacing, .spacing-merge {height: 100px !important; float: left !important; margin:5px !important; padding: 10px 5px 10px 5px !important; border-left: solid #443e42 2px !important; width: 30% !important;}
       .spacing select, .spacing-merge select {width: 100% !important;}
       .spacing div label, .spacing-merge div label{margin-left: 5px !important;margin-right: 5px !important; display: inline !important;}
-      .spacing-merge{border-left: none !important;}
+      .spacing-merge{height: 80px !important; border-left: none !important; padding-top: 30px !important;}
       .control-title {margin-top: 0 !important;}
       .ui-widget{color: #443e42 !important;font-family:'Averta','Geomanist Regular',sans-serif !important; font-size: 1.0em !important;}
       .ui-tooltip{font-size: 20px !important; border: none !important; -webkit-box-shadow: none !important; box-shadow: none; color: rgb(68, 62, 66) !important; background-color: rgba(255, 255, 255, 0.8) !important;}
@@ -219,6 +219,25 @@
               "defaults": ["Poverty"]
             },
             {
+              "control_class": "spacing-merge",
+              "column_name": "flow_type",
+              "selector_type": "checkbox",
+              "order": {
+                "measure": {
+                  "LDC":["LDC", "Non-LDC"],
+                  "Poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
+                  "Income": ["Low-income", "Lower-middle-income", "Upper-middle-income", "High-income"]
+                }
+              },
+              "defaults": {
+                "measure": {
+                  "LDC":["LDC","Non-LDC"],
+                  "Poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
+                  "Income": ["Low-income","Lower-middle-income","Upper-middle-income","High-income"]
+                }
+              }
+            },
+            {
               "control_title": "Years",
               "control_info": "Hover text 7",
               "column_name": "year",
@@ -235,22 +254,7 @@
               "defaults": ["Organisation type"]
             },
             {
-              "control_title": "Transaction",
-              "control_info": "Hover text 3",
-              "column_name": "transaction_type",
-              "selector_type": "dropdown",
-              "order": ["Commitments", "Disbursements"],
-              "defaults": ["Commitments"]
-            },
-            {
-              "control_title": "Measure",
-              "control_info": "Hover text 4",
-              "column_name": "variable",
-              "selector_type": "dropdown",
-              "order": ["Volume", "Proportion"],
-              "defaults": ["Volume"]
-            },
-            {
+              "control_class": "spacing-merge",
               "column_name": "org_type",
               "selector_type": "checkbox",
               "selector_type_dependency":{
@@ -279,24 +283,20 @@
               }
             },
             {
-              "control_title": "Flow",
-              "control_info": "Hover text 6",
-              "column_name": "flow_type",
-              "selector_type": "checkbox",
-              "order": {
-                "measure": {
-                  "LDC":["LDC", "Non-LDC"],
-                  "Poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
-                  "Income": ["Low-income", "Lower-middle-income", "Upper-middle-income", "High-income"]
-                }
-              },
-              "defaults": {
-                "measure": {
-                  "LDC":["LDC","Non-LDC"],
-                  "Poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
-                  "Income": ["Low-income","Lower-middle-income","Upper-middle-income","High-income"]
-                }
-              }
+              "control_title": "Transaction",
+              "control_info": "Hover text 3",
+              "column_name": "transaction_type",
+              "selector_type": "dropdown",
+              "order": ["Commitments", "Disbursements"],
+              "defaults": ["Commitments"]
+            },
+            {
+              "control_title": "Measure",
+              "control_info": "Hover text 4",
+              "column_name": "variable",
+              "selector_type": "dropdown",
+              "order": ["Volume", "Proportion"],
+              "defaults": ["Volume"]
             }
           ];
           var chart_config = {
@@ -341,28 +341,12 @@
       d3.csv("https://raw.githubusercontent.com/akmiller01/aid-tracker-interactive/main/donors_sector.csv",function(data){
         var selector_configs = [
           {
-            "control_title": "Donor",
-            "control_info": "Hover text 1",
-            "column_name": "aggregate_type",
+            "control_title": "Sector",
+            "control_info": "Hover text 5",
+            "column_name": "flow_type",
             "selector_type": "dropdown",
-            "order": ["Organisation type", "Donor"],
-            "defaults": ["Organisation type"]
-          },
-          {
-            "control_title": "Transaction",
-            "control_info": "Hover text 2",
-            "column_name": "transaction_type",
-            "selector_type": "dropdown",
-            "order": ["Commitments", "Disbursements"],
-            "defaults": ["Commitments"]
-          },
-          {
-            "control_title": "Measure",
-            "control_info": "Hover text 3",
-            "column_name": "variable",
-            "selector_type": "dropdown",
-            "order": ["Volume", "Proportion"],
-            "defaults": ["Volume"]
+            "order": ["Administrative Costs of Donors","Agriculture & food security","Business & industry","Debt relief","Education","Environment","General budget support","Governance & security","Health","Humanitarian","Infrastructure","Not specified","Other","Other social services","Refugees in Donor Countries","Water & sanitation"],
+            "defaults": ["Health"]
           },
           {
             "control_title": "Years",
@@ -373,15 +357,23 @@
             "defaults": ["2018", "2019", "2020"]
           },
           {
-            "control_title": "Flow",
-            "control_info": "Hover text 5",
-            "column_name": "flow_type",
+            "control_title": "Transaction",
+            "control_info": "Hover text 2",
+            "column_name": "transaction_type",
             "selector_type": "dropdown",
-            "order": ["Administrative Costs of Donors","Agriculture & food security","Business & industry","Debt relief","Education","Environment","General budget support","Governance & security","Health","Humanitarian","Infrastructure","Not specified","Other","Other social services","Refugees in Donor Countries","Water & sanitation"],
-            "defaults": ["Health"]
+            "order": ["Commitments", "Disbursements"],
+            "defaults": ["Commitments"]
           },
           {
-            "control_title": "",
+            "control_title": "Donor",
+            "control_info": "Hover text 1",
+            "column_name": "aggregate_type",
+            "selector_type": "dropdown",
+            "order": ["Organisation type", "Donor"],
+            "defaults": ["Organisation type"]
+          },
+          {
+            "control_class": "spacing-merge",
             "column_name": "org_type",
             "selector_type": "checkbox",
             "selector_type_dependency":{
@@ -408,6 +400,14 @@
                 "Donor": ["African Development Bank Group"]
               }
             }
+          },
+          {
+            "control_title": "Measure",
+            "control_info": "Hover text 3",
+            "column_name": "variable",
+            "selector_type": "dropdown",
+            "order": ["Volume", "Proportion"],
+            "defaults": ["Volume"]
           }
         ];
         var chart_config = {
