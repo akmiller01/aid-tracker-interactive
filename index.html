@@ -58,19 +58,19 @@
         <li><a href="#tabs-3">Sector targeting</a></li>
       </ul>
       <div id="tabs-1">
-        <p class="intro-text">Introductory copy chart 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse augue enim, congue et euismod id, elementum eu quam. </p>
+        <p class="intro-text">Which aid flows are making up the majority of donor commitments and disbursements, by volume or proportion?</p>
         <div class="chart-wrapper-full">
           <div id="chart1"></div>
         </div>
       </div>
       <div id="tabs-2">
-        <p class="intro-text">Introductory copy chart 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse augue enim, congue et euismod id, elementum eu quam. </p>
+        <p class="intro-text">Are donors targeting aid towards countries with high rates of extreme poverty, low-income countries or the least developed countries, by volume or proportion?</p>
         <div class="chart-wrapper-full">
           <div id="chart2"></div>
         </div>
       </div>
       <div id="tabs-3">
-        <p class="intro-text">Introductory copy chart 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse augue enim, congue et euismod id, elementum eu quam. </p>
+        <p class="intro-text">Which sectors donors are prioritising, by volume or proportion?</p>
         <div class="chart-wrapper-full">
           <div id="chart3"></div>
         </div>
@@ -100,7 +100,7 @@
           var selector_configs = [
             {
               "control_title": "Flow",
-              "control_info": "Hover text 5",
+              "control_info": "You can add or remove different flows that make up overall aid: official development assistance, other official flows and other aid.",
               "column_name": "flow_type",
               "selector_type": "checkbox",
               "order": ["ODA", "OOF", "Other flows", "Not specified"],
@@ -108,7 +108,7 @@
             },
             {
               "control_title": "Years",
-              "control_info": "Hover text 6",
+              "control_info": "You can add or remove bars for between 2018 and 2020. It is not possible to view data prior to 2018 because of a lack of reliable reporting to the International Aid Transparency Initiative.",
               "column_name": "year",
               "selector_type": "checkbox",
               "order": ["2018", "2019", "2020"],
@@ -116,7 +116,7 @@
             },
             {
               "control_title": "Transaction",
-              "control_info": "Hover text 2",
+              "control_info": "Select to view either commitments (amounts the donor is contracted to disburse) or disbursements (actual spend by donor in fulfilment of a contract). Please be aware that not all individual donors have data for commitments and disbursements.",
               "column_name": "transaction_type",
               "selector_type": "dropdown",
               "order": ["Commitments", "Disbursements"],
@@ -124,7 +124,7 @@
             },
             {
               "control_title": "Donor",
-              "control_info": "Hover text 1",
+              "control_info": "Choose whether to compare aid flows for different types of donors or look at individual donors. Unfortunately, to avoid double counting, we are unable to aggregate donor types. Please be aware that not all individual donors have data for commitments and disbursements.",
               "column_name": "aggregate_type",
               "selector_type": "dropdown",
               "order": ["Organisation type", "Donor"],
@@ -162,7 +162,7 @@
             },
             {
               "control_title": "Measure",
-              "control_info": "Hover text 3",
+              "control_info": "Select to view either data in volumes (US$ millions, rounded to one decimal place) or proportions (%). Please be aware that if viewing by proportions, depending on other choices within the control, the y-axis may not be at 100%.",
               "column_name": "variable",
               "selector_type": "dropdown",
               "order": ["Volume", "Proportion"],
@@ -212,7 +212,7 @@
           var selector_configs = [
             {
               "control_title": "Poverty indicator",
-              "control_info": "Hover text 1",
+              "control_info": "You can look at the targeting of aid towards countries that need it most through three different lenses: the percentage of the population that live on less in extreme poverty, on less than PPP$1.90 each day; country income groupings; the least developed countries.",
               "column_name": "measure",
               "selector_type": "dropdown",
               "order": ["Poverty", "Income","LDC"],
@@ -239,7 +239,7 @@
             },
             {
               "control_title": "Years",
-              "control_info": "Hover text 7",
+              "control_info": "You can add or remove bars for between 2018 and 2020. It is not possible to view data prior to 2018 because of a lack of reliable reporting to the International Aid Transparency Initiative.",
               "column_name": "year",
               "selector_type": "checkbox",
               "order": ["2018", "2019", "2020"],
@@ -247,7 +247,7 @@
             },
             {
               "control_title": "Donor",
-              "control_info": "Hover text 2",
+              "control_info": "Choose whether to compare aid flows for different types of donors or look at individual donors. Unfortunately, to avoid double counting, we are unable to aggregate donor types. Please be aware that not all individual donors have data for commitments and disbursements.",
               "column_name": "aggregate_type",
               "selector_type": "dropdown",
               "order": ["Organisation type", "Donor"],
@@ -284,7 +284,7 @@
             },
             {
               "control_title": "Transaction",
-              "control_info": "Hover text 3",
+              "control_info": "Select to view either commitments (amounts the donor is contracted to disburse) or disbursements (actual spend by donor in fulfilment of a contract). Please be aware that not all individual donors have data for commitments and disbursements.",
               "column_name": "transaction_type",
               "selector_type": "dropdown",
               "order": ["Commitments", "Disbursements"],
@@ -292,7 +292,7 @@
             },
             {
               "control_title": "Measure",
-              "control_info": "Hover text 4",
+              "control_info": "Select to view either data in volumes (US$ millions, rounded to one decimal place) or proportions (%). Please be aware that if viewing by proportions, depending on other choices within the control, the y-axis may not be at 100%.",
               "column_name": "variable",
               "selector_type": "dropdown",
               "order": ["Volume", "Proportion"],
@@ -342,7 +342,7 @@
         var selector_configs = [
           {
             "control_title": "Sector",
-            "control_info": "Hover text 5",
+            "control_info": "Select which sector you would like to view data for.",
             "column_name": "flow_type",
             "selector_type": "dropdown",
             "order": ["Administrative Costs of Donors","Agriculture & food security","Business & industry","Debt relief","Education","Environment","General budget support","Governance & security","Health","Humanitarian","Infrastructure","Not specified","Other","Other social services","Refugees in Donor Countries","Water & sanitation"],
@@ -350,7 +350,7 @@
           },
           {
             "control_title": "Years",
-            "control_info": "Hover text 6",
+            "control_info": "You can add or remove bars for between 2018 and 2020. It is not possible to view data prior to 2018 because of a lack of reliable reporting to the International Aid Transparency Initiative.",
             "column_name": "year",
             "selector_type": "checkbox",
             "order": ["2018", "2019", "2020"],
@@ -358,7 +358,7 @@
           },
           {
             "control_title": "Transaction",
-            "control_info": "Hover text 2",
+            "control_info": "Select to view either commitments (amounts the donor is contracted to disburse) or disbursements (actual spend by donor in fulfilment of a contract). Please be aware that not all individual donors have data for commitments and disbursements.",
             "column_name": "transaction_type",
             "selector_type": "dropdown",
             "order": ["Commitments", "Disbursements"],
@@ -366,7 +366,7 @@
           },
           {
             "control_title": "Donor",
-            "control_info": "Hover text 1",
+            "control_info": "Choose whether to compare aid flows for different types of donors or look at individual donors. Unfortunately, to avoid double counting, we are unable to aggregate donor types. Please be aware that not all individual donors have data for commitments and disbursements.",
             "column_name": "aggregate_type",
             "selector_type": "dropdown",
             "order": ["Organisation type", "Donor"],
@@ -403,7 +403,7 @@
           },
           {
             "control_title": "Measure",
-            "control_info": "Hover text 3",
+            "control_info": "Select to view either data in volumes (US$ millions, rounded to one decimal place) or proportions (%). Please be aware that if viewing by proportions, depending on other choices within the control, the y-axis may not be at 100%.",
             "column_name": "variable",
             "selector_type": "dropdown",
             "order": ["Volume", "Proportion"],
