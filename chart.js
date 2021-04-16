@@ -1,3 +1,23 @@
+function convertToCSV(data){
+    if (!data || data.length === 0){
+        return;
+    }
+    var csv = [Object.keys(data[0]).slice(0).join(", ")];
+    data.forEach(
+        function(item){
+            csv.push(
+                Object.values(item).map(
+                    function(val){
+                        return(isNaN(val) ? '"' + val + '"' : val)
+                    }
+                ).join(", ")
+            )
+        }
+    )
+    csv = csv.join("\n");
+    return("data:text/csv;chartset=utf-8," + escape(csv));
+}
+
 var pal = {
     "blue1": "#893f90",
     "blue2": "#c189bb",
