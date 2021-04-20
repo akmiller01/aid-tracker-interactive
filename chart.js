@@ -256,7 +256,7 @@ function subset_data(data, selector_configs){
     return(filtered_data);
 }
 
-function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selector_configs){
+function draw_bar_chart(data, chart_id, margin, width, height, chart_config, selector_configs){
     data.forEach(function(d, d_index){
         if(d["timeframe"] == "Yearly"){
             data[d_index]["year_org"] = d["org_type"] + "_" + d["year"]
@@ -490,6 +490,16 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
     var tooltip_line2 = tooltip.append("tspan")
         .attr("x", 0)
         .attr("dy", "1.2em");
+
+    var no_data = data.filter(function(d){return(d.value != 0)}).length == 0;
+    if(no_data){
+        svg
+        .append("text")
+        .attr("x", width / 2)
+        .attr("y", height / 2)
+        .attr("text-anchor", "middle")
+        .text("No data available in selection.")
+    }
 }
 
 function erase_chart(chart_id){
