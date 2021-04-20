@@ -118,7 +118,7 @@
         var margin2 = {top: 10, right: 50, bottom: 40, left: 50},
         width2 = 800 - margin2.left - margin2.right,
         height2 = 300 - margin2.top - margin2.bottom;
-        d3.csv("https://raw.githubusercontent.com/akmiller01/aid-tracker-interactive/main/donors_oda_oof.csv",function(data){
+        d3.csv("https://raw.githubusercontent.com/akmiller01/aid-tracker-interactive/main/overall.csv",function(data){
           var selector_configs = [
             {
               "control_title": "Flow",
@@ -129,12 +129,11 @@
               "defaults": ["ODA", "OOF", "Other flows", "Not specified"]
             },
             {
-              "control_title": "Years",
-              "control_info": "You can add or remove bars for between 2018 and 2020. It is not possible to view data prior to 2018 because of a lack of reliable reporting to the International Aid Transparency Initiative.",
-              "column_name": "year",
-              "selector_type": "checkbox",
-              "order": ["2018", "2019", "2020"],
-              "defaults": ["2018", "2019", "2020"]
+              "control_title": "Timeframe",
+              "column_name": "timeframe",
+              "selector_type": "dropdown",
+              "order": ["Yearly", "Quarterly", "Monthly"],
+              "defaults": ["Yearly"]
             },
             {
               "control_title": "Transaction",
@@ -232,7 +231,7 @@
                 })
             });
         })
-        d3.csv("https://raw.githubusercontent.com/akmiller01/aid-tracker-interactive/main/donors_poverty.csv",function(data){
+        d3.csv("https://raw.githubusercontent.com/akmiller01/aid-tracker-interactive/main/poverty.csv",function(data){
           var selector_configs = [
             {
               "control_title": "Poverty indicator",
@@ -262,12 +261,11 @@
               }
             },
             {
-              "control_title": "Years",
-              "control_info": "You can add or remove bars for between 2018 and 2020. It is not possible to view data prior to 2018 because of a lack of reliable reporting to the International Aid Transparency Initiative.",
-              "column_name": "year",
-              "selector_type": "checkbox",
-              "order": ["2018", "2019", "2020"],
-              "defaults": ["2018", "2019", "2020"]
+              "control_title": "Timeframe",
+              "column_name": "timeframe",
+              "selector_type": "dropdown",
+              "order": ["Yearly", "Quarterly", "Monthly"],
+              "defaults": ["Yearly"]
             },
             {
               "control_title": "Donor",
@@ -291,11 +289,38 @@
                 "aggregate_type": {
                   "Organisation type": ["Bilateral", "IFI", "Multilateral"],
                   "Donor": [
-                    "African Development Bank Group","Asian Development Bank","Australia","Belgium","Canada","Denmark"
-                    ,"EC","European Bank for Reconstruction and Development","Finland","Germany","Global Fund","Inter-American Development Bank"
-                    ,"International Committee of the Red Cross","International Finance Corporation","International Fund for Agricultural Development"
-                    ,"Multilateral Investment Fund","Netherlands","New Zealand","Norway","Spain","Sweden","Switzerland","UK","UNDP","UNICEF"
-                    ,"UNIDO","Unitaid","UNOCHA","UNRWA","US","World Bank","World Food Programme"
+                    "African Development Bank Group",
+                    "Asian Development Bank",
+                    "Australia",
+                    "Belgium",
+                    "Canada",
+                    "Denmark",
+                    "EC",
+                    "European Bank for Reconstruction and Development",
+                    "Finland",
+                    "Germany",
+                    "Global Fund",
+                    "Inter-American Development Bank",
+                    "International Committee of the Red Cross",
+                    "International Finance Corporation",
+                    "International Fund for Agricultural Development",
+                    "Multilateral Investment Fund",
+                    "Netherlands",
+                    "New Zealand",
+                    "Norway",
+                    "Spain",
+                    "Sweden",
+                    "Switzerland",
+                    "UK",
+                    "UNDP",
+                    "UNFPA",
+                    "UNICEF",
+                    "UNIDO",
+                    "UNOCHA",
+                    "UNRWA",
+                    "US",
+                    "World Bank",
+                    "World Food Programme"
                   ]
                 }
               },
@@ -364,23 +389,38 @@
               })
           });
       })
-      d3.csv("https://raw.githubusercontent.com/akmiller01/aid-tracker-interactive/main/donors_sector.csv",function(data){
+      d3.csv("https://raw.githubusercontent.com/akmiller01/aid-tracker-interactive/main/sector.csv",function(data){
         var selector_configs = [
           {
             "control_title": "Sector",
             "control_info": "Select which sector you would like to view data for.",
             "column_name": "flow_type",
             "selector_type": "dropdown",
-            "order": ["Administrative Costs of Donors","Agriculture & food security","Business & industry","Debt relief","Education","Environment","General budget support","Governance & security","Health","Humanitarian","Infrastructure","Not specified","Other","Other social services","Refugees in Donor Countries","Water & sanitation"],
-            "defaults": ["Health"]
+            "order": [
+              "Administrative Costs of Donors",
+              "Agriculture & food security",
+              "Business & industry",
+              "Debt relief",
+              "Education",
+              "Environment",
+              "General budget support",
+              "Governance & security",
+              "Health",
+              "Humanitarian",
+              "Infrastructure",
+              "Other",
+              "Other social services",
+              "Refugees in Donor Countries",
+              "Water & sanitation"
+            ],
+            "defaults": ["Administrative Costs of Donors"]
           },
           {
-            "control_title": "Years",
-            "control_info": "You can add or remove bars for between 2018 and 2020. It is not possible to view data prior to 2018 because of a lack of reliable reporting to the International Aid Transparency Initiative.",
-            "column_name": "year",
-            "selector_type": "checkbox",
-            "order": ["2018", "2019", "2020"],
-            "defaults": ["2018", "2019", "2020"]
+            "control_title": "Timeframe",
+            "column_name": "timeframe",
+            "selector_type": "dropdown",
+            "order": ["Yearly", "Quarterly", "Monthly"],
+            "defaults": ["Yearly"]
           },
           {
             "control_title": "Transaction",
@@ -412,11 +452,37 @@
               "aggregate_type": {
                 "Organisation type": ["Bilateral", "IFI", "Multilateral"],
                 "Donor": [
-                  "African Development Bank Group","Asian Development Bank","Australia","Belgium","Canada","Denmark"
-                  ,"EC","European Bank for Reconstruction and Development","Finland","Germany","Global Fund","Inter-American Development Bank"
-                  ,"International Fund for Agricultural Development","Multilateral Investment Fund"
-                  ,"Netherlands","New Zealand","Norway","Spain","Sweden","Switzerland","UK","UNDP","UNFPA","UNICEF","UNIDO","Unitaid","UNRWA"
-                  ,"US","World Bank","World Food Programme"
+                  "African Development Bank Group",
+                  "Asian Development Bank",
+                  "Australia",
+                  "Belgium",
+                  "Canada",
+                  "Denmark",
+                  "EC",
+                  "European Bank for Reconstruction and Development",
+                  "Finland",
+                  "Germany",
+                  "Global Fund",
+                  "Inter-American Development Bank",
+                  "International Fund for Agricultural Development",
+                  "Multilateral Investment Fund",
+                  "Netherlands",
+                  "New Zealand",
+                  "Norway",
+                  "Spain",
+                  "Sweden",
+                  "Switzerland",
+                  "UK",
+                  "UNDP",
+                  "UNFPA",
+                  "UNICEF",
+                  "UNIDO",
+                  "Unitaid",
+                  "UNOCHA",
+                  "UNRWA",
+                  "US",
+                  "World Bank",
+                  "World Food Programme"
                 ]
               }
             },

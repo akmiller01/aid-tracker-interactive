@@ -18,6 +18,12 @@ function convertToCSV(data){
     return("data:text/csv;chartset=utf-8," + escape(csv));
 }
 
+var middle_timeframes = [
+    "2019",
+    "19-4",
+    "20-6"
+]
+
 var pal = {
     "blue1": "#893f90",
     "blue2": "#c189bb",
@@ -252,7 +258,13 @@ function subset_data(data, selector_configs){
 
 function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selector_configs){
     data.forEach(function(d, d_index){
-        data[d_index]["year_org"] = d["org_type"] + "_" + d["year"]
+        if(d["timeframe"] == "Yearly"){
+            data[d_index]["year_org"] = d["org_type"] + "_" + d["year"]
+        }else if(d["timeframe"] == "Quarterly"){
+            data[d_index]["year_org"] = d["org_type"] + "_" + d["year"].substr(2,2) + "-" + d["quarter"]
+        }else if(d["timeframe"] == "Monthly"){
+            data[d_index]["year_org"] = d["org_type"] + "_" + d["year"].substr(2,2) + "-" + d["month"]
+        }
      });
 
      var data_total = d3.nest().key(function(d){
@@ -314,11 +326,17 @@ function draw_bar_chart(data, chart_id, margin, width, height,chart_config,selec
     .tickFormat(function(d){ 
         var split_arr = d.split("_");
         var org_type = split_arr[0];
-        var year = split_arr[1];
-        if(year=="2019"){
-            return(year+"_"+org_type)
+        var timestr = split_arr[1];
+        if(timestr !== undefined){
+            var year = timestr.split("-")[0];
         }else{
-            return(year)
+            var year = undefined;
+        }
+
+        if(middle_timeframes.includes(timestr)){
+            return(timestr+"_"+org_type)
+        }else{
+            return(timestr)
         }
     }).tickSize(0)
     var z = chart_config.colour_axis_scale;
