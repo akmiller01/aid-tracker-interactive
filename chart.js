@@ -1,6 +1,6 @@
 function convertToCSV(data){
     if (!data || data.length === 0){
-        return;
+        return("data:text/csv;charset=utf-8,");
     }
     var csv = [Object.keys(data[0]).slice(0).join(", ")];
     data.forEach(
@@ -15,7 +15,7 @@ function convertToCSV(data){
         }
     )
     csv = csv.join("\n");
-    return("data:text/csv;chartset=utf-8," + escape(csv));
+    return("data:text/csv;charset=utf-8," + escape(csv));
 }
 
 var middle_timeframes = [
