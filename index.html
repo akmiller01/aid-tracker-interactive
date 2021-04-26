@@ -78,24 +78,24 @@
       </ul>
       <div id="tabs-1">
         <p class="intro-text">Which aid flows are making up the majority of donor commitments and disbursements, by volume or proportion?</p>
-        <a id="chart1-dl" href="" download="aid-tracker-flows.csv">Download</a>
         <div class="chart-wrapper-full">
           <div id="chart1"></div>
         </div>
+        <a id="chart1-dl" href="" download="aid-tracker-flows.csv">Download</a>
       </div>
       <div id="tabs-2">
         <p class="intro-text">Are donors targeting aid towards countries with high rates of extreme poverty, low-income countries or the least developed countries, by volume or proportion?</p>
-        <a id="chart2-dl" href="" download="aid-tracker-poverty.csv">Download</a>
         <div class="chart-wrapper-full">
           <div id="chart2"></div>
         </div>
+        <a id="chart2-dl" href="" download="aid-tracker-poverty.csv">Download</a>
       </div>
       <div id="tabs-3">
         <p class="intro-text">Which sectors are donors prioritising, by volume or proportion?</p>
-        <a id="chart3-dl" href="" download="aid-tracker-sectors.csv">Download</a>
         <div class="chart-wrapper-full">
           <div id="chart3"></div>
         </div>
+        <a id="chart3-dl" href="" download="aid-tracker-sectors.csv">Download</a>
      </div>
     </div>
     <script>
@@ -144,11 +144,11 @@
               "defaults": ["Commitments"]
             },
             {
-              "control_title": "Donor",
+              "control_title": "Specific donor",
               "control_info": "Choose whether to compare aid flows for different types of donors or look at individual donors. Unfortunately, to avoid double counting, we are unable to aggregate donor types. Please be aware that not all individual donors have data for commitments and disbursements.",
               "column_name": "aggregate_type",
               "selector_type": "dropdown",
-              "order": ["Organisation type", "Donor"],
+              "order": ["Organisation type", "Specific donor"],
               "defaults": ["Organisation type"]
             },
             {
@@ -159,15 +159,15 @@
               "selector_type_dependency":{
                 "aggregate_type": {
                   "Organisation type": "checkbox",
-                  "Donor": "dropdown"
+                  "Specific donor": "dropdown"
                 }
               },            
               "order": {
                 "aggregate_type": {
                   "Organisation type": ["Bilateral", "IFI", "Multilateral"],
-                  "Donor": [
+                  "Specific donor": [
                     "African Development Bank Group","Asian Development Bank","Australia","Belgium","Canada","Denmark"
-                    ,"EC","European Bank for Reconstruction and Development","Finland","Germany","Global Fund","Inter-American Development Bank"
+                    ,"European Commission","European Bank for Reconstruction and Development","Finland","Germany","Global Fund","Inter-American Development Bank"
                     ,"International Committee of the Red Cross","International Fund for Agricultural Development","Multilateral Investment Fund"
                     ,"Netherlands","New Zealand","Norway","Spain","Sweden","Switzerland","UK","UNDP","UNICEF","UNIDO","Unitaid","UNOCHA","UNRWA"
                     ,"US","World Bank","World Food Programme"
@@ -177,7 +177,7 @@
               "defaults": {
                 "aggregate_type": {
                   "Organisation type": ["Bilateral", "IFI", "Multilateral"],
-                  "Donor": ["African Development Bank Group"]
+                  "Specific donor": ["African Development Bank Group"]
                 }
               }
             },
@@ -268,11 +268,11 @@
               "defaults": ["Yearly"]
             },
             {
-              "control_title": "Donor",
+              "control_title": "Specific donor",
               "control_info": "Choose whether to compare aid flows for different types of donors or look at individual donors. Unfortunately, to avoid double counting, we are unable to aggregate donor types. Please be aware that not all individual donors have data for commitments and disbursements.",
               "column_name": "aggregate_type",
               "selector_type": "dropdown",
-              "order": ["Organisation type", "Donor"],
+              "order": ["Organisation type", "Specific donor"],
               "defaults": ["Organisation type"]
             },
             {
@@ -282,20 +282,20 @@
               "selector_type_dependency":{
                 "aggregate_type": {
                   "Organisation type": "checkbox",
-                  "Donor": "dropdown"
+                  "Specific donor": "dropdown"
                 }
               },
               "order": {
                 "aggregate_type": {
                   "Organisation type": ["Bilateral", "IFI", "Multilateral"],
-                  "Donor": [
+                  "Specific donor": [
                     "African Development Bank Group",
                     "Asian Development Bank",
                     "Australia",
                     "Belgium",
                     "Canada",
                     "Denmark",
-                    "EC",
+                    "European Commission",
                     "European Bank for Reconstruction and Development",
                     "Finland",
                     "Germany",
@@ -327,7 +327,7 @@
               "defaults": {
                 "aggregate_type": {
                   "Organisation type": ["Bilateral", "IFI", "Multilateral"],
-                  "Donor": ["African Development Bank Group"]
+                  "Specific donor": ["African Development Bank Group"]
                 }
               }
             },
@@ -431,11 +431,11 @@
             "defaults": ["Commitments"]
           },
           {
-            "control_title": "Donor",
+            "control_title": "Specific donor",
             "control_info": "Choose whether to compare aid flows for different types of donors or look at individual donors. Unfortunately, to avoid double counting, we are unable to aggregate donor types. Please be aware that not all individual donors have data for commitments and disbursements.",
             "column_name": "aggregate_type",
             "selector_type": "dropdown",
-            "order": ["Organisation type", "Donor"],
+            "order": ["Organisation type", "Specific donor"],
             "defaults": ["Organisation type"]
           },
           {
@@ -445,20 +445,20 @@
             "selector_type_dependency":{
               "aggregate_type": {
                 "Organisation type": "checkbox",
-                "Donor": "dropdown"
+                "Specific donor": "dropdown"
               }
             },
             "order": {
               "aggregate_type": {
                 "Organisation type": ["Bilateral", "IFI", "Multilateral"],
-                "Donor": [
+                "Specific donor": [
                   "African Development Bank Group",
                   "Asian Development Bank",
                   "Australia",
                   "Belgium",
                   "Canada",
                   "Denmark",
-                  "EC",
+                  "European Commission",
                   "European Bank for Reconstruction and Development",
                   "Finland",
                   "Germany",
@@ -489,7 +489,7 @@
             "defaults": {
               "aggregate_type": {
                 "Organisation type": ["Bilateral", "IFI", "Multilateral"],
-                "Donor": ["African Development Bank Group"]
+                "Specific donor": ["African Development Bank Group"]
               }
             }
           },
