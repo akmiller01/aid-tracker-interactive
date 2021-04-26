@@ -110,8 +110,8 @@
           "5-20%": pal.blue3,
           "Above 20%": pal.blue4,
           "Low-income": pal.blue1,
-          "Lower-middle-income": pal.blue2,
-          "Upper-middle-income": pal.blue6,
+          "Lower middle-income": pal.blue2,
+          "Upper middle-income": pal.blue6,
           "High-income": pal.blue3
         }
       }
@@ -238,8 +238,8 @@
               "control_info": "You can look at the targeting of aid towards countries that need it most through three different lenses: the percentage of the population that live on less in extreme poverty, on less than PPP$1.90 each day; country income groupings; the least developed countries.",
               "column_name": "measure",
               "selector_type": "dropdown",
-              "order": ["Poverty", "Income","LDC"],
-              "defaults": ["Poverty"]
+              "order": ["Population in poverty", "Country income","LDC status"],
+              "defaults": ["Population in poverty"]
             },
             {
               "control_class": "spacing-merge",
@@ -247,16 +247,16 @@
               "selector_type": "checkbox",
               "order": {
                 "measure": {
-                  "LDC":["LDC", "Non-LDC"],
-                  "Poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
-                  "Income": ["Low-income", "Lower-middle-income", "Upper-middle-income", "High-income"]
+                  "LDC status":["LDC", "Non-LDC"],
+                  "Population in poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
+                  "Country income": ["Low-income", "Lower middle-income", "Upper middle-income", "High-income"]
                 }
               },
               "defaults": {
                 "measure": {
-                  "LDC":["LDC","Non-LDC"],
-                  "Poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
-                  "Income": ["Low-income","Lower-middle-income","Upper-middle-income","High-income"]
+                  "LDC status":["LDC","Non-LDC"],
+                  "Population in poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
+                  "Country income": ["Low-income","Lower middle-income","Upper middle-income","High-income"]
                 }
               }
             },
@@ -373,7 +373,7 @@
               }
             },
             "colour_axis": ["flow_type"],
-            "colour_axis_scale": d3.scaleOrdinal().domain(["Not specified", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower-middle-income","Upper-middle-income","High-income","LDC","Non-LDC"]).range([pal.blue4,pal.blue1,pal.blue2,pal.blue3,pal.blue1,pal.blue2,pal.blue6,pal.blue3,pal.blue1,pal.blue2])
+            "colour_axis_scale": d3.scaleOrdinal().domain(["Not specified", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower middle-income","Upper middle-income","High-income","LDC","Non-LDC"]).range([pal.blue4,pal.blue1,pal.blue2,pal.blue3,pal.blue1,pal.blue2,pal.blue6,pal.blue3,pal.blue1,pal.blue2])
           };
           add_selectors("chart2", data, selector_configs);
           var initial_data = subset_data(data, selector_configs);
@@ -398,20 +398,20 @@
             "selector_type": "dropdown",
             "order": [
               "Administrative Costs of Donors",
-              "Agriculture & food security",
-              "Business & industry",
+              "Agriculture and food security",
+              "Business and industry",
               "Debt relief",
               "Education",
               "Environment",
               "General budget support",
-              "Governance & security",
+              "Governance and security",
               "Health",
               "Humanitarian",
               "Infrastructure",
               "Other",
               "Other social services",
               "Refugees in Donor Countries",
-              "Water & sanitation"
+              "Water and sanitation"
             ],
             "defaults": ["Administrative Costs of Donors"]
           },
@@ -527,7 +527,7 @@
             }
         },
           "colour_axis": ["flow_type"],
-          "colour_axis_scale": d3.scaleOrdinal().domain(["Not specified", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower-middle-income","Upper-middle-income","High-income","LDC","Non-LDC"]).range([pal.blue1])
+          "colour_axis_scale": d3.scaleOrdinal().domain(["Not specified", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower middle-income","Upper middle-income","High-income","LDC","Non-LDC"]).range([pal.blue1])
         };
         add_selectors("chart3", data, selector_configs);
         var initial_data = subset_data(data, selector_configs);
