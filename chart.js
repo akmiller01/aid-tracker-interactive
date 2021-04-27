@@ -20,8 +20,8 @@ function convertToCSV(data){
 
 var middle_timeframes = [
     "2019",
-    "19-4",
-    "20-6"
+    "2020-Q1",
+    "2020-8"
 ]
 
 var pal = {
@@ -261,9 +261,9 @@ function draw_bar_chart(data, chart_id, margin, width, height, chart_config, sel
         if(d["timeframe"] == "Yearly"){
             data[d_index]["year_org"] = d["org_type"] + "_" + d["year"]
         }else if(d["timeframe"] == "Quarterly"){
-            data[d_index]["year_org"] = d["org_type"] + "_" + d["year"].substr(2,2) + "-" + d["quarter"]
+            data[d_index]["year_org"] = d["org_type"] + "_" + d["year"] + "-Q" + d["quarter"]
         }else if(d["timeframe"] == "Monthly"){
-            data[d_index]["year_org"] = d["org_type"] + "_" + d["year"].substr(2,2) + "-" + d["month"]
+            data[d_index]["year_org"] = d["org_type"] + "_" + d["year"] + "-" + d["month"]
         }
      });
 
@@ -351,19 +351,21 @@ function draw_bar_chart(data, chart_id, margin, width, height, chart_config, sel
     .attr("class", "xaxis")
     .attr("transform", "translate(0," + height + ")")
     .call(xAxis)
-    .selectAll("text")
+    .selectAll("g")
           .call(function(t){                
               t.each(function(d){ // for each one
               var self = d3.select(this);
               var s = self.text().split('_');  // get the text and split it
               self.text(''); // clear it out
-              self.append("tspan") // insert two tspans
+              self.append("text") // insert two tspans
+                .attr("dx", ".15em")
+                .attr("dy", ".8em")
+                .style("text-anchor", "start")
+                .attr("transform", "rotate(45)")
+                .text(s[0]);
+              self.append("text")
                   .attr("x", 0)
-                  .attr("dy","1em")
-                  .text(s[0]);
-              self.append("tspan")
-                  .attr("x", 0)
-                  .attr("dy","2em")
+                  .attr("dy","4.1em")
                   .text(s[1]);
               })
           });
