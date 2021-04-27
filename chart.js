@@ -20,7 +20,7 @@ function convertToCSV(data){
 
 var middle_timeframes = [
     "2019",
-    "2020-Q1",
+    "2020-Q2",
     "2020-8"
 ]
 
