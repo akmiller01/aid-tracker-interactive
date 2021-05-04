@@ -71,7 +71,7 @@ function draw_dependent_selectors(chart_id, parent_name, parent_selection, selec
                 child_element.selectAll("*").remove()
                 if(selector_type == "dropdown"){
                     // Draw dropdown
-                    child_element.attr("name", chart_id+"_"+column_name+"_dropdown");
+                    child_element.attr("name", chart_id+"_"+child_column_name+"_dropdown");
                     child_element
                     .selectAll("option")
                     .data(new_config_order)
