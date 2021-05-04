@@ -496,6 +496,7 @@ function draw_bar_chart(data, chart_id, margin, width, height, chart_config, sel
         .attr("dy", "1.2em");
 
     var no_data = data.filter(function(d){return(d.value != 0)}).length == 0;
+    var neg_data = data.filter(function(d){return(d.value < 0)}).length > 0;
     if(no_data){
         svg
         .append("text")
@@ -503,6 +504,15 @@ function draw_bar_chart(data, chart_id, margin, width, height, chart_config, sel
         .attr("y", height / 2)
         .attr("text-anchor", "middle")
         .text("No data available in selection.")
+    }
+    if (neg_data & !(no_data)){
+        console.log("hit");
+        svg
+        .append("text")
+        .attr("x", width / 2)
+        .attr("y", 0)
+        .attr("text-anchor", "middle")
+        .text("Warning: there is negative data available in selection. This can be viewed in the CSV download.")  
     }
 }
 
