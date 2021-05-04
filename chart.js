@@ -53,7 +53,6 @@ function draw_dependent_selectors(chart_id, parent_name, parent_selection, selec
                     set_selections(chart_id,selector_configs, config_index,margin2, width2, height2,chart_config,data);
                     var filtered_data = subset_data(data, selector_configs);
                     d3.select("#"+chart_id+"-dl").attr("href", convertToCSV(filtered_data));
-                    console.log(filtered_data);
                     erase_chart(chart_id);
                     draw_bar_chart(filtered_data, chart_id, margin2, width2, height2, chart_config,selector_configs);
                 })
@@ -506,7 +505,6 @@ function draw_bar_chart(data, chart_id, margin, width, height, chart_config, sel
         .text("No data available in selection.")
     }
     if (neg_data & !(no_data)){
-        console.log("hit");
         svg
         .append("text")
         .attr("x", width / 2)
