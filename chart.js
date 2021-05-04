@@ -187,6 +187,7 @@ function add_selectors(chart_id, data, selector_configs){
         if(selector_type == "dropdown"){
             // Draw dropdown
             var dropdown = controlWrapper.append("select");
+            dropdown.attr("name", chart_id+"_"+column_name+"_dropdown");
             dropdown
             .selectAll("option")
             .data(column_values)
