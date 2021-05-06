@@ -507,7 +507,7 @@ function draw_bar_chart(data, chart_id, margin, width, height, chart_config, sel
     if (neg_data & !(no_data)){
         svg
         .append("text")
-        .attr("x", width / 2)
+        .attr("x", width / 2.5)
         .attr("y", 0)
         .attr("text-anchor", "middle")
         .text("Warning: there is negative data available in selection. This can be viewed in the CSV download.")  
