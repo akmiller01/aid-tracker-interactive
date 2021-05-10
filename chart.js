@@ -21,7 +21,7 @@ function convertToCSV(data){
 var middle_timeframes = [
     "2019",
     "2020-Q2",
-    "2020-8"
+    "2020"
 ]
 
 var pal = {
@@ -265,8 +265,8 @@ function draw_bar_chart(data, chart_id, margin, width, height, chart_config, sel
             data[d_index]["year_org"] = d["org_type"] + "_" + d["year"]
         }else if(d["timeframe"] == "Quarterly"){
             data[d_index]["year_org"] = d["org_type"] + "_" + d["year"] + "-Q" + d["quarter"]
-        }else if(d["timeframe"] == "Monthly"){
-            data[d_index]["year_org"] = d["org_type"] + "_" + d["year"] + "-" + d["month"]
+        }else if(d["timeframe"] == "Year to date"){
+            data[d_index]["year_org"] = d["org_type"] + "_" + d["rollingyear"]+"_"
         }
      });
 

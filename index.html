@@ -135,7 +135,7 @@
               "control_title": "Timeframe",
               "column_name": "timeframe",
               "selector_type": "dropdown",
-              "order": ["Yearly", "Quarterly", "Monthly"],
+              "order": ["Yearly", "Quarterly", "Year to date"],
               "defaults": ["Yearly"]
             },
             {
@@ -228,6 +228,7 @@
                 selector_config.element.on("change", function(d){
                     set_selections("chart1",selector_configs, config_index,margin2, width2, height2,chart_config,data);
                     var filtered_data = subset_data(data, selector_configs);
+                    console.log(filtered_data);
                     d3.select("#chart1-dl").attr("href", convertToCSV(filtered_data));
                     erase_chart("chart1");
                     draw_bar_chart(filtered_data, "chart1", margin2, width2, height2, chart_config,selector_configs);
@@ -267,7 +268,7 @@
               "control_title": "Timeframe",
               "column_name": "timeframe",
               "selector_type": "dropdown",
-              "order": ["Yearly", "Quarterly", "Monthly"],
+              "order": ["Yearly", "Quarterly", "Year to date"],
               "defaults": ["Yearly"]
             },
             {
@@ -430,7 +431,7 @@
             "control_title": "Timeframe",
             "column_name": "timeframe",
             "selector_type": "dropdown",
-            "order": ["Yearly", "Quarterly", "Monthly"],
+            "order": ["Yearly", "Quarterly", "Year to date"],
             "defaults": ["Yearly"]
           },
           {
