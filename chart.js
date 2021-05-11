@@ -21,7 +21,7 @@ function convertToCSV(data){
 var middle_timeframes = [
     "2019",
     "2020-Q2",
-    "2019-03 to 2020-Q2"
+    "2020-02"
 ]
 
 var pal = {
