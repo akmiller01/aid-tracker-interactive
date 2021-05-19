@@ -18,11 +18,13 @@ function convertToCSV(data){
     return("data:text/csv;charset=utf-8," + escape(csv));
 }
 
+// CONFIG X AXIS SPACING HERE
 var middle_timeframes = [
     "2019",
-    "2019-Q4",
-    "2020-02"
-]
+    "Q42019",
+    "Feb 2020"
+];
+var starting_quarters = ["Q1"];
 
 var pal = {
     "blue1": "#893f90",
@@ -260,13 +262,29 @@ function subset_data(data, selector_configs){
 }
 
 function draw_bar_chart(data, chart_id, margin, width, height, chart_config, selector_configs){
+    var month_abbv = [
+        "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+    ];
     data.forEach(function(d, d_index){
         if(d["timeframe"] == "Yearly"){
-            data[d_index]["year_org"] = d["org_type"] + "_" + d["year"]
+            data[d_index]["year_org"] = [d["org_type"], d["year"], "", d["timeframe"]].join("_")
         }else if(d["timeframe"] == "Quarterly"){
-            data[d_index]["year_org"] = d["org_type"] + "_" + d["year"] + "-Q" + d["quarter"]
+            data[d_index]["year_org"] = [d["org_type"], "Q" + d["quarter"], d["year"], d["timeframe"]].join("_")
         }else if(d["timeframe"] == "Year to date"){
-            data[d_index]["year_org"] = d["org_type"] + "_" + d["rollingyear"]+"_"
+            var tf_split = d["rollingyear"].split("-")
+            var year_1 = parseInt(tf_split[0]);
+            var year_2 = year_1 + 1;
+            var month_idx_1 = parseInt(tf_split[1]) - 1;
+            var month_1 = month_abbv[month_idx_1];
+            var month_idx_2 = month_idx_1 - 1;
+            if(month_idx_2 < 0){
+                month_idx_2 = 11;
+                year_2 -= 1;
+            }
+            var month_2 = month_abbv[month_idx_2]
+            var tf_str_1 = month_1 + " " + year_1;
+            var tf_str_2 = "to " + month_2 + " " + year_2;
+            data[d_index]["year_org"] = [d["org_type"], tf_str_1, tf_str_2, d["timeframe"]].join("_")
         }
      });
 
@@ -329,17 +347,30 @@ function draw_bar_chart(data, chart_id, margin, width, height, chart_config, sel
     .tickFormat(function(d){ 
         var split_arr = d.split("_");
         var org_type = split_arr[0];
-        var timestr = split_arr[1];
-        if(timestr !== undefined){
-            var year = timestr.split("-")[0];
-        }else{
-            var year = undefined;
-        }
+        var timestr_1 = split_arr[1];
+        var timestr_2 = split_arr[2];
+        var time_type = split_arr[3];
 
-        if(middle_timeframes.includes(timestr)){
-            return(timestr+"_"+org_type)
+        if(time_type == "Quarterly"){
+            if(middle_timeframes.includes(timestr_1 + timestr_2)){
+                if(starting_quarters.includes(timestr_1)){
+                    return([timestr_1, timestr_2, org_type].join("_"))
+                }else{
+                    return([timestr_1, "", org_type].join("_"))
+                }
+            }else{
+                if(starting_quarters.includes(timestr_1)){
+                    return([timestr_1, timestr_2].join("_"))
+                }else{
+                    return([timestr_1, ""].join("_"))
+                }
+            }
         }else{
-            return(timestr)
+            if(middle_timeframes.includes(timestr_1)){
+                return([timestr_1, timestr_2, org_type].join("_"))
+            }else{
+                return([timestr_1, timestr_2].join("_"))
+            }
         }
     }).tickSize(0)
     var z = chart_config.colour_axis_scale;
@@ -361,15 +392,21 @@ function draw_bar_chart(data, chart_id, margin, width, height, chart_config, sel
               var s = self.text().split('_');  // get the text and split it
               self.text(''); // clear it out
               self.append("text") // insert two tspans
-                .attr("dx", ".15em")
-                .attr("dy", ".8em")
-                .style("text-anchor", "start")
-                .attr("transform", "rotate(45)")
+                .attr("x", 0)
+                .attr("dy", "1.1em")
+                .style("text-anchor", "middle")
                 .text(s[0]);
               self.append("text")
                   .attr("x", 0)
-                  .attr("dy","4.1em")
+                  .attr("dy","2.2em")
+                  .style("text-anchor", "middle")
                   .text(s[1]);
+              self.append("text")
+                  .attr("class", "bold-text")
+                  .attr("x", 0)
+                  .attr("dy","3.3em")
+                  .style("text-anchor", "middle")
+                  .text(s[2]);
               })
           });
 
@@ -407,7 +444,8 @@ function draw_bar_chart(data, chart_id, margin, width, height, chart_config, sel
         tooltip_line1.attr("x", xPosition);
         tooltip_line2.attr("x", xPosition);
         tooltip_line0.text(d.key);
-        tooltip_line1.text(d.data.year_org.split("_")[1]);
+        var y_org_split = d.data.year_org.split("_");
+        tooltip_line1.text([y_org_split[0], y_org_split[1], y_org_split[2]].join(" "));
         tooltip_line2.text(tooltip_formatter(d))
         var tooltip_bbox = tooltip.node().getBBox();
           tooltipBackground
