@@ -550,16 +550,18 @@ function draw_bar_chart(data, chart_id, margin, width, height, chart_config, sel
         .attr("y",height / 10)
         .attr("height", 40)
         .attr("width", width)
-        .attr("fill","white")
+        .attr("fill","#a9a6aa")
+        .attr("stroke","black")
         .style("opacity","0.5");
         svg
         .append("text")
-        .attr("x", width / 50)
+        .attr("x", width / 50 + 5)
         .attr("y", height / 5)
         .attr("width", width)
         .attr("height", 10)
         .attr("text-anchor", "left")
-        .text("Warning: there is negative data available in selection. This can be viewed in the CSV download.");  
+        .style("font-size", "10px")
+        .text("Some of the data selected contains negative values. For more detail, download the data and read our methodology.");  
     }
 }
 
