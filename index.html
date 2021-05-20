@@ -111,8 +111,8 @@
           "Not specified": pal.blue4,
           "Missing": pal.blue1,
           "Less than 5%": pal.blue2,
-          "5-20%": pal.blue3,
-          "Above 20%": pal.blue4,
+          "5–20%": pal.blue3,
+          "Above 20% of the population in extreme poverty": pal.blue4,
           "Low-income": pal.blue1,
           "Lower middle-income": pal.blue2,
           "Upper middle-income": pal.blue6,
@@ -251,14 +251,14 @@
               "order": {
                 "measure": {
                   "LDC status":["LDC", "Non-LDC"],
-                  "Population in poverty": ["Above 20%", "5-20%","Less than 5%", "Not specified"],
+                  "Population in poverty": ["Above 20% of the population in extreme poverty", "5–20%","Less than 5%", "Not specified"],
                   "Country income": ["Low-income", "Lower middle-income", "Upper middle-income", "High-income"]
                 }
               },
               "defaults": {
                 "measure": {
                   "LDC status":["LDC","Non-LDC"],
-                  "Population in poverty": ["Above 20%", "5-20%","Less than 5%", "Not specified"],
+                  "Population in poverty": ["Above 20% of the population in extreme poverty", "5–20%","Less than 5%", "Not specified"],
                   "Country income": ["Low-income","Lower middle-income","Upper middle-income","High-income"]
                 }
               }
@@ -356,7 +356,7 @@
               }
             },
             "colour_axis": ["flow_type"],
-            "colour_axis_scale": d3.scaleOrdinal().domain(["Not specified", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower middle-income","Upper middle-income","High-income","LDC","Non-LDC"]).range([pal.blue4,pal.blue2,pal.blue3,pal.blue1,pal.blue1,pal.blue2,pal.blue6,pal.blue3,pal.blue1,pal.blue2])
+            "colour_axis_scale": d3.scaleOrdinal().domain(["Not specified", "Less than 5%", "5–20%", "Above 20% of the population in extreme poverty","Low-income","Lower middle-income","Upper middle-income","High-income","LDC","Non-LDC"]).range([pal.blue4,pal.blue2,pal.blue3,pal.blue1,pal.blue1,pal.blue2,pal.blue6,pal.blue3,pal.blue1,pal.blue2])
           };
           add_selectors("chart2", data, selector_configs);
           var initial_data = subset_data(data, selector_configs);
@@ -491,7 +491,7 @@
             }
         },
           "colour_axis": ["flow_type"],
-          "colour_axis_scale": d3.scaleOrdinal().domain(["Not specified", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower middle-income","Upper middle-income","High-income","LDC","Non-LDC"]).range([pal.blue1])
+          "colour_axis_scale": d3.scaleOrdinal().domain(["Not specified", "Less than 5%", "5–20%", "Above 20% of the population in extreme poverty","Low-income","Lower middle-income","Upper middle-income","High-income","LDC","Non-LDC"]).range([pal.blue1])
         };
         add_selectors("chart3", data, selector_configs);
         var initial_data = subset_data(data, selector_configs);
