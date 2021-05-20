@@ -134,6 +134,7 @@
             },
             {
               "control_title": "Timeframe",
+              "control_info": "Simon's timeframe explanation TBC",
               "column_name": "timeframe",
               "selector_type": "dropdown",
               "order": ["Yearly", "Quarterly", "Year to date"],
@@ -217,7 +218,7 @@
                 }
             },
               "colour_axis": ["flow_type"],
-              "colour_axis_scale": d3.scaleOrdinal().domain(["ODA", "OOF", "Other flows", "Not specified"]).range([pal.blue1, pal.blue2, pal.blue3, pal.blue4])
+              "colour_axis_scale": d3.scaleOrdinal().domain(["ODA", "OOF", "Other flows", "Not specified"]).range([pal.blue1, pal.blue3, pal.blue2, pal.blue4])
             };
             add_selectors("chart1", data, selector_configs);
             var initial_data = subset_data(data, selector_configs);
@@ -250,20 +251,21 @@
               "order": {
                 "measure": {
                   "LDC status":["LDC", "Non-LDC"],
-                  "Population in poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
+                  "Population in poverty": ["Above 20%", "5-20%","Less than 5%", "Not specified"],
                   "Country income": ["Low-income", "Lower middle-income", "Upper middle-income", "High-income"]
                 }
               },
               "defaults": {
                 "measure": {
                   "LDC status":["LDC","Non-LDC"],
-                  "Population in poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
+                  "Population in poverty": ["Above 20%", "5-20%","Less than 5%", "Not specified"],
                   "Country income": ["Low-income","Lower middle-income","Upper middle-income","High-income"]
                 }
               }
             },
             {
               "control_title": "Timeframe",
+              "control_info": "Simon's timeframe explanation TBC",
               "column_name": "timeframe",
               "selector_type": "dropdown",
               "order": ["Yearly", "Quarterly", "Year to date"],
@@ -398,6 +400,7 @@
           },
           {
             "control_title": "Timeframe",
+            "control_info": "Simon's timeframe explanation TBC",
             "column_name": "timeframe",
             "selector_type": "dropdown",
             "order": ["Yearly", "Quarterly", "Year to date"],
