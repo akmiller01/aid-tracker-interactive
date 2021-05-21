@@ -73,7 +73,7 @@ function draw_dependent_selectors(chart_id, parent_name, parent_selection, selec
                 child_element.selectAll("*").remove()
                 if(selector_type == "dropdown"){
                     // Draw dropdown
-                    child_element.attr("name", chart_id+"_"+child_column_name+"_dropdown");
+                    child_element.attr("class", "data-selector data-selector--active").attr("name", chart_id+"_"+child_column_name+"_dropdown");
                     child_element
                     .selectAll("option")
                     .data(new_config_order)
@@ -189,7 +189,7 @@ function add_selectors(chart_id, data, selector_configs){
         }
         if(selector_type == "dropdown"){
             // Draw dropdown
-            var dropdown = controlWrapper.append("select");
+            var dropdown = controlWrapper.append("select").attr("class", "data-selector data-selector--active");
             dropdown.attr("name", chart_id+"_"+column_name+"_dropdown");
             dropdown
             .selectAll("option")
