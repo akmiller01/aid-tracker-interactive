@@ -209,7 +209,7 @@
               "y_axis_scale": {
                   "variable": {
                       "Volume": function(d){return "$" + d3.format(",")(d / 1000) + "bn"},
-                      "Proportion": d3.format(".0%")
+                      "Proportion": function(d){return d3.format("")(d * 100) + "%"}
                   }
               },
               "tooltip_type": {
@@ -347,7 +347,7 @@
             "y_axis_scale": {
               "variable": {
                 "Volume": function(d){return "$" + d3.format(",")(d / 1000) + "bn"},
-                "Proportion": d3.format(".0%")
+                "Proportion": function(d){return d3.format("")(d * 100) + "%"}
               }
             },
             "tooltip_type": {
@@ -482,7 +482,7 @@
           "y_axis_scale": {
             "variable": {
               "Volume": function(d){return "$" + d3.format(",")(d / 1000) + "bn"},
-              "Proportion": d3.format(".0%")
+              "Proportion": function(d){return d3.format("")(d * 100) + "%"}
             }
           },
           "tooltip_type": {
