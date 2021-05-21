@@ -113,7 +113,7 @@
           "Missing": pal.blue1,
           "Less than 5%": pal.blue2,
           "5-20%": pal.blue3,
-          "Above 20%": pal.blue4,
+          "Above 20% of the population in extreme poverty": pal.blue4,
           "Low-income": pal.blue1,
           "Lower middle-income": pal.blue2,
           "Upper middle-income": pal.blue6,
@@ -135,6 +135,7 @@
             },
             {
               "control_title": "Timeframe",
+              "control_info": "Simon's timeframe explanation TBC",
               "column_name": "timeframe",
               "selector_type": "dropdown",
               "order": ["Yearly", "Quarterly", "Year to date"],
@@ -218,7 +219,7 @@
                 }
             },
               "colour_axis": ["flow_type"],
-              "colour_axis_scale": d3.scaleOrdinal().domain(["ODA", "OOF", "Other flows", "Not specified"]).range([pal.blue1, pal.blue2, pal.blue3, pal.blue4])
+              "colour_axis_scale": d3.scaleOrdinal().domain(["ODA", "OOF", "Other flows", "Not specified"]).range([pal.blue1, pal.blue3, pal.blue2, pal.blue4])
             };
             add_selectors("chart1", data, selector_configs);
             var initial_data = subset_data(data, selector_configs);
@@ -251,20 +252,21 @@
               "order": {
                 "measure": {
                   "LDC status":["LDC", "Non-LDC"],
-                  "Population in poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
+                  "Population in poverty": ["Above 20% of the population in extreme poverty", "5-20%","Less than 5%", "Not specified"],
                   "Country income": ["Low-income", "Lower middle-income", "Upper middle-income", "High-income"]
                 }
               },
               "defaults": {
                 "measure": {
                   "LDC status":["LDC","Non-LDC"],
-                  "Population in poverty": ["Less than 5%", "5-20%", "Above 20%", "Not specified"],
+                  "Population in poverty": ["Above 20% of the population in extreme poverty", "5-20%","Less than 5%", "Not specified"],
                   "Country income": ["Low-income","Lower middle-income","Upper middle-income","High-income"]
                 }
               }
             },
             {
               "control_title": "Timeframe",
+              "control_info": "Simon's timeframe explanation TBC",
               "column_name": "timeframe",
               "selector_type": "dropdown",
               "order": ["Yearly", "Quarterly", "Year to date"],
@@ -355,7 +357,7 @@
               }
             },
             "colour_axis": ["flow_type"],
-            "colour_axis_scale": d3.scaleOrdinal().domain(["Not specified", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower middle-income","Upper middle-income","High-income","LDC","Non-LDC"]).range([pal.blue4,pal.blue2,pal.blue3,pal.blue1,pal.blue1,pal.blue2,pal.blue6,pal.blue3,pal.blue1,pal.blue2])
+            "colour_axis_scale": d3.scaleOrdinal().domain(["Not specified", "Less than 5%", "5-20%", "Above 20% of the population in extreme poverty","Low-income","Lower middle-income","Upper middle-income","High-income","LDC","Non-LDC"]).range([pal.blue4,pal.blue2,pal.blue3,pal.blue1,pal.blue1,pal.blue2,pal.blue6,pal.blue3,pal.blue1,pal.blue2])
           };
           add_selectors("chart2", data, selector_configs);
           var initial_data = subset_data(data, selector_configs);
@@ -399,6 +401,7 @@
           },
           {
             "control_title": "Timeframe",
+            "control_info": "Simon's timeframe explanation TBC",
             "column_name": "timeframe",
             "selector_type": "dropdown",
             "order": ["Yearly", "Quarterly", "Year to date"],
@@ -489,7 +492,7 @@
             }
         },
           "colour_axis": ["flow_type"],
-          "colour_axis_scale": d3.scaleOrdinal().domain(["Not specified", "Less than 5%", "5-20%", "Above 20%","Low-income","Lower middle-income","Upper middle-income","High-income","LDC","Non-LDC"]).range([pal.blue1])
+          "colour_axis_scale": d3.scaleOrdinal().domain(["Not specified", "Less than 5%", "5-20%", "Above 20% of the population in extreme poverty","Low-income","Lower middle-income","Upper middle-income","High-income","LDC","Non-LDC"]).range([pal.blue1])
         };
         add_selectors("chart3", data, selector_configs);
         var initial_data = subset_data(data, selector_configs);

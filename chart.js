@@ -545,12 +545,23 @@ function draw_bar_chart(data, chart_id, margin, width, height, chart_config, sel
         .text("No data available in selection.")
     }
     if (neg_data & !(no_data)){
+        svg.append("rect")
+        .attr("x",width / 50)
+        .attr("y",height / 10)
+        .attr("height", 40)
+        .attr("width", width)
+        .attr("fill","#a9a6aa")
+        .attr("stroke","black")
+        .style("opacity","0.5");
         svg
         .append("text")
-        .attr("x", width / 2.5)
-        .attr("y", 0)
-        .attr("text-anchor", "middle")
-        .text("Warning: there is negative data available in selection. This can be viewed in the CSV download.")  
+        .attr("x", width / 50 + 5)
+        .attr("y", height / 5)
+        .attr("width", width)
+        .attr("height", 10)
+        .attr("text-anchor", "left")
+        .style("font-size", "10px")
+        .text("Some of the data selected contains negative values. For more detail, download the data and read our methodology.");  
     }
 }
 
