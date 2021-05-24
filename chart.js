@@ -272,9 +272,9 @@ function draw_bar_chart(data, chart_id, margin, width, height, chart_config, sel
             data[d_index]["year_org"] = [d["org_type"], "Q" + d["quarter"], d["year"], d["timeframe"]].join("_")
         }else if(d["timeframe"] == "Year to date"){
             var tf_split = d["rollingyear"].split("-")
-            var year_1 = parseInt(tf_split[0]);
+            var year_1 = parseInt(tf_split[0])-1;
             var year_2 = year_1 + 1;
-            var month_idx_1 = parseInt(tf_split[1]) - 1;
+            var month_idx_1 = parseInt(tf_split[1]);
             var month_1 = month_abbv[month_idx_1];
             var month_idx_2 = month_idx_1 - 1;
             if(month_idx_2 < 0){
