@@ -17,29 +17,29 @@
         src: url('fonts/geomanist-bold-webfont.woff');
         font-weight: bold;
       }
-      .axis text {font-size:10px !important; font-weight: 100 !important; fill:#443e42  !important; font-family: 'Averta','Geomanist Regular',sans-serif !important; }
+      .axis text {font-size:10px !important; font-weight: 100 !important; fill:#443e42  !important; font-family: 'Geomanist Regular',sans-serif !important; }
       .axis line {stroke:#a9a6aa !important;}
       .axis path {stroke:#a9a6aa !important;}
-      .xaxis text {font-size:10px !important; font-weight: 100 !important; fill:#443e42  !important; font-family: 'Averta','Geomanist Regular',sans-serif !important; }
+      .xaxis text {font-size:10px !important; font-weight: 100 !important; fill:#443e42  !important; font-family: 'Geomanist Regular',sans-serif !important; }
       .xaxis line {stroke:transparent !important;}
       .xaxis path {stroke:#443e42 !important;}
-      .yaxistitle {font-size:10px !important; font-weight: 100 !important; fill:#443e42 !important; font-family: 'Averta','Geomanist Regular',sans-serif !important; }
-      .yaxis text {font-size:10px !important; font-weight: 100 !important; fill:#443e42 !important; font-family: 'Averta','Geomanist Regular',sans-serif !important; }
+      .yaxistitle {font-size:10px !important; font-weight: 100 !important; fill:#443e42 !important; font-family: 'Geomanist Regular',sans-serif !important; }
+      .yaxis text {font-size:10px !important; font-weight: 100 !important; fill:#443e42 !important; font-family: 'Geomanist Regular',sans-serif !important; }
       .yaxis .tick:first-of-type line {stroke:transparent !important;}
       .yaxis line {stroke:#a9a6aa !important;}
       .yaxis path {stroke:transparent !important;}
       .tooltip {pointer-events: none !important;}
       .tooltip-bg {pointer-events: none !important;}
       .chart-wrapper-full {width:100% !important;}
-      .spacing h3, .spacing-merge h3 {display: inline !important; font-family: 'Averta','Geomanist Regular' !important;font-size:15px !important;color:#443e42 !important;font-weight: bold !important;}
-      select, label {font-family: 'Averta','Geomanist Regular' !important;color:#443e42 !important;}
+      .spacing h3, .spacing-merge h3 {display: inline !important; font-family: 'Geomanist Regular' !important;font-size:15px !important;color:#443e42 !important;font-weight: bold !important;}
+      select, label {font-family: 'Geomanist Regular' !important;color:#443e42 !important;}
       select {font-size:15px !important;}
       .spacing, .spacing-merge {height: 100px !important; float: left !important; margin:5px !important; padding: 10px 5px 10px 5px !important; border-left: solid #443e42 2px !important; width: 30% !important;}
       .spacing select, .spacing-merge select {width: 100% !important;}
       .spacing div label, .spacing-merge div label{margin-left: 5px !important;margin-right: 5px !important; display: inline !important;}
       .spacing-merge{height: 80px !important; border-left: none !important; padding-top: 30px !important;}
       .control-title {margin-top: 0 !important;}
-      .ui-widget{color: #443e42 !important;font-family:'Averta','Geomanist Regular',sans-serif !important; font-size: 1.0em !important;}
+      .ui-widget{color: #443e42 !important;font-family:'Geomanist Regular',sans-serif !important; font-size: 1.0em !important;}
       .ui-tooltip{font-size: 20px !important; border: none !important; -webkit-box-shadow: none !important; box-shadow: none; color: rgb(68, 62, 66) !important; background-color: rgba(255, 255, 255, 0.8) !important;}
       .ui-state-active a, .ui-state-default a{color: #443e42 !important;}
       .ui-widget-content{color: #443e42 !important;font-size:15px !important;}
@@ -87,6 +87,7 @@
           <div id="chart1"></div>
         </div>
         <a class="button" id="chart1-dl" href="" download="aid-tracker-flows.csv">Download</a>
+        <p id="chart1-note"></p>
       </div>
       <div id="tabs-2">
         <p class="intro-text">Are donors targeting aid towards countries with high rates of extreme poverty, low-income countries or the least developed countries, by volume and proportion?</p>
@@ -94,6 +95,7 @@
           <div id="chart2"></div>
         </div>
         <a class="button" id="chart2-dl" href="" download="aid-tracker-poverty.csv">Download</a>
+        <p id="chart2-note"></p>
       </div>
       <div id="tabs-3">
         <p class="intro-text">Which sectors are donors prioritising, by volume and proportion?</p>
@@ -101,6 +103,7 @@
           <div id="chart3"></div>
         </div>
         <a class="button" id="chart3-dl" href="" download="aid-tracker-sectors.csv">Download</a>
+        <p id="chart3-note"></p>
      </div>
     </div>
     <script>
