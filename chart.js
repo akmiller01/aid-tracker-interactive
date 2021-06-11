@@ -21,8 +21,8 @@ function convertToCSV(data){
 // CONFIG X AXIS SPACING HERE
 var middle_timeframes = [
     "2019",
-    "Q42019",
-    "Feb 2020"
+    "Q12020",
+    "Apr 2019"
 ];
 var starting_quarters = ["Q1"];
 
@@ -350,6 +350,7 @@ function draw_bar_chart(data, chart_id, margin, width, height, chart_config, sel
         var timestr_1 = split_arr[1];
         var timestr_2 = split_arr[2];
         var time_type = split_arr[3];
+        console.log(split_arr);
 
         if(time_type == "Quarterly"){
             if(middle_timeframes.includes(timestr_1 + timestr_2)){
