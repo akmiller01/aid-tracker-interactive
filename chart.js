@@ -22,7 +22,7 @@ function convertToCSV(data){
 var middle_timeframes = [
     "2019",
     "Q12020",
-    "Apr 2019"
+    "Aug 2019"
 ];
 var starting_quarters = ["Q1"];
 
