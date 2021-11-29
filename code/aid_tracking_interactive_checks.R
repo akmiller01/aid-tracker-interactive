@@ -13,7 +13,6 @@
 #### DDW read-in ####
 
 current_month <- month(Sys.Date()-75) # Note: This is the less than or equal to so if you want to include up to November, for example, this must say 11.
-current_year <- year(Sys.Date()-75)
 current_yyyymm <- format(Sys.Date()-75, "%Y%m") # Note: This must be preceded by a 0 if in the first nine months (i.e. 202105, not 20215)
 
 choices <- c("Commitments", "Disbursements")
@@ -40,7 +39,9 @@ for (sheet in sheets){
     }
 
     if (!(length(setdiff(data_old_publishers,data_publishers))==0 && length(setdiff(data_publishers,data_old_publishers))==0)){
-      print(paste0("We're missing ",setdiff(data_old_publishers,data_publishers), " from before and we have added ", setdiff(data_publishers,data_old_publishers)," in ",choice, " - ", sheet))
+      print(choice)
+      print(sheet)
+      print(paste0("We're missing ",paste0(setdiff(data_old_publishers,data_publishers),collapse=", "), " from before and we have added ", paste0(setdiff(data_publishers,data_old_publishers),collapse=", ")," in ",choice, " - ", sheet))
     }
     
     
