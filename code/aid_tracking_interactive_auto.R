@@ -21,6 +21,10 @@ current_yyyymm <- format(Sys.Date()-75, "%Y%m") # Note: This must be preceded by
 
 choices <- c("commitments", "disbursements")
 
+retrieval_reqd <- TRUE
+retrieval_orgs <- c("XM-DAC-41122")
+retrieval_date <- "251021"
+
 ##
 options(timeout = 1000)
 ##
@@ -66,6 +70,28 @@ for(choice in choices){
   dictionary <- merge(data.frame(names(dat)),meta_columns[,c("col_alias","col_name")],by.x="names.dat.",by.y="col_alias",all.x=T)
   dictionary$col_name[which(is.na(dictionary$col_name))] <- dictionary$names.dat.[which(is.na(dictionary$col_name))]
   names(dat) <- mapvalues(names(dat), from=dictionary$names.dat.,to=dictionary$col_name)
+  
+  if (retrieval_reqd & choice == "commitments"){
+    append <- readRDS(paste0("Trends in IATI - Commitments ",retrieval_date,".RDS"))
+    append <- subset(append,append$`Reporting Organsation Reference` %in% retrieval_orgs)
+    names(append) <- gsub("...", " - ", names(append), fixed = TRUE)
+    names(append) <- gsub(".", " ", names(append), fixed = TRUE)
+    dictionary <- merge(data.frame(names(append)),meta_columns[,c("col_alias","col_name")],by.x="names.append.",by.y="col_alias",all.x=T)
+    dictionary$col_name[which(is.na(dictionary$col_name))] <- dictionary$names.append.[which(is.na(dictionary$col_name))]
+    names(append) <- mapvalues(names(append), from=dictionary$names.append.,to=dictionary$col_name)
+    dat <- rbind(dat,append)
+  }
+  
+  if (retrieval_reqd & choice == "disbursements"){
+    append <- readRDS(paste0("Trends in IATI - Disbursements ",retrieval_date,".RDS"))
+    append <- subset(append,append$`Reporting Organsation Reference` %in% retrieval_orgs)
+    names(append) <- gsub("...", " - ", names(append), fixed = TRUE)
+    names(append) <- gsub(".", " ", names(append), fixed = TRUE)
+    dictionary <- merge(data.frame(names(append)),meta_columns[,c("col_alias","col_name")],by.x="names.append.",by.y="col_alias",all.x=T)
+    dictionary$col_name[which(is.na(dictionary$col_name))] <- dictionary$names.append.[which(is.na(dictionary$col_name))]
+    names(append) <- mapvalues(names(append), from=dictionary$names.append.,to=dictionary$col_name)
+    dat <- rbind(dat,append)
+  }
   
   filtered_iati <- dat
   rm(dat)
@@ -565,7 +591,7 @@ for(choice in choices){
   
   t.sector <- subset(t.hold,x_sector_vocabulary %in% c("1","2",""))
   t.sector <- merge(t.sector,full_list,by.x="x_dac3_sector",by.y="sector",all.x=T) 
-  t.sector <- merge(t.sector,full_itep_list,by.x="x_dac3_sector_code",by.y="sector",all.x=T)
+  t.sector <- merge(t.sector,full_itep_list,by.x="x_dac3_sector",by.y="sector",all.x=T)
   
   t.sector$ITEP <- gsub("&","and",t.sector$ITEP) # Communications change.
   

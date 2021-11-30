@@ -123,6 +123,13 @@ di_deflators_2017,dac_marker,dac_marker,Country is a member of the OECD DAC,N,Da
 di_deflators_2017,eu_marker,eu_marker,Country is a member of the EU,N,Eu marker
 di_deflators_2017,year,year,Year,N,Year
 di_deflators_2017,value,value,Deflator multiplier,N,Deflator multiplier
+di_deflators_2018,di_id,di_id,ISO Alpha 2,C,ISO Alpha 2
+di_deflators_2018,iso3,iso3,ISO Alpha 3,C,ISO Alpha 3
+di_deflators_2018,country_name,country_name,Country name,C,Country name
+di_deflators_2018,dac_marker,dac_marker,Country is a member of the OECD DAC,N,Dac marker
+di_deflators_2018,eu_marker,eu_marker,Country is a member of the EU,N,Eu marker
+di_deflators_2018,year,year,Year,N,Year
+di_deflators_2018,value,value,Deflator multiplier,N,Deflator multiplier
 wdi,country_name,country_name,Country name,C,Country name
 wdi,country_code,country_code,Country code,C,Country code
 wdi,indicator_name,indicator_name,Indicator name,C,Indicator name
@@ -318,6 +325,36 @@ fts,destination_Emergency_name,destination_Emergency_name,Destination emergency 
 fts,exchangeRate,exchangeRate,Exchange rate,N,Exchange rate
 fts,source_Emergency_name,source_Emergency_name,Source emergency name,C,Source emergency name
 fts,source_GlobalCluster_name,source_GlobalCluster_name,Source global cluster name,C,Source global cluster name
+fts,createdAt,createdAt,Created at,C,Created at
+fts,date,date,Date,C,Date
+fts,decisionDate,decisionDate,Decision date,C,Decision date
+fts,firstReportedDate,firstReportedDate,First reported date,C,First reported date
+fts,updatedAt,updatedAt,Updated at,C,Updated at
+fts,versionId,versionId,Version ID,N,Version ID
+fts,source_Organization_id,source_Organization_id,Source organization ID,C,Source organization ID
+fts,source_UsageYear_id,source_UsageYear_id,Source usage year ID,C,Source usage year ID
+fts,source_Organization_type,source_Organization_type,Source organization type,C,Source organization type
+fts,destination_Plan_id,destination_Plan_id,Destination plan ID,C,Destination plan ID
+fts,destination_Organization_id,destination_Organization_id,Destination organization ID,C,Destination organization ID
+fts,destination_GlobalCluster_id,destination_GlobalCluster_id,Destination global cluster ID,C,Destination global cluster ID
+fts,destination_Location_id,destination_Location_id,Destination location ID,C,Destination location ID
+fts,destination_Project_id,destination_Project_id,Destination project ID,N,Destination project ID
+fts,destination_UsageYear_id,destination_UsageYear_id,Destination usage year ID,C,Destination usage year ID
+fts,destination_Organization_type,destination_Organization_type,Destination organization type,C,Destination organization type
+fts,report_type,report_type,Report type,C,Report type
+fts,report_organisation,report_organisation,Report organisation,C,Report organisation
+fts,report_channel,report_channel,Report channel,C,Report channel
+fts,report_date,report_date,Report date,C,Report date
+fts,source_Location_id,source_Location_id,Source location ID,C,Source location ID
+fts,destination_Emergency_id,destination_Emergency_id,Destination emergency ID,C,Destination emergency ID
+fts,refCode,refCode,Reference code,C,Reference code
+fts,source_GlobalCluster_id,source_GlobalCluster_id,Source global cluster ID,C,Source global cluster ID
+fts,source_Emergency_id,source_Emergency_id,Source emergency ID,C,Source emergency ID
+fts,source_Project_id,source_Project_id,Source project ID,N,Source project ID
+fts,source_Project_name,source_Project_name,Source project name,C,Source project name
+fts,destination_Cluster_id,destination_Cluster_id,Destination cluster ID,C,Destination cluster ID
+fts,source_Cluster_id,source_Cluster_id,Source cluster ID,C,Source cluster ID
+fts,source_Cluster_name,source_Cluster_name,Source cluster name,C,Source cluster name
 all_resource_flows,id,id,Row ID,C,Row ID
 all_resource_flows,year,year,Year,N,Year
 all_resource_flows,country_name,country_name,Country name,C,Country name
@@ -447,6 +484,36 @@ fts_precoded,domesticresponse,domesticresponse,Domestic response,C,Domestic resp
 fts_precoded,Deflators,Deflators,Deflators,N,Deflators
 fts_precoded,amountDeflated,amountDeflated,Amount deflated,N,Amount deflated
 fts_precoded,amountDeflatedMillions,amountDeflatedMillions,Amount deflated millions,N,Amount deflated millions
+fts_precoded,createdAt,createdAt,Created at,C,Created at
+fts_precoded,date,date,Date,C,Date
+fts_precoded,decisionDate,decisionDate,Decision date,C,Decision date
+fts_precoded,firstReportedDate,firstReportedDate,First reported date,C,First reported date
+fts_precoded,updatedAt,updatedAt,Updated at,C,Updated at
+fts_precoded,versionId,versionId,Version ID,N,Version ID
+fts_precoded,source_Organization_id,source_Organization_id,Source organization ID,C,Source organization ID
+fts_precoded,source_UsageYear_id,source_UsageYear_id,Source usage year ID,C,Source usage year ID
+fts_precoded,source_Organization_type,source_Organization_type,Source organization type,C,Source organization type
+fts_precoded,destination_Plan_id,destination_Plan_id,Destination plan ID,C,Destination plan ID
+fts_precoded,destination_Organization_id,destination_Organization_id,Destination organization ID,C,Destination organization ID
+fts_precoded,destination_GlobalCluster_id,destination_GlobalCluster_id,Destination global cluster ID,C,Destination global cluster ID
+fts_precoded,destination_Location_id,destination_Location_id,Destination location ID,C,Destination location ID
+fts_precoded,destination_Project_id,destination_Project_id,Destination project ID,N,Destination project ID
+fts_precoded,destination_UsageYear_id,destination_UsageYear_id,Destination usage year ID,C,Destination usage year ID
+fts_precoded,destination_Organization_type,destination_Organization_type,Destination organization type,C,Destination organization type
+fts_precoded,report_type,report_type,Report type,C,Report type
+fts_precoded,report_organisation,report_organisation,Report organisation,C,Report organisation
+fts_precoded,report_channel,report_channel,Report channel,C,Report channel
+fts_precoded,report_date,report_date,Report date,C,Report date
+fts_precoded,source_Location_id,source_Location_id,Source location ID,C,Source location ID
+fts_precoded,destination_Emergency_id,destination_Emergency_id,Destination emergency ID,C,Destination emergency ID
+fts_precoded,refCode,refCode,Reference code,C,Reference code
+fts_precoded,source_GlobalCluster_id,source_GlobalCluster_id,Source global cluster ID,C,Source global cluster ID
+fts_precoded,source_Emergency_id,source_Emergency_id,Source emergency ID,C,Source emergency ID
+fts_precoded,source_Project_id,source_Project_id,Source project ID,N,Source project ID
+fts_precoded,source_Project_name,source_Project_name,Source project name,C,Source project name
+fts_precoded,destination_Cluster_id,destination_Cluster_id,Destination cluster ID,C,Destination cluster ID
+fts_precoded,source_Cluster_id,source_Cluster_id,Source cluster ID,C,Source cluster ID
+fts_precoded,source_Cluster_name,source_Cluster_name,Source cluster name,C,Source cluster name
 iati_transactions,x_aid_type,x_aid_type,Aid Type,C,Aid Type - Calculated
 iati_transactions,x_country,x_country,Country,C,Country Name - Calculated
 iati_transactions,x_country_code,x_country_code,Calculated Country Code,C,Country Code - Calculated
@@ -471,10 +538,10 @@ iati_transactions,package_id,package_id,IATI Registry Package ID,C,IATI Registry
 iati_transactions,last_modified,last_modified,Last modified timestamp,C,Last modified timestamp
 iati_transactions,x_mod_aid_type_code,x_mod_aid_type_code,Calculated Mod Aid Type Code,C,Mod Aid Type Code - Calculated
 iati_transactions,x_mod_aid_type_vocabulary,x_mod_aid_type_vocabulary,Calulated Mod Aid Type Vocabulary,C,Mod Aid Type Vocabulary - Calculated
-iati_transactions,participating_org_narrative,participating_org_narrative,Participating Organisation Narrative,C,Participating Organisation Narrative
-iati_transactions,participating_org_ref,participating_org_ref,Participating Organisation Reference,C,Participating Organisation Reference
-iati_transactions,participating_org_role,participating_org_role,Participating Organisation Role,C,Participating Organisation Role
-iati_transactions,participating_org_type,participating_org_type,Participating Organisation Type,C,Participating Organisation Type
+iati_transactions,funding_orgs,funding_orgs,Funding Organisation Narrative,C,Funding Organisation Narrative
+iati_transactions,accountable_orgs,accountable_orgs,Accountable Organisation Narrative,C,Accountable Organisation Narrative
+iati_transactions,extending_orgs,extending_orgs,Extending Organisation Narrative,C,Extending Organisation Narrative
+iati_transactions,implementing_orgs,implementing_orgs,Implementing Organisation Narrative,C,Implementing Organisation Narrative
 iati_transactions,reporting_org_narrative,reporting_org_narrative,Reporting Organisation Narrative,C,Reporting Organisation Narrative
 iati_transactions,reporting_org_secondary_reporter,reporting_org_secondary_reporter,Reporting Organisation Secondary Reporter,C,Reporting Organisation Secondary Reporter
 iati_transactions,x_reporting_org_type,x_reporting_org_type,Reporting Organisation Type,C,Reporting Organisation Type Name - Calculated
@@ -490,6 +557,7 @@ iati_transactions,x_tied_status_code,x_tied_status_code,Calculated Tied Status C
 iati_transactions,title_narrative,title_narrative,Title Narrative,C,Title Narrative
 iati_transactions,x_transaction_date,x_transaction_date,Calculated Transaction Date,C,Transaction Date - Calculated
 iati_transactions,transaction_description_narrative,transaction_description_narrative,Transaction Description Narrative,C,Transaction Description Narrative
+iati_transactions,collaboration_type,collaboration_type,Collaboration Type,C,Collaboration Type
 iati_transactions,transaction_disbursement_channel_code,transaction_disbursement_channel_code,Transaction Disbursement Channel Code,C,Transaction Disbursement Channel Code
 iati_transactions,transaction_humanitarian,transaction_humanitarian,Transaction Humanitarian,C,Transaction Humanitarian
 iati_transactions,x_transaction_number,x_transaction_number,Calculated Transaction Number,N,Transaction Number - Calculated
@@ -514,15 +582,141 @@ iati_transactions,x_recipient_number,x_recipient_number,x_recipient_number,N,Rec
 iati_transactions,x_recipient_code,x_recipient_code,x_recipient_code,C,Recipient Code
 iati_transactions,x_recipient,x_recipient,x_recipient,C,Recipient Name
 iati_transactions,x_recipient_percentage,x_recipient_percentage,x_recipient_percentage,C,Recipient Percentage
+iati_transactions,x_recipient_vocabulary,x_recipient_vocabulary,x_recipient_vocabulary,C,Recipient Vocabulary
 iati_transactions,x_recipient_type,x_recipient_type,x_recipient_type,C,Recipient Type
 iati_transactions,x_recipient_transaction_value,x_recipient_transaction_value,x_recipient_transaction_value,N,Recipient Transaction Value
 iati_transactions,x_recipient_transaction_value_usd,x_recipient_transaction_value_usd,x_recipient_transaction_value_usd,N,Recipient Transaction Value USD
 iati_transactions,x_sector_number,x_sector_number,x_sector_number,N,Sector Number
-iati_publishers,reporting_org_ref,reporting_org_ref,Reporting Organisation Reference Code,C,Reporting org ref
-iati_publishers,reporting_org_narrative,reporting_org_narrative,Reporting Organisation Narrative,C,Reporting org narrative
-iati_publishers,x_di_org_type,x_di_org_type,DI Organisation Type,C,DI Organisation Type - Calculated
-iati_publishers,x_di_realtime_status,x_di_realtime_status,DI Realtime Data Satus,C,DI Realtime Status - Calculated
-iati_publishers,reporting_org_type_code,reporting_org_type_code,Reporting Organisation Type Code,N,Reporting org type code
-iati_publishers,x_reporting_org_type,x_reporting_org_type,X Reporting Organisation Type,C,Reporting Organisation Type - Calculated
-iati_publishers,org_hq,org_hq,Organisation Headquarters,C,Organisation Headquarters
-iati_publishers,registry_id,registry_id,Registry ID,C,Registry ID
+iati_transactions,dac_policy_marker_code,dac_policy_marker_code,dac_policy_marker_code,C,DAC Policy Marker Code
+iati_transactions,dac_policy_marker_significance,dac_policy_marker_significance,dac_policy_marker_significance,C,DAC Policy Marker Significance
+iati_transactions,x_donor_transaction_type,x_donor_transaction_type,Donor Transaction Type,C,Donor Transaction Type
+iati_transactions,x_original_transaction_value_USDm,x_original_transaction_value_USDm,Original Transaction Value USDm,N,Original Transaction Value USDm
+iati_publishers,reporting_org_ref,reporting_org_ref,The key to this table and present on all DDW IATI records,C,Reporting Organisation Reference Code
+iati_publishers,registry_id,registry_id,The publisher ID from the IATI Registry,C,Registry Id
+iati_publishers,org_type,org_type,"DI's version of Organisation Types (eg  Bilateral, IFI, Multilateral)",C,Organisation Type
+iati_publishers,org_name,org_name,DI's tidied version of the Reporting Organisation Name,C,Organisation Name
+iati_publishers,abbreviation,abbreviation,Organisation Abbreviation,C,Abbreviation
+iati_publishers,usability_score,usability_score,DI Shorthand for scores in the format C0D0,C,Usability Score
+iati_publishers,tracker_commit,tracker_commit,Boolean for whether this publisher's commitment data is used in the tracker,C,Tracker Commit
+iati_publishers,tracker_spend,tracker_spend,Boolean for whether this publisher's spend data is used in the tracker,C,Tracker Spend
+iati_publishers,latest_txn_year,latest_txn_year,The latest year for which any transaction was published,C,Latest Transaction Year
+iati_publishers,hq_country,hq_country,The ISO-2 Country Code for the Country in which HQ is located,C,HQ Country
+iati_publishers,CRS_codes,CRS_codes,Matching CRS Donor and Agency Codes,C,CRS Codes
+iati_publishers,IATI_organisation_type,IATI_organisation_type,IATI's original organisation type,C,IATI Organisation Type
+iati_publishers,IATI_organisation_name,IATI_organisation_name,IATI's Reporting Organisation Narrative,C,IATI Organisation Name
+ref_uganda_indicators,id,id,Indicator ID,C,Indicator ID
+ref_uganda_indicators,description,description,Description of Indicator,C,Description of Indicator
+ref_uganda_district,id,id,District ID,C,District ID
+ref_uganda_district,name,name,District Name,C,District Name
+ref_uganda_budget_type,id,id,Budget Type ID,C,Budget Type ID
+ref_uganda_budget_type,name,name,Budget Type,C,Budget Type
+ref_uganda_theme,id,id,SoU Theme ID,C,SoU Theme ID
+ref_uganda_theme,name,name,SoU Theme Name,C,SoU Theme Name
+ref_uganda_theme,default_indicator,default_indicator,Default Theme Indicator,C,Default Theme Indicator
+ref_uganda_theme,position,position,Position,N,Position
+ref_uganda_budget_level,id,id,Budget Level ID,C,Budget Level ID
+ref_uganda_budget_level,level,level,Budget Level,N,Budget Level
+ref_uganda_budget_level,name,name,Level Name,C,Level Name
+ref_uganda_budget_level,colour_id,colour_id,Colour ID,C,Colour ID
+ref_uganda_budget_level_1,id,id,Budget ID,C,Budget ID
+ref_uganda_budget_level_1,name,name,Name,C,Name
+ref_uganda_budget_level_1,colour_id,colour_id,Colour ID,C,Colour ID
+ref_uganda_budget_level_2,id,id,Budget ID,C,Budget ID
+ref_uganda_budget_level_2,name,name,Name,C,Name
+ref_uganda_budget_level_2,colour_id,colour_id,Colour ID,C,Colour ID
+ref_uganda_budget_level_3,id,id,Budget ID,C,Budget ID
+ref_uganda_budget_level_3,name,name,Name,C,Name
+ref_uganda_budget_level_4,id,id,Budget ID,C,Budget ID
+ref_uganda_budget_level_4,name,name,Name,C,Name
+uganda_finance,district_id,district_id,District ID,C,District ID
+uganda_finance,year,year,Year,N,Year
+uganda_finance,budget_type,budget_type,Budget Type,C,Budget Type
+uganda_finance,l1,l1,Level 1,C,Level 1
+uganda_finance,l2,l2,Level 2,C,Level 2
+uganda_finance,l3,l3,Level 3,C,Level 3
+uganda_finance,l4,l4,Level 4,C,Level 4
+uganda_finance,value,value,Value,N,Value
+uganda_finance,value_ncu,value_ncu,Value NCU,N,Value NCU
+uganda_gov_spend_pp,district_id,district_id,District ID,C,District ID
+uganda_gov_spend_pp,year,year,Year,N,Year
+uganda_gov_spend_pp,budget_type,budget_type,Budget Type,C,Budget Type
+uganda_gov_spend_pp,value,value,Value,N,Value
+uganda_gov_spend_pp,value_ncu,value_ncu,Value NCU,N,Value NCU
+uganda_population_rural_urban,district_id,district_id,District ID,C,District ID
+uganda_population_rural_urban,year,year,Year,N,Year
+uganda_population_rural_urban,value_rural,value_rural,Value for Rural,N,Value for Rural
+uganda_population_rural_urban,value_urban,value_urban,Value for Urban,N,Value for Urban
+uganda_indicator_percent,indicator_id,indicator_id,Indicator ID,C,Indicator ID
+uganda_indicator_percent,district_id,district_id,District ID,C,District ID
+uganda_indicator_percent,year,year,Year,N,Year
+uganda_indicator_percent,value,value,Value,N,Value
+uganda_indicator_percent,budget_type,budget_type,Budget Type,C,Budget Type
+uganda_indicator_ncu,indicator_id,indicator_id,Indicator ID,C,Indicator ID
+uganda_indicator_ncu,district_id,district_id,District ID,C,District ID
+uganda_indicator_ncu,year,year,Year,N,Year
+uganda_indicator_ncu,value,value,Value,N,Value
+uganda_indicator_ncu,value_ncu,value_ncu,Value NCU,N,Value NCU
+uganda_indicator_data,indicator_id,indicator_id,Indicator ID,C,Indicator ID
+uganda_indicator_data,district_id,district_id,District ID,C,District ID
+uganda_indicator_data,year,year,Year,N,Year
+uganda_indicator_data,value,value,Value,N,Value
+ref_kenya_indicators,id,id,Indicator ID,C,Indicator ID
+ref_kenya_indicators,description,description,Indicator Name,C,Indicator Name
+ref_kenya_district,id,id,County ID,C,County ID
+ref_kenya_district,name,name,Name of County,C,Name of County
+ref_kenya_district,alternative_name,alternative_name,Alternative name for County,C,Alternative name for County
+ref_kenya_district,administration_id,administration_id,Administration ID,N,Administration ID
+ref_kenya_district,administration_name,administration_name,Administration name of County,C,Administration name of County
+ref_kenya_district,area,area,Area of County,N,Area of County
+ref_kenya_district,county_code,county_code,County Code,N,County Code
+ref_kenya_budget_type,id,id,Budget ID,C,Budget ID
+ref_kenya_budget_type,name,name,Budget Type,C,Budget Type
+ref_kenya_theme,id,id,Theme ID,C,Theme ID
+ref_kenya_theme,name,name,Name of Theme,C,Name of Theme
+ref_kenya_theme,default_indicator,default_indicator,Default Indicator for Theme,C,Default Indicator for Theme
+ref_kenya_theme,position,position,Position,N,Position
+ref_kenya_subcounty,subcounty_id,subcounty_id,Sub-County ID,N,Sub-County ID
+ref_kenya_subcounty,district_id,district_id,County ID,C,County ID
+ref_kenya_subcounty,subcounty_name,subcounty_name,Sub-County Name,C,Sub-County Name
+ref_kenya_water_source,id,id,Water Source ID,C,Water Source ID
+ref_kenya_water_source,name,name,Name of Water Source,C,Name of Water Source
+kenya_household_water_com,district_id,district_id,County ID,C,County ID
+kenya_household_water_com,year,year,Year,N,Year
+kenya_household_water_com,value,value,Value,N,Value
+ref_kenya_sanitation_facility,id,id,Facility ID,C,Facility ID
+ref_kenya_sanitation_facility,name,name,Name of Sanitation Facility,C,Name of Sanitation Facility
+kenya_household_san_com,district_id,district_id,County ID,C,County ID
+kenya_household_san_com,year,year,Year,N,Year
+kenya_household_san_com,value,value,Value,N,Value
+kenya_finance,district_id,district_id,County ID,C,County ID
+kenya_finance,year,year,Year,N,Year
+kenya_finance,budget_type,budget_type,Budget Type,C,Budget Type
+kenya_finance,l1,l1,Level 1,C,Level 1
+kenya_finance,l2,l2,Level 2,C,Level 2
+kenya_finance,l3,l3,Level 3,C,Level 3
+kenya_finance,l4,l4,Level 4,C,Level 4
+kenya_finance,value,value,Value,N,Value
+kenya_finance,value_ncu,value_ncu,Value NCU,N,Value NCU
+kenya_gov_spend_pp,district_id,district_id,County ID,C,County ID
+kenya_gov_spend_pp,year,year,Year,N,Year
+kenya_gov_spend_pp,budget_type,budget_type,Budget Type,C,Budget Type
+kenya_gov_spend_pp,value,value,Value,N,Value
+kenya_gov_spend_pp,value_ncu,value_ncu,Value NCU,N,Value NCU
+kenya_population_rural_urban,district_id,district_id,County ID,C,County ID
+kenya_population_rural_urban,year,year,Year,N,Year
+kenya_population_rural_urban,value_rural,value_rural,Value for Rural,N,Value for Rural
+kenya_population_rural_urban,value_urban,value_urban,Value for Urban,N,Value for Urban
+kenya_indicator_percent,indicator_id,indicator_id,Indicator ID,C,Indicator ID
+kenya_indicator_percent,district_id,district_id,County ID,C,County ID
+kenya_indicator_percent,year,year,Year,N,Year
+kenya_indicator_percent,value,value,Value,N,Value
+kenya_indicator_percent,budget_type,budget_type,Budget Type,C,Budget Type
+kenya_indicator_ncu,indicator_id,indicator_id,Indicator ID,C,Indicator ID
+kenya_indicator_ncu,district_id,district_id,County ID,C,County ID
+kenya_indicator_ncu,year,year,Year,N,Year
+kenya_indicator_ncu,value,value,Value,N,Value
+kenya_indicator_ncu,value_ncu,value_ncu,Value NCU,N,Value NCU
+kenya_indicator_data,indicator_id,indicator_id,Indicator ID,C,Indicator ID
+kenya_indicator_data,district_id,district_id,County ID,C,County ID
+kenya_indicator_data,year,year,Year,N,Year
+kenya_indicator_data,value,value,Value,N,Value
