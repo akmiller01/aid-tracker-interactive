@@ -9,7 +9,7 @@
   wd <- dirname(getActiveDocumentContext()$path) # Setting working directory to the input. Check this is where you locally have this repository, else change it.
   setwd(wd)
   setwd("..")
-  setwd("..")
+  setwd("input")
   
   all <- read.csv("donors_selected.csv")[,c("country","code","org_type","disbursements","commitments")] # Reading in manual donor quality checks. Binary: 1 = include, 0 = exclude.
 }
@@ -83,6 +83,7 @@ for(choice in choices){
   }
   
   if (retrieval_reqd & choice == "disbursements"){
+    names(dat)[1] <- "iati_identifier"
     append <- readRDS(paste0("Trends in IATI - Disbursements ",retrieval_date,".RDS"))
     append <- subset(append,append$`Reporting Organsation Reference` %in% retrieval_orgs)
     names(append) <- gsub("...", " - ", names(append), fixed = TRUE)
