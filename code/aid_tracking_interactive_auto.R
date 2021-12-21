@@ -52,8 +52,8 @@ for(choice in choices){
         message("Disbursements file for today not found, downloading.")
         download.file("https://ddw.devinit.org/api/export/795", paste0(filename, ".csv"), method = "libcurl")
       }
-      dat <- fread(paste0(filename, ".csv"))
-      saveRDS(dat, paste0(filename, ".RDS"))
+      dat <- read.csv(paste0(filename, ".csv"))
+          saveRDS(dat, paste0(filename, ".RDS"))
     }
     dat <- readRDS(paste0(filename, ".RDS"))
     #dat <- fread("Trends in IATI - Disbursements September 18.csv")
@@ -70,7 +70,7 @@ for(choice in choices){
   dictionary <- merge(data.frame(names(dat)),meta_columns[,c("col_alias","col_name")],by.x="names.dat.",by.y="col_alias",all.x=T)
   dictionary$col_name[which(is.na(dictionary$col_name))] <- dictionary$names.dat.[which(is.na(dictionary$col_name))]
   names(dat) <- mapvalues(names(dat), from=dictionary$names.dat.,to=dictionary$col_name)
-  
+  dat$last_modified <- as.character(dat$last_modified)
   if (retrieval_reqd & choice == "commitments"){
     append <- readRDS(paste0("Trends in IATI - Commitments ",retrieval_date,".RDS"))
     append <- subset(append,append$`Reporting Organsation Reference` %in% retrieval_orgs)
@@ -83,6 +83,7 @@ for(choice in choices){
   }
   
   if (retrieval_reqd & choice == "disbursements"){
+    names(dat)[1] <- "iati_identifier"
     append <- readRDS(paste0("Trends in IATI - Disbursements ",retrieval_date,".RDS"))
     append <- subset(append,append$`Reporting Organsation Reference` %in% retrieval_orgs)
     names(append) <- gsub("...", " - ", names(append), fixed = TRUE)
@@ -685,7 +686,7 @@ for(choice in choices){
 
 }
 #### Combination and CSV production ####
-setwd("..")
+setwd("C:/git/aid-tracker-interactive")
 sector <- rbind(t.sector_commitments,t.sector_disbursements)
 sector$org_type[which(sector$aggregate=="Specific donor")] <- sector$country[which(sector$aggregate=="Specific donor")] # Make the org_type be the country field in all 'specific donor' entries.
 sector$flow_type <- tolower(sector$flow_type)
