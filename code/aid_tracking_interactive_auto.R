@@ -209,10 +209,11 @@ for(choice in choices){
   t.yeartodate <- t.months
   t.yeartodate$monthnumber <- t.yeartodate$year*12+t.yeartodate$month
   threshold <- current_year*12+current_month
+  if (current_month<10) {current_month_fill = paste0("0",current_month)}else{current_month_fill = current_month}
   t.yeartodate$rollingyear <- NA
-  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=threshold & t.yeartodate$monthnumber>(threshold-12))] <- paste0(current_year,"-0",current_month) # Separating out by most current year to date and then so onwards.
-  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=(threshold-12) & t.yeartodate$monthnumber>(threshold-24))] <- paste0(current_year-1,"-0",current_month)
-  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=(threshold-24) & t.yeartodate$monthnumber>(threshold-36))] <- paste0(current_year-2,"-0",current_month)
+  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=threshold & t.yeartodate$monthnumber>(threshold-12))] <- paste0(current_year,"-",current_month_fill) # Separating out by most current year to date and then so onwards.
+  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=(threshold-12) & t.yeartodate$monthnumber>(threshold-24))] <- paste0(current_year-1,"-",current_month_fill)
+  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=(threshold-24) & t.yeartodate$monthnumber>(threshold-36))] <- paste0(current_year-2,"-",current_month_fill)
   t.yeartodate <- data.table(t.yeartodate)[,.(value=sum(value,na.rm=T)),by=.(rollingyear,org_type,country,transaction_type,aggregate_type,flow_type)]
   t.yeartodate <- data.table(t.yeartodate)[,Proportion:=value/sum(value,na.rm=T),by=.(rollingyear,org_type,country,transaction_type,aggregate_type)]
   names(t.yeartodate)[which(names(t.yeartodate)=="value")] <- "Volume"
@@ -366,10 +367,11 @@ for(choice in choices){
   t.yeartodate <- t.months
   t.yeartodate$monthnumber <- t.yeartodate$year*12+t.yeartodate$month
   threshold <- current_year*12+current_month
+  if (current_month<10) {current_month_fill = paste0("0",current_month)}else{current_month_fill = current_month}
   t.yeartodate$rollingyear <- NA
-  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=threshold & t.yeartodate$monthnumber>(threshold-12))] <- paste0(current_year,"-0",current_month)
-  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=(threshold-12) & t.yeartodate$monthnumber>(threshold-24))] <- paste0(current_year-1,"-0",current_month)
-  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=(threshold-24) & t.yeartodate$monthnumber>(threshold-36))] <- paste0(current_year-2,"-0",current_month)
+  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=threshold & t.yeartodate$monthnumber>(threshold-12))] <- paste0(current_year,"-",current_month_fill)
+  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=(threshold-12) & t.yeartodate$monthnumber>(threshold-24))] <- paste0(current_year-1,"-",current_month_fill)
+  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=(threshold-24) & t.yeartodate$monthnumber>(threshold-36))] <- paste0(current_year-2,"-",current_month_fill)
   t.yeartodate <- data.table(t.yeartodate)[,.(value=sum(value,na.rm=T)),by=.(rollingyear,org_type,country,transaction_type,aggregate_type,income_group,flow_type)]
   t.yeartodate <- data.table(t.yeartodate)[,Proportion:=value/sum(value,na.rm=T),by=.(rollingyear,org_type,country,transaction_type,aggregate_type)]
   names(t.yeartodate)[which(names(t.yeartodate)=="value")] <- "Volume"
@@ -457,12 +459,11 @@ for(choice in choices){
   t.yeartodate <- t.months
   t.yeartodate$monthnumber <- t.yeartodate$year*12+t.yeartodate$month
   threshold <- current_year*12+current_month
+  if (current_month<10) {current_month_fill = paste0("0",current_month)}else{current_month_fill = current_month}
   t.yeartodate$rollingyear <- NA
-  if (current_month < 10){current_month_added <- paste0("0",current_month)
-  } else {current_month_added <- current_month}
-  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=threshold & t.yeartodate$monthnumber>(threshold-12))] <- paste0(current_year,"-",current_month_added)
-  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=(threshold-12) & t.yeartodate$monthnumber>(threshold-24))] <- paste0(current_year-1,"-",current_month_added)
-  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=(threshold-24) & t.yeartodate$monthnumber>(threshold-36))] <- paste0(current_year-2,"-",current_month_added)
+  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=threshold & t.yeartodate$monthnumber>(threshold-12))] <- paste0(current_year,"-",current_month_fill)
+  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=(threshold-12) & t.yeartodate$monthnumber>(threshold-24))] <- paste0(current_year-1,"-",current_month_fill)
+  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=(threshold-24) & t.yeartodate$monthnumber>(threshold-36))] <- paste0(current_year-2,"-",current_month_fill)
   t.yeartodate <- data.table(t.yeartodate)[,.(value=sum(value,na.rm=T)),by=.(rollingyear,org_type,country,transaction_type,aggregate_type,poverty_band,flow_type)]
   t.yeartodate <- data.table(t.yeartodate)[,Proportion:=value/sum(value,na.rm=T),by=.(rollingyear,org_type,country,transaction_type,aggregate_type)]
   names(t.yeartodate)[which(names(t.yeartodate)=="value")] <- "Volume"
@@ -550,12 +551,11 @@ for(choice in choices){
   t.yeartodate <- t.months
   t.yeartodate$monthnumber <- t.yeartodate$year*12+t.yeartodate$month
   threshold <- current_year*12+current_month
+  if (current_month<10) {current_month_fill = paste0("0",current_month)}else{current_month_fill = current_month}
   t.yeartodate$rollingyear <- NA
-  if (current_month < 10){current_month_added <- paste0("0",current_month)
-  } else {current_month_added <- current_month}
-  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=threshold & t.yeartodate$monthnumber>(threshold-12))] <- paste0(current_year,"-",current_month_added)
-  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=(threshold-12) & t.yeartodate$monthnumber>(threshold-24))] <- paste0(current_year-1,"-",current_month_added)
-  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=(threshold-24) & t.yeartodate$monthnumber>(threshold-36))] <- paste0(current_year-2,"-",current_month_added)
+  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=threshold & t.yeartodate$monthnumber>(threshold-12))] <- paste0(current_year,"-",current_month_fill)
+  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=(threshold-12) & t.yeartodate$monthnumber>(threshold-24))] <- paste0(current_year-1,"-",current_month_fill)
+  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=(threshold-24) & t.yeartodate$monthnumber>(threshold-36))] <- paste0(current_year-2,"-",current_month_fill)
   t.yeartodate <- data.table(t.yeartodate)[,.(value=sum(value,na.rm=T)),by=.(rollingyear,org_type,country,transaction_type,aggregate_type,ldc,flow_type)]
   t.yeartodate <- data.table(t.yeartodate)[,Proportion:=value/sum(value,na.rm=T),by=.(rollingyear,org_type,country,transaction_type,aggregate_type)]
   names(t.yeartodate)[which(names(t.yeartodate)=="value")] <- "Volume"
@@ -660,10 +660,11 @@ for(choice in choices){
   t.yeartodate <- t.months
   t.yeartodate$monthnumber <- t.yeartodate$year*12+t.yeartodate$month
   threshold <- current_year*12+current_month
+  if (current_month<10) {current_month_fill = paste0("0",current_month)}else{current_month_fill = current_month}
   t.yeartodate$rollingyear <- NA
-  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=threshold & t.yeartodate$monthnumber>(threshold-12))] <- paste0(current_year,"-0",current_month)
-  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=(threshold-12) & t.yeartodate$monthnumber>(threshold-24))] <- paste0(current_year-1,"-0",current_month)
-  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=(threshold-24) & t.yeartodate$monthnumber>(threshold-36))] <- paste0(current_year-2,"-0",current_month)
+  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=threshold & t.yeartodate$monthnumber>(threshold-12))] <- paste0(current_year,"-",current_month_fill)
+  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=(threshold-12) & t.yeartodate$monthnumber>(threshold-24))] <- paste0(current_year-1,"-",current_month_fill)
+  t.yeartodate$rollingyear[which(t.yeartodate$monthnumber<=(threshold-24) & t.yeartodate$monthnumber>(threshold-36))] <- paste0(current_year-2,"-",current_month_fill)
   t.yeartodate <- data.table(t.yeartodate)[,.(value=sum(value,na.rm=T)),by=.(rollingyear,org_type,country,transaction_type,aggregate_type,ITEP,flow_type)]
   t.yeartodate <- data.table(t.yeartodate)[,Proportion:=value/sum(value,na.rm=T),by=.(rollingyear,org_type,country,transaction_type,aggregate_type)]
   names(t.yeartodate)[which(names(t.yeartodate)=="value")] <- "Volume"
