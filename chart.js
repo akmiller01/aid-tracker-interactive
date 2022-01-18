@@ -36,8 +36,15 @@ var pal = {
   };
 
 function draw_table(this_data,table_number,selector_configs){
-    var this_data_table = this_data.filter(function(d){return  (d['value'] != 0)})
-    this_data_table.forEach(function(d){d['value'] = (d['value']/1).toFixed(2)})
+    var this_data_table = []
+    this_data.filter(function(d){return  (d['value'] != 0)}).forEach(
+        function(x){
+            var newObj = {}
+            for (var k in x){newObj[k]=x[k]};
+            newObj['value'] = (x['value'] / 1000).toFixed(2);
+            this_data_table.push(newObj);
+        }
+    )
     var dict = {
         country: "Country",
         org_type: "Organisation type",
