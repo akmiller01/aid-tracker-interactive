@@ -37,7 +37,7 @@ var pal = {
 
 function draw_table(this_data,table_number,selector_configs){
     var this_data_table = this_data.filter(function(d){return  (d['value'] != 0)})
-    this_data_table.forEach(function(d){d['value'] = (d['value']).toFixed(2)})
+    this_data_table.forEach(function(d){d['value'] = (d['value']/1).toFixed(2)})
     var dict = {
         country: "Country",
         org_type: "Organisation type",

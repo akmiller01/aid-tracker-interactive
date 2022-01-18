@@ -104,6 +104,7 @@
         <div class="chart-wrapper-full">
           <div id="chart2"></div>
         </div>
+        <div class="chart-wrapper-full" id="table2"></div>
         <a class="button" id="chart2-dl" href="" download="aid-tracker-poverty.csv">Download</a>
         <p id="chart2-note"></p>
       </div>
@@ -112,6 +113,7 @@
         <div class="chart-wrapper-full">
           <div id="chart3"></div>
         </div>
+        <div class="chart-wrapper-full" id="table3"></div>
         <a class="button" id="chart3-dl" href="" download="aid-tracker-sectors.csv">Download</a>
         <p id="chart3-note"></p>
      </div>
@@ -377,12 +379,15 @@
           };
           add_selectors("chart2", data, selector_configs);
           var initial_data = subset_data(data, selector_configs);
+          draw_table(initial_data,1,selector_configs);
           d3.select("#chart2-dl").attr("href", convertToCSV(initial_data));
           draw_bar_chart(initial_data, "chart2", margin2, width2, height2, chart_config,selector_configs);
           selector_configs.forEach(function(selector_config, config_index){
               selector_config.element.on("change", function(d){
                   set_selections("chart2", selector_configs, config_index,margin2, width2, height2,chart_config,data);
                   var filtered_data = subset_data(data, selector_configs);
+                  erase_table("table2");
+                  draw_table(filtered_data,2,selector_configs)
                   d3.select("#chart2-dl").attr("href", convertToCSV(filtered_data));
                   erase_chart("chart2");
                   draw_bar_chart(filtered_data, "chart2", margin2, width2, height2, chart_config,selector_configs);
@@ -512,12 +517,15 @@
         };
         add_selectors("chart3", data, selector_configs);
         var initial_data = subset_data(data, selector_configs);
+        draw_table(initial_data,1,selector_configs);
         d3.select("#chart3-dl").attr("href", convertToCSV(initial_data));
         draw_bar_chart(initial_data, "chart3", margin2, width2, height2, chart_config,selector_configs,margin2, width2, height2,chart_config,data);
         selector_configs.forEach(function(selector_config, config_index){
             selector_config.element.on("change", function(d){
                 set_selections("chart3", selector_configs, config_index,margin2, width2, height2,chart_config,data);
                 var filtered_data = subset_data(data, selector_configs);
+                erase_table("table3");
+                draw_table(filtered_data,3,selector_configs)
                 d3.select("#chart3-dl").attr("href", convertToCSV(filtered_data));
                 erase_chart("chart3");
                 draw_bar_chart(filtered_data, "chart3", margin2, width2, height2, chart_config,selector_configs);
