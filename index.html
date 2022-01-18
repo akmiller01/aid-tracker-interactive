@@ -95,6 +95,7 @@
         <div class="chart-wrapper-full">
           <div id="chart1"></div>
         </div>
+        <div class="chart-wrapper-full" id="table1"></div>
         <a class="button" id="chart1-dl" href="" download="aid-tracker-flows.csv">Download</a>
         <p id="chart1-note"></p>
       </div>
@@ -235,13 +236,16 @@
             };
             add_selectors("chart1", data, selector_configs);
             var initial_data = subset_data(data, selector_configs);
+            draw_table(initial_data,1,selector_configs);
             d3.select("#chart1-dl").attr("href", convertToCSV(initial_data));
             draw_bar_chart(initial_data, "chart1", margin2, width2, height2, chart_config,selector_configs);
             selector_configs.forEach(function(selector_config, config_index){
                 selector_config.element.on("change", function(d){
                     set_selections("chart1",selector_configs, config_index,margin2, width2, height2,chart_config,data);
                     var filtered_data = subset_data(data, selector_configs);
-                    d3.select("#chart1-dl").attr("href", convertToCSV(filtered_data));
+                    erase_table("table1");
+                    draw_table(filtered_data,1,selector_configs)
+                    d3.select("#chart1-dl").attr("href", convertToCSV(filtered_data));        
                     erase_chart("chart1");
                     draw_bar_chart(filtered_data, "chart1", margin2, width2, height2, chart_config,selector_configs);
                 })
