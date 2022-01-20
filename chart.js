@@ -35,6 +35,69 @@ var pal = {
     "blue6": "#551f65"
   };
 
+function draw_table(this_data,table_number,selector_configs){
+    var this_data_table = []
+    this_data.filter(function(d){return  (d['value'] != 0)}).forEach(
+        function(x){
+            var newObj = {}
+            for (var k in x){newObj[k]=x[k]};
+            console.log(x);
+            newObj['value'] = (x['value'] / 1000).toFixed(2);
+            this_data_table.push(newObj);
+        }
+    )
+    var dict = {
+        country: "Country",
+        org_type: "Organisation type",
+        flow_type: "Flow type",
+        transaction_type: "Transaction type",
+        year: "Year",
+        quarter: "Quarter",
+        month: "Month",
+        aggregate_type: "Aggregate type",
+        variable: "Variable",
+        value: "Value",
+        timeframe: "Timeframe",
+        rollingyear : "Rolling year"
+      };
+    var wanted_variables = ["flow_type", "transaction_type","variable","value","timeframe"];
+    var additional_variables = []    
+    if (selector_configs[1]['current_selection']=="Yearly"){additional_variables = additional_variables.concat("year")};
+    if (selector_configs[1]['current_selection']=="Quarterly"){additional_variables = additional_variables.concat("quarter")};
+    if (selector_configs[1]['current_selection']=="Year to date"){additional_variables = additional_variables.concat("rollingyear")};
+    console.log(additional_variables);
+    var preceding_variables = []    
+    if (selector_configs[3]['current_selection']=="Organisation type"){preceding_variables = preceding_variables.concat("org_type")};
+    if (selector_configs[3]['current_selection']=="Specific donor"){preceding_variables = preceding_variables.concat("country")};
+    var header = Object.keys(this_data_table[0])
+    header = wanted_variables.concat(additional_variables)
+    header = preceding_variables.concat(header)
+    var tabledata = this_data_table.map( Object.values)
+    var check_var = Object.keys(this_data_table[0])
+    var indexing = header.map(function(word) { return check_var.indexOf(word); })
+    tabledata.forEach(function(array,i) {tabledata[i] = indexing.map(x => array[x]); })
+    header = header.map(el => dict[el]);
+    var table = d3.select("#table"+table_number)
+        .append("table")
+    table
+        .append("thead")
+        .append("tr")
+        .selectAll("th")
+              .data(header).enter()
+              .append("th")
+              .text(function(d) { return d; });
+    table
+    .append("tbody")
+    .selectAll("tr")
+        .data(tabledata).enter()
+        .append("tr")
+      
+    .selectAll("td")
+        .data(function(d) { return d; }).enter()
+        .append("td")
+        .text(function(d) { return d; });
+}
+
 
 function draw_dependent_selectors(chart_id, parent_name, parent_selection, selector_configs,margin2, width2, height2,chart_config,data){
     selector_configs.forEach(function(child, config_index){
@@ -557,5 +620,10 @@ function draw_bar_chart(data, chart_id, margin, width, height, chart_config, sel
 
 function erase_chart(chart_id){
     var svg = d3.select("#" + chart_id).select("svg");
+    svg.remove();
+}
+
+function erase_table(table_id){
+    var svg = d3.select("#" + table_id).select("table");
     svg.remove();
 }
