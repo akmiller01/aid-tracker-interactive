@@ -34,4 +34,10 @@ names(overall)[which(names(overall)=="value")]="Value US$bn"
 
 donors <- read.csv("input/donors_selected.csv")
 
+overall <- merge(overall,unique(donors[c("country","org_type")]),by="country")
+
+overall$org_type[which(overall$org_type=="bilateral")]="Bilateral"
+overall$org_type[which(overall$org_type=="multilateral")]="Multilateral"
+overall$org_type[which(overall$org_type=="ifi")]="IFI"
+
 write.csv(overall,"overall_pivot.csv",row.names = FALSE)
