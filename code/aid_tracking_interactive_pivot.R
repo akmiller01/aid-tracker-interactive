@@ -28,4 +28,10 @@ overall$monthname = mymonths[overall$month]
 
 overall$yyyymm <- paste0(overall$monthname,"-",overall$year)
 
-write.csv(overall,"overall_pivot.csv")
+oveall$value <- overall$value/1000
+
+names(overall)[which(names(overall)=="value")]="Value US$bn"
+
+donors <- read.csv("input/donors_selected.csv")
+
+write.csv(overall,"overall_pivot.csv",row.names = FALSE)
