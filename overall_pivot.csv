@@ -1,4 +1,4 @@
-"country","transaction_type","year","month","Value US$bn","monthname","yyyymm","org_type"
+"country","Transaction type","year","month","Value US$bn","monthname","yyyymm","Organisation type"
 "African Development Bank Group","Commitments",2020,12,0.350633578041239,"Dec","Dec-2020","IFI"
 "African Development Bank Group","Commitments",2021,1,0,"Jan","Jan-2021","IFI"
 "African Development Bank Group","Commitments",2021,2,0,"Feb","Feb-2021","IFI"

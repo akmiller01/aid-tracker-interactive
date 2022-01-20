@@ -28,7 +28,7 @@ overall$monthname = mymonths[overall$month]
 
 overall$yyyymm <- paste0(overall$monthname,"-",overall$year)
 
-oveall$value <- overall$value/1000
+overall$value <- overall$value/1000
 
 names(overall)[which(names(overall)=="value")]="Value US$bn"
 
@@ -39,5 +39,8 @@ overall <- merge(overall,unique(donors[c("country","org_type")]),by="country")
 overall$org_type[which(overall$org_type=="bilateral")]="Bilateral"
 overall$org_type[which(overall$org_type=="multilateral")]="Multilateral"
 overall$org_type[which(overall$org_type=="ifi")]="IFI"
+
+names(overall)[which(names(overall)=="org_type")]="Organisation type"
+names(overall)[which(names(overall)=="transaction_type")]="Transaction type"
 
 write.csv(overall,"overall_pivot.csv",row.names = FALSE)
