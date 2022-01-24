@@ -1,0 +1,991 @@
+"","Reporting Organisation Narrative","Reporting Organsation Reference","org_type","tracker_commit","tracker_spend","YYYYMM year and month","Transaction Type","x_original_transaction_value_USDm_Sum","usability"
+"1","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202101,"Disbursements",0.625146775263,"Yes"
+"2","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202101,"Commitments",111.953427240645,"Yes"
+"3","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202102,"Disbursements",0.509085,"Yes"
+"4","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202102,"Commitments",6.245720160354,"Yes"
+"5","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202103,"Disbursements",6.289744598037,"Yes"
+"6","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202103,"Commitments",1.89692447076,"Yes"
+"7","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202104,"Disbursements",7.133501330379,"Yes"
+"8","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202104,"Commitments",0.579752989434,"Yes"
+"9","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202105,"Disbursements",54.608269671504,"Yes"
+"10","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202105,"Commitments",0.100038302262,"Yes"
+"11","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202106,"Disbursements",8.908914666906,"Yes"
+"12","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202106,"Commitments",4.378249684683,"Yes"
+"13","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202107,"Disbursements",16.764256533429,"Yes"
+"14","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202107,"Commitments",3.42329219217,"Yes"
+"15","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202108,"Disbursements",9.718229547711,"Yes"
+"16","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202108,"Commitments",1.4899221,"Yes"
+"17","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202109,"Disbursements",6.17891861493,"Yes"
+"18","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202109,"Commitments",0.01644321924,"Yes"
+"19","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202110,"Disbursements",18.832415149152,"Yes"
+"20","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202110,"Commitments",0.248886,"Yes"
+"21","AECID Spanish Agency for International Development Cooperation","ES-DIR3-EA0035768","Bilateral","Yes","Yes",202111,"Disbursements",0.7170009705,"Yes"
+"22","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202101,"Disbursements",0.465798933636,"Yes"
+"23","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202101,"Incoming Commitment",1.841791732155,NA
+"24","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202101,"Incoming Funds",1.06931184159,NA
+"25","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202101,"Commitments",0.210328167903,"Yes"
+"26","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202102,"Disbursements",1.984516575776,"Yes"
+"27","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202102,"Incoming Commitment",0.300174699825,NA
+"28","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202102,"Incoming Funds",1.450559342311,NA
+"29","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202102,"Commitments",0.1630502572,"Yes"
+"30","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202103,"Disbursements",0.592866253026,"Yes"
+"31","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202103,"Incoming Funds",1.043452065515,NA
+"32","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202103,"Commitments",1.120645512774,"Yes"
+"33","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202104,"Disbursements",0.416698408361,"Yes"
+"34","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202104,"Incoming Commitment",0.336318843617,NA
+"35","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202104,"Incoming Funds",1.713659187746,NA
+"36","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202105,"Disbursements",2.101666773551,"Yes"
+"37","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202105,"Incoming Commitment",1.669176734776,NA
+"38","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202105,"Incoming Funds",0.0592077177,NA
+"39","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202105,"Commitments",0.2959701486,"Yes"
+"40","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202106,"Disbursements",0.101287269795,"Yes"
+"41","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202106,"Incoming Commitment",0.396297326668,NA
+"42","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202106,"Commitments",0.2883288938,"Yes"
+"43","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202107,"Disbursements",0.265741913743,"Yes"
+"44","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202107,"Incoming Funds",2.787372423319,NA
+"45","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202107,"Commitments",0.2459441838,"Yes"
+"46","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202108,"Disbursements",2.002192656812,"Yes"
+"47","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202108,"Incoming Funds",1.347240536144,NA
+"48","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202108,"Commitments",1.373047985713,"Yes"
+"49","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202109,"Disbursements",0.555188383082,"Yes"
+"50","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202109,"Incoming Funds",1.16965121877,NA
+"51","BRITISH COUNCIL","GB-CHC-209131","Bilateral","Yes","Yes",202109,"Commitments",1.128829255841,"Yes"
+"52","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202101,"Disbursements",629.439845275377,"Yes"
+"53","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202101,"Expenditure",525.925857659652,NA
+"54","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202101,"Incoming Funds",35.825021080551,NA
+"55","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202101,"Commitments",514.681161141582,"Yes"
+"56","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202102,"Disbursements",297.048732019578,"Yes"
+"57","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202102,"Expenditure",49.985589476115,NA
+"58","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202102,"Incoming Funds",11.842323708114,NA
+"59","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202102,"Commitments",360.990616797261,"Yes"
+"60","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202103,"Disbursements",894.648448918224,"Yes"
+"61","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202103,"Expenditure",167.833517789367,NA
+"62","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202103,"Incoming Funds",10.463091111189,NA
+"63","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202103,"Commitments",267.325079764806,"Yes"
+"64","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202104,"Disbursements",288.780110526672,"Yes"
+"65","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202104,"Expenditure",400.762726947702,NA
+"66","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202104,"Incoming Funds",32.138767785492,NA
+"67","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202104,"Commitments",429.70303271358,"Yes"
+"68","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202105,"Disbursements",482.675049085005,"Yes"
+"69","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202105,"Expenditure",151.000322085225,NA
+"70","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202105,"Incoming Funds",44.608050996111,NA
+"71","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202105,"Commitments",241.100169775929,"Yes"
+"72","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202106,"Disbursements",520.253651606805,"Yes"
+"73","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202106,"Expenditure",147.208428561816,NA
+"74","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202106,"Incoming Funds",20.668540084821,NA
+"75","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202106,"Commitments",392.876042312862,"Yes"
+"76","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202107,"Disbursements",1215.34654936312,"Yes"
+"77","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202107,"Expenditure",308.031127367301,NA
+"78","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202107,"Incoming Funds",19.57149,NA
+"79","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202107,"Commitments",617.072065773849,"Yes"
+"80","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202108,"Disbursements",535.504384192167,"Yes"
+"81","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202108,"Expenditure",111.697198390926,NA
+"82","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202108,"Incoming Funds",11.683882133856,NA
+"83","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202108,"Commitments",337.975440954129,"Yes"
+"84","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202109,"Disbursements",2814.34585865792,"Yes"
+"85","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202109,"Expenditure",141.212889841779,NA
+"86","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202109,"Incoming Funds",13.96012457106,NA
+"87","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202109,"Commitments",502.399767368664,"Yes"
+"88","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202110,"Disbursements",1445.17432636064,"Yes"
+"89","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202110,"Expenditure",121.2766870149,NA
+"90","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202110,"Incoming Funds",3.231855846144,NA
+"91","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202110,"Commitments",572.462894575791,"Yes"
+"92","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202111,"Disbursements",3507.17202282504,"Yes"
+"93","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202111,"Expenditure",15649.3454234006,NA
+"94","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202111,"Commitments",976.318111085887,"Yes"
+"95","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202112,"Expenditure",18.248448847815,NA
+"96","Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ)","DE-1","Bilateral","Yes","No",202112,"Commitments",12.7034830926,"Yes"
+"97","Department of Business, Energy and Industrial Strategy","GB-GOV-13","Bilateral","Yes","Yes",202101,"Commitments",0.796002323985,"Yes"
+"98","Department of Business, Energy and Industrial Strategy","GB-GOV-13","Bilateral","Yes","Yes",202103,"Commitments",0.553017277342,"Yes"
+"99","Department of Business, Energy and Industrial Strategy","GB-GOV-13","Bilateral","Yes","Yes",202106,"Commitments",3.730424404262,"Yes"
+"100","Department of Business, Energy and Industrial Strategy","GB-GOV-13","Bilateral","Yes","Yes",202108,"Commitments",1.320423429952,"Yes"
+"101","Department of Business, Energy and Industrial Strategy","GB-GOV-13","Bilateral","Yes","Yes",202109,"Commitments",0.353174582399,"Yes"
+"102","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202101,"Disbursements",109.380290639877,"Yes"
+"103","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202101,"Commitments",34.610947898292,"Yes"
+"104","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202102,"Disbursements",151.814479676688,"Yes"
+"105","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202102,"Commitments",124.01411953167,"Yes"
+"106","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202103,"Disbursements",171.223478648019,"Yes"
+"107","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202103,"Commitments",55.44578386782,"Yes"
+"108","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202104,"Disbursements",82.08591581205,"Yes"
+"109","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202104,"Commitments",43.79364117,"Yes"
+"110","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202105,"Disbursements",57.790428628635,"Yes"
+"111","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202105,"Commitments",388.960361264673,"Yes"
+"112","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202106,"Disbursements",169.57927683414,"Yes"
+"113","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202106,"Commitments",67.159161515475,"Yes"
+"114","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202107,"Disbursements",56.359238307525,"Yes"
+"115","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202107,"Commitments",584.099434813905,"Yes"
+"116","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202108,"Disbursements",21.105834234885,"Yes"
+"117","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202108,"Commitments",15.572134496781,"Yes"
+"118","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202109,"Disbursements",130.259107130022,"Yes"
+"119","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202109,"Commitments",90.797919285771,"Yes"
+"120","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202110,"Disbursements",76.899971754621,"Yes"
+"121","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202110,"Commitments",260.644325735223,"Yes"
+"122","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202111,"Disbursements",150.534656922249,"Yes"
+"123","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202111,"Commitments",201.298294206135,"Yes"
+"124","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202112,"Disbursements",211.994788696227,"Yes"
+"125","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202112,"Commitments",1327.97830425346,"Yes"
+"126","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202201,"Disbursements",104.823851453914,"Yes"
+"127","Directorate-general Development Cooperation and Humanitarian Aid","XM-DAC-2-10","Bilateral","Yes","Yes",202201,"Commitments",2515.94550286681,"Yes"
+"128","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202101,"Disbursements",243.730614844431,"Yes"
+"129","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202102,"Disbursements",28.721448834696,"Yes"
+"130","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202102,"Incoming Funds",10.2382638687,NA
+"131","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202102,"Commitments",9.9698459742,"Yes"
+"132","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202103,"Disbursements",22.280663762757,"Yes"
+"133","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202103,"Incoming Funds",6.165585,NA
+"134","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202103,"Commitments",5.147415,"Yes"
+"135","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202104,"Disbursements",31.106602529757,"Yes"
+"136","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202104,"Incoming Funds",249.669418745025,NA
+"137","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202104,"Commitments",221.173108701525,"Yes"
+"138","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202105,"Disbursements",302.196968626203,"Yes"
+"139","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202105,"Incoming Funds",512.084147209884,NA
+"140","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202105,"Commitments",409.847139244629,"Yes"
+"141","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202106,"Disbursements",368.572525614567,"Yes"
+"142","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202106,"Incoming Funds",447.468807664935,NA
+"143","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202106,"Commitments",398.57705383176,"Yes"
+"144","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202107,"Disbursements",415.858166095194,"Yes"
+"145","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202107,"Incoming Funds",439.645756403808,NA
+"146","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202107,"Commitments",410.407368994008,"Yes"
+"147","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202108,"Disbursements",410.798631791502,"Yes"
+"148","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202108,"Incoming Funds",132.0175490094,NA
+"149","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202108,"Commitments",106.902315126063,"Yes"
+"150","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202109,"Disbursements",112.008935832705,"Yes"
+"151","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202109,"Incoming Funds",96.04737,NA
+"152","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202109,"Commitments",90.413496,"Yes"
+"153","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202110,"Disbursements",204.167110847994,"Yes"
+"154","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202110,"Incoming Funds",65.219445,NA
+"155","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202110,"Commitments",65.219445,"Yes"
+"156","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202111,"Disbursements",238.401003990744,"Yes"
+"157","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202111,"Incoming Funds",47.853989468289,NA
+"158","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202111,"Commitments",47.853989468289,"Yes"
+"159","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202112,"Disbursements",136.74612744873,"Yes"
+"160","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202112,"Incoming Funds",24.243759,NA
+"161","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202112,"Commitments",15.423556059756,"Yes"
+"162","Directorate-General for European Civil Protection and Humanitarian Aid Operations (ECHO)","XI-IATI-EC_ECHO","Bilateral","Yes","Yes",202201,"Disbursements",71.346579840228,"Yes"
+"163","European Bank for Reconstruction and Development","XI-IATI-EBRD","IFI","Yes","Yes",202101,"Disbursements",61.829425460817,"Yes"
+"164","European Bank for Reconstruction and Development","XI-IATI-EBRD","IFI","Yes","Yes",202101,"Commitments",202.630968242064,"Yes"
+"165","European Bank for Reconstruction and Development","XI-IATI-EBRD","IFI","Yes","Yes",202102,"Disbursements",304.317103643874,"Yes"
+"166","European Bank for Reconstruction and Development","XI-IATI-EBRD","IFI","Yes","Yes",202102,"Commitments",242.056432460565,"Yes"
+"167","European Bank for Reconstruction and Development","XI-IATI-EBRD","IFI","Yes","Yes",202103,"Disbursements",159.199147572111,"Yes"
+"168","European Bank for Reconstruction and Development","XI-IATI-EBRD","IFI","Yes","Yes",202103,"Commitments",646.012189343862,"Yes"
+"169","European Bank for Reconstruction and Development","XI-IATI-EBRD","IFI","Yes","Yes",202104,"Disbursements",184.184288200224,"Yes"
+"170","European Bank for Reconstruction and Development","XI-IATI-EBRD","IFI","Yes","Yes",202104,"Commitments",517.655382022611,"Yes"
+"171","European Bank for Reconstruction and Development","XI-IATI-EBRD","IFI","Yes","Yes",202105,"Disbursements",29.066510743002,"Yes"
+"172","European Bank for Reconstruction and Development","XI-IATI-EBRD","IFI","Yes","Yes",202105,"Commitments",208.231737677631,"Yes"
+"173","European Bank for Reconstruction and Development","XI-IATI-EBRD","IFI","Yes","Yes",202106,"Disbursements",98.456117872914,"Yes"
+"174","European Bank for Reconstruction and Development","XI-IATI-EBRD","IFI","Yes","Yes",202106,"Commitments",1133.38752936785,"Yes"
+"175","European Bank for Reconstruction and Development","XI-IATI-EBRD","IFI","Yes","Yes",202107,"Disbursements",99.365518242504,"Yes"
+"176","European Bank for Reconstruction and Development","XI-IATI-EBRD","IFI","Yes","Yes",202107,"Commitments",862.866975177036,"Yes"
+"177","European Bank for Reconstruction and Development","XI-IATI-EBRD","IFI","Yes","Yes",202108,"Disbursements",83.658995973882,"Yes"
+"178","European Bank for Reconstruction and Development","XI-IATI-EBRD","IFI","Yes","Yes",202108,"Commitments",463.512371954346,"Yes"
+"179","European Bank for Reconstruction and Development","XI-IATI-EBRD","IFI","Yes","Yes",202109,"Disbursements",69.972090568461,"Yes"
+"180","European Bank for Reconstruction and Development","XI-IATI-EBRD","IFI","Yes","Yes",202109,"Commitments",863.231197257288,"Yes"
+"181","European Bank for Reconstruction and Development","XI-IATI-EBRD","IFI","Yes","Yes",202110,"Disbursements",91.359303221349,"Yes"
+"182","European Bank for Reconstruction and Development","XI-IATI-EBRD","IFI","Yes","Yes",202110,"Commitments",160.88238625005,"Yes"
+"183","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202101,"Disbursements",176.126710269798,"Yes"
+"184","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202101,"Expenditure",16.807217096592,NA
+"185","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202102,"Disbursements",257.6210354181,"Yes"
+"186","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202102,"Expenditure",16.755846030648,NA
+"187","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202102,"Commitments",-0.953066750822984,"Yes"
+"188","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202103,"Disbursements",352.542546416763,"Yes"
+"189","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202103,"Expenditure",25.108144908651,NA
+"190","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202103,"Commitments",-60.646000745439,"Yes"
+"191","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202104,"Disbursements",172.283248279908,"Yes"
+"192","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202104,"Expenditure",30.474126966834,NA
+"193","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202104,"Commitments",-11.981101399101,"Yes"
+"194","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202105,"Disbursements",146.099890317816,"Yes"
+"195","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202105,"Expenditure",16.179013797615,NA
+"196","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202105,"Commitments",-0.344244815568,"Yes"
+"197","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202106,"Disbursements",233.220932737875,"Yes"
+"198","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202106,"Expenditure",23.43748805154,NA
+"199","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202106,"Commitments",-32.020192374759,"Yes"
+"200","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202107,"Disbursements",378.517116311811,"Yes"
+"201","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202107,"Expenditure",21.379768302933,NA
+"202","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202107,"Commitments",-10.447328911923,"Yes"
+"203","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202108,"Disbursements",145.68807956004,"Yes"
+"204","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202108,"Expenditure",21.810037521204,NA
+"205","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202108,"Commitments",78.937080348528,"Yes"
+"206","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202109,"Disbursements",228.603035701512,"Yes"
+"207","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202109,"Expenditure",20.528704911159,NA
+"208","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202109,"Commitments",28.325557685268,"Yes"
+"209","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202110,"Disbursements",402.111068063193,"Yes"
+"210","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202110,"Expenditure",26.517983842845,NA
+"211","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202110,"Commitments",0.566518861026001,"Yes"
+"212","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202111,"Disbursements",310.8142138689,"Yes"
+"213","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202111,"Expenditure",27.075074381793,NA
+"214","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202111,"Commitments",-16.412350429818,"Yes"
+"215","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202112,"Disbursements",1020.70057979857,"Yes"
+"216","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202112,"Expenditure",50.210302242357,NA
+"217","European Commission - DG Neighbourhood and Enlargement Negotiations","XI-IATI-EC_NEAR","Bilateral","Yes","Yes",202112,"Commitments",3457.76812303346,"Yes"
+"218","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202101,"Disbursements",18.902119067352,"Yes"
+"219","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202101,"Expenditure",8.882879652738,NA
+"220","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202102,"Disbursements",36.001602529911,"Yes"
+"221","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202102,"Expenditure",7.059051450297,NA
+"222","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202102,"Commitments",-3.722791354992,"Yes"
+"223","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202103,"Disbursements",21.141206693802,"Yes"
+"224","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202103,"Expenditure",12.650226081678,NA
+"225","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202103,"Commitments",-12.060645545709,"Yes"
+"226","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202104,"Disbursements",20.7988396326,"Yes"
+"227","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202104,"Expenditure",5.191867408473,NA
+"228","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202104,"Commitments",-0.4505594571,"Yes"
+"229","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202105,"Disbursements",24.575629656168,"Yes"
+"230","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202105,"Expenditure",5.722878699423,NA
+"231","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202105,"Commitments",-0.031426688151,"Yes"
+"232","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202106,"Disbursements",17.800924634676,"Yes"
+"233","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202106,"Expenditure",8.525949423201,NA
+"234","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202106,"Commitments",-0.248389268796,"Yes"
+"235","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202107,"Disbursements",7.961763540348,"Yes"
+"236","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202107,"Expenditure",3.642702826824,NA
+"237","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202107,"Commitments",45.70452,"Yes"
+"238","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202108,"Disbursements",27.053786958579,"Yes"
+"239","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202108,"Expenditure",6.675276580434,NA
+"240","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202108,"Commitments",89.93835,"Yes"
+"241","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202109,"Disbursements",25.337618637813,"Yes"
+"242","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202109,"Expenditure",3.553349449428,NA
+"243","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202109,"Commitments",106.2046542834,"Yes"
+"244","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202110,"Disbursements",30.28628288295,"Yes"
+"245","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202110,"Expenditure",16.853570586837,NA
+"246","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202110,"Commitments",16.29072,"Yes"
+"247","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202111,"Disbursements",58.856121373995,"Yes"
+"248","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202111,"Expenditure",10.404507600477,NA
+"249","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202111,"Commitments",7.46658,"Yes"
+"250","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202112,"Disbursements",63.218489654331,"Yes"
+"251","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202112,"Expenditure",6.26026723029,NA
+"252","European Commission - Service for Foreign Policy Instruments","XI-IATI-EC_FPI","Bilateral","Yes","Yes",202112,"Commitments",224.714099083095,"Yes"
+"253","European Investment Bank","XM-DAC-918-3","Bilateral","Yes","No",202101,"Commitments",71.2719,"Yes"
+"254","European Investment Bank","XM-DAC-918-3","Bilateral","Yes","No",202102,"Commitments",533.9736,"Yes"
+"255","European Investment Bank","XM-DAC-918-3","Bilateral","Yes","No",202103,"Commitments",765.32445,"Yes"
+"256","European Investment Bank","XM-DAC-918-3","Bilateral","Yes","No",202104,"Commitments",226.4050284259,"Yes"
+"257","European Investment Bank","XM-DAC-918-3","Bilateral","Yes","No",202105,"Commitments",909.076665,"Yes"
+"258","European Investment Bank","XM-DAC-918-3","Bilateral","Yes","No",202106,"Commitments",984.41874,"Yes"
+"259","European Investment Bank","XM-DAC-918-3","Bilateral","Yes","No",202107,"Commitments",62.086375,"Yes"
+"260","European Investment Bank","XM-DAC-918-3","Bilateral","Yes","No",202109,"Commitments",80.43543,"Yes"
+"261","European Investment Bank","XM-DAC-918-3","Bilateral","Yes","No",202110,"Commitments",670.27795,"Yes"
+"262","European Investment Bank","XM-DAC-918-3","Bilateral","Yes","No",202111,"Commitments",1054.857812,"Yes"
+"263","European Investment Bank","XM-DAC-918-3","Bilateral","Yes","No",202112,"Disbursements",1101.16027713856,"Yes"
+"264","European Investment Bank","XM-DAC-918-3","Bilateral","Yes","No",202112,"Commitments",235.87605,"Yes"
+"265","Federal Ministry for Economic Cooperation and Development (BMZ)","DE-1","Bilateral","Yes","No",202101,"Commitments",3.6439173,"Yes"
+"266","Federal Ministry for Economic Cooperation and Development (BMZ)","DE-1","Bilateral","Yes","No",202102,"Commitments",17.836720641,"Yes"
+"267","Federal Ministry for Economic Cooperation and Development (BMZ)","DE-1","Bilateral","Yes","No",202103,"Commitments",6.7878,"Yes"
+"268","Federal Ministry for Economic Cooperation and Development (BMZ)","DE-1","Bilateral","Yes","No",202104,"Commitments",7.33884729273,"Yes"
+"269","Federal Ministry for Economic Cooperation and Development (BMZ)","DE-1","Bilateral","Yes","No",202105,"Commitments",0.08443819566,"Yes"
+"270","Federal Ministry for Economic Cooperation and Development (BMZ)","DE-1","Bilateral","Yes","No",202106,"Disbursements",5.012215429905,"Yes"
+"271","Federal Ministry for Economic Cooperation and Development (BMZ)","DE-1","Bilateral","Yes","No",202106,"Expenditure",0.2013714,NA
+"272","Federal Ministry for Economic Cooperation and Development (BMZ)","DE-1","Bilateral","Yes","No",202106,"Commitments",6.0455167371,"Yes"
+"273","Federal Ministry for Economic Cooperation and Development (BMZ)","DE-1","Bilateral","Yes","No",202108,"Disbursements",1.620123926085,"Yes"
+"274","Federal Ministry for Economic Cooperation and Development (BMZ)","DE-1","Bilateral","Yes","No",202108,"Expenditure",0.103344255,NA
+"275","Federal Ministry for Economic Cooperation and Development (BMZ)","DE-1","Bilateral","Yes","No",202108,"Commitments",49.127415219,"Yes"
+"276","Federal Ministry for Economic Cooperation and Development (BMZ)","DE-1","Bilateral","Yes","No",202109,"Commitments",0.70054451505,"Yes"
+"277","Federal Ministry for Economic Cooperation and Development (BMZ)","DE-1","Bilateral","Yes","No",202110,"Disbursements",0.5629699503,"Yes"
+"278","Federal Ministry for Economic Cooperation and Development (BMZ)","DE-1","Bilateral","Yes","No",202110,"Commitments",10.6594129197,"Yes"
+"279","Federal Ministry for Economic Cooperation and Development (BMZ)","DE-1","Bilateral","Yes","No",202111,"Disbursements",17.137772650449,"Yes"
+"280","Federal Ministry for Economic Cooperation and Development (BMZ)","DE-1","Bilateral","Yes","No",202111,"Expenditure",44.663995772199,NA
+"281","Federal Ministry for Economic Cooperation and Development (BMZ)","DE-1","Bilateral","Yes","No",202111,"Commitments",1.6536302604,"Yes"
+"282","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202101,"Disbursements",220.344852246174,"Yes"
+"283","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202101,"Commitments",56.738500437894,"Yes"
+"284","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202102,"Disbursements",171.997164506316,"Yes"
+"285","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202102,"Commitments",51.758045335863,"Yes"
+"286","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202103,"Disbursements",1084.03350428801,"Yes"
+"287","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202103,"Commitments",1075.32572082792,"Yes"
+"288","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202104,"Disbursements",62.985421310262,"Yes"
+"289","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202104,"Commitments",62.041393029,"Yes"
+"290","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202105,"Disbursements",86.707746227319,"Yes"
+"291","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202105,"Commitments",34.352676195,"Yes"
+"292","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202106,"Disbursements",91.592681930892,"Yes"
+"293","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202106,"Commitments",30.574604991222,"Yes"
+"294","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202107,"Disbursements",51.26499353931,"Yes"
+"295","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202107,"Commitments",97.0364706486,"Yes"
+"296","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202108,"Disbursements",52.365203813403,"Yes"
+"297","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202108,"Commitments",40.2888681666,"Yes"
+"298","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202109,"Disbursements",104.449466238972,"Yes"
+"299","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202109,"Commitments",102.9252648726,"Yes"
+"300","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202110,"Disbursements",60.555903142338,"Yes"
+"301","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202110,"Commitments",92.945554997724,"Yes"
+"302","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202111,"Disbursements",67.652627312058,"Yes"
+"303","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202111,"Commitments",23.6612869014,"Yes"
+"304","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202112,"Disbursements",90.815893928175,"Yes"
+"305","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202112,"Commitments",0.47880957,"Yes"
+"306","Foreign Affairs, Trade and Development Canada (DFATD)","CA-3","Bilateral","Yes","Yes",202201,"Disbursements",43.082115052628,"Yes"
+"307","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202101,"Disbursements",438.780412420401,"No"
+"308","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202101,"Expenditure",13.2627328838,NA
+"309","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202101,"Commitments",7.5948669562,"No"
+"310","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202101,"Purchase of Equity",2.3591869901,NA
+"311","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202102,"Disbursements",245.4352010665,"No"
+"312","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202102,"Expenditure",1.6170715418,NA
+"313","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202102,"Commitments",13.7188307858,"No"
+"314","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202102,"Purchase of Equity",0.2086888642,NA
+"315","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202103,"Disbursements",810.688361846001,"No"
+"316","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202103,"Expenditure",8.3859481512,NA
+"317","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202103,"Commitments",202.0087913626,"No"
+"318","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202103,"Purchase of Equity",65.4736030689,NA
+"319","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202104,"Disbursements",447.1379436047,"No"
+"320","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202104,"Expenditure",194.4881324692,NA
+"321","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202104,"Commitments",420.1994166252,"No"
+"322","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202104,"Purchase of Equity",13.5590644431,NA
+"323","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202105,"Disbursements",404.3292868466,"No"
+"324","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202105,"Expenditure",5.73027471150002,NA
+"325","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202105,"Commitments",74.0726538575,"No"
+"326","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202105,"Purchase of Equity",9.5211643746,NA
+"327","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202106,"Disbursements",284.1837556124,"No"
+"328","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202106,"Expenditure",5.1354971602,NA
+"329","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202106,"Commitments",321.5422321522,"No"
+"330","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202106,"Purchase of Equity",51.8477833079,NA
+"331","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202107,"Disbursements",709.036261757401,"No"
+"332","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202107,"Expenditure",2.8591368575,NA
+"333","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202107,"Commitments",128.5010344362,"No"
+"334","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202107,"Purchase of Equity",572.3151462694,NA
+"335","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202108,"Disbursements",647.5326243517,"No"
+"336","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202108,"Expenditure",2.976835475,NA
+"337","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202108,"Commitments",394.4900786546,"No"
+"338","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202108,"Purchase of Equity",9.9078846299,NA
+"339","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202109,"Disbursements",285.7599733367,"No"
+"340","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202109,"Expenditure",5.7689156389,NA
+"341","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202109,"Commitments",104.9177519416,"No"
+"342","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202109,"Purchase of Equity",0.5091292189,NA
+"343","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202110,"Disbursements",449.4939403349,"No"
+"344","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202110,"Expenditure",2.2124554466,NA
+"345","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202110,"Commitments",97.1515150779,"No"
+"346","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202110,"Purchase of Equity",0.3655074884,NA
+"347","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202111,"Disbursements",552.9471120361,"No"
+"348","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202111,"Expenditure",3.0445141312,NA
+"349","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202111,"Commitments",446.8219409773,"No"
+"350","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202111,"Purchase of Equity",9.0454314255,NA
+"351","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202112,"Commitments",214.7829293989,"No"
+"352","Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202201,"Expenditure",1.44444e-05,NA
+"353","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202101,"Disbursements",186.059652583993,"Yes"
+"354","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202101,"Commitments",97.6497078196929,"Yes"
+"355","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202102,"Disbursements",112.165416555218,"Yes"
+"356","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202102,"Commitments",44.1418092181229,"Yes"
+"357","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202103,"Disbursements",171.501960713233,"Yes"
+"358","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202103,"Commitments",34.5417563130543,"Yes"
+"359","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202104,"Disbursements",136.679845157788,"Yes"
+"360","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202104,"Commitments",42.2112732710441,"Yes"
+"361","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202105,"Disbursements",137.570170537344,"Yes"
+"362","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202105,"Commitments",16.863861570417,"Yes"
+"363","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202106,"Disbursements",96.0138648383906,"Yes"
+"364","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202106,"Commitments",180.458386206688,"Yes"
+"365","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202107,"Disbursements",287.789288709194,"Yes"
+"366","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202107,"Commitments",19.191141441882,"Yes"
+"367","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202108,"Disbursements",298.66766873331,"Yes"
+"368","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202108,"Commitments",59.8307775175694,"Yes"
+"369","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202109,"Disbursements",194.367865697446,"Yes"
+"370","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202109,"Commitments",43.9371200494089,"Yes"
+"371","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202110,"Disbursements",169.411292317316,"Yes"
+"372","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202110,"Commitments",70.9794611300151,"Yes"
+"373","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202111,"Disbursements",613.635960550056,"Yes"
+"374","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202111,"Commitments",5.9305940915643,"Yes"
+"375","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202112,"Disbursements",0.30616733916,"Yes"
+"376","Germany - Federal Foreign Office","XM-DAC-5-7","Bilateral","Yes","Yes",202112,"Commitments",14.0684214312,"Yes"
+"377","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202101,"Disbursements",925.410035,"Yes"
+"378","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202101,"Interest Payment",127.335085,NA
+"379","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202101,"Loan Repayment",221.937417,NA
+"380","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202102,"Disbursements",112.259993,"Yes"
+"381","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202102,"Interest Payment",109.120792,NA
+"382","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202102,"Loan Repayment",261.024529,NA
+"383","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202103,"Disbursements",581.313382,"Yes"
+"384","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202103,"Interest Payment",168.392141,NA
+"385","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202103,"Loan Repayment",470.535445,NA
+"386","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202103,"Commitments",322.86274,"Yes"
+"387","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202104,"Disbursements",390.800363,"Yes"
+"388","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202104,"Interest Payment",154.710919,NA
+"389","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202104,"Loan Repayment",337.214685,NA
+"390","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202104,"Commitments",284.3,"Yes"
+"391","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202105,"Disbursements",184.585005,"Yes"
+"392","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202105,"Interest Payment",178.814809,NA
+"393","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202105,"Loan Repayment",330.577721,NA
+"394","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202105,"Commitments",740,"Yes"
+"395","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202106,"Disbursements",1982.950572,"Yes"
+"396","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202106,"Interest Payment",155.678614,NA
+"397","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202106,"Loan Repayment",857.088426,NA
+"398","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202106,"Commitments",1120,"Yes"
+"399","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202107,"Disbursements",191.161101,"Yes"
+"400","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202107,"Interest Payment",135.474457,NA
+"401","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202107,"Loan Repayment",178.110011,NA
+"402","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202107,"Commitments",904,"Yes"
+"403","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202108,"Disbursements",345.981372,"Yes"
+"404","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202108,"Interest Payment",115.518219,NA
+"405","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202108,"Loan Repayment",258.146465,NA
+"406","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202108,"Commitments",295,"Yes"
+"407","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202109,"Disbursements",1355.165718,"Yes"
+"408","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202109,"Interest Payment",188.881992,NA
+"409","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202109,"Loan Repayment",565.686135,NA
+"410","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202110,"Disbursements",505.737944,"Yes"
+"411","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202110,"Interest Payment",165.655171,NA
+"412","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202110,"Loan Repayment",368.139931,NA
+"413","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202111,"Disbursements",1582.6666,"Yes"
+"414","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202111,"Interest Payment",178.258133,NA
+"415","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202111,"Loan Repayment",381.394729,NA
+"416","Inter-American Development Bank","XI-IATI-IADB","IFI","Yes","Yes",202111,"Commitments",300,"Yes"
+"417","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202101,"Expenditure",117.078600716307,NA
+"418","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202101,"Incoming Commitment",221.429028173184,NA
+"419","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202102,"Expenditure",142.402321556599,NA
+"420","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202102,"Incoming Commitment",57.594784493997,NA
+"421","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202103,"Expenditure",157.374637163516,NA
+"422","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202103,"Incoming Commitment",278.3685354668,NA
+"423","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202104,"Expenditure",156.226630339148,NA
+"424","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202104,"Incoming Commitment",443.217464881398,NA
+"425","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202105,"Expenditure",156.436770889218,NA
+"426","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202105,"Incoming Commitment",86.838579079941,NA
+"427","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202106,"Expenditure",173.888236682081,NA
+"428","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202106,"Incoming Commitment",174.986161724984,NA
+"429","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202107,"Expenditure",171.118853376642,NA
+"430","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202107,"Incoming Commitment",129.043218004895,NA
+"431","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202108,"Expenditure",161.546878536626,NA
+"432","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202108,"Incoming Commitment",314.9930263687,NA
+"433","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202109,"Expenditure",175.706521064123,NA
+"434","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202109,"Incoming Commitment",55.154650416615,NA
+"435","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202110,"Expenditure",176.963830044003,NA
+"436","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202110,"Incoming Commitment",59.998060977802,NA
+"437","International Committee of the Red Cross","XM-DAC-21016","Multilateral","No","Yes",202111,"Incoming Commitment",127.360825065442,NA
+"438","International Finance Corporation","XM-DAC-903","IFI","Yes","No",202101,"Commitments",838.46,"Yes"
+"439","International Finance Corporation","XM-DAC-903","IFI","Yes","No",202102,"Commitments",1227.16,"Yes"
+"440","International Finance Corporation","XM-DAC-903","IFI","Yes","No",202103,"Commitments",2121.12,"Yes"
+"441","International Finance Corporation","XM-DAC-903","IFI","Yes","No",202104,"Commitments",1023.61,"Yes"
+"442","International Finance Corporation","XM-DAC-903","IFI","Yes","No",202105,"Commitments",1371.53,"Yes"
+"443","International Finance Corporation","XM-DAC-903","IFI","Yes","No",202106,"Commitments",4309.43,"Yes"
+"444","International Finance Corporation","XM-DAC-903","IFI","Yes","No",202107,"Commitments",171.72,"Yes"
+"445","International Finance Corporation","XM-DAC-903","IFI","Yes","No",202108,"Commitments",144.32,"Yes"
+"446","International Finance Corporation","XM-DAC-903","IFI","Yes","No",202109,"Commitments",950.13,"Yes"
+"447","International Finance Corporation","XM-DAC-903","IFI","Yes","No",202110,"Commitments",343.17,"Yes"
+"448","International Finance Corporation","XM-DAC-903","IFI","Yes","No",202111,"Commitments",267.03,"Yes"
+"449","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202101,"Disbursements",48.325033986936,"No"
+"450","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202101,"Commitments",45.322409,"No"
+"451","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202102,"Disbursements",36.86611898263,"No"
+"452","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202102,"Commitments",10.163712,"No"
+"453","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202103,"Disbursements",43.951223175853,"No"
+"454","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202103,"Commitments",53.07266,"No"
+"455","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202104,"Disbursements",37.782349671001,"No"
+"456","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202104,"Commitments",40.602975,"No"
+"457","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202105,"Disbursements",38.073809651756,"No"
+"458","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202105,"Commitments",0.655,"No"
+"459","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202106,"Disbursements",31.078816029069,"No"
+"460","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202106,"Commitments",98.781875,"No"
+"461","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202107,"Disbursements",56.318447932328,"No"
+"462","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202107,"Commitments",56.640535,"No"
+"463","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202108,"Disbursements",27.606361237813,"No"
+"464","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202108,"Commitments",7.736871,"No"
+"465","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202109,"Disbursements",38.768679678046,"No"
+"466","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202109,"Commitments",33.384663,"No"
+"467","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202110,"Disbursements",41.835690157141,"No"
+"468","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202110,"Commitments",10.74735,"No"
+"469","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202111,"Disbursements",65.600262049283,"No"
+"470","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202111,"Commitments",23.6045745,"No"
+"471","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202112,"Disbursements",111.26817685378,"No"
+"472","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202112,"Commitments",159.9829722618,"No"
+"473","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202201,"Disbursements",14.448163879358,"No"
+"474","International Fund for Agricultural Development","XM-DAC-41108","Multilateral","No","Yes",202206,"Commitments",9.790882,"No"
+"475","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202101,"Disbursements",104.35086164331,"No"
+"476","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202101,"Commitments",0.1210491,"No"
+"477","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202102,"Disbursements",37.800924421248,"No"
+"478","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202102,"Commitments",26.6564859039,"No"
+"479","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202103,"Disbursements",21.794158933794,"No"
+"480","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202103,"Commitments",94.5291065724,"No"
+"481","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202104,"Disbursements",34.05829852638,"No"
+"482","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202104,"Commitments",11.0058282927,"No"
+"483","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202105,"Disbursements",60.05027317779,"No"
+"484","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202105,"Commitments",32.1029781597,"No"
+"485","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202106,"Disbursements",58.474835613018,"No"
+"486","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202106,"Commitments",133.0584253317,"No"
+"487","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202107,"Disbursements",29.39839067583,"No"
+"488","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202107,"Commitments",11.6910103194,"No"
+"489","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202108,"Disbursements",23.2831959273,"No"
+"490","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202108,"Commitments",8.303742,"No"
+"491","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202109,"Disbursements",60.344558823753,"No"
+"492","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202109,"Commitments",49.9835683521,"No"
+"493","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202110,"Disbursements",75.106392398649,"No"
+"494","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202110,"Commitments",40.2895502874,"No"
+"495","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202111,"Disbursements",124.885462697748,"No"
+"496","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202111,"Commitments",0.6438375369,"No"
+"497","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202112,"Disbursements",1.88510227263,"No"
+"498","Ministry for Foreign Affairs of Finland","FI-3","Bilateral","No","Yes",202112,"Commitments",178.250139486,"No"
+"499","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202101,"Disbursements",144.933062626056,"Yes"
+"500","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202101,"Commitments",311.027224902396,"Yes"
+"501","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202102,"Disbursements",306.43573113798,"Yes"
+"502","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202102,"Commitments",174.7563745404,"Yes"
+"503","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202103,"Disbursements",292.312814461848,"Yes"
+"504","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202103,"Commitments",231.309899854764,"Yes"
+"505","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202104,"Disbursements",88.558085262444,"Yes"
+"506","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202104,"Commitments",162.030550716,"Yes"
+"507","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202105,"Disbursements",81.255300395856,"Yes"
+"508","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202105,"Commitments",30.0397790364,"Yes"
+"509","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202106,"Disbursements",219.692671497192,"Yes"
+"510","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202106,"Commitments",184.9416158412,"Yes"
+"511","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202107,"Disbursements",151.849562758992,"Yes"
+"512","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202107,"Commitments",75.095897340036,"Yes"
+"513","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202108,"Disbursements",89.2155027985081,"Yes"
+"514","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202108,"Commitments",56.1660297048,"Yes"
+"515","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202109,"Disbursements",157.727866687908,"Yes"
+"516","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202109,"Commitments",102.176114799,"Yes"
+"517","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202110,"Disbursements",30.696173467068,"Yes"
+"518","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202110,"Commitments",16.34316452976,"Yes"
+"519","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202111,"Disbursements",104.436681378696,"Yes"
+"520","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202111,"Commitments",30.056550504,"Yes"
+"521","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202112,"Disbursements",566.15209397244,"Yes"
+"522","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202112,"Commitments",540.17475440322,"Yes"
+"523","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202201,"Disbursements",10.553650429371,"Yes"
+"524","Ministry of Foreign Affairs, Denmark","XM-DAC-3-1","Bilateral","Yes","Yes",202201,"Commitments",3.910939441773,"Yes"
+"525","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202101,"Disbursements",386.0143630605,"Yes"
+"526","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202101,"Commitments",57.0888891918,"Yes"
+"527","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202102,"Disbursements",255.6410997735,"Yes"
+"528","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202102,"Commitments",168.0169121649,"Yes"
+"529","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202103,"Disbursements",287.9528570856,"Yes"
+"530","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202103,"Commitments",203.0029800921,"Yes"
+"531","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202104,"Disbursements",227.5755242859,"Yes"
+"532","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202104,"Commitments",123.130827756,"Yes"
+"533","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202105,"Disbursements",196.2686645622,"Yes"
+"534","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202105,"Commitments",293.3688868263,"Yes"
+"535","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202106,"Disbursements",241.4894848029,"Yes"
+"536","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202106,"Commitments",123.8578724079,"Yes"
+"537","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202107,"Disbursements",214.3976961537,"Yes"
+"538","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202107,"Commitments",135.469807119901,"Yes"
+"539","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202108,"Disbursements",223.8382272213,"Yes"
+"540","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202108,"Commitments",158.5111740966,"Yes"
+"541","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202109,"Disbursements",257.3821738674,"Yes"
+"542","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202109,"Commitments",201.5403777558,"Yes"
+"543","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202110,"Disbursements",223.3001028816,"Yes"
+"544","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202110,"Commitments",197.7752846502,"Yes"
+"545","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202111,"Disbursements",824.8346062794,"Yes"
+"546","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202111,"Commitments",645.1404528474,"Yes"
+"547","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202112,"Disbursements",457.5493457442,"Yes"
+"548","Ministry of Foreign Affairs of the Netherlands","XM-DAC-7","Bilateral","Yes","Yes",202112,"Commitments",420.5168839539,"Yes"
+"549","Multilateral Investment Fund","XI-IATI-MIF","Multilateral","Yes","Yes",202101,"Disbursements",1,"Yes"
+"550","Multilateral Investment Fund","XI-IATI-MIF","Multilateral","Yes","Yes",202101,"Interest Payment",0.094744,NA
+"551","Multilateral Investment Fund","XI-IATI-MIF","Multilateral","Yes","Yes",202101,"Loan Repayment",0.216419,NA
+"552","Multilateral Investment Fund","XI-IATI-MIF","Multilateral","Yes","Yes",202101,"Commitments",1,"Yes"
+"553","Multilateral Investment Fund","XI-IATI-MIF","Multilateral","Yes","Yes",202102,"Disbursements",2.5,"Yes"
+"554","Multilateral Investment Fund","XI-IATI-MIF","Multilateral","Yes","Yes",202102,"Interest Payment",0.251109,NA
+"555","Multilateral Investment Fund","XI-IATI-MIF","Multilateral","Yes","Yes",202102,"Loan Repayment",0.777416,NA
+"556","Multilateral Investment Fund","XI-IATI-MIF","Multilateral","Yes","Yes",202102,"Commitments",2,"Yes"
+"557","Multilateral Investment Fund","XI-IATI-MIF","Multilateral","Yes","Yes",202103,"Interest Payment",0.709927,NA
+"558","Multilateral Investment Fund","XI-IATI-MIF","Multilateral","Yes","Yes",202103,"Loan Repayment",2.649656,NA
+"559","Multilateral Investment Fund","XI-IATI-MIF","Multilateral","Yes","Yes",202104,"Disbursements",4.2875,"Yes"
+"560","Multilateral Investment Fund","XI-IATI-MIF","Multilateral","Yes","Yes",202104,"Interest Payment",0.126281,NA
+"561","Multilateral Investment Fund","XI-IATI-MIF","Multilateral","Yes","Yes",202104,"Loan Repayment",0.575391,NA
+"562","Multilateral Investment Fund","XI-IATI-MIF","Multilateral","Yes","Yes",202105,"Disbursements",0.25,"Yes"
+"563","Multilateral Investment Fund","XI-IATI-MIF","Multilateral","Yes","Yes",202105,"Interest Payment",0.101114,NA
+"564","Multilateral Investment Fund","XI-IATI-MIF","Multilateral","Yes","Yes",202105,"Loan Repayment",0.611389,NA
+"565","Multilateral Investment Fund","XI-IATI-MIF","Multilateral","Yes","Yes",202106,"Disbursements",4.5,"Yes"
+"566","Multilateral Investment Fund","XI-IATI-MIF","Multilateral","Yes","Yes",202106,"Interest Payment",0.13182,NA
+"567","Multilateral Investment Fund","XI-IATI-MIF","Multilateral","Yes","Yes",202106,"Loan Repayment",1.40296,NA
+"568","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202101,"Disbursements",1.435642631451,"Yes"
+"569","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202101,"Incoming Commitment",69.7042700343,NA
+"570","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202101,"Incoming Funds",87.736656103551,NA
+"571","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202101,"Commitments",17.640786574251,"Yes"
+"572","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202102,"Disbursements",21.340885261734,"Yes"
+"573","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202102,"Incoming Funds",2.470666795416,NA
+"574","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202102,"Commitments",2.470666795416,"Yes"
+"575","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202103,"Disbursements",2.639139109002,"Yes"
+"576","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202103,"Incoming Funds",2.107136482488,NA
+"577","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202103,"Commitments",2.107136482488,"Yes"
+"578","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202104,"Disbursements",6.679123102251,"Yes"
+"579","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202104,"Incoming Funds",0.043817692608,NA
+"580","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202104,"Commitments",0.043817692608,"Yes"
+"581","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202105,"Disbursements",1.27781025093,"Yes"
+"582","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202105,"Incoming Funds",-1.850826948453,NA
+"583","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202105,"Commitments",-1.850826948453,"Yes"
+"584","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202106,"Disbursements",4.359163126428,"Yes"
+"585","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202106,"Incoming Funds",3.447434303865,NA
+"586","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202106,"Commitments",3.447434303865,"Yes"
+"587","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202107,"Disbursements",7.683195407301,"Yes"
+"588","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202107,"Incoming Commitment",0.56565,NA
+"589","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202107,"Incoming Funds",5.786658338913,NA
+"590","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202107,"Commitments",5.221008338913,"Yes"
+"591","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202108,"Disbursements",3.890028617055,"Yes"
+"592","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202108,"Incoming Funds",-9.44801201511,NA
+"593","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202108,"Commitments",-9.44801201511,"Yes"
+"594","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202109,"Disbursements",3.401434129923,"Yes"
+"595","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202109,"Incoming Funds",1.894237542756,NA
+"596","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202109,"Commitments",1.894237542756,"Yes"
+"597","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202110,"Disbursements",8.670495409254,"Yes"
+"598","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202110,"Incoming Commitment",2.14947,NA
+"599","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202110,"Incoming Funds",3.099583842876,NA
+"600","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202110,"Commitments",0.950113842876,"Yes"
+"601","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202111,"Disbursements",7.761984988122,"Yes"
+"602","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202111,"Incoming Funds",1.706587759647,NA
+"603","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202111,"Commitments",1.706587759647,"Yes"
+"604","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202112,"Disbursements",15.711643584531,"Yes"
+"605","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202112,"Incoming Commitment",0.056565,NA
+"606","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202112,"Incoming Funds",3.25656210321,NA
+"607","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202112,"Commitments",3.19999710321,"Yes"
+"608","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202201,"Disbursements",1.145456052336,"Yes"
+"609","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202201,"Incoming Commitment",17.644104,NA
+"610","Netherlands Enterprise Agency","NL-KVK-27378529","Bilateral","Yes","Yes",202201,"Incoming Funds",17.644104,NA
+"611","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202101,"Expenditure",28.6401352752089,NA
+"612","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202101,"Commitments",9.90000946711501,"Yes"
+"613","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202102,"Expenditure",41.293058785842,NA
+"614","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202102,"Commitments",7.47470640708,"Yes"
+"615","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202103,"Expenditure",32.203014631344,NA
+"616","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202103,"Commitments",-0.186591158223,"Yes"
+"617","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202104,"Expenditure",51.868114771449,NA
+"618","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202104,"Commitments",4.316480686884,"Yes"
+"619","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202105,"Expenditure",61.841944688127,NA
+"620","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202105,"Commitments",28.405597323069,"Yes"
+"621","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202106,"Expenditure",154.823495015745,NA
+"622","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202106,"Commitments",74.567881308015,"Yes"
+"623","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202107,"Expenditure",58.604097241824,NA
+"624","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202107,"Commitments",14.133500323419,"Yes"
+"625","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202108,"Expenditure",31.298032842786,NA
+"626","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202108,"Commitments",21.575624336973,"Yes"
+"627","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202109,"Expenditure",27.636454732413,NA
+"628","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202109,"Commitments",26.107663368279,"Yes"
+"629","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202110,"Expenditure",22.387037924463,NA
+"630","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202110,"Commitments",25.585369322571,"Yes"
+"631","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202111,"Expenditure",18.630333652158,NA
+"632","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202111,"Commitments",-2.225180897667,"Yes"
+"633","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202112,"Expenditure",19.108499929083,NA
+"634","New Zealand Ministry of Foreign Affairs and Trade","NZ-1","Bilateral","Yes","Yes",202112,"Commitments",19.835673239715,"Yes"
+"635","Norad - Norwegian Agency for Development Cooperation","NO-BRC-971277882","Bilateral","Yes","Yes",202101,"Commitments",275.6276824789,"Yes"
+"636","Norad - Norwegian Agency for Development Cooperation","NO-BRC-971277882","Bilateral","Yes","Yes",202102,"Commitments",121.52566,"Yes"
+"637","Norad - Norwegian Agency for Development Cooperation","NO-BRC-971277882","Bilateral","Yes","Yes",202103,"Commitments",5.768088529,"Yes"
+"638","Sweden","SE-0","Bilateral","Yes","Yes",202101,"Disbursements",609.369870601681,"Yes"
+"639","Sweden","SE-0","Bilateral","Yes","Yes",202101,"Expenditure",16.040347092948,NA
+"640","Sweden","SE-0","Bilateral","Yes","Yes",202101,"Commitments",2390.43300384633,"Yes"
+"641","Sweden","SE-0","Bilateral","Yes","Yes",202102,"Disbursements",148.07702346982,"Yes"
+"642","Sweden","SE-0","Bilateral","Yes","Yes",202102,"Expenditure",0.318470444205566,NA
+"643","Sweden","SE-0","Bilateral","Yes","Yes",202102,"Commitments",76.6982054789803,"Yes"
+"644","Sweden","SE-0","Bilateral","Yes","Yes",202103,"Disbursements",1036.18404105454,"Yes"
+"645","Sweden","SE-0","Bilateral","Yes","Yes",202103,"Expenditure",0.442168651530451,NA
+"646","Sweden","SE-0","Bilateral","Yes","Yes",202103,"Commitments",127.161038796008,"Yes"
+"647","Sweden","SE-0","Bilateral","Yes","Yes",202104,"Disbursements",439.326810618152,"Yes"
+"648","Sweden","SE-0","Bilateral","Yes","Yes",202104,"Expenditure",0.537199265991292,NA
+"649","Sweden","SE-0","Bilateral","Yes","Yes",202104,"Commitments",143.626947063346,"Yes"
+"650","Sweden","SE-0","Bilateral","Yes","Yes",202105,"Disbursements",264.782725464307,"Yes"
+"651","Sweden","SE-0","Bilateral","Yes","Yes",202105,"Expenditure",0.423371248792034,NA
+"652","Sweden","SE-0","Bilateral","Yes","Yes",202105,"Commitments",80.716234730742,"Yes"
+"653","Sweden","SE-0","Bilateral","Yes","Yes",202106,"Disbursements",318.949230196551,"Yes"
+"654","Sweden","SE-0","Bilateral","Yes","Yes",202106,"Expenditure",0.433591137604917,NA
+"655","Sweden","SE-0","Bilateral","Yes","Yes",202106,"Commitments",131.77259878386,"Yes"
+"656","Sweden","SE-0","Bilateral","Yes","Yes",202107,"Disbursements",245.865632563113,"Yes"
+"657","Sweden","SE-0","Bilateral","Yes","Yes",202107,"Expenditure",0.664205030565599,NA
+"658","Sweden","SE-0","Bilateral","Yes","Yes",202107,"Commitments",267.166400213867,"Yes"
+"659","Sweden","SE-0","Bilateral","Yes","Yes",202108,"Disbursements",128.845456567109,"Yes"
+"660","Sweden","SE-0","Bilateral","Yes","Yes",202108,"Expenditure",0.489584301334462,NA
+"661","Sweden","SE-0","Bilateral","Yes","Yes",202108,"Commitments",81.7273472534273,"Yes"
+"662","Sweden","SE-0","Bilateral","Yes","Yes",202109,"Disbursements",213.161189083107,"Yes"
+"663","Sweden","SE-0","Bilateral","Yes","Yes",202109,"Expenditure",0.444620318794315,NA
+"664","Sweden","SE-0","Bilateral","Yes","Yes",202109,"Commitments",64.717574730966,"Yes"
+"665","Sweden","SE-0","Bilateral","Yes","Yes",202110,"Disbursements",293.496873299417,"Yes"
+"666","Sweden","SE-0","Bilateral","Yes","Yes",202110,"Expenditure",0.657906781979869,NA
+"667","Sweden","SE-0","Bilateral","Yes","Yes",202110,"Commitments",78.75295091042,"Yes"
+"668","Sweden","SE-0","Bilateral","Yes","Yes",202111,"Disbursements",454.785172857964,"Yes"
+"669","Sweden","SE-0","Bilateral","Yes","Yes",202111,"Expenditure",0.64565458049665,NA
+"670","Sweden","SE-0","Bilateral","Yes","Yes",202111,"Commitments",208.519231788178,"Yes"
+"671","Sweden","SE-0","Bilateral","Yes","Yes",202112,"Disbursements",629.75138174358,"Yes"
+"672","Sweden","SE-0","Bilateral","Yes","Yes",202112,"Expenditure",1.83351840776572,NA
+"673","Sweden","SE-0","Bilateral","Yes","Yes",202112,"Commitments",360.023020293763,"Yes"
+"674","Sweden","SE-0","Bilateral","Yes","Yes",202201,"Disbursements",0.266600751381695,"Yes"
+"675","Sweden","SE-0","Bilateral","Yes","Yes",202201,"Expenditure",0.0613972224936752,NA
+"676","Sweden","SE-0","Bilateral","Yes","Yes",202201,"Commitments",2675.02013601175,"Yes"
+"677","Sweden","SE-0","Bilateral","Yes","Yes",202202,"Expenditure",0.046051718297013,NA
+"678","Sweden","SE-0","Bilateral","Yes","Yes",202202,"Commitments",0.16287175478,"Yes"
+"679","Sweden","SE-0","Bilateral","Yes","Yes",202203,"Expenditure",0.0460655385083119,NA
+"680","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202101,"Disbursements",195.58209995,"Yes"
+"681","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202101,"Expenditure",2.2303431,NA
+"682","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202101,"Commitments",184.99087289,"Yes"
+"683","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202102,"Disbursements",354.448134990001,"Yes"
+"684","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202102,"Expenditure",0.53029604,NA
+"685","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202102,"Commitments",161.896962879999,"Yes"
+"686","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202103,"Disbursements",2392.35512925,"Yes"
+"687","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202103,"Expenditure",39.28696989,NA
+"688","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202103,"Incoming Funds",0.07678558,NA
+"689","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202103,"Commitments",2199.64830946999,"Yes"
+"690","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202103,"Reimbursement",-0.00120825,NA
+"691","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202104,"Disbursements",453.587013670001,"Yes"
+"692","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202104,"Expenditure",2.65076616,NA
+"693","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202104,"Commitments",425.847538349999,"Yes"
+"694","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202105,"Disbursements",272.53455745,"Yes"
+"695","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202105,"Expenditure",0.39344983,NA
+"696","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202105,"Commitments",553.520255899999,"Yes"
+"697","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202106,"Disbursements",577.576662210001,"Yes"
+"698","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202106,"Expenditure",0.5233112,NA
+"699","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202106,"Commitments",48.2397961199999,"Yes"
+"700","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202106,"Reimbursement",-0.005574,NA
+"701","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202107,"Disbursements",4.48340163,"Yes"
+"702","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202107,"Expenditure",NA,NA
+"703","The federal government of the United States","US-USAGOV","Bilateral","Yes","No",202107,"Commitments",45.43174885,"Yes"
+"704","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202101,"Disbursements",581.605537800001,"Yes"
+"705","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202101,"Commitments",2011.32561878,"Yes"
+"706","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202101,"Reimbursement",-2.61216264,NA
+"707","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202102,"Disbursements",227.70382206,"Yes"
+"708","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202102,"Commitments",529.64571023,"Yes"
+"709","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202102,"Reimbursement",-6.94823645,NA
+"710","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202103,"Disbursements",304.32139781,"Yes"
+"711","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202103,"Commitments",524.68585387,"Yes"
+"712","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202103,"Reimbursement",-7.26252446,NA
+"713","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202104,"Disbursements",352.61614856,"Yes"
+"714","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202104,"Commitments",195.36085271,"Yes"
+"715","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202104,"Reimbursement",-3.77132489,NA
+"716","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202105,"Disbursements",187.64552037,"Yes"
+"717","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202105,"Commitments",268.97022714,"Yes"
+"718","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202105,"Reimbursement",-2.87473785,NA
+"719","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202106,"Disbursements",485.78863512,"Yes"
+"720","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202106,"Commitments",301.45234993,"Yes"
+"721","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202106,"Reimbursement",-6.75001532,NA
+"722","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202107,"Disbursements",542.205701810001,"Yes"
+"723","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202107,"Commitments",573.38383224,"Yes"
+"724","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202107,"Reimbursement",-6.63130663,NA
+"725","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202108,"Disbursements",396.62039265,"Yes"
+"726","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202108,"Commitments",619.6581511,"Yes"
+"727","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202108,"Reimbursement",-5.22139168,NA
+"728","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202109,"Disbursements",375.5957141,"Yes"
+"729","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202109,"Commitments",432.90892402,"Yes"
+"730","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202109,"Reimbursement",-9.64193641000001,NA
+"731","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202110,"Disbursements",655.233363599999,"Yes"
+"732","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202110,"Commitments",239.94516691,"Yes"
+"733","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202110,"Reimbursement",-87.62249212,NA
+"734","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202111,"Disbursements",409.09394047,"Yes"
+"735","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202111,"Commitments",372.32811153,"Yes"
+"736","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202111,"Reimbursement",-6.27606837,NA
+"737","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202112,"Disbursements",679.17562237,"Yes"
+"738","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202112,"Commitments",746.63307792,"Yes"
+"739","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202112,"Reimbursement",-18.26817143,NA
+"740","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202201,"Disbursements",284.02574889,"Yes"
+"741","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202201,"Commitments",205.98804707,"Yes"
+"742","The Global Fund to Fight AIDS, Tuberculosis and Malaria","47045","Multilateral","Yes","Yes",202201,"Reimbursement",-1.63622163,NA
+"743","UK - Department for Business, Energy and Industrial Strategy","GB-GOV-13","Bilateral","Yes","Yes",202101,"Disbursements",12.2555449,"Yes"
+"744","UK - Department for Business, Energy and Industrial Strategy","GB-GOV-13","Bilateral","Yes","Yes",202102,"Disbursements",6.225209255,"Yes"
+"745","UK - Department for Business, Energy and Industrial Strategy","GB-GOV-13","Bilateral","Yes","Yes",202102,"Commitments",192.112,"Yes"
+"746","UK - Department for Business, Energy and Industrial Strategy","GB-GOV-13","Bilateral","Yes","Yes",202103,"Disbursements",24.7138231922,"Yes"
+"747","UK - Department for Business, Energy and Industrial Strategy","GB-GOV-13","Bilateral","Yes","Yes",202104,"Disbursements",1.3236336695,"Yes"
+"748","UK - Department for Business, Energy and Industrial Strategy","GB-GOV-13","Bilateral","Yes","Yes",202106,"Disbursements",2.7852073571,"Yes"
+"749","UK - Department for Business, Energy and Industrial Strategy","GB-GOV-13","Bilateral","Yes","Yes",202106,"Commitments",24.014,"Yes"
+"750","UK - Department for Business, Energy and Industrial Strategy","GB-GOV-13","Bilateral","Yes","Yes",202110,"Disbursements",7.0777110578,"Yes"
+"751","UK - Department for Business, Energy and Industrial Strategy","GB-GOV-13","Bilateral","Yes","Yes",202111,"Disbursements",4.5155505355,"Yes"
+"752","UK - Department of Health and Social Care (DHSC)","GB-GOV-10","Bilateral","No","Yes",202101,"Disbursements",7.5894854188,"No"
+"753","UK - Department of Health and Social Care (DHSC)","GB-GOV-10","Bilateral","No","Yes",202101,"Expenditure",0.009265405669,NA
+"754","UK - Department of Health and Social Care (DHSC)","GB-GOV-10","Bilateral","No","Yes",202102,"Disbursements",9.612354189647,"No"
+"755","UK - Department of Health and Social Care (DHSC)","GB-GOV-10","Bilateral","No","Yes",202103,"Disbursements",42.031626574745,"No"
+"756","UK - Department of Health and Social Care (DHSC)","GB-GOV-10","Bilateral","No","Yes",202103,"Expenditure",0.109472405674,NA
+"757","UK - Department of Health and Social Care (DHSC)","GB-GOV-10","Bilateral","No","Yes",202103,"Commitments",1.2007,"No"
+"758","UK - Department of Health and Social Care (DHSC)","GB-GOV-10","Bilateral","No","Yes",202104,"Disbursements",3.077590606562,"No"
+"759","UK - Department of Health and Social Care (DHSC)","GB-GOV-10","Bilateral","No","Yes",202104,"Expenditure",0.084049,NA
+"760","UK - Department of Health and Social Care (DHSC)","GB-GOV-10","Bilateral","No","Yes",202104,"Commitments",0.3746184,"No"
+"761","UK - Department of Health and Social Care (DHSC)","GB-GOV-10","Bilateral","No","Yes",202105,"Disbursements",4.708318706043,"No"
+"762","UK - Department of Health and Social Care (DHSC)","GB-GOV-10","Bilateral","No","Yes",202106,"Disbursements",27.915854130636,"No"
+"763","UK - Department of Health and Social Care (DHSC)","GB-GOV-10","Bilateral","No","Yes",202107,"Disbursements",0.984728854279,"No"
+"764","UK - Department of Health and Social Care (DHSC)","GB-GOV-10","Bilateral","No","Yes",202108,"Disbursements",0.56927744491,"No"
+"765","UK - Department of Health and Social Care (DHSC)","GB-GOV-10","Bilateral","No","Yes",202109,"Disbursements",0.061245281586,"No"
+"766","UK - Department of Health and Social Care (DHSC)","GB-GOV-10","Bilateral","No","Yes",202111,"Disbursements",2.081737639,"No"
+"767","UK - Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202101,"Expenditure",27.296993527079,NA
+"768","UK - Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202102,"Expenditure",35.438098476344,NA
+"769","UK - Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202103,"Disbursements",31.562736722585,"No"
+"770","UK - Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202103,"Expenditure",269.008609479486,NA
+"771","UK - Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202104,"Expenditure",20.63477477449,NA
+"772","UK - Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202105,"Expenditure",33.888571532589,NA
+"773","UK - Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202106,"Disbursements",24.254175804874,"No"
+"774","UK - Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202106,"Expenditure",127.389792409595,NA
+"775","UK - Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202107,"Expenditure",42.631647907134,NA
+"776","UK - Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202108,"Expenditure",33.800077985448,NA
+"777","UK - Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202109,"Disbursements",5.079896897622,"No"
+"778","UK - Foreign, Commonwealth and Development Office","GB-GOV-1","Bilateral","No","Yes",202109,"Expenditure",110.821286678526,NA
+"779","Unitaid","XM-DAC-30010","Multilateral","Yes","Yes",202101,"Disbursements",13.042348,"Yes"
+"780","Unitaid","XM-DAC-30010","Multilateral","Yes","Yes",202101,"Commitments",1.597251,"Yes"
+"781","Unitaid","XM-DAC-30010","Multilateral","Yes","Yes",202102,"Disbursements",0.74303,"Yes"
+"782","Unitaid","XM-DAC-30010","Multilateral","Yes","Yes",202103,"Disbursements",11.724735,"Yes"
+"783","Unitaid","XM-DAC-30010","Multilateral","Yes","Yes",202104,"Disbursements",0.977411,"Yes"
+"784","Unitaid","XM-DAC-30010","Multilateral","Yes","Yes",202105,"Disbursements",32.097868,"Yes"
+"785","Unitaid","XM-DAC-30010","Multilateral","Yes","Yes",202105,"Commitments",39.949031,"Yes"
+"786","Unitaid","XM-DAC-30010","Multilateral","Yes","Yes",202106,"Disbursements",100.208695,"Yes"
+"787","Unitaid","XM-DAC-30010","Multilateral","Yes","Yes",202106,"Commitments",5,"Yes"
+"788","Unitaid","XM-DAC-30010","Multilateral","Yes","Yes",202107,"Disbursements",40.338939,"Yes"
+"789","Unitaid","XM-DAC-30010","Multilateral","Yes","Yes",202108,"Disbursements",14.276466,"Yes"
+"790","Unitaid","XM-DAC-30010","Multilateral","Yes","Yes",202108,"Commitments",35.485084,"Yes"
+"791","Unitaid","XM-DAC-30010","Multilateral","Yes","Yes",202109,"Disbursements",30.576571,"Yes"
+"792","Unitaid","XM-DAC-30010","Multilateral","Yes","Yes",202110,"Disbursements",8.024127,"Yes"
+"793","Unitaid","XM-DAC-30010","Multilateral","Yes","Yes",202111,"Disbursements",8.290337,"Yes"
+"794","Unitaid","XM-DAC-30010","Multilateral","Yes","Yes",202112,"Disbursements",39.13595,"Yes"
+"795","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202101,"Disbursements",7.944486,"No"
+"796","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202101,"Expenditure",186.19231,NA
+"797","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202102,"Disbursements",45.165524,"No"
+"798","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202102,"Expenditure",266.788464,NA
+"799","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202103,"Disbursements",102.114668,"No"
+"800","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202103,"Expenditure",319.555466,NA
+"801","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202104,"Disbursements",62.064255,"No"
+"802","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202104,"Expenditure",271.798381000001,NA
+"803","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202105,"Disbursements",61.762806,"No"
+"804","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202105,"Expenditure",282.934325000001,NA
+"805","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202106,"Disbursements",149.185849,"No"
+"806","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202106,"Expenditure",293.377535,NA
+"807","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202107,"Disbursements",61.457038,"No"
+"808","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202107,"Expenditure",255.729184,NA
+"809","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202108,"Disbursements",64.335777,"No"
+"810","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202108,"Expenditure",260.611430999999,NA
+"811","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202109,"Disbursements",114.096391,"No"
+"812","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202109,"Expenditure",282.966835,NA
+"813","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202110,"Disbursements",47.966749,"No"
+"814","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202110,"Expenditure",282.012685000001,NA
+"815","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202111,"Disbursements",62.646922,"No"
+"816","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202111,"Expenditure",355.099763000001,NA
+"817","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202112,"Disbursements",76.432789,"No"
+"818","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202112,"Expenditure",496.193904000002,NA
+"819","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202112,"Incoming Commitment",14196.2310020003,NA
+"820","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202112,"Incoming Funds",3471.50709400001,NA
+"821","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202112,"Commitments",45582.8511580002,"No"
+"822","United Nations Development Programme","XM-DAC-41114","Multilateral","No","Yes",202201,"Expenditure",-53.522683,NA
+"823","United Nations Industrial Development Organization","XM-DAC-41123","Multilateral","No","Yes",202112,"Expenditure",308.159330549999,NA
+"824","United Nations Industrial Development Organization","XM-DAC-41123","Multilateral","No","Yes",202112,"Incoming Funds",308.159330549999,NA
+"825","United Nations Industrial Development Organization","XM-DAC-41123","Multilateral","No","Yes",202212,"Expenditure",168.79831311,NA
+"826","United Nations Industrial Development Organization","XM-DAC-41123","Multilateral","No","Yes",202212,"Incoming Funds",168.79831311,NA
+"827","United Nations Industrial Development Organization","XM-DAC-41123","Multilateral","No","Yes",202312,"Expenditure",46.19611581,NA
+"828","United Nations Industrial Development Organization","XM-DAC-41123","Multilateral","No","Yes",202312,"Incoming Funds",46.19611581,NA
+"829","United Nations Industrial Development Organization","XM-DAC-41123","Multilateral","No","Yes",202412,"Expenditure",14.28392896,NA
+"830","United Nations Industrial Development Organization","XM-DAC-41123","Multilateral","No","Yes",202412,"Incoming Funds",14.28392896,NA
+"831","United Nations Industrial Development Organization","XM-DAC-41123","Multilateral","No","Yes",202512,"Expenditure",NA,NA
+"832","United Nations Industrial Development Organization","XM-DAC-41123","Multilateral","No","Yes",202512,"Incoming Funds",NA,NA
+"833","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202101,"Incoming Commitment",11.753046,NA
+"834","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202101,"Incoming Funds",5.157568,NA
+"835","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202101,"Commitments",268.09554233,"Yes"
+"836","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202102,"Incoming Commitment",5.698915,NA
+"837","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202102,"Incoming Funds",14.05151,NA
+"838","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202103,"Incoming Commitment",1.080182,NA
+"839","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202103,"Incoming Funds",21.845268,NA
+"840","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202104,"Incoming Commitment",30.423017,NA
+"841","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202104,"Incoming Funds",9.786445,NA
+"842","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202105,"Incoming Commitment",31.113807,NA
+"843","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202105,"Incoming Funds",14.849265,NA
+"844","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202106,"Incoming Commitment",31.052221,NA
+"845","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202106,"Incoming Funds",17.093486,NA
+"846","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202107,"Incoming Commitment",18.734633,NA
+"847","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202107,"Incoming Funds",28.752998,NA
+"848","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202108,"Incoming Commitment",5.737337,NA
+"849","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202108,"Incoming Funds",21.99525,NA
+"850","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202109,"Incoming Commitment",1.469651,NA
+"851","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202109,"Incoming Funds",6.077406,NA
+"852","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202110,"Expenditure",210.468294,NA
+"853","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202110,"Incoming Commitment",0.864759,NA
+"854","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202110,"Incoming Funds",0.915109,NA
+"855","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202111,"Incoming Commitment",0.94597,NA
+"856","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202111,"Incoming Funds",0.533985,NA
+"857","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202112,"Incoming Commitment",3.801482,NA
+"858","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202112,"Incoming Funds",3.47942,NA
+"859","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202201,"Incoming Commitment",0.331952,NA
+"860","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202201,"Incoming Funds",0.854537,NA
+"861","United Nations Office for the Coordination of Humanitarian Affairs","XM-DAC-41127","Multilateral","Yes","Yes",202201,"Commitments",300.180317,"Yes"
+"862","United Nations Population Fund","41119","Multilateral","Yes","No",202112,"Expenditure",970.734718929999,NA
+"863","United Nations Population Fund","41119","Multilateral","Yes","No",202112,"Commitments",144.46440906,"Yes"
+"864","United Nations Relief and Works Agency for Palestine Refugees in the Near East","XM-DAC-41130","Multilateral","No","Yes",202103,"Expenditure",20.53146815,NA
+"865","United Nations Relief and Works Agency for Palestine Refugees in the Near East","XM-DAC-41130","Multilateral","No","Yes",202103,"Incoming Commitment",20.59190723,NA
+"866","United Nations Relief and Works Agency for Palestine Refugees in the Near East","XM-DAC-41130","Multilateral","No","Yes",202106,"Expenditure",376.16838789,NA
+"867","United Nations Relief and Works Agency for Palestine Refugees in the Near East","XM-DAC-41130","Multilateral","No","Yes",202106,"Incoming Commitment",460.6259064,NA
+"868","United Nations Relief and Works Agency for Palestine Refugees in the Near East","XM-DAC-41130","Multilateral","No","Yes",202109,"Expenditure",823.031199609999,NA
+"869","United Nations Relief and Works Agency for Palestine Refugees in the Near East","XM-DAC-41130","Multilateral","No","Yes",202109,"Incoming Funds",836.50748075,NA
+"870","UNOCHA - Central Emergency Response Fund (CERF)","XM-OCHA-CERF","Multilateral","No","Yes",202101,"Disbursements",97.872439,"No"
+"871","UNOCHA - Central Emergency Response Fund (CERF)","XM-OCHA-CERF","Multilateral","No","Yes",202102,"Disbursements",27.984708,"No"
+"872","UNOCHA - Central Emergency Response Fund (CERF)","XM-OCHA-CERF","Multilateral","No","Yes",202103,"Disbursements",6.000001,"No"
+"873","UNOCHA - Central Emergency Response Fund (CERF)","XM-OCHA-CERF","Multilateral","No","Yes",202104,"Disbursements",76.50514,"No"
+"874","UNOCHA - Central Emergency Response Fund (CERF)","XM-OCHA-CERF","Multilateral","No","Yes",202105,"Disbursements",52.891545,"No"
+"875","UNOCHA - Central Emergency Response Fund (CERF)","XM-OCHA-CERF","Multilateral","No","Yes",202106,"Disbursements",39.006854,"No"
+"876","UNOCHA - Central Emergency Response Fund (CERF)","XM-OCHA-CERF","Multilateral","No","Yes",202107,"Disbursements",6.283454,"No"
+"877","UNOCHA - Central Emergency Response Fund (CERF)","XM-OCHA-CERF","Multilateral","No","Yes",202108,"Disbursements",17.611829,"No"
+"878","UNOCHA - Central Emergency Response Fund (CERF)","XM-OCHA-CERF","Multilateral","No","Yes",202109,"Disbursements",73.363033,"No"
+"879","UNOCHA - Central Emergency Response Fund (CERF)","XM-OCHA-CERF","Multilateral","No","Yes",202110,"Disbursements",158.875949,"No"
+"880","UNOCHA - Central Emergency Response Fund (CERF)","XM-OCHA-CERF","Multilateral","No","Yes",202111,"Disbursements",5.432682,"No"
+"881","UNOCHA - Central Emergency Response Fund (CERF)","XM-OCHA-CERF","Multilateral","No","Yes",202112,"Disbursements",43.647023,"No"
+"882","UNOCHA - Central Emergency Response Fund (CERF)","XM-OCHA-CERF","Multilateral","No","Yes",202201,"Disbursements",7.018024,"No"
+"883","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202101,"Incoming Commitment",310.42279806,NA
+"884","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202101,"Incoming Funds",68.67785419,NA
+"885","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202102,"Incoming Commitment",0.24812551,NA
+"886","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202102,"Incoming Funds",62.23931087,NA
+"887","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202103,"Incoming Commitment",4.05662841,NA
+"888","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202103,"Incoming Funds",76.76328669,NA
+"889","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202104,"Incoming Commitment",18.46996476,NA
+"890","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202104,"Incoming Funds",121.17943949,NA
+"891","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202105,"Incoming Commitment",96.43237024,NA
+"892","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202105,"Incoming Funds",11.5610524,NA
+"893","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202106,"Incoming Commitment",64.63434635,NA
+"894","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202106,"Incoming Funds",73.68713363,NA
+"895","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202107,"Incoming Commitment",10.7398568,NA
+"896","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202108,"Incoming Commitment",59.4530321,NA
+"897","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202108,"Incoming Funds",4.60908,NA
+"898","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202109,"Incoming Commitment",126.83835532,NA
+"899","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202109,"Incoming Funds",85.2686705,NA
+"900","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202110,"Incoming Commitment",0.0555065,NA
+"901","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202110,"Incoming Funds",33.90393756,NA
+"902","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202111,"Incoming Commitment",681.26667243,NA
+"903","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202111,"Incoming Funds",13.572525,NA
+"904","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202112,"Incoming Commitment",627.40232485,NA
+"905","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202112,"Incoming Funds",69.07385762,NA
+"906","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202112,"Incoming Pledge",75.11261262,NA
+"907","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202201,"Incoming Commitment",2,NA
+"908","UNOCHA-CERF","XM-OCHA-CERF","Multilateral","No","Yes",202201,"Incoming Funds",61.376224,NA
+"909","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202101,"Disbursements",290.20768372,"Yes"
+"910","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202101,"Commitments",423.45643961,"Yes"
+"911","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202102,"Disbursements",1277.28531289,"Yes"
+"912","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202102,"Commitments",322.43696349,"Yes"
+"913","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202103,"Disbursements",5655.17193349,"Yes"
+"914","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202103,"Commitments",5548.42041977998,"Yes"
+"915","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202104,"Disbursements",506.81917815,"Yes"
+"916","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202104,"Commitments",277.95574515,"Yes"
+"917","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202105,"Disbursements",945.58968395,"Yes"
+"918","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202105,"Commitments",389.373928050001,"Yes"
+"919","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202106,"Disbursements",3812.26532051999,"Yes"
+"920","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202106,"Commitments",4530.23303523004,"Yes"
+"921","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202107,"Disbursements",2406.52639615999,"Yes"
+"922","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202107,"Commitments",5679.10484841,"Yes"
+"923","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202108,"Disbursements",590.041321749999,"Yes"
+"924","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202108,"Commitments",181.20246386,"Yes"
+"925","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202109,"Disbursements",6673.63579228995,"Yes"
+"926","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202109,"Commitments",11283.72749759,"Yes"
+"927","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202110,"Disbursements",300.63591966,"Yes"
+"928","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202110,"Commitments",776.88794341,"Yes"
+"929","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202111,"Disbursements",1136.86483201,"Yes"
+"930","U.S. Agency for International Development","US-GOV-1","Bilateral","Yes","Yes",202111,"Commitments",364.89771503,"Yes"
+"931","World Bank","44000","IFI","Yes","Yes",202101,"Disbursements",0.014294,"Yes"
+"932","World Bank","44000","IFI","Yes","Yes",202101,"Interest Payment",-0.011451,NA
+"933","World Bank","44000","IFI","Yes","Yes",202101,"Loan Repayment",-0.002843,NA
+"934","World Bank","44000","IFI","Yes","Yes",202101,"Commitments",0.011451,"Yes"
+"935","World Bank","44000","IFI","Yes","Yes",202103,"Disbursements",10022.633592,"Yes"
+"936","World Bank","44000","IFI","Yes","Yes",202103,"Interest Payment",-784.701538,NA
+"937","World Bank","44000","IFI","Yes","Yes",202103,"Loan Repayment",-1591.500876,NA
+"938","World Bank","44000","IFI","Yes","Yes",202103,"Commitments",14119.468482,"Yes"
+"939","World Bank","44000","IFI","Yes","Yes",202106,"Disbursements",13078.838221,"Yes"
+"940","World Bank","44000","IFI","Yes","Yes",202106,"Interest Payment",-1016.611524,NA
+"941","World Bank","44000","IFI","Yes","Yes",202106,"Loan Repayment",-2192.5561,NA
+"942","World Bank","44000","IFI","Yes","Yes",202106,"Commitments",26525.400915,"Yes"
+"943","World Bank","44000","IFI","Yes","Yes",202106,"",NA,NA
+"944","World Bank","44000","IFI","Yes","Yes",202109,"Disbursements",9656.80583100002,"Yes"
+"945","World Bank","44000","IFI","Yes","Yes",202109,"Interest Payment",-810.015138,NA
+"946","World Bank","44000","IFI","Yes","Yes",202109,"Loan Repayment",-1874.44239,NA
+"947","World Bank","44000","IFI","Yes","Yes",202109,"Commitments",524.364998,"Yes"
+"948","World Bank","44000","IFI","Yes","Yes",202111,"Disbursements",7572.15322400001,"Yes"
+"949","World Bank","44000","IFI","Yes","Yes",202111,"Interest Payment",-791.696158999999,NA
+"950","World Bank","44000","IFI","Yes","Yes",202111,"Loan Repayment",-2303.144246,NA
+"951","World Bank","44000","IFI","Yes","Yes",202111,"Commitments",-639.243841,"Yes"
+"952","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202101,"Expenditure",492.423937,NA
+"953","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202101,"Incoming Funds",451.163865,NA
+"954","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202101,"Commitments",492.423937,"Yes"
+"955","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202102,"Expenditure",518.380520000001,NA
+"956","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202102,"Incoming Funds",930.883642,NA
+"957","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202102,"Commitments",518.38052,"Yes"
+"958","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202103,"Expenditure",701.092505999999,NA
+"959","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202103,"Incoming Funds",1017.50669,NA
+"960","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202103,"Commitments",701.092505999999,"Yes"
+"961","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202104,"Expenditure",753.976939,NA
+"962","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202104,"Incoming Funds",749.098184,NA
+"963","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202104,"Commitments",753.976938999999,"Yes"
+"964","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202105,"Expenditure",667.748233000001,NA
+"965","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202105,"Incoming Funds",759.211523,NA
+"966","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202105,"Commitments",667.748233,"Yes"
+"967","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202106,"Expenditure",847.712575000001,NA
+"968","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202106,"Incoming Funds",410.848005,NA
+"969","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202106,"Commitments",847.712575,"Yes"
+"970","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202107,"Expenditure",631.822045,NA
+"971","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202107,"Incoming Funds",953.118000000001,NA
+"972","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202107,"Commitments",631.822045,"Yes"
+"973","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202108,"Expenditure",740.194508000001,NA
+"974","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202108,"Incoming Funds",484.112797,NA
+"975","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202108,"Commitments",740.194508,"Yes"
+"976","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202109,"Expenditure",789.328207000001,NA
+"977","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202109,"Incoming Funds",753.937172,NA
+"978","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202109,"Commitments",789.328206999999,"Yes"
+"979","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202110,"Expenditure",698.714847,NA
+"980","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202110,"Incoming Funds",379.559963,NA
+"981","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202110,"Commitments",698.714847,"Yes"
+"982","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202111,"Expenditure",754.848097,NA
+"983","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202111,"Incoming Funds",1319.324286,NA
+"984","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202111,"Commitments",754.848096999999,"Yes"
+"985","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202112,"Expenditure",1655.718743,NA
+"986","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202112,"Incoming Funds",1361.886745,NA
+"987","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202112,"Commitments",1655.718743,"Yes"
+"988","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202201,"Expenditure",NA,NA
+"989","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202201,"Incoming Funds",NA,NA
+"990","World Food Programme","XM-DAC-41140","Multilateral","Yes","Yes",202201,"Commitments",NA,"Yes"
