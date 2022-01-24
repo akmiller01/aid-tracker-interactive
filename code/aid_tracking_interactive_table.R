@@ -17,6 +17,8 @@ current_yyyymm <- format(Sys.Date()-75, "%Y%m") # Note: This must be preceded by
 
 dat <- fread("https://ddw.devinit.org/api/export/1250")
 
+dat <- subset(dat,dat$`YYYYMM year and month`<=current_yyyymm)
+
 dat$`Transaction Type` <- NA
 dat$`Transaction Type`[which(dat$`Transaction Type Code` %in% c(3,4,7,8,"E","D","R","QP"))] <- "Disbursements"
 dat$`Transaction Type`[which(dat$`Transaction Type Code` %in% c(2,"C"))] <- "Commitments"
