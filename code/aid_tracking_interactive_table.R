@@ -17,12 +17,14 @@ current_yyyymm <- format(Sys.Date()-75, "%Y%m") # Note: This must be preceded by
 
 dat <- fread("https://ddw.devinit.org/api/export/1250")
 
-dat$`Transaction Type`[which(dat$`Transaction Type`=="Outgoing Commitment")] <- "Commitments"
-dat$`Transaction Type`[which(dat$`Transaction Type`=="Disbursement")] <- "Disbursements"
+dat$`Transaction Type` <- NA
+dat$`Transaction Type`[which(dat$`Transaction Type Code` %in% c(3,4,7,8,"E","D","R","QP"))] <- "Disbursements"
+dat$`Transaction Type`[which(dat$`Transaction Type Code` %in% c(2,"C"))] <- "Commitments"
 
+dat <- dat[which(dat$`Transaction Type`%in%c("Commitments","Disbursements"))]
+
+dat$usability <- NA
 dat$usability[which(dat$`Transaction Type`=="Commitments")] <- dat$tracker_commit[which(dat$`Transaction Type`=="Commitments")]
 dat$usability[which(dat$`Transaction Type`=="Disbursements")] <- dat$tracker_commit[which(dat$`Transaction Type`=="Disbursements")]
-
-dat[which(dat$`Transaction Type`%in%c("Commitments","Disbursements"))]
 
 write.csv(dat,"usability.csv")
