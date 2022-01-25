@@ -41,8 +41,8 @@ for (this.choice in choices){
 dat <- rbind(Commitments,Disbursements)
 
 dat$usability <- NA
-dat$usability[which(dat$`Transaction Type`=="Commitments")] <- dat$tracker_commit[which(dat$`Transaction Type`=="Commitments")]
-dat$usability[which(dat$`Transaction Type`=="Disbursements")] <- dat$tracker_spend[which(dat$`Transaction Type`=="Disbursements")]
+dat$usability[which(dat$`Transaction Type`=="Commitments")] <- dat$`Tracker Commit`[which(dat$`Transaction Type`=="Commitments")]
+dat$usability[which(dat$`Transaction Type`=="Disbursements")] <- dat$`Tracker Spend`[which(dat$`Transaction Type`=="Disbursements")]
 
 dat$org_type[which(is.na(dat$org_type))] <- dat$`Organisation Type`[which(is.na(dat$org_type))]
 dat$`Organisation Type` <- NULL
