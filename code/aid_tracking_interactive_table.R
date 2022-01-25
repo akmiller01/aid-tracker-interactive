@@ -17,7 +17,7 @@ current_yyyymm <- format(Sys.Date()-75, "%Y%m") # Note: This must be preceded by
 
 dat <- fread("https://ddw.devinit.org/api/export/1250")
 
-donors <- fread("https://ddw.devinit.org/api/export/1249")
+donors <- fread("https://ddw.devinit.org/api/export/1254")
 
 dat <- subset(dat,dat$`YYYYMM year and month`<=current_yyyymm)
 
@@ -45,5 +45,6 @@ dat$usability[which(dat$`Transaction Type`=="Disbursements")] <- dat$tracker_spe
 
 names(dat)[which(names(dat)=="org_type")] <- "Organisation Type"
 dat$year_month = paste0(substr(dat$`YYYYMM year and month`,5,6),"-",substr(dat$`YYYYMM year and month`,1,4))
+dat$`Organisation Type`
 
 write.csv(dat,"usability.csv")
