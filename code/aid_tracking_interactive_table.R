@@ -33,7 +33,8 @@ for (this.choice in choices){
   data <- subset(dat,dat$`Transaction Type`==this.choice)
   data <- merge(data,donors,by.x="Reporting Organsation Reference",by.y="Reporting Organisation Reference Code",all=T)
   data$`Transaction Type` <- this.choice
-  #data$`YYYYMM year and month`[which(is.na(data$`YYYYMM year and month`))] <- current_yyyymm
+  data$x_original_transaction_value_USDm_Sum[which(is.na(data$`YYYYMM year and month`))] <- ""
+  data$`YYYYMM year and month`[which(is.na(data$`YYYYMM year and month`))] <- current_yyyymm
   assign(this.choice,data)
 }
 
