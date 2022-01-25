@@ -1,6 +1,6 @@
 # Code to produce table needed for the live IATI COVID tracker page #
 
-list.of.packages <- c("curl","data.table", "anytime", "ggplot2", "scales", "bsts", "dplyr", "plyr","Hmisc","reshape2","splitstackshape","Cairo","svglite","extrafont","jsonlite","countrycode","openxlsx","english","stringr","tidyr","rstudioapi")
+list.of.packages <- c("rstudioapi","data.table")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 lapply(list.of.packages, require, character.only=T)
@@ -27,6 +27,6 @@ dat <- dat[which(dat$`Transaction Type`%in%c("Commitments","Disbursements"))]
 
 dat$usability <- NA
 dat$usability[which(dat$`Transaction Type`=="Commitments")] <- dat$tracker_commit[which(dat$`Transaction Type`=="Commitments")]
-dat$usability[which(dat$`Transaction Type`=="Disbursements")] <- dat$tracker_commit[which(dat$`Transaction Type`=="Disbursements")]
+dat$usability[which(dat$`Transaction Type`=="Disbursements")] <- dat$tracker_spend[which(dat$`Transaction Type`=="Disbursements")]
 
 write.csv(dat,"usability.csv")
