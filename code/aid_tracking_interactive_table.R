@@ -33,7 +33,7 @@ for (this.choice in choices){
   data <- subset(dat,dat$`Transaction Type`==this.choice)
   data <- merge(data,donors,by.x="Reporting Organsation Reference",by.y="Reporting Organisation Reference Code",all=T)
   data$`Transaction Type` <- this.choice
-  data$`YYYYMM year and month`[which(is.na(data$`YYYYMM year and month`))] <- current_yyyymm
+  #data$`YYYYMM year and month`[which(is.na(data$`YYYYMM year and month`))] <- current_yyyymm
   assign(this.choice,data)
 }
 
@@ -43,8 +43,9 @@ dat$usability <- NA
 dat$usability[which(dat$`Transaction Type`=="Commitments")] <- dat$tracker_commit[which(dat$`Transaction Type`=="Commitments")]
 dat$usability[which(dat$`Transaction Type`=="Disbursements")] <- dat$tracker_spend[which(dat$`Transaction Type`=="Disbursements")]
 
+dat$org_type[which(is.na(dat$org_type))] <- dat$`Organisation Type`[which(is.na(dat$org_type))]
+dat$`Organisation Type` <- NULL
 names(dat)[which(names(dat)=="org_type")] <- "Organisation Type"
 dat$year_month = paste0(substr(dat$`YYYYMM year and month`,5,6),"-",substr(dat$`YYYYMM year and month`,1,4))
-dat$`Organisation Type`
 
 write.csv(dat,"usability.csv")
