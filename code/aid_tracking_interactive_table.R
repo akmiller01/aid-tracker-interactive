@@ -29,4 +29,6 @@ dat$usability <- NA
 dat$usability[which(dat$`Transaction Type`=="Commitments")] <- dat$tracker_commit[which(dat$`Transaction Type`=="Commitments")]
 dat$usability[which(dat$`Transaction Type`=="Disbursements")] <- dat$tracker_spend[which(dat$`Transaction Type`=="Disbursements")]
 
+names(dat)[which(names(dat)=="org_type")] <- "Organisation Type"
+
 write.csv(dat,"usability.csv")

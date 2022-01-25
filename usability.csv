@@ -1,4 +1,4 @@
-"","Reporting Organsation Reference","Reporting Organisation Narrative","org_name","org_type","tracker_commit","tracker_spend","YYYYMM year and month","Transaction Type Code","x_original_transaction_value_USDm_Sum","Transaction Type","usability"
+"","Reporting Organsation Reference","Reporting Organisation Narrative","org_name","Organisation Type","tracker_commit","tracker_spend","YYYYMM year and month","Transaction Type Code","x_original_transaction_value_USDm_Sum","Transaction Type","usability"
 "1","44000","World Bank","World Bank","IFI","Yes","Yes",202101,2,0.011451,"Commitments","Yes"
 "2","44000","World Bank","World Bank","IFI","Yes","Yes",202101,3,0.014294,"Disbursements","Yes"
 "3","44000","World Bank","World Bank","IFI","Yes","Yes",202103,2,14119.468482,"Commitments","Yes"
