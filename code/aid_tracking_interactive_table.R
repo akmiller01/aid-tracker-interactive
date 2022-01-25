@@ -17,6 +17,8 @@ current_yyyymm <- format(Sys.Date()-75, "%Y%m") # Note: This must be preceded by
 
 dat <- fread("https://ddw.devinit.org/api/export/1250")
 
+donors <- fread("https://ddw.devinit.org/api/export/1249")
+
 dat <- subset(dat,dat$`YYYYMM year and month`<=current_yyyymm)
 
 dat$`Transaction Type` <- NA
@@ -25,10 +27,23 @@ dat$`Transaction Type`[which(dat$`Transaction Type Code` %in% c(2,"C"))] <- "Com
 
 dat <- dat[which(dat$`Transaction Type`%in%c("Commitments","Disbursements"))]
 
+choices = c("Commitments","Disbursements")
+
+for (this.choice in choices){
+  data <- subset(dat,dat$`Transaction Type`==this.choice)
+  data <- merge(data,donors,by.x="Reporting Organsation Reference",by.y="Reporting Organisation Reference Code",all=T)
+  data$`Transaction Type` <- this.choice
+  data$`YYYYMM year and month`[which(is.na(data$`YYYYMM year and month`))] <- current_yyyymm
+  assign(this.choice,data)
+}
+
+dat <- rbind(Commitments,Disbursements)
+
 dat$usability <- NA
 dat$usability[which(dat$`Transaction Type`=="Commitments")] <- dat$tracker_commit[which(dat$`Transaction Type`=="Commitments")]
 dat$usability[which(dat$`Transaction Type`=="Disbursements")] <- dat$tracker_spend[which(dat$`Transaction Type`=="Disbursements")]
 
 names(dat)[which(names(dat)=="org_type")] <- "Organisation Type"
+dat$year_month = paste0(substr(dat$`YYYYMM year and month`,5,6),"-",substr(dat$`YYYYMM year and month`,1,4))
 
 write.csv(dat,"usability.csv")
