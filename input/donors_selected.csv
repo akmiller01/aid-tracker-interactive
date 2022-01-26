@@ -36,7 +36,7 @@ Multilateral Investment Fund,XI-IATI-MIF,Multilateral Investment Fund,ifi,1,1,,,
 World Bank,44000,World Bank,ifi,1,1,,,
 International Committee of the Red Cross,XM-DAC-21016,International Committee of the Red Cross,multilateral,1,0,,OK,
 UNAIDS,XM-DAC-41110,UNAIDS,multilateral,0,0,,OK,
-UNFPA,41119,UNFPA,multilateral,0,1,,Nothing prior to 2020,
+UNFPA,41119,UNFPA,multilateral,0,0,,Nothing prior to 2020,
 UNHCR,XM-DAC-41121,UNHCR,multilateral,0,0,,Not OK - no 2020,No comms
 UNIDO,XM-DAC-41123,UNIDO,multilateral,1,0,,Pro-rata need to apply - Spread September 2020 across Jan - September,No comms
 Unitaid,XM-DAC-30010,Unitaid,multilateral,1,1,,OK,OK
@@ -44,7 +44,7 @@ UNOCHA,XM-DAC-41127,UNOCHA,multilateral,1,1,,OK,OK
 UNOCHA,XM-OCHA-CERF,UNOCHA - Central Emergency Response Fund (CERF),multilateral,1,0,,OK,Check
 UNRWA,XM-DAC-41130,UNRWA,multilateral,1,0,,Pro-rata need to apply - Spread December 2019 across full year?,Check
 World Food Programme,XM-DAC-41140,World Food Programme,multilateral,1,1,,OK,OK
-Australia,AU-5,Australian Aid,bilateral,1,0,,Agreed,No reporting
+Australia,AU-5,Australian Aid,bilateral,0,0,,Agreed,No reporting
 Finland,FI-3,Finland - Ministry for Foreign Affairs of Finland,bilateral,1,0,,OK,No reporting
 "Gavi, The Vaccine Alliance",47122,"Gavi, The Vaccine Alliance",multilateral,0,0,,Not OK - only til April,Not OK - small in Jan and then nothing
 Global Fund,47045,Global Fund,multilateral,1,1,,OK,OK
