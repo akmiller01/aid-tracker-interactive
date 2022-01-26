@@ -49,4 +49,6 @@ dat$`Organisation Type` <- NULL
 names(dat)[which(names(dat)=="org_type")] <- "Organisation Type"
 dat$year_month = paste0(substr(dat$`YYYYMM year and month`,5,6),"-",substr(dat$`YYYYMM year and month`,1,4))
 
+dat$x_original_transaction_value_USDm_Sum[which(is.na(dat$x_original_transaction_value_USDm_Sum))] <- ""
+
 write.csv(dat,"usability.csv")
