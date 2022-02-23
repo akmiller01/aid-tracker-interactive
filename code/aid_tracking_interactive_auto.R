@@ -1,18 +1,18 @@
 # Code to produce graphs needed for the live IATI COVID tracker page #
 
-{
-  list.of.packages <- c("data.table", "anytime", "ggplot2", "scales", "bsts", "dplyr", "plyr","Hmisc","reshape2","splitstackshape","Cairo","svglite","extrafont","jsonlite","countrycode","openxlsx","english","stringr","tidyr","rstudioapi")
-  new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
-  if(length(new.packages)) install.packages(new.packages)
-  lapply(list.of.packages, require, character.only=T)
+
+list.of.packages <- c("data.table", "anytime", "ggplot2", "scales", "bsts", "dplyr", "plyr","Hmisc","reshape2","splitstackshape","Cairo","svglite","extrafont","jsonlite","countrycode","openxlsx","english","stringr","tidyr","rstudioapi")
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
+lapply(list.of.packages, require, character.only=T)
   
-  wd <- dirname(getActiveDocumentContext()$path) # Setting working directory to the input. Check this is where you locally have this repository, else change it.
-  setwd(wd)
-  setwd("..")
-  setwd("input")
+wd <- dirname(getActiveDocumentContext()$path) # Setting working directory to the input. Check this is where you locally have this repository, else change it.
+setwd(wd)
+setwd("..")
+setwd("input")
   
-  all <- read.csv("donors_selected.csv")[,c("country","code","org_type","disbursements","commitments")] # Reading in manual donor quality checks. Binary: 1 = include, 0 = exclude.
-}
+all <- read.csv("donors_selected.csv")[,c("country","code","org_type","disbursements","commitments")] # Reading in manual donor quality checks. Binary: 1 = include, 0 = exclude.
+
 #### DDW read-in ####
 
 current_month <- month(Sys.Date()-75) # Note: This is the less than or equal to so if you want to include up to November, for example, this must say 11.
@@ -21,7 +21,7 @@ current_yyyymm <- format(Sys.Date()-75, "%Y%m") # Note: This must be preceded by
 
 choices <- c("commitments", "disbursements")
 
-retrieval_reqd <- TRUE
+retrieval_reqd <- FALSE
 retrieval_orgs <- c("XM-DAC-41122")
 retrieval_date <- "251021"
 
@@ -112,7 +112,7 @@ for(choice in choices){
   memory.limit(1000000000)
   t <- merge(t,unique(all),by.x="reporting_org_ref",by.y="code") # Merge in name and 'country' title for multiple agencies.
   
-  t <- subset(t,t[[choice]]==1) # Filter by reporting organisations by whether they are included for commitments/disbursements.
+  # t <- subset(t,t[[choice]]==1) # Filter by reporting organisations by whether they are included for commitments/disbursements.
   
   t <- subset(t,t$x_finance_type != "GNI: Gross National Income") # Removing DAC artefacts which are not flows.
   t <- subset(t,t$x_finance_type != 1)

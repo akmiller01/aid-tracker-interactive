@@ -1,53 +1,755 @@
 "","country","org_type","flow_type","transaction_type","year","quarter","month","aggregate_type","oda_oof_other","variable","timeframe","rollingyear","value.x","value.y","difference","abs_difference"
-"3022","African Development Bank Group","African Development Bank Group","Governance and security","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3187.24483498584,-933.745635905814,2253.49919908003,2253.49919908003
-"3026","African Development Bank Group","African Development Bank Group","Governance and security","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,3187.24483498584,-933.745635905814,2253.49919908003,2253.49919908003
-"3232","African Development Bank Group","African Development Bank Group","Governance and security","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3308.13695570994,-1045.79453999514,2262.3424157148,2262.3424157148
-"3236","African Development Bank Group","African Development Bank Group","Governance and security","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,3308.13695570994,-1045.79453999514,2262.3424157148,2262.3424157148
-"5462","African Development Bank Group","African Development Bank Group","Other","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,0,-1205.72443505324,-1205.72443505324,1205.72443505324
-"5466","African Development Bank Group","African Development Bank Group","Other","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,0,-1205.72443505324,-1205.72443505324,1205.72443505324
-"5482","African Development Bank Group","African Development Bank Group","Other","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,61.1383817798355,-1334.32852388998,-1273.19014211014,1273.19014211014
-"5486","African Development Bank Group","African Development Bank Group","Other","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,61.1383817798355,-1334.32852388998,-1273.19014211014,1273.19014211014
-"5542","African Development Bank Group","African Development Bank Group","Other","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,0,-2790.07597659237,-2790.07597659237,2790.07597659237
-"5546","African Development Bank Group","African Development Bank Group","Other","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,0,-2790.07597659237,-2790.07597659237,2790.07597659237
-"5672","African Development Bank Group","African Development Bank Group","Other","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,24.0115837303918,-1156.81334026518,-1132.80175653479,1132.80175653479
-"5676","African Development Bank Group","African Development Bank Group","Other","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,24.0115837303918,-1156.81334026518,-1132.80175653479,1132.80175653479
-"5752","African Development Bank Group","African Development Bank Group","Other","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,6.57941643993582,-2759.57731726349,-2752.99790082355,2752.99790082355
-"5756","African Development Bank Group","African Development Bank Group","Other","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,6.57941643993582,-2759.57731726349,-2752.99790082355,2752.99790082355
-"87362",NA,"Bilateral","Health","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,13364.1957286936,-10672.945651855,2691.2500768386,2691.2500768386
-"87366",NA,"Bilateral","Health","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,13227.751193709,-10536.1690864661,2691.5821072429,2691.5821072429
-"87382",NA,"Bilateral","Health","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,13586.6873998442,-11431.7207460687,2154.9666537755,2154.9666537755
-"87386",NA,"Bilateral","Health","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,13556.4486613332,-11401.4819403639,2154.9667209693,2154.9667209693
-"87442",NA,"Bilateral","Health","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,18906.2374995329,-16023.2404016069,2882.997097926,2882.997097926
-"87446",NA,"Bilateral","Health","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,18857.0199502004,-15974.0227175347,2882.9972326657,2882.9972326657
-"87572",NA,"Bilateral","Health","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,11637.9349479555,-8741.82738568341,2896.10756227209,2896.10756227209
-"87576",NA,"Bilateral","Health","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,11616.7669676327,-8720.65934992765,2896.10761770505,2896.10761770505
-"87592",NA,"Bilateral","Health","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,11435.7679406963,-8957.51193702661,2478.25600366969,2478.25600366969
-"87596",NA,"Bilateral","Health","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,11403.0785403601,-8924.82247496885,2478.25606539125,2478.25606539125
-"87652",NA,"Bilateral","Health","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,14186.0385323367,-12042.9170675202,2143.1214648165,2143.1214648165
-"87656",NA,"Bilateral","Health","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,14148.0308103609,-11992.1467461985,2155.8840641624,2155.8840641624
-"93742",NA,"IFI","Governance and security","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,20498.5474256138,-18245.4824580405,2253.0649675733,2253.0649675733
-"93746",NA,"IFI","Governance and security","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,8590.96969435067,-6337.9046747247,2253.06501962597,2253.06501962597
-"93952",NA,"IFI","Governance and security","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,16919.23005532,-14657.8420589187,2261.3879964013,2261.3879964013
-"93956",NA,"IFI","Governance and security","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,7696.89943232812,-5435.51210513538,2261.38732719274,2261.38732719274
-"96182",NA,"IFI","Other","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,4665.55836201936,-6041.09559781901,-1375.53723579965,1375.53723579965
-"96186",NA,"IFI","Other","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,1667.30660002176,-2992.84322510291,-1325.53662508115,1325.53662508115
-"96202",NA,"IFI","Other","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,6468.80755626157,-7741.75976990527,-1272.9522136437,1272.9522136437
-"96206",NA,"IFI","Other","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,1451.37935533065,-2724.33242471074,-1272.95306938009,1272.95306938009
-"96262",NA,"IFI","Other","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,4317.36890235642,-7106.93253584928,-2789.56363349286,2789.56363349286
-"96266",NA,"IFI","Other","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,922.626064479377,-3712.18956407259,-2789.56349959321,2789.56349959321
-"96392",NA,"IFI","Other","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,2284.23723867648,-3451.01509233582,-1166.77785365934,1166.77785365934
-"96396",NA,"IFI","Other","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,995.589954409683,-2160.20744306213,-1164.61748865245,1164.61748865245
-"96472",NA,"IFI","Other","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,2895.28032597341,-5659.51163265658,-2764.23130668317,2764.23130668317
-"96476",NA,"IFI","Other","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,1149.74482574105,-3911.84332096962,-2762.09849522857,2762.09849522857
-"188162","US","US","Health","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,10862.1487885424,-8381.76811782019,2480.38067072221,2480.38067072221
-"188166","US","US","Health","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,10757.0494362103,-8276.33513155113,2480.71430465917,2480.71430465917
-"188182","US","US","Health","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,10370.2146221098,-8435.71861570463,1934.49600640517,1934.49600640517
-"188186","US","US","Health","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,10365.0543872397,-8430.55836710907,1934.49602013063,1934.49602013063
-"188242","US","US","Health","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,13513.4497544004,-11074.6965581773,2438.7531962231,2438.7531962231
-"188246","US","US","Health","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,13510.2745480888,-11071.5213312346,2438.7532168542,2438.7532168542
-"188372","US","US","Health","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,6742.861314686,-3861.63382114892,2881.22749353708,2881.22749353708
-"188376","US","US","Health","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,6742.861314686,-3861.63382114892,2881.22749353708,2881.22749353708
-"188392","US","US","Health","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,6531.09248026873,-4165.01139092057,2366.08108934816,2366.08108934816
-"188396","US","US","Health","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,6531.09248026873,-4165.01139092057,2366.08108934816,2366.08108934816
-"188452","US","US","Health","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,7779.35435069627,-5595.14609220814,2184.20825848813,2184.20825848813
-"188456","US","US","Health","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,7779.35435069627,-5595.14609220814,2184.20825848813,2184.20825848813
+"852","African Development Bank Group","African Development Bank Group","Business and industry","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1411.811,-1531.544,-119.733,119.733
+"856","African Development Bank Group","African Development Bank Group","Business and industry","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,249.8359,-369.5725,-119.7366,119.7366
+"4262","African Development Bank Group","African Development Bank Group","Infrastructure","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3660.079,-3948.735,-288.656,288.656
+"4266","African Development Bank Group","African Development Bank Group","Infrastructure","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,3077.728,-3366.388,-288.66,288.66
+"36962","European Commission","European Commission","Administrative costs of donors","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,171.7831,0,171.7831,171.7831
+"36966","European Commission","European Commission","Administrative costs of donors","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,171.7831,0,171.7831,171.7831
+"36972","European Commission","European Commission","Administrative costs of donors","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,172.2875,0.9690577,173.2565577,173.2565577
+"36976","European Commission","European Commission","Administrative costs of donors","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,173.1876,0.06798381,173.25558381,173.25558381
+"37022","European Commission","European Commission","Administrative costs of donors","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,232.8708,0,232.8708,232.8708
+"37026","European Commission","European Commission","Administrative costs of donors","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,232.8708,0,232.8708,232.8708
+"37382","European Commission","European Commission","Agriculture and food security","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,910.5342,-25.17556,885.35864,885.35864
+"37386","European Commission","European Commission","Agriculture and food security","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,910.5342,-25.17556,885.35864,885.35864
+"37392","European Commission","European Commission","Agriculture and food security","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,559.1612,-17.85216,541.30904,541.30904
+"37396","European Commission","European Commission","Agriculture and food security","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,559.1612,-17.85216,541.30904,541.30904
+"37442","European Commission","European Commission","Agriculture and food security","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,661.8273,-81.02069,580.80661,580.80661
+"37446","European Commission","European Commission","Agriculture and food security","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,661.8273,-81.02069,580.80661,580.80661
+"37592","European Commission","European Commission","Agriculture and food security","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1024.868,-91.08312,933.78488,933.78488
+"37596","European Commission","European Commission","Agriculture and food security","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1024.867,-91.08312,933.78388,933.78388
+"37602","European Commission","European Commission","Agriculture and food security","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,852.3039,-55.42476,796.87914,796.87914
+"37606","European Commission","European Commission","Agriculture and food security","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,852.3039,-55.42476,796.87914,796.87914
+"37652","European Commission","European Commission","Agriculture and food security","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,860.7816,-63.52135,797.26025,797.26025
+"37656","European Commission","European Commission","Agriculture and food security","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,860.1591,-62.89874,797.26036,797.26036
+"37802","European Commission","European Commission","Business and industry","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,735.5829,-325.1623,410.4206,410.4206
+"37806","European Commission","European Commission","Business and industry","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,685.7076,-325.1623,360.5453,360.5453
+"37812","European Commission","European Commission","Business and industry","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,988.0024,-478.8499,509.1525,509.1525
+"37816","European Commission","European Commission","Business and industry","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,991.5017,-478.8499,512.6518,512.6518
+"37862","European Commission","European Commission","Business and industry","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1191.32,-526.6178,664.7022,664.7022
+"37866","European Commission","European Commission","Business and industry","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1190.295,-526.6136,663.6814,663.6814
+"38012","European Commission","European Commission","Business and industry","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,738.5394,-346.2918,392.2476,392.2476
+"38016","European Commission","European Commission","Business and industry","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,699.1193,-328.9408,370.1785,370.1785
+"38022","European Commission","European Commission","Business and industry","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,690.0384,-424.799,265.2394,265.2394
+"38026","European Commission","European Commission","Business and industry","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,651.5989,-406.1827,245.4162,245.4162
+"38072","European Commission","European Commission","Business and industry","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,679.2813,-356.2738,323.0075,323.0075
+"38076","European Commission","European Commission","Business and industry","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,647.0689,-345.1042,301.9647,301.9647
+"38642","European Commission","European Commission","Education","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1300.41,-702.5717,597.8383,597.8383
+"38646","European Commission","European Commission","Education","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1256.667,-702.5717,554.0953,554.0953
+"38652","European Commission","European Commission","Education","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,469.9883,-131.4624,338.5259,338.5259
+"38656","European Commission","European Commission","Education","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,421.9035,-131.4848,290.4187,290.4187
+"38702","European Commission","European Commission","Education","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,745.006,-280.35,464.656,464.656
+"38706","European Commission","European Commission","Education","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,714.1862,-281.6891,432.4971,432.4971
+"38852","European Commission","European Commission","Education","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,864.4412,-296.7191,567.7221,567.7221
+"38856","European Commission","European Commission","Education","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,813.5586,-295.4237,518.1349,518.1349
+"38862","European Commission","European Commission","Education","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,698.56,-289.4623,409.0977,409.0977
+"38866","European Commission","European Commission","Education","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,655.0916,-288.6138,366.4778,366.4778
+"38912","European Commission","European Commission","Education","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1091.669,-404.5904,687.0786,687.0786
+"38916","European Commission","European Commission","Education","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1043.563,-404.0994,639.4636,639.4636
+"39062","European Commission","European Commission","Environment","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,560.6219,-171.757,388.8649,388.8649
+"39066","European Commission","European Commission","Environment","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,566.7318,-171.757,394.9748,394.9748
+"39072","European Commission","European Commission","Environment","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,368.2542,-25.82761,342.42659,342.42659
+"39076","European Commission","European Commission","Environment","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,368.381,-25.82761,342.55339,342.55339
+"39122","European Commission","European Commission","Environment","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,390.5228,-122.8198,267.703,267.703
+"39126","European Commission","European Commission","Environment","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,390.9138,-122.8198,268.094,268.094
+"39272","European Commission","European Commission","Environment","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,307.6264,-56.03706,251.58934,251.58934
+"39276","European Commission","European Commission","Environment","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,294.3144,-43.78584,250.52856,250.52856
+"39282","European Commission","European Commission","Environment","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,376.9479,-91.37014,285.57776,285.57776
+"39286","European Commission","European Commission","Environment","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,366.7604,-82.11233,284.64807,284.64807
+"39332","European Commission","European Commission","Environment","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,361.0142,-62.47727,298.53693,298.53693
+"39336","European Commission","European Commission","Environment","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,355.522,-57.65578,297.86622,297.86622
+"39482","European Commission","European Commission","General budget support","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,330.6039,-33.38161,297.22229,297.22229
+"39486","European Commission","European Commission","General budget support","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,332.5689,-33.38161,299.18729,299.18729
+"39492","European Commission","European Commission","General budget support","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,310.3718,-166.6748,143.697,143.697
+"39496","European Commission","European Commission","General budget support","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,310.409,-166.6748,143.7342,143.7342
+"39542","European Commission","European Commission","General budget support","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,630.7859,-365.463,265.3229,265.3229
+"39546","European Commission","European Commission","General budget support","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,630.7859,-365.463,265.3229,265.3229
+"39692","European Commission","European Commission","General budget support","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,454.4012,-64.58709,389.81411,389.81411
+"39696","European Commission","European Commission","General budget support","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,454.3507,-64.58709,389.76361,389.76361
+"39702","European Commission","European Commission","General budget support","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,440.8942,-99.75337,341.14083,341.14083
+"39706","European Commission","European Commission","General budget support","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,440.8222,-99.75337,341.06883,341.06883
+"39752","European Commission","European Commission","General budget support","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1083.91,-341.4581,742.4519,742.4519
+"39756","European Commission","European Commission","General budget support","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1083.91,-341.4581,742.4519,742.4519
+"39902","European Commission","European Commission","Governance and security","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2621.654,-1322.896,1298.758,1298.758
+"39906","European Commission","European Commission","Governance and security","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2450.674,-1288.367,1162.307,1162.307
+"39910","European Commission","European Commission","Governance and security","Commitments",2018,NA,NA,"Specific donor","Other flows","Volume","Yearly",NA,170.9796,-34.52936,136.45024,136.45024
+"39912","European Commission","European Commission","Governance and security","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3359.579,-1262.541,2097.038,2097.038
+"39916","European Commission","European Commission","Governance and security","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2465.094,-1266.301,1198.793,1198.793
+"39920","European Commission","European Commission","Governance and security","Commitments",2019,NA,NA,"Specific donor","Other flows","Volume","Yearly",NA,894.4859,3.760683,898.246583,898.246583
+"39962","European Commission","European Commission","Governance and security","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2321.105,-1281.355,1039.75,1039.75
+"39966","European Commission","European Commission","Governance and security","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2220.209,-1292.945,927.264,927.264
+"39970","European Commission","European Commission","Governance and security","Commitments",2020,NA,NA,"Specific donor","Other flows","Volume","Yearly",NA,100.8967,11.58924,112.48594,112.48594
+"40112","European Commission","European Commission","Governance and security","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3009.086,-1340.594,1668.492,1668.492
+"40116","European Commission","European Commission","Governance and security","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2693.957,-1311.1,1382.857,1382.857
+"40120","European Commission","European Commission","Governance and security","Disbursements",2018,NA,NA,"Specific donor","Other flows","Volume","Yearly",NA,315.1288,-29.49378,285.63502,285.63502
+"40122","European Commission","European Commission","Governance and security","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2536.245,-1182.456,1353.789,1353.789
+"40126","European Commission","European Commission","Governance and security","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2267.532,-1163.184,1104.348,1104.348
+"40130","European Commission","European Commission","Governance and security","Disbursements",2019,NA,NA,"Specific donor","Other flows","Volume","Yearly",NA,268.7133,-19.27145,249.44185,249.44185
+"40172","European Commission","European Commission","Governance and security","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3058.469,-1443.403,1615.066,1615.066
+"40176","European Commission","European Commission","Governance and security","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2736.24,-1424.935,1311.305,1311.305
+"40180","European Commission","European Commission","Governance and security","Disbursements",2020,NA,NA,"Specific donor","Other flows","Volume","Yearly",NA,322.2282,-18.46829,303.75991,303.75991
+"40322","European Commission","European Commission","Health","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,683.7931,-13.06292,670.73018,670.73018
+"40326","European Commission","European Commission","Health","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,683.7931,-13.06292,670.73018,670.73018
+"40332","European Commission","European Commission","Health","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1055.678,-407.2861,648.3919,648.3919
+"40336","European Commission","European Commission","Health","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1061.16,-412.7723,648.3877,648.3877
+"40382","European Commission","European Commission","Health","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,867.7318,-432.1184,435.6134,435.6134
+"40386","European Commission","European Commission","Health","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,867.7318,-432.1184,435.6134,435.6134
+"40532","European Commission","European Commission","Health","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,742.2051,-138.3515,603.8536,603.8536
+"40536","European Commission","European Commission","Health","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,742.2051,-138.3515,603.8536,603.8536
+"40542","European Commission","European Commission","Health","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,802.839,-114.0632,688.7758,688.7758
+"40546","European Commission","European Commission","Health","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,798.696,-109.9198,688.7762,688.7762
+"40592","European Commission","European Commission","Health","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1013.089,-405.019,608.07,608.07
+"40596","European Commission","European Commission","Health","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1012.73,-404.682,608.048,608.048
+"40802","European Commission","European Commission","Humanitarian","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1634.511,-1521.588,112.923,112.923
+"40806","European Commission","European Commission","Humanitarian","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1634.511,-1521.588,112.923,112.923
+"41012","European Commission","European Commission","Humanitarian","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2185.511,-2077.307,108.204,108.204
+"41016","European Commission","European Commission","Humanitarian","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2185.511,-2077.307,108.204,108.204
+"41162","European Commission","European Commission","Infrastructure","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1376.682,-548.4239,828.2581,828.2581
+"41166","European Commission","European Commission","Infrastructure","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1366.048,-548.4239,817.6241,817.6241
+"41172","European Commission","European Commission","Infrastructure","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1186.05,-522.653,663.397,663.397
+"41176","European Commission","European Commission","Infrastructure","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1186.651,-522.653,663.998,663.998
+"41222","European Commission","European Commission","Infrastructure","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,925.6417,-298.7695,626.8722,626.8722
+"41226","European Commission","European Commission","Infrastructure","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,926.5561,-298.9814,627.5747,627.5747
+"41372","European Commission","European Commission","Infrastructure","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1364.872,-391.3562,973.5158,973.5158
+"41376","European Commission","European Commission","Infrastructure","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1348.44,-379.3852,969.0548,969.0548
+"41382","European Commission","European Commission","Infrastructure","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,937.8553,-261.1061,676.7492,676.7492
+"41386","European Commission","European Commission","Infrastructure","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,916.5414,-245.6623,670.8791,670.8791
+"41432","European Commission","European Commission","Infrastructure","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,956.5612,-321.4855,635.0757,635.0757
+"41436","European Commission","European Commission","Infrastructure","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,931.0767,-307.7813,623.2954,623.2954
+"42002","European Commission","European Commission","Other social services","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,790.5713,-382.9793,407.592,407.592
+"42006","European Commission","European Commission","Other social services","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,790.5713,-382.9793,407.592,407.592
+"42012","European Commission","European Commission","Other social services","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1242.435,-977.7701,264.6649,264.6649
+"42016","European Commission","European Commission","Other social services","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1242.435,-977.7701,264.6649,264.6649
+"42062","European Commission","European Commission","Other social services","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,555.2237,-175.1987,380.025,380.025
+"42066","European Commission","European Commission","Other social services","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,550.1806,-175.1987,374.9819,374.9819
+"42212","European Commission","European Commission","Other social services","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,474.2291,-219.0467,255.1824,255.1824
+"42216","European Commission","European Commission","Other social services","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,472.7275,-218.0176,254.7099,254.7099
+"42222","European Commission","European Commission","Other social services","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,461.6237,-240.8655,220.7582,220.7582
+"42226","European Commission","European Commission","Other social services","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,444.5159,-239.7904,204.7255,204.7255
+"42272","European Commission","European Commission","Other social services","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,864.0325,-444.8922,419.1403,419.1403
+"42276","European Commission","European Commission","Other social services","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,851.8145,-442.8419,408.9726,408.9726
+"42422","European Commission","European Commission","Other","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1207.188,-806.1623,401.0257,401.0257
+"42426","European Commission","European Commission","Other","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1210.73,-804.918,405.812,405.812
+"42432","European Commission","European Commission","Other","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,663.8015,-329.2491,334.5524,334.5524
+"42436","European Commission","European Commission","Other","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,667.4992,-340.1919,327.3073,327.3073
+"42482","European Commission","European Commission","Other","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,704.7359,-385.3588,319.3771,319.3771
+"42486","European Commission","European Commission","Other","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,698.7317,-378.4947,320.237,320.237
+"42632","European Commission","European Commission","Other","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,592.6101,-295.458,297.1521,297.1521
+"42636","European Commission","European Commission","Other","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,577.0493,-280.7836,296.2657,296.2657
+"42642","European Commission","European Commission","Other","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,880.1421,-507.4228,372.7193,372.7193
+"42646","European Commission","European Commission","Other","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,860.1328,-492.8145,367.3183,367.3183
+"42692","European Commission","European Commission","Other","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,657.3362,-325.8814,331.4548,331.4548
+"42696","European Commission","European Commission","Other","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,643.4389,-313.5156,329.9233,329.9233
+"43262","European Commission","European Commission","Water and sanitation","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,392.426,-160.0154,232.4106,232.4106
+"43266","European Commission","European Commission","Water and sanitation","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,394.0787,-160.0154,234.0633,234.0633
+"43272","European Commission","European Commission","Water and sanitation","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,820.1553,-564.7243,255.431,255.431
+"43276","European Commission","European Commission","Water and sanitation","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,820.2344,-564.8034,255.431,255.431
+"43472","European Commission","European Commission","Water and sanitation","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,388.1277,-117.3666,270.7611,270.7611
+"43476","European Commission","European Commission","Water and sanitation","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,379.7622,-117.3666,262.3956,262.3956
+"43482","European Commission","European Commission","Water and sanitation","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,342.2433,-124.2161,218.0272,218.0272
+"43486","European Commission","European Commission","Water and sanitation","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,334.8286,-123.3735,211.4551,211.4551
+"43532","European Commission","European Commission","Water and sanitation","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,359.4279,-136.4622,222.9657,222.9657
+"43536","European Commission","European Commission","Water and sanitation","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,354.2236,-135.5384,218.6852,218.6852
+"47462","Germany","Germany","Agriculture and food security","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1168.015,-1326.416,-158.401,158.401
+"47466","Germany","Germany","Agriculture and food security","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1168.015,-1326.416,-158.401,158.401
+"47472","Germany","Germany","Agriculture and food security","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1466.881,-1742.261,-275.38,275.38
+"47476","Germany","Germany","Agriculture and food security","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1466.881,-1742.261,-275.38,275.38
+"47522","Germany","Germany","Agriculture and food security","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,916.3104,-1273.903,-357.5926,357.5926
+"47526","Germany","Germany","Agriculture and food security","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,916.3104,-1273.903,-357.5926,357.5926
+"47882","Germany","Germany","Business and industry","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,390.3944,-777.6624,-387.268,387.268
+"47886","Germany","Germany","Business and industry","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,390.3944,-777.6624,-387.268,387.268
+"47892","Germany","Germany","Business and industry","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,766.0387,-1288.29,-522.2513,522.2513
+"47896","Germany","Germany","Business and industry","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,766.0387,-1288.29,-522.2513,522.2513
+"47942","Germany","Germany","Business and industry","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1886.703,-2142.242,-255.539,255.539
+"47946","Germany","Germany","Business and industry","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1886.703,-2142.242,-255.539,255.539
+"48722","Germany","Germany","Education","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,606.7231,-946.429,-339.7059,339.7059
+"48726","Germany","Germany","Education","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,606.7231,-946.429,-339.7059,339.7059
+"48732","Germany","Germany","Education","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,818.6476,-1090.574,-271.9264,271.9264
+"48736","Germany","Germany","Education","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,818.6476,-1090.574,-271.9264,271.9264
+"48782","Germany","Germany","Education","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,832.5924,-963.6344,-131.042,131.042
+"48786","Germany","Germany","Education","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,832.5924,-963.6344,-131.042,131.042
+"49142","Germany","Germany","Environment","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,480.5428,-601.3978,-120.855,120.855
+"49146","Germany","Germany","Environment","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,480.5428,-601.3978,-120.855,120.855
+"49152","Germany","Germany","Environment","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,510.2025,-714.4065,-204.204,204.204
+"49156","Germany","Germany","Environment","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,510.2025,-714.4065,-204.204,204.204
+"49202","Germany","Germany","Environment","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,593.0249,-749.3062,-156.2813,156.2813
+"49206","Germany","Germany","Environment","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,593.0249,-749.3062,-156.2813,156.2813
+"49982","Germany","Germany","Governance and security","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1593.341,-2212.51,-619.169,619.169
+"49986","Germany","Germany","Governance and security","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1593.341,-2212.51,-619.169,619.169
+"49992","Germany","Germany","Governance and security","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1408.715,-1972.383,-563.668,563.668
+"49996","Germany","Germany","Governance and security","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1408.715,-1972.383,-563.668,563.668
+"50042","Germany","Germany","Governance and security","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1913.085,-2313.188,-400.103,400.103
+"50046","Germany","Germany","Governance and security","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1913.085,-2313.188,-400.103,400.103
+"50402","Germany","Germany","Health","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,394.9335,-544.8415,-149.908,149.908
+"50406","Germany","Germany","Health","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,394.9335,-544.8415,-149.908,149.908
+"50412","Germany","Germany","Health","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,564.5545,-709.3656,-144.8111,144.8111
+"50416","Germany","Germany","Health","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,564.5545,-709.3656,-144.8111,144.8111
+"50462","Germany","Germany","Health","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1349.349,-1461.073,-111.724,111.724
+"50466","Germany","Germany","Health","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1349.349,-1461.073,-111.724,111.724
+"51242","Germany","Germany","Infrastructure","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2656.172,-2758.844,-102.672,102.672
+"51246","Germany","Germany","Infrastructure","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2656.172,-2758.844,-102.672,102.672
+"51252","Germany","Germany","Infrastructure","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2474.015,-2799.545,-325.53,325.53
+"51256","Germany","Germany","Infrastructure","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2474.015,-2799.545,-325.53,325.53
+"52082","Germany","Germany","Other social services","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,446.999,-627.9783,-180.9793,180.9793
+"52086","Germany","Germany","Other social services","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,446.999,-627.9783,-180.9793,180.9793
+"52092","Germany","Germany","Other social services","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,645.6534,-896.9745,-251.3211,251.3211
+"52096","Germany","Germany","Other social services","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,645.6534,-896.9745,-251.3211,251.3211
+"52502","Germany","Germany","Other","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,825.4618,-976.234,-150.7722,150.7722
+"52506","Germany","Germany","Other","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,825.4618,-976.234,-150.7722,150.7722
+"52512","Germany","Germany","Other","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,943.843,-1284.386,-340.543,340.543
+"52516","Germany","Germany","Other","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,943.843,-1284.386,-340.543,340.543
+"52562","Germany","Germany","Other","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1069.46,-1307.164,-237.704,237.704
+"52566","Germany","Germany","Other","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1069.46,-1307.164,-237.704,237.704
+"53352","Germany","Germany","Water and sanitation","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,685.3469,-845.146,-159.7991,159.7991
+"53356","Germany","Germany","Water and sanitation","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,685.3469,-845.146,-159.7991,159.7991
+"53402","Germany","Germany","Water and sanitation","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,828.5239,-1003.782,-175.2581,175.2581
+"53406","Germany","Germany","Water and sanitation","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,828.5239,-1003.782,-175.2581,175.2581
+"61382","Inter-American Development Bank","Inter-American Development Bank","Business and industry","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2976.014,-2775.983,200.031,200.031
+"61388","Inter-American Development Bank","Inter-American Development Bank","Business and industry","Commitments",2020,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,2668.981,-2468.946,200.035,200.035
+"62582","Inter-American Development Bank","Inter-American Development Bank","Environment","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,144.3882,-44.38118,100.00702,100.00702
+"62588","Inter-American Development Bank","Inter-American Development Bank","Environment","Commitments",2018,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,144.3882,-44.38118,100.00702,100.00702
+"64692","Inter-American Development Bank","Inter-American Development Bank","Infrastructure","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2184.906,-1968.082,216.824,216.824
+"64698","Inter-American Development Bank","Inter-American Development Bank","Infrastructure","Commitments",2019,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,2154.9,-1938.076,216.824,216.824
+"77282",NA,"Bilateral","Administrative costs of donors","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,3381.84,-3094.783,287.057,287.057
+"77284",NA,"Bilateral","Administrative costs of donors","Commitments",2018,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,220.8516,0,220.8516,220.8516
+"77294",NA,"Bilateral","Administrative costs of donors","Commitments",2019,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,201.1605,0,201.1605,201.1605
+"77296",NA,"Bilateral","Administrative costs of donors","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,3359.481,-3581.025,-221.544,221.544
+"77344",NA,"Bilateral","Administrative costs of donors","Commitments",2020,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,159.8645,0,159.8645,159.8645
+"77346",NA,"Bilateral","Administrative costs of donors","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,3452.673,-3663.245,-210.572,210.572
+"77492",NA,"Bilateral","Administrative costs of donors","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,3814.848,-3576.671,238.177,238.177
+"77494",NA,"Bilateral","Administrative costs of donors","Disbursements",2018,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,219.1005,0,219.1005,219.1005
+"77502",NA,"Bilateral","Administrative costs of donors","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,4284.385,-4060.78,223.605,223.605
+"77504",NA,"Bilateral","Administrative costs of donors","Disbursements",2019,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,202.8101,0,202.8101,202.8101
+"77552",NA,"Bilateral","Administrative costs of donors","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,4208.695,-3973.878,234.817,234.817
+"77554",NA,"Bilateral","Administrative costs of donors","Disbursements",2020,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,211.7407,0,211.7407,211.7407
+"77702",NA,"Bilateral","Agriculture and food security","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,5652.264,-5121.239,531.025000000001,531.025000000001
+"77704",NA,"Bilateral","Agriculture and food security","Commitments",2018,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,216.5752,0,216.5752,216.5752
+"77706",NA,"Bilateral","Agriculture and food security","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,5429.351,-5108.794,320.557,320.557
+"77912",NA,"Bilateral","Agriculture and food security","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,4689.94,-3928.118,761.822,761.822
+"77916",NA,"Bilateral","Agriculture and food security","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,4663.06,-3913.953,749.107,749.107
+"77922",NA,"Bilateral","Agriculture and food security","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,3968.147,-3319.69,648.457,648.457
+"77926",NA,"Bilateral","Agriculture and food security","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,3917.864,-3296.825,621.039,621.039
+"77972",NA,"Bilateral","Agriculture and food security","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,3953.374,-3201.931,751.443,751.443
+"77976",NA,"Bilateral","Agriculture and food security","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,3915.698,-3186.112,729.586,729.586
+"78122",NA,"Bilateral","Business and industry","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,2779.249,-3843.287,-1064.038,1064.038
+"78126",NA,"Bilateral","Business and industry","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,2635.792,-2798.301,-162.509,162.509
+"78128",NA,"Bilateral","Business and industry","Commitments",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,85.17245,-1046.537,-961.36455,961.36455
+"78132",NA,"Bilateral","Business and industry","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,3556.008,-7228.421,-3672.413,3672.413
+"78136",NA,"Bilateral","Business and industry","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,3409.559,-3747.529,-337.97,337.97
+"78138",NA,"Bilateral","Business and industry","Commitments",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,153.2502,-3478.048,-3324.7978,3324.7978
+"78182",NA,"Bilateral","Business and industry","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,4943.149,-7656.16,-2713.011,2713.011
+"78186",NA,"Bilateral","Business and industry","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,4756.053,-4344.945,411.108,411.108
+"78188",NA,"Bilateral","Business and industry","Commitments",2020,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,176.4732,-3304.192,-3127.7188,3127.7188
+"78332",NA,"Bilateral","Business and industry","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,4479.498,-4273.125,206.373,206.373
+"78336",NA,"Bilateral","Business and industry","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,4285.36,-4106.221,179.139,179.139
+"78342",NA,"Bilateral","Business and industry","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,4800.82,-4656.358,144.462,144.462
+"78346",NA,"Bilateral","Business and industry","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,4615.901,-4514.262,101.639,101.639
+"78392",NA,"Bilateral","Business and industry","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,3912.028,-3551.353,360.675,360.675
+"78396",NA,"Bilateral","Business and industry","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,3841.006,-3537.451,303.555,303.555
+"78962",NA,"Bilateral","Education","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,4165.315,-4317.724,-152.409000000001,152.409000000001
+"78966",NA,"Bilateral","Education","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,4124.231,-4310.157,-185.926,185.926
+"78972",NA,"Bilateral","Education","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,3179.956,-3404.557,-224.601,224.601
+"78974",NA,"Bilateral","Education","Commitments",2019,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,137.6834,-0.02378377,137.65961623,137.65961623
+"78976",NA,"Bilateral","Education","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,2994.426,-3398.296,-403.87,403.87
+"79022",NA,"Bilateral","Education","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,3241.947,-3683.84,-441.893,441.893
+"79026",NA,"Bilateral","Education","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,3200.316,-3684.34,-484.024,484.024
+"79172",NA,"Bilateral","Education","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,4282.984,-3877.87,405.114,405.114
+"79176",NA,"Bilateral","Education","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,4171.183,-3875.019,296.164,296.164
+"79182",NA,"Bilateral","Education","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,4188.4,-3901.396,287.003999999999,287.003999999999
+"79186",NA,"Bilateral","Education","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,4062.335,-3900.56,161.775,161.775
+"79232",NA,"Bilateral","Education","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,4203.081,-3569.815,633.266,633.266
+"79236",NA,"Bilateral","Education","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,4081.309,-3568.933,512.376,512.376
+"79382",NA,"Bilateral","Environment","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,2343.432,-2484.519,-141.087,141.087
+"79392",NA,"Bilateral","Environment","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,2162.79,-2265.01,-102.22,102.22
+"79442",NA,"Bilateral","Environment","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,2266.071,-2540.584,-274.513,274.513
+"79446",NA,"Bilateral","Environment","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,2266.443,-2537.192,-270.749,270.749
+"79592",NA,"Bilateral","Environment","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,2136.046,-1912.742,223.304,223.304
+"79596",NA,"Bilateral","Environment","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,2121.772,-1899.482,222.29,222.29
+"79602",NA,"Bilateral","Environment","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,2304.402,-2057.358,247.044,247.044
+"79606",NA,"Bilateral","Environment","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,2292.839,-2046.7,246.139,246.139
+"79652",NA,"Bilateral","Environment","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,2127.778,-1839.74,288.038,288.038
+"79656",NA,"Bilateral","Environment","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,2121.496,-1834.462,287.034,287.034
+"80012",NA,"Bilateral","General budget support","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,548.7153,-167.6634,381.0519,381.0519
+"80016",NA,"Bilateral","General budget support","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,548.6648,-167.6634,381.0014,381.0014
+"80022",NA,"Bilateral","General budget support","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,507.8008,-173.639,334.1618,334.1618
+"80026",NA,"Bilateral","General budget support","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,507.7288,-173.639,334.0898,334.0898
+"80072",NA,"Bilateral","General budget support","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,1196.41,-459.8061,736.6039,736.6039
+"80076",NA,"Bilateral","General budget support","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,1196.41,-459.8061,736.6039,736.6039
+"80222",NA,"Bilateral","Governance and security","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,13030.51,-22221.48,-9190.97,9190.97
+"80226",NA,"Bilateral","Governance and security","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,12780.26,-16180.61,-3400.35,3400.35
+"80230",NA,"Bilateral","Governance and security","Commitments",2018,NA,NA,"Organisation type","Other flows","Volume","Yearly",NA,171.4217,-5956.283,-5784.8613,5784.8613
+"80232",NA,"Bilateral","Governance and security","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,11585.45,-13655.36,-2069.91,2069.91
+"80236",NA,"Bilateral","Governance and security","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,10643.53,-13611.03,-2967.5,2967.5
+"80240",NA,"Bilateral","Governance and security","Commitments",2019,NA,NA,"Organisation type","Other flows","Volume","Yearly",NA,895.5034,2.544018,898.047418,898.047418
+"80282",NA,"Bilateral","Governance and security","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,11540.82,-15001.79,-3460.97,3460.97
+"80286",NA,"Bilateral","Governance and security","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,11438.28,-15010.19,-3571.91,3571.91
+"80290",NA,"Bilateral","Governance and security","Commitments",2020,NA,NA,"Organisation type","Other flows","Volume","Yearly",NA,101.9694,10.66367,112.63307,112.63307
+"80432",NA,"Bilateral","Governance and security","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,12175.43,-10931.67,1243.76,1243.76
+"80436",NA,"Bilateral","Governance and security","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,11780.45,-10841.4,939.050000000001,939.050000000001
+"80440",NA,"Bilateral","Governance and security","Disbursements",2018,NA,NA,"Organisation type","Other flows","Volume","Yearly",NA,315.4257,-29.83308,285.59262,285.59262
+"80442",NA,"Bilateral","Governance and security","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,12821.92,-11865.11,956.809999999999,956.809999999999
+"80446",NA,"Bilateral","Governance and security","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,12497.51,-11792.21,705.300000000001,705.300000000001
+"80450",NA,"Bilateral","Governance and security","Disbursements",2019,NA,NA,"Organisation type","Other flows","Volume","Yearly",NA,269.4786,-20.07516,249.40344,249.40344
+"80492",NA,"Bilateral","Governance and security","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,12585.55,-11252.48,1333.07,1333.07
+"80496",NA,"Bilateral","Governance and security","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,12247.94,-11218.86,1029.08,1029.08
+"80500",NA,"Bilateral","Governance and security","Disbursements",2020,NA,NA,"Organisation type","Other flows","Volume","Yearly",NA,322.8449,-19.108,303.7369,303.7369
+"80642",NA,"Bilateral","Health","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,9461.427,-13364.2,-3902.773,3902.773
+"80646",NA,"Bilateral","Health","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,9439.72,-13227.75,-3788.03,3788.03
+"80648",NA,"Bilateral","Health","Commitments",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,30.80588,-135.8983,-105.09242,105.09242
+"80652",NA,"Bilateral","Health","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,9363.94,-13586.69,-4222.75,4222.75
+"80656",NA,"Bilateral","Health","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,9340.051,-13556.45,-4216.399,4216.399
+"80702",NA,"Bilateral","Health","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,14726.07,-18906.24,-4180.17,4180.17
+"80706",NA,"Bilateral","Health","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,14680,-18857.02,-4177.02,4177.02
+"80852",NA,"Bilateral","Health","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,11596.94,-11298.6,298.34,298.34
+"80856",NA,"Bilateral","Health","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,11567.47,-11277.43,290.039999999999,290.039999999999
+"80862",NA,"Bilateral","Health","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,11470.59,-11055.49,415.1,415.1
+"80866",NA,"Bilateral","Health","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,11437.96,-11022.8,415.16,415.16
+"80912",NA,"Bilateral","Health","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,14049.8,-13692.55,357.25,357.25
+"80916",NA,"Bilateral","Health","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,14011.57,-13654.54,357.029999999999,357.029999999999
+"81062",NA,"Bilateral","Humanitarian","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,13441.72,-16880.21,-3438.49,3438.49
+"81066",NA,"Bilateral","Humanitarian","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,13441.89,-16880.07,-3438.18,3438.18
+"81072",NA,"Bilateral","Humanitarian","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,12376.73,-15863.69,-3486.96,3486.96
+"81076",NA,"Bilateral","Humanitarian","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,12365.91,-15862.91,-3497,3497
+"81122",NA,"Bilateral","Humanitarian","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,10749.73,-14350.87,-3601.14,3601.14
+"81126",NA,"Bilateral","Humanitarian","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,10749.63,-14350.33,-3600.7,3600.7
+"81272",NA,"Bilateral","Humanitarian","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,13275.34,-13505.21,-229.869999999999,229.869999999999
+"81276",NA,"Bilateral","Humanitarian","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,13276.27,-13504.89,-228.619999999999,228.619999999999
+"81282",NA,"Bilateral","Humanitarian","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,15295.28,-15488.6,-193.32,193.32
+"81286",NA,"Bilateral","Humanitarian","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,15294.49,-15487.68,-193.190000000001,193.190000000001
+"81482",NA,"Bilateral","Infrastructure","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,5168.204,-4899.189,269.014999999999,269.014999999999
+"81484",NA,"Bilateral","Infrastructure","Commitments",2018,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,133.3731,0,133.3731,133.3731
+"81486",NA,"Bilateral","Infrastructure","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,4924.845,-4291.931,632.914000000001,632.914000000001
+"81488",NA,"Bilateral","Infrastructure","Commitments",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,99.43268,-607.1129,-507.68022,507.68022
+"81492",NA,"Bilateral","Infrastructure","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,5547.62,-5877.33,-329.71,329.71
+"81494",NA,"Bilateral","Infrastructure","Commitments",2019,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,279.8876,0,279.8876,279.8876
+"81496",NA,"Bilateral","Infrastructure","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,5185.756,-5021.597,164.159000000001,164.159000000001
+"81498",NA,"Bilateral","Infrastructure","Commitments",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,81.83789,-854.9511,-773.11321,773.11321
+"81542",NA,"Bilateral","Infrastructure","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,2958.722,-3793.753,-835.031,835.031
+"81544",NA,"Bilateral","Infrastructure","Commitments",2020,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,-141.033,-0.02795702,-141.06095702,141.06095702
+"81546",NA,"Bilateral","Infrastructure","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,3046.39,-2621.033,425.357,425.357
+"81548",NA,"Bilateral","Infrastructure","Commitments",2020,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,44.3117,-1163.141,-1118.8293,1118.8293
+"81692",NA,"Bilateral","Infrastructure","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,3412.725,-2452.079,960.646,960.646
+"81694",NA,"Bilateral","Infrastructure","Disbursements",2018,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,184.3125,0,184.3125,184.3125
+"81696",NA,"Bilateral","Infrastructure","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,3169.65,-2397.794,771.856,771.856
+"81702",NA,"Bilateral","Infrastructure","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,3297.926,-2744.442,553.484,553.484
+"81704",NA,"Bilateral","Infrastructure","Disbursements",2019,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,114.0286,0,114.0286,114.0286
+"81706",NA,"Bilateral","Infrastructure","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,3113.633,-2680.045,433.588,433.588
+"81752",NA,"Bilateral","Infrastructure","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,2772.808,-2086.569,686.239,686.239
+"81754",NA,"Bilateral","Infrastructure","Disbursements",2020,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,205.342,0,205.342,205.342
+"81756",NA,"Bilateral","Infrastructure","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,2465.542,-1996.417,469.125,469.125
+"82332",NA,"Bilateral","Other social services","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,2773.207,-3019.913,-246.706,246.706
+"82336",NA,"Bilateral","Other social services","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,2768.96,-2995.563,-226.603,226.603
+"82532",NA,"Bilateral","Other social services","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,1793.4,-1608.896,184.504,184.504
+"82536",NA,"Bilateral","Other social services","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,1789.209,-1604.94,184.269,184.269
+"82542",NA,"Bilateral","Other social services","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,1569.52,-1419.581,149.939,149.939
+"82546",NA,"Bilateral","Other social services","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,1548.13,-1413.848,134.282,134.282
+"82592",NA,"Bilateral","Other social services","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,2119.583,-1741.819,377.764,377.764
+"82596",NA,"Bilateral","Other social services","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,2103.286,-1735.31,367.976,367.976
+"82742",NA,"Bilateral","Other","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,11968.51,-25795.53,-13827.02,13827.02
+"82746",NA,"Bilateral","Other","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,11970.04,-17142.37,-5172.33,5172.33
+"82748",NA,"Bilateral","Other","Commitments",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,1.447312,-899.4304,-897.983088,897.983088
+"82750",NA,"Bilateral","Other","Commitments",2018,NA,NA,"Organisation type","Other flows","Volume","Yearly",NA,-1.858434,-7753.733,-7755.591434,7755.591434
+"82752",NA,"Bilateral","Other","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,7339.005,-17505.5,-10166.495,10166.495
+"82756",NA,"Bilateral","Other","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,7269.35,-10738.63,-3469.28,3469.28
+"82758",NA,"Bilateral","Other","Commitments",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,0,-6771.666,-6771.666,6771.666
+"82802",NA,"Bilateral","Other","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,13553.17,-19869.42,-6316.25,6316.25
+"82806",NA,"Bilateral","Other","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,13318.02,-19655.85,-6337.83,6337.83
+"82952",NA,"Bilateral","Other","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,17024.38,-17362.82,-338.439999999999,338.439999999999
+"82954",NA,"Bilateral","Other","Disbursements",2018,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,126.6766,-3.415596,123.261004,123.261004
+"82956",NA,"Bilateral","Other","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,16867.72,-17331.19,-463.469999999998,463.469999999998
+"82962",NA,"Bilateral","Other","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,17051.37,-17309.05,-257.68,257.68
+"82966",NA,"Bilateral","Other","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,16949.95,-17290.45,-340.5,340.5
+"83012",NA,"Bilateral","Other","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,19031.84,-18776.37,255.470000000001,255.470000000001
+"83016",NA,"Bilateral","Other","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,18772.3,-18593.13,179.169999999998,179.169999999998
+"83372",NA,"Bilateral","Refugees in donor countries","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,1618.444,-1331.425,287.019,287.019
+"83376",NA,"Bilateral","Refugees in donor countries","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,1618.444,-1331.425,287.019,287.019
+"83382",NA,"Bilateral","Refugees in donor countries","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,1212.131,-783.6885,428.4425,428.4425
+"83386",NA,"Bilateral","Refugees in donor countries","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,1212.131,-783.6885,428.4425,428.4425
+"83582",NA,"Bilateral","Water and sanitation","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,2872.319,-2761.786,110.533,110.533
+"83586",NA,"Bilateral","Water and sanitation","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,2834.162,-2717.495,116.667,116.667
+"83596",NA,"Bilateral","Water and sanitation","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,2361.151,-2249.016,112.135,112.135
+"83642",NA,"Bilateral","Water and sanitation","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,1715.054,-1945.824,-230.77,230.77
+"83646",NA,"Bilateral","Water and sanitation","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,1707.502,-1945.518,-238.016,238.016
+"83792",NA,"Bilateral","Water and sanitation","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,1852.924,-1610.974,241.95,241.95
+"83796",NA,"Bilateral","Water and sanitation","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,1739.503,-1589.286,150.217,150.217
+"83802",NA,"Bilateral","Water and sanitation","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,1565.339,-1404.517,160.822,160.822
+"83806",NA,"Bilateral","Water and sanitation","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,1492.829,-1386.776,106.053,106.053
+"83852",NA,"Bilateral","Water and sanitation","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,1483.002,-1287.949,195.053,195.053
+"83856",NA,"Bilateral","Water and sanitation","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,1437.567,-1265.018,172.549,172.549
+"84482",NA,"IFI","Agriculture and food security","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,6469.214,-6923.803,-454.589,454.589
+"84486",NA,"IFI","Agriculture and food security","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,3249.594,-3619.183,-369.589,369.589
+"84692",NA,"IFI","Agriculture and food security","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,4602.588,-5055.024,-452.436000000001,452.436000000001
+"84696",NA,"IFI","Agriculture and food security","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,2569.739,-2935.181,-365.442,365.442
+"84842",NA,"IFI","Business and industry","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,10982.7,-11358.92,-376.219999999999,376.219999999999
+"84846",NA,"IFI","Business and industry","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,2755.345,-2909.559,-154.214,154.214
+"84848",NA,"IFI","Business and industry","Commitments",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,5562.494,-5784.496,-222.002,222.002
+"84852",NA,"IFI","Business and industry","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,11386.25,-12214.09,-827.84,827.84
+"84856",NA,"IFI","Business and industry","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,2006.149,-2234.864,-228.715,228.715
+"84858",NA,"IFI","Business and industry","Commitments",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,5723.871,-6323.007,-599.136,599.136
+"84902",NA,"IFI","Business and industry","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,17430.11,-17885.1,-454.989999999998,454.989999999998
+"84906",NA,"IFI","Business and industry","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,3549.186,-4067.183,-517.997,517.997
+"85052",NA,"IFI","Business and industry","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,6976.703,-7700.318,-723.615,723.615
+"85058",NA,"IFI","Business and industry","Disbursements",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,5047.386,-5694.901,-647.514999999999,647.514999999999
+"85062",NA,"IFI","Business and industry","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,7644.884,-8130.114,-485.23,485.23
+"85066",NA,"IFI","Business and industry","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,2147.357,-2279.21,-131.853,131.853
+"85068",NA,"IFI","Business and industry","Disbursements",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,5455.036,-5808.413,-353.376999999999,353.376999999999
+"85112",NA,"IFI","Business and industry","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,11304.82,-12050.45,-745.630000000001,745.630000000001
+"85116",NA,"IFI","Business and industry","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,2200.259,-2827.34,-627.081,627.081
+"85118",NA,"IFI","Business and industry","Disbursements",2020,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,8829.735,-8948.291,-118.555999999999,118.555999999999
+"86102",NA,"IFI","Environment","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,598.0827,-498.0808,100.0019,100.0019
+"86108",NA,"IFI","Environment","Commitments",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,170.3326,-70.33087,100.00173,100.00173
+"86162",NA,"IFI","Environment","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,862.3744,-1003.832,-141.4576,141.4576
+"86168",NA,"IFI","Environment","Commitments",2020,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,464.6183,-596.6205,-132.0022,132.0022
+"86312",NA,"IFI","Environment","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,342.6643,-458.6018,-115.9375,115.9375
+"86318",NA,"IFI","Environment","Disbursements",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,136.5422,-246.5459,-110.0037,110.0037
+"86942",NA,"IFI","Governance and security","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,10209.42,-10501.33,-291.91,291.91
+"86946",NA,"IFI","Governance and security","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,4265.957,-4451.876,-185.919,185.919
+"86948",NA,"IFI","Governance and security","Commitments",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,5813.457,-5919.457,-106,106
+"86952",NA,"IFI","Governance and security","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,10419.48,-12153.41,-1733.93,1733.93
+"86956",NA,"IFI","Governance and security","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,2793.539,-3052.906,-259.367,259.367
+"86958",NA,"IFI","Governance and security","Commitments",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,7585.942,-9060.5,-1474.558,1474.558
+"87002",NA,"IFI","Governance and security","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,19216.73,-20498.55,-1281.82,1281.82
+"87006",NA,"IFI","Governance and security","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,7558.492,-8590.97,-1032.478,1032.478
+"87008",NA,"IFI","Governance and security","Commitments",2020,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,11438.23,-11687.57,-249.34,249.34
+"87152",NA,"IFI","Governance and security","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,7740.214,-8532.09,-791.876,791.876
+"87156",NA,"IFI","Governance and security","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,3121.046,-3297.225,-176.179,176.179
+"87158",NA,"IFI","Governance and security","Disbursements",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,4501.102,-5116.799,-615.697,615.697
+"87162",NA,"IFI","Governance and security","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,10313.89,-11913.19,-1599.3,1599.3
+"87166",NA,"IFI","Governance and security","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,3293.499,-3547.172,-253.673,253.673
+"87168",NA,"IFI","Governance and security","Disbursements",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,7010.98,-8356.608,-1345.628,1345.628
+"87212",NA,"IFI","Governance and security","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,15478.12,-16919.23,-1441.11,1441.11
+"87216",NA,"IFI","Governance and security","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,6723.452,-7696.899,-973.447,973.447
+"87218",NA,"IFI","Governance and security","Disbursements",2020,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,8525.098,-8992.764,-467.665999999999,467.665999999999
+"87792",NA,"IFI","Humanitarian","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,1810.335,-2120.658,-310.323,310.323
+"87798",NA,"IFI","Humanitarian","Commitments",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,908.3498,-1180.333,-271.9832,271.9832
+"88002",NA,"IFI","Humanitarian","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,1475.841,-1788.949,-313.108,313.108
+"88008",NA,"IFI","Humanitarian","Disbursements",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,409.0433,-684.4686,-275.4253,275.4253
+"88202",NA,"IFI","Infrastructure","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,39413.44,-40384.03,-970.589999999997,970.589999999997
+"88206",NA,"IFI","Infrastructure","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,15904.94,-16387.52,-482.58,482.58
+"88208",NA,"IFI","Infrastructure","Commitments",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,22363.82,-22851.82,-488,488
+"88212",NA,"IFI","Infrastructure","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,19986.05,-20988.05,-1002,1002
+"88216",NA,"IFI","Infrastructure","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,6831.048,-7151.495,-320.447,320.447
+"88218",NA,"IFI","Infrastructure","Commitments",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,12441,-13122.55,-681.549999999999,681.549999999999
+"88262",NA,"IFI","Infrastructure","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,21596.61,-22399.05,-802.439999999999,802.439999999999
+"88266",NA,"IFI","Infrastructure","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,12248.87,-13183.75,-934.879999999999,934.879999999999
+"88268",NA,"IFI","Infrastructure","Commitments",2020,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,7979.714,-7847.262,132.452,132.452
+"88412",NA,"IFI","Infrastructure","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,17682.74,-18750.98,-1068.24,1068.24
+"88416",NA,"IFI","Infrastructure","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,5623.922,-6023.255,-399.333000000001,399.333000000001
+"88418",NA,"IFI","Infrastructure","Disbursements",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,11501.03,-12169.94,-668.91,668.91
+"88422",NA,"IFI","Infrastructure","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,17827.53,-19111.42,-1283.89,1283.89
+"88426",NA,"IFI","Infrastructure","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,6403.038,-6923.417,-520.379000000001,520.379000000001
+"88428",NA,"IFI","Infrastructure","Disbursements",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,11043.94,-11807.45,-763.51,763.51
+"88472",NA,"IFI","Infrastructure","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,15325.3,-16280.98,-955.68,955.68
+"88476",NA,"IFI","Infrastructure","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,5127.655,-5786.592,-658.937,658.937
+"88478",NA,"IFI","Infrastructure","Disbursements",2020,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,9638.779,-9935.526,-296.746999999999,296.746999999999
+"89052",NA,"IFI","Other social services","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,6851.632,-7421.584,-569.952,569.952
+"89058",NA,"IFI","Other social services","Commitments",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,4695.154,-5232.857,-537.703,537.703
+"89102",NA,"IFI","Other social services","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,19043.65,-19898.11,-854.459999999999,854.459999999999
+"89106",NA,"IFI","Other social services","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,5130.798,-5645.957,-515.159000000001,515.159000000001
+"89108",NA,"IFI","Other social services","Commitments",2020,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,13829.2,-14168.49,-339.289999999999,339.289999999999
+"89262",NA,"IFI","Other social services","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,4750.869,-5105.082,-354.213000000001,354.213000000001
+"89268",NA,"IFI","Other social services","Disbursements",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,2850.883,-3182.734,-331.851,331.851
+"89312",NA,"IFI","Other social services","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,13756.75,-14548.13,-791.379999999999,791.379999999999
+"89316",NA,"IFI","Other social services","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,3663.385,-3975.777,-312.392,312.392
+"89318",NA,"IFI","Other social services","Disbursements",2020,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,10090.42,-10569.41,-478.99,478.99
+"90362",NA,"IFI","Water and sanitation","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,6232.86,-6362.444,-129.584000000001,129.584000000001
+"90366",NA,"IFI","Water and sanitation","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,3935.247,-4064.833,-129.586,129.586
+"90512",NA,"IFI","Water and sanitation","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,4755.557,-4917.782,-162.225,162.225
+"90518",NA,"IFI","Water and sanitation","Disbursements",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,2811.743,-2976.744,-165.001,165.001
+"91142",NA,"Multilateral","Agriculture and food security","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,1338.19,-246.5769,1091.6131,1091.6131
+"91148",NA,"Multilateral","Agriculture and food security","Commitments",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,1091.622,0,1091.622,1091.622
+"91152",NA,"Multilateral","Agriculture and food security","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,1485.547,-196.339,1289.208,1289.208
+"91158",NA,"Multilateral","Agriculture and food security","Commitments",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,1289.217,0,1289.217,1289.217
+"91202",NA,"Multilateral","Agriculture and food security","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,360.3867,-183.0099,177.3768,177.3768
+"91208",NA,"Multilateral","Agriculture and food security","Commitments",2020,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,177.383,0,177.383,177.383
+"92402",NA,"Multilateral","Education","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,998.1633,-1369.547,-371.3837,371.3837
+"92406",NA,"Multilateral","Education","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,998.1633,-1369.547,-371.3837,371.3837
+"92412",NA,"Multilateral","Education","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,973.208,-1341.109,-367.901,367.901
+"92416",NA,"Multilateral","Education","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,973.208,-1273.228,-300.02,300.02
+"92462",NA,"Multilateral","Education","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,841.5404,-1044.72,-203.1796,203.1796
+"92466",NA,"Multilateral","Education","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,841.5404,-1044.72,-203.1796,203.1796
+"92612",NA,"Multilateral","Education","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,1032.714,-1414.324,-381.61,381.61
+"92616",NA,"Multilateral","Education","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,1032.714,-1414.324,-381.61,381.61
+"92622",NA,"Multilateral","Education","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,997.6161,-1723.9,-726.2839,726.2839
+"92624",NA,"Multilateral","Education","Disbursements",2019,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,0,-407.2499,-407.2499,407.2499
+"92626",NA,"Multilateral","Education","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,997.6161,-1316.65,-319.0339,319.0339
+"92672",NA,"Multilateral","Education","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,976.0682,-1690.887,-714.8188,714.8188
+"92674",NA,"Multilateral","Education","Disbursements",2020,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,0,-448.9069,-448.9069,448.9069
+"92676",NA,"Multilateral","Education","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,976.0682,-1241.98,-265.9118,265.9118
+"93672",NA,"Multilateral","Governance and security","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,323.0683,-451.5834,-128.5151,128.5151
+"93678",NA,"Multilateral","Governance and security","Commitments",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,0,-126.6843,-126.6843,126.6843
+"94082",NA,"Multilateral","Health","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,8307.621,-5773.428,2534.193,2534.193
+"94086",NA,"Multilateral","Health","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,8226.746,-5692.549,2534.197,2534.197
+"94092",NA,"Multilateral","Health","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,8030.915,-5719.218,2311.697,2311.697
+"94096",NA,"Multilateral","Health","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,7724.544,-4889.878,2834.666,2834.666
+"94098",NA,"Multilateral","Health","Commitments",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,306.3709,-829.3401,-522.9692,522.9692
+"94142",NA,"Multilateral","Health","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,15305.42,-5620.37,9685.05,9685.05
+"94146",NA,"Multilateral","Health","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,15239.43,-5554.38,9685.05,9685.05
+"94292",NA,"Multilateral","Health","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,6806.174,-5211.978,1594.196,1594.196
+"94296",NA,"Multilateral","Health","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,6627.411,-5033.213,1594.198,1594.198
+"94302",NA,"Multilateral","Health","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,8292.22,-5668.872,2623.348,2623.348
+"94304",NA,"Multilateral","Health","Disbursements",2019,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,0,-108.2581,-108.2581,108.2581
+"94306",NA,"Multilateral","Health","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,8075.288,-5343.685,2731.603,2731.603
+"94352",NA,"Multilateral","Health","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,7907.147,-6313.281,1593.866,1593.866
+"94354",NA,"Multilateral","Health","Disbursements",2020,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,0,-130.731,-130.731,130.731
+"94356",NA,"Multilateral","Health","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,7678.777,-5954.185,1724.592,1724.592
+"94502",NA,"Multilateral","Humanitarian","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,6643.934,-6880.622,-236.688,236.688
+"94506",NA,"Multilateral","Humanitarian","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,6392.228,-6621.154,-228.926,228.926
+"94512",NA,"Multilateral","Humanitarian","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,7576.346,-7757.98,-181.634,181.634
+"94516",NA,"Multilateral","Humanitarian","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,7316.331,-7462.289,-145.958,145.958
+"94562",NA,"Multilateral","Humanitarian","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,7947.153,-8106.529,-159.376,159.376
+"94566",NA,"Multilateral","Humanitarian","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,7675.339,-7829.449,-154.11,154.11
+"94712",NA,"Multilateral","Humanitarian","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,7513.012,-7781.865,-268.853,268.853
+"94716",NA,"Multilateral","Humanitarian","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,7266.748,-7528.094,-261.346,261.346
+"94722",NA,"Multilateral","Humanitarian","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,8096.429,-8656.838,-560.409,560.409
+"94724",NA,"Multilateral","Humanitarian","Disbursements",2019,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,0,-366.1063,-366.1063,366.1063
+"94726",NA,"Multilateral","Humanitarian","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,7857.86,-8047.11,-189.25,189.25
+"94772",NA,"Multilateral","Humanitarian","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,9235.602,-9872.955,-637.352999999999,637.352999999999
+"94774",NA,"Multilateral","Humanitarian","Disbursements",2020,NA,NA,"Organisation type","Not specified","Volume","Yearly",NA,0,-484.411,-484.411,484.411
+"94776",NA,"Multilateral","Humanitarian","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,9010.889,-9158.558,-147.669000000002,147.669000000002
+"95772",NA,"Multilateral","Other social services","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,289.0143,-403.5303,-114.516,114.516
+"95778",NA,"Multilateral","Other social services","Commitments",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,0,-101.1308,-101.1308,101.1308
+"95972",NA,"Multilateral","Other social services","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,1813.296,-1928.155,-114.859,114.859
+"95976",NA,"Multilateral","Other social services","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,1813.296,-1928.155,-114.859,114.859
+"96182",NA,"Multilateral","Other","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,442.5983,-12.32678,430.27152,430.27152
+"96188",NA,"Multilateral","Other","Commitments",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,430.2526,0,430.2526,430.2526
+"96192",NA,"Multilateral","Other","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,517.9173,-30.94888,486.96842,486.96842
+"96198",NA,"Multilateral","Other","Commitments",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,486.8907,0,486.8907,486.8907
+"96242",NA,"Multilateral","Other","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,166.4786,-64.439,102.0396,102.0396
+"96248",NA,"Multilateral","Other","Commitments",2020,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,102.2003,0,102.2003,102.2003
+"97022",NA,"Multilateral","Water and sanitation","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,524.22,-353.1606,171.0594,171.0594
+"97026",NA,"Multilateral","Water and sanitation","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,524.22,-353.1606,171.0594,171.0594
+"97032",NA,"Multilateral","Water and sanitation","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,627.7001,-355.7159,271.9842,271.9842
+"97036",NA,"Multilateral","Water and sanitation","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,627.7001,-355.7159,271.9842,271.9842
+"97082",NA,"Multilateral","Water and sanitation","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,575.2253,-341.3629,233.8624,233.8624
+"97086",NA,"Multilateral","Water and sanitation","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,575.2253,-341.3629,233.8624,233.8624
+"97232",NA,"Multilateral","Water and sanitation","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,577.9537,-389.0651,188.8886,188.8886
+"97236",NA,"Multilateral","Water and sanitation","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,577.9537,-389.0651,188.8886,188.8886
+"97242",NA,"Multilateral","Water and sanitation","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,646.8932,-391.5735,255.3197,255.3197
+"97246",NA,"Multilateral","Water and sanitation","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,646.8932,-372.3718,274.5214,274.5214
+"97292",NA,"Multilateral","Water and sanitation","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,606.9045,-388.5137,218.3908,218.3908
+"97296",NA,"Multilateral","Water and sanitation","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,606.9045,-362.1529,244.7516,244.7516
+"138452","UK","UK","Humanitarian","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1900.696,-1782.064,118.632,118.632
+"138456","UK","UK","Humanitarian","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1900.696,-1782.064,118.632,118.632
+"140132","UK","UK","Other","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,5105.929,-4816.895,289.034,289.034
+"140136","UK","UK","Other","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,5105.929,-4816.895,289.034,289.034
+"140492","UK","UK","Refugees in donor countries","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,287.0556,0,287.0556,287.0556
+"140496","UK","UK","Refugees in donor countries","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,287.0556,0,287.0556,287.0556
+"140502","UK","UK","Refugees in donor countries","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,429.3586,0,429.3586,429.3586
+"140506","UK","UK","Refugees in donor countries","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,429.3586,0,429.3586,429.3586
+"146162","UNICEF","UNICEF","Education","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,949.3112,-1320.691,-371.3798,371.3798
+"146166","UNICEF","UNICEF","Education","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,949.3112,-1320.691,-371.3798,371.3798
+"146172","UNICEF","UNICEF","Education","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,971.8995,-1271.928,-300.0285,300.0285
+"146176","UNICEF","UNICEF","Education","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,971.8995,-1271.928,-300.0285,300.0285
+"146222","UNICEF","UNICEF","Education","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,841.5736,-1044.758,-203.1844,203.1844
+"146226","UNICEF","UNICEF","Education","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,841.5736,-1044.758,-203.1844,203.1844
+"146372","UNICEF","UNICEF","Education","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,983.8777,-1365.498,-381.6203,381.6203
+"146376","UNICEF","UNICEF","Education","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,983.8777,-1365.498,-381.6203,381.6203
+"146382","UNICEF","UNICEF","Education","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,996.3249,-1315.61,-319.2851,319.2851
+"146386","UNICEF","UNICEF","Education","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,996.3249,-1315.61,-319.2851,319.2851
+"146432","UNICEF","UNICEF","Education","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,976.1207,-1242.279,-266.1583,266.1583
+"146436","UNICEF","UNICEF","Education","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,976.1207,-1242.279,-266.1583,266.1583
+"147852","UNICEF","UNICEF","Health","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1561.378,-1700.048,-138.67,138.67
+"147856","UNICEF","UNICEF","Health","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1561.378,-1700.048,-138.67,138.67
+"148062","UNICEF","UNICEF","Health","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1646.239,-1783.557,-137.318,137.318
+"148066","UNICEF","UNICEF","Health","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1646.239,-1783.557,-137.318,137.318
+"148112","UNICEF","UNICEF","Health","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1614.435,-1720.13,-105.695,105.695
+"148116","UNICEF","UNICEF","Health","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1614.435,-1720.13,-105.695,105.695
+"148262","UNICEF","UNICEF","Humanitarian","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,785.3111,-1014.033,-228.7219,228.7219
+"148266","UNICEF","UNICEF","Humanitarian","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,785.3111,-1014.033,-228.7219,228.7219
+"148272","UNICEF","UNICEF","Humanitarian","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,703.0383,-848.738,-145.6997,145.6997
+"148276","UNICEF","UNICEF","Humanitarian","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,703.0383,-848.738,-145.6997,145.6997
+"148322","UNICEF","UNICEF","Humanitarian","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,853.4804,-1007.336,-153.8556,153.8556
+"148326","UNICEF","UNICEF","Humanitarian","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,853.4804,-1007.336,-153.8556,153.8556
+"148472","UNICEF","UNICEF","Humanitarian","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,770.1125,-1002.5,-232.3875,232.3875
+"148476","UNICEF","UNICEF","Humanitarian","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,770.1125,-1002.5,-232.3875,232.3875
+"148482","UNICEF","UNICEF","Humanitarian","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,764.1419,-956.374,-192.2321,192.2321
+"148486","UNICEF","UNICEF","Humanitarian","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,764.1419,-956.374,-192.2321,192.2321
+"148532","UNICEF","UNICEF","Humanitarian","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,866.3695,-1015.723,-149.3535,149.3535
+"148536","UNICEF","UNICEF","Humanitarian","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,866.3695,-1015.723,-149.3535,149.3535
+"150782","UNICEF","UNICEF","Water and sanitation","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,524.2415,-353.1705,171.071,171.071
+"150786","UNICEF","UNICEF","Water and sanitation","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,524.2415,-353.1705,171.071,171.071
+"150792","UNICEF","UNICEF","Water and sanitation","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,627.7237,-355.7285,271.9952,271.9952
+"150796","UNICEF","UNICEF","Water and sanitation","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,627.7237,-355.7285,271.9952,271.9952
+"150842","UNICEF","UNICEF","Water and sanitation","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,575.2494,-341.376,233.8734,233.8734
+"150846","UNICEF","UNICEF","Water and sanitation","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,575.2494,-341.376,233.8734,233.8734
+"150992","UNICEF","UNICEF","Water and sanitation","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,577.9868,-389.0843,188.9025,188.9025
+"150996","UNICEF","UNICEF","Water and sanitation","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,577.9868,-389.0843,188.9025,188.9025
+"151002","UNICEF","UNICEF","Water and sanitation","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,646.9281,-372.4581,274.47,274.47
+"151006","UNICEF","UNICEF","Water and sanitation","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,646.9281,-372.4581,274.47,274.47
+"151052","UNICEF","UNICEF","Water and sanitation","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,606.9383,-362.2407,244.6976,244.6976
+"151056","UNICEF","UNICEF","Water and sanitation","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,606.9383,-362.2407,244.6976,244.6976
+"168004","US","US","Administrative costs of donors","Commitments",2018,NA,NA,"Specific donor","Not specified","Volume","Yearly",NA,220.8699,0,220.8699,220.8699
+"168006","US","US","Administrative costs of donors","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2407.189,-2562.751,-155.562,155.562
+"168014","US","US","Administrative costs of donors","Commitments",2019,NA,NA,"Specific donor","Not specified","Volume","Yearly",NA,201.1728,0,201.1728,201.1728
+"168016","US","US","Administrative costs of donors","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2580.881,-2783.998,-203.117,203.117
+"168064","US","US","Administrative costs of donors","Commitments",2020,NA,NA,"Specific donor","Not specified","Volume","Yearly",NA,159.8749,0,159.8749,159.8749
+"168066","US","US","Administrative costs of donors","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2584.997,-2843.79,-258.793,258.793
+"168212","US","US","Administrative costs of donors","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2461.616,-2242.508,219.108,219.108
+"168214","US","US","Administrative costs of donors","Disbursements",2018,NA,NA,"Specific donor","Not specified","Volume","Yearly",NA,219.1159,0,219.1159,219.1159
+"168222","US","US","Administrative costs of donors","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2715.511,-2512.693,202.818,202.818
+"168224","US","US","Administrative costs of donors","Disbursements",2019,NA,NA,"Specific donor","Not specified","Volume","Yearly",NA,202.8237,0,202.8237,202.8237
+"168272","US","US","Administrative costs of donors","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2656.135,-2444.387,211.748,211.748
+"168274","US","US","Administrative costs of donors","Disbursements",2020,NA,NA,"Specific donor","Not specified","Volume","Yearly",NA,211.7543,0,211.7543,211.7543
+"168424","US","US","Agriculture and food security","Commitments",2018,NA,NA,"Specific donor","Not specified","Volume","Yearly",NA,216.6008,0,216.6008,216.6008
+"168426","US","US","Agriculture and food security","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1730.294,-2011.438,-281.144,281.144
+"168432","US","US","Agriculture and food security","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1275.511,-1468.588,-193.077,193.077
+"168436","US","US","Agriculture and food security","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1272.472,-1440.799,-168.327,168.327
+"168482","US","US","Agriculture and food security","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1560.238,-1713.451,-153.213,153.213
+"168486","US","US","Agriculture and food security","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1581.832,-1684.462,-102.63,102.63
+"168842","US","US","Business and industry","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,514.1178,-1473.165,-959.0472,959.0472
+"168848","US","US","Business and industry","Commitments",2018,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,0,-961.3762,-961.3762,961.3762
+"168852","US","US","Business and industry","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,561.4315,-4073.239,-3511.8075,3511.8075
+"168856","US","US","Business and industry","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,567.5958,-748.3907,-180.7949,180.7949
+"168858","US","US","Business and industry","Commitments",2019,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,0,-3324.848,-3324.848,3324.848
+"168902","US","US","Business and industry","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,483.4928,-3752.138,-3268.6452,3268.6452
+"168906","US","US","Business and industry","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,481.0341,-624.3751,-143.341,143.341
+"168908","US","US","Business and industry","Commitments",2020,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,0,-3127.763,-3127.763,3127.763
+"169682","US","US","Education","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1004.947,-1223.161,-218.214,218.214
+"169686","US","US","Education","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1008.945,-1216.936,-207.991,207.991
+"169694","US","US","Education","Commitments",2019,NA,NA,"Specific donor","Not specified","Volume","Yearly",NA,137.6636,0,137.6636,137.6636
+"169696","US","US","Education","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,800.8409,-1017.682,-216.8411,216.8411
+"169742","US","US","Education","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,942.7189,-1330.343,-387.6241,387.6241
+"169746","US","US","Education","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,932.5064,-1330.099,-397.5926,397.5926
+"170102","US","US","Environment","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,375.5213,-498.7654,-123.2441,123.2441
+"170112","US","US","Environment","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,336.2419,-458.9447,-122.7028,122.7028
+"170162","US","US","Environment","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,434.1228,-650.3387,-216.2159,216.2159
+"170166","US","US","Environment","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,434.1228,-647.3898,-213.267,213.267
+"170522","US","US","General budget support","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,0,-265.0453,-265.0453,265.0453
+"170526","US","US","General budget support","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,0,-265.0453,-265.0453,265.0453
+"170532","US","US","General budget support","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,0,-176.8733,-176.8733,176.8733
+"170536","US","US","General budget support","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,0,-176.8733,-176.8733,176.8733
+"170582","US","US","General budget support","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,0,-217.7707,-217.7707,217.7707
+"170586","US","US","General budget support","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,0,-217.7707,-217.7707,217.7707
+"170942","US","US","Governance and security","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3046.714,-12444.15,-9397.436,9397.436
+"170946","US","US","Governance and security","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,3052.471,-6522.764,-3470.293,3470.293
+"170950","US","US","Governance and security","Commitments",2018,NA,NA,"Specific donor","Other flows","Volume","Yearly",NA,0,-5921.388,-5921.388,5921.388
+"170952","US","US","Governance and security","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2827.172,-5953.113,-3125.941,3125.941
+"170956","US","US","Governance and security","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2827.652,-5953.114,-3125.462,3125.462
+"171002","US","US","Governance and security","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2718.965,-6409.104,-3690.139,3690.139
+"171006","US","US","Governance and security","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2720.61,-6409.104,-3688.494,3688.494
+"171362","US","US","Health","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,6565.291,-10862.15,-4296.859,4296.859
+"171366","US","US","Health","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,6574.935,-10757.05,-4182.115,4182.115
+"171368","US","US","Health","Commitments",2018,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,0,-105.0994,-105.0994,105.0994
+"171372","US","US","Health","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,6054.037,-10370.21,-4316.173,4316.173
+"171376","US","US","Health","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,6055.224,-10365.05,-4309.826,4309.826
+"171422","US","US","Health","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,9332.326,-13513.45,-4181.124,4181.124
+"171426","US","US","Health","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,9332.326,-13510.27,-4177.944,4177.944
+"171782","US","US","Humanitarian","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,4172.096,-7276.773,-3104.677,3104.677
+"171786","US","US","Humanitarian","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,4172.096,-7276.773,-3104.677,3104.677
+"171792","US","US","Humanitarian","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,5990.112,-9259.133,-3269.021,3269.021
+"171796","US","US","Humanitarian","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,5990.112,-9259.106,-3268.994,3268.994
+"171842","US","US","Humanitarian","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,5682.841,-8617.269,-2934.428,2934.428
+"171846","US","US","Humanitarian","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,5682.841,-8617.269,-2934.428,2934.428
+"172202","US","US","Infrastructure","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,157.6161,-583.9533,-426.3372,426.3372
+"172204","US","US","Infrastructure","Commitments",2018,NA,NA,"Specific donor","Not specified","Volume","Yearly",NA,133.3887,0,133.3887,133.3887
+"172208","US","US","Infrastructure","Commitments",2018,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,0,-507.6886,-507.6886,507.6886
+"172212","US","US","Infrastructure","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,680.8733,-1191.781,-510.9077,510.9077
+"172214","US","US","Infrastructure","Commitments",2019,NA,NA,"Specific donor","Not specified","Volume","Yearly",NA,279.8932,0,279.8932,279.8932
+"172218","US","US","Infrastructure","Commitments",2019,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,0,-773.1232,-773.1232,773.1232
+"172262","US","US","Infrastructure","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,92.36132,-1414.336,-1321.97468,1321.97468
+"172264","US","US","Infrastructure","Commitments",2020,NA,NA,"Specific donor","Not specified","Volume","Yearly",NA,-141.0751,0,-141.0751,141.0751
+"172268","US","US","Infrastructure","Commitments",2020,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,0,-1118.847,-1118.847,1118.847
+"172412","US","US","Infrastructure","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,500.3315,-316.0072,184.3243,184.3243
+"172414","US","US","Infrastructure","Disbursements",2018,NA,NA,"Specific donor","Not specified","Volume","Yearly",NA,184.3255,0,184.3255,184.3255
+"172422","US","US","Infrastructure","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,464.9018,-350.8664,114.0354,114.0354
+"172424","US","US","Infrastructure","Disbursements",2019,NA,NA,"Specific donor","Not specified","Volume","Yearly",NA,114.0363,0,114.0363,114.0363
+"172472","US","US","Infrastructure","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,591.2594,-385.746,205.5134,205.5134
+"172474","US","US","Infrastructure","Disbursements",2020,NA,NA,"Specific donor","Not specified","Volume","Yearly",NA,205.3552,0,205.3552,205.3552
+"173042","US","US","Other social services","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,99.90741,-281.8671,-181.95969,181.95969
+"173046","US","US","Other social services","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,102.9035,-281.8671,-178.9636,178.9636
+"173052","US","US","Other social services","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,72.35645,-280.1752,-207.81875,207.81875
+"173056","US","US","Other social services","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,72.44503,-260.1743,-187.72927,187.72927
+"173102","US","US","Other social services","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,127.6131,-413.6925,-286.0794,286.0794
+"173106","US","US","Other social services","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,127.6131,-413.1026,-285.4895,285.4895
+"173462","US","US","Other","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,74.28843,-13465.34,-13391.05157,13391.05157
+"173466","US","US","Other","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,75.40663,-4815.338,-4739.93137,4739.93137
+"173468","US","US","Other","Commitments",2018,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,0,-898.0459,-898.0459,898.0459
+"173470","US","US","Other","Commitments",2018,NA,NA,"Specific donor","Other flows","Volume","Yearly",NA,0,-7751.959,-7751.959,7751.959
+"173472","US","US","Other","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,142.1832,-10430.15,-10287.9668,10287.9668
+"173476","US","US","Other","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,75.35837,-3658.352,-3582.99363,3582.99363
+"173478","US","US","Other","Commitments",2019,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,0,-6771.796,-6771.796,6771.796
+"173522","US","US","Other","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,180.9497,-5181.419,-5000.4693,5000.4693
+"173526","US","US","Other","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,123.5371,-5145.541,-5022.0039,5022.0039
+"173672","US","US","Other","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,202.7265,-79.45674,123.26976,123.26976
+"173674","US","US","Other","Disbursements",2018,NA,NA,"Specific donor","Not specified","Volume","Yearly",NA,123.2701,0,123.2701,123.2701
+"175202","World Bank","World Bank","Agriculture and food security","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,4755.616,-5209.596,-453.98,453.98
+"175206","World Bank","World Bank","Agriculture and food security","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2768.664,-3137.647,-368.983,368.983
+"175412","World Bank","World Bank","Agriculture and food security","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2924.784,-3378.438,-453.654,453.654
+"175416","World Bank","World Bank","Agriculture and food security","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1941.977,-2308.637,-366.66,366.66
+"175562","World Bank","World Bank","Business and industry","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,4572.545,-4948.767,-376.222,376.222
+"175566","World Bank","World Bank","Business and industry","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2464.279,-2618.499,-154.22,154.22
+"175568","World Bank","World Bank","Business and industry","Commitments",2018,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,2108.266,-2330.268,-222.002,222.002
+"175572","World Bank","World Bank","Business and industry","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3280.841,-3988.983,-708.142,708.142
+"175576","World Bank","World Bank","Business and industry","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,857.8885,-966.8852,-108.9967,108.9967
+"175578","World Bank","World Bank","Business and industry","Commitments",2019,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,2422.952,-3022.097,-599.145,599.145
+"175622","World Bank","World Bank","Business and industry","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,6242.573,-6895.72,-653.147,653.147
+"175626","World Bank","World Bank","Business and industry","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2628.901,-3145.04,-516.139,516.139
+"175628","World Bank","World Bank","Business and industry","Commitments",2020,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,3613.672,-3750.68,-137.008,137.008
+"175772","World Bank","World Bank","Business and industry","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3717.45,-4441.078,-723.628000000001,723.628000000001
+"175778","World Bank","World Bank","Business and industry","Disbursements",2018,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,1899.033,-2546.562,-647.529,647.529
+"175782","World Bank","World Bank","Business and industry","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,4139.31,-4624.55,-485.24,485.24
+"175786","World Bank","World Bank","Business and industry","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1216.207,-1348.071,-131.864,131.864
+"175788","World Bank","World Bank","Business and industry","Disbursements",2019,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,2923.102,-3276.48,-353.378,353.378
+"175832","World Bank","World Bank","Business and industry","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,4973.946,-5661.704,-687.758,687.758
+"175836","World Bank","World Bank","Business and industry","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1270.271,-1839.477,-569.206,569.206
+"175838","World Bank","World Bank","Business and industry","Disbursements",2020,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,3703.674,-3822.227,-118.553,118.553
+"176882","World Bank","World Bank","Environment","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,619.0216,-760.5263,-141.5047,141.5047
+"176888","World Bank","World Bank","Environment","Commitments",2020,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,234.6142,-366.6194,-132.0052,132.0052
+"177032","World Bank","World Bank","Environment","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,264.4579,-381.5523,-117.0944,117.0944
+"177038","World Bank","World Bank","Environment","Disbursements",2018,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,106.6245,-216.6301,-110.0056,110.0056
+"177662","World Bank","World Bank","Governance and security","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3353.97,-3651.524,-297.554,297.554
+"177666","World Bank","World Bank","Governance and security","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2657.408,-2848.958,-191.55,191.55
+"177668","World Bank","World Bank","Governance and security","Commitments",2018,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,696.5614,-802.5655,-106.0041,106.0041
+"177672","World Bank","World Bank","Governance and security","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2611.207,-4393.996,-1782.789,1782.789
+"177676","World Bank","World Bank","Governance and security","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1224.463,-1494.871,-270.408,270.408
+"177678","World Bank","World Bank","Governance and security","Commitments",2019,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,1386.744,-2899.125,-1512.381,1512.381
+"177722","World Bank","World Bank","Governance and security","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,6742.772,-8062.523,-1319.751,1319.751
+"177726","World Bank","World Bank","Governance and security","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,3463.026,-4495.022,-1031.996,1031.996
+"177728","World Bank","World Bank","Governance and security","Commitments",2020,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,3279.746,-3567.501,-287.755,287.755
+"177872","World Bank","World Bank","Governance and security","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2354.748,-3145.849,-791.101,791.101
+"177876","World Bank","World Bank","Governance and security","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1438.886,-1614.277,-175.391,175.391
+"177878","World Bank","World Bank","Governance and security","Disbursements",2018,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,915.8619,-1531.572,-615.7101,615.7101
+"177882","World Bank","World Bank","Governance and security","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3486.981,-5084.661,-1597.68,1597.68
+"177886","World Bank","World Bank","Governance and security","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1948.959,-2200.984,-252.025,252.025
+"177888","World Bank","World Bank","Governance and security","Disbursements",2019,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,1538.022,-2883.677,-1345.655,1345.655
+"177932","World Bank","World Bank","Governance and security","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,4181.09,-5640.28,-1459.19,1459.19
+"177936","World Bank","World Bank","Governance and security","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2778.193,-3769.704,-991.511,991.511
+"177938","World Bank","World Bank","Governance and security","Disbursements",2020,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,1402.898,-1870.577,-467.679,467.679
+"178512","World Bank","World Bank","Humanitarian","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1808.335,-2118.656,-310.321,310.321
+"178518","World Bank","World Bank","Humanitarian","Commitments",2019,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,908.3896,-1180.375,-271.9854,271.9854
+"178722","World Bank","World Bank","Humanitarian","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1464.097,-1777.225,-313.128,313.128
+"178728","World Bank","World Bank","Humanitarian","Disbursements",2019,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,404.6578,-680.0847,-275.4269,275.4269
+"178922","World Bank","World Bank","Infrastructure","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,7143.096,-8097.777,-954.681,954.681
+"178926","World Bank","World Bank","Infrastructure","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,5984.457,-6451.099,-466.642,466.642
+"178928","World Bank","World Bank","Infrastructure","Commitments",2018,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,1158.639,-1646.678,-488.039,488.039
+"178932","World Bank","World Bank","Infrastructure","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,5668.264,-6891.655,-1223.391,1223.391
+"178936","World Bank","World Bank","Infrastructure","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,3453.266,-3778.277,-325.011,325.011
+"178938","World Bank","World Bank","Infrastructure","Commitments",2019,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,2214.999,-3113.378,-898.379,898.379
+"178982","World Bank","World Bank","Infrastructure","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,9066.679,-9580.492,-513.813,513.813
+"178986","World Bank","World Bank","Infrastructure","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,7085.722,-7731.99,-646.268,646.268
+"178988","World Bank","World Bank","Infrastructure","Commitments",2020,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,1980.957,-1848.502,132.455,132.455
+"179132","World Bank","World Bank","Infrastructure","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,7503.761,-8527.373,-1023.612,1023.612
+"179136","World Bank","World Bank","Infrastructure","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,3167.874,-3522.557,-354.683,354.683
+"179138","World Bank","World Bank","Infrastructure","Disbursements",2018,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,4335.887,-5004.816,-668.929,668.929
+"179142","World Bank","World Bank","Infrastructure","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,8313.725,-9553.093,-1239.368,1239.368
+"179146","World Bank","World Bank","Infrastructure","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,3807.817,-4283.665,-475.848,475.848
+"179148","World Bank","World Bank","Infrastructure","Disbursements",2019,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,4505.908,-5269.428,-763.52,763.52
+"179192","World Bank","World Bank","Infrastructure","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,6765.174,-7683.699,-918.525,918.525
+"179196","World Bank","World Bank","Infrastructure","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,3059.336,-3681.114,-621.778,621.778
+"179198","World Bank","World Bank","Infrastructure","Disbursements",2020,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,3705.838,-4002.585,-296.747,296.747
+"179772","World Bank","World Bank","Other social services","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3696.285,-4263.256,-566.971,566.971
+"179778","World Bank","World Bank","Other social services","Commitments",2019,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,2276.13,-2813.811,-537.681,537.681
+"179822","World Bank","World Bank","Other social services","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,11404.72,-12260.15,-855.43,855.43
+"179826","World Bank","World Bank","Other social services","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,4065.128,-4581.281,-516.153,516.153
+"179828","World Bank","World Bank","Other social services","Commitments",2020,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,7339.588,-7678.871,-339.283,339.283
+"179982","World Bank","World Bank","Other social services","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2876.469,-3229.698,-353.229,353.229
+"179988","World Bank","World Bank","Other social services","Disbursements",2019,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,1165.552,-1497.408,-331.856,331.856
+"180032","World Bank","World Bank","Other social services","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,6640.106,-7433.775,-793.669,793.669
+"180036","World Bank","World Bank","Other social services","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2730.139,-3044.811,-314.672,314.672
+"180038","World Bank","World Bank","Other social services","Disbursements",2020,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,3909.967,-4388.964,-478.997,478.997
+"181082","World Bank","World Bank","Water and sanitation","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1916.497,-2062.45,-145.953,145.953
+"181086","World Bank","World Bank","Water and sanitation","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1461.077,-1607.032,-145.955,145.955
+"181232","World Bank","World Bank","Water and sanitation","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2666.945,-2831.936,-164.991,164.991
+"181238","World Bank","World Bank","Water and sanitation","Disbursements",2018,NA,NA,"Specific donor","OOF","Volume","Yearly",NA,1558.175,-1723.174,-164.999,164.999
+"181292","World Bank","World Bank","Water and sanitation","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2370.486,-2471.357,-100.871,100.871
+"181296","World Bank","World Bank","Water and sanitation","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1015.157,-1116.035,-100.878,100.878
