@@ -277,7 +277,7 @@ for(choice in choices){
   }
   
   povcalcuts <- fread("p20-p80 data.csv")
-  povcalyears <- c(2015:2020)
+  povcalyears <- c(2015:2021)
   povcalcuts <- povcalcuts[CoverageType %in% c("N", "A"),
                            .(RequestYear=povcalyears,
                              P20Headcount=logitapprox(RequestYear, p20, povcalyears),
