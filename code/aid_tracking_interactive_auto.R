@@ -112,7 +112,7 @@ for(choice in choices){
   memory.limit(1000000000)
   t <- merge(t,unique(all),by.x="reporting_org_ref",by.y="code") # Merge in name and 'country' title for multiple agencies.
   
-  # t <- subset(t,t[[choice]]==1) # Filter by reporting organisations by whether they are included for commitments/disbursements.
+  t <- subset(t,t[[choice]]==1) # Filter by reporting organisations by whether they are included for commitments/disbursements.
   
   t <- subset(t,t$x_finance_type != "GNI: Gross National Income") # Removing DAC artefacts which are not flows.
   t <- subset(t,t$x_finance_type != 1)
