@@ -5,12 +5,12 @@ list.of.packages <- c("data.table", "anytime", "ggplot2", "scales", "bsts", "dpl
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 lapply(list.of.packages, require, character.only=T)
-  
+
 wd <- dirname(getActiveDocumentContext()$path) # Setting working directory to the input. Check this is where you locally have this repository, else change it.
 setwd(wd)
 setwd("..")
 setwd("input")
-  
+
 all <- read.csv("donors_selected.csv")[,c("country","code","org_type","disbursements","commitments")] # Reading in manual donor quality checks. Binary: 1 = include, 0 = exclude.
 
 #### DDW read-in ####
@@ -30,7 +30,7 @@ options(timeout = 1000)
 ##
 
 for(choice in choices){
-
+  
   if (choice == "commitments"){
     filename <- paste0("Trends in IATI - Commitments ", format(Sys.Date(), "%d%m%y"))
     if(!(paste0(filename, ".RDS") %in% list.files())){
@@ -53,17 +53,11 @@ for(choice in choices){
         download.file("https://ddw.devinit.org/api/export/795", paste0(filename, ".csv"), method = "libcurl")
       }
       dat <- read.csv(paste0(filename, ".csv"))
-          saveRDS(dat, paste0(filename, ".RDS"))
+      saveRDS(dat, paste0(filename, ".RDS"))
     }
     dat <- readRDS(paste0(filename, ".RDS"))
     #dat <- fread("Trends in IATI - Disbursements September 18.csv")
   }
-  
-  # dat1 <- read.csv("Trends in IATI - Disbursements - 2021 onwards 250822.csv")
-  # dat2 <- read.csv("Trends in IATI - Disbursements - up to 2020 250822.csv")
-  # 
-  # dat <- rbind(dat1,dat2)
-  # saveRDS(dat, "Trends in IATI - Disbursements 250822.RDS")
   
   meta_columns <- read.csv("meta_columns.csv")
   
@@ -232,7 +226,7 @@ for(choice in choices){
   t.quarters <- subset(t.quarters,(t.quarters$year == current_year-2 & t.quarters$quarter > floor(current_month/3)) |(t.quarters$year == current_year-1)| (t.quarters$year == current_year & t.quarters$quarter <= floor(current_month/3))) # Only show those quarters which are in the last two full years of data
   t.months <- subset(t.months,(t.months$year == current_year-1 & t.months$month > current_month) | (t.months$year == current_year & t.months$month <= current_month))
   if (current_month < 12){
-  t.years <- subset(t.years,t.years$year < current_year) # Only show the years with complete data for years.
+    t.years <- subset(t.years,t.years$year < current_year) # Only show the years with complete data for years.
   }else {t.years <- subset(t.years,t.years$year <= current_year)}
   t.yeartodate <- subset(t.yeartodate,!(is.na(t.yeartodate$rollingyear))) # We only gave rolling years to those we wanted previously so simple subset if rolling year field exists.
   
@@ -245,6 +239,7 @@ for(choice in choices){
   # Read in income file from inputs and label fully.
   
   income_groups <- fread("income.csv",header =T,na.strings = "..")
+  income_groups
   income_groups <- melt(income_groups,id.vars=c("iso3","country"))
   names(income_groups)[3:4] <- c("year","income_group")
   income_groups$year <- as.integer(as.character(income_groups$year))
@@ -283,7 +278,10 @@ for(choice in choices){
   }
   
   povcalcuts <- fread("p20-p80 data.csv")
-  povcalyears <- c(2015:2021)
+  povcalyears <- c(2015:2022)
+  povcal_additional <- subset(povcalcuts,povcalcuts$RequestYear==2021)
+  povcal_additional$RequestYear <- 2022
+  povcalcuts <- rbind(povcalcuts,povcal_additional)
   povcalcuts <- povcalcuts[CoverageType %in% c("N", "A"),
                            .(RequestYear=povcalyears,
                              P20Headcount=logitapprox(RequestYear, p20, povcalyears),
@@ -694,7 +692,7 @@ for(choice in choices){
   t.overall$value[which(t.overall$variable=="Proportion")] <- t.overall$value[which(t.overall$variable=="Proportion")]*2
   
   assign(paste0("t.","sector_",choice),t.overall)
-
+  
 }
 #### Combination and CSV production ####
 setwd("C:/git/aid-tracker-interactive")
@@ -703,7 +701,7 @@ sector$org_type[which(sector$aggregate=="Specific donor")] <- sector$country[whi
 sector$flow_type <- tolower(sector$flow_type)
 substr(sector$flow_type,1,1) <- toupper(substr(sector$flow_type,1,1))
 write.csv(sector,"sector.csv")
-  
+
 poverty <- rbind(t.income_commitments,t.income_disbursements,t.ldc_commitments,t.ldc_disbursements,t.poverty_commitments,t.poverty_disbursements)
 poverty$org_type[which(poverty$aggregate=="Specific donor")] <- poverty$country[which(poverty$aggregate=="Specific donor")]
 write.csv(poverty,"poverty.csv")  
@@ -711,4 +709,5 @@ write.csv(poverty,"poverty.csv")
 overall <- rbind(t.overall_commitments,t.overall_disbursements)
 overall$org_type[which(overall$aggregate=="Specific donor")] <- overall$country[which(overall$aggregate=="Specific donor")]
 write.csv(overall,"overall.csv")
+
 
