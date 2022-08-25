@@ -59,6 +59,12 @@ for(choice in choices){
     #dat <- fread("Trends in IATI - Disbursements September 18.csv")
   }
   
+  # dat1 <- read.csv("Trends in IATI - Disbursements - 2021 onwards 250822.csv")
+  # dat2 <- read.csv("Trends in IATI - Disbursements - up to 2020 250822.csv")
+  # 
+  # dat <- rbind(dat1,dat2)
+  # saveRDS(dat, "Trends in IATI - Disbursements 250822.RDS")
+  
   meta_columns <- read.csv("meta_columns.csv")
   
   #### END ####
