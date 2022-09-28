@@ -239,7 +239,6 @@ for(choice in choices){
   # Read in income file from inputs and label fully.
   
   income_groups <- fread("income.csv",header =T,na.strings = "..")
-  income_groups
   income_groups <- melt(income_groups,id.vars=c("iso3","country"))
   names(income_groups)[3:4] <- c("year","income_group")
   income_groups$year <- as.integer(as.character(income_groups$year))

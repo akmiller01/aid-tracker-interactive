@@ -32,6 +32,8 @@ for (sheet in sheets){
   print(setdiff(names(data),names(data_old)))
   print(setdiff(names(data_old),names(data)))
   
+  substr(data$rollingyear,6,7) = "06"
+  
   combined <- merge(data,data_old,by=names(data)[!(names(data) %in% c("X","value"))])
   combined$X.x <- NULL
   combined$X.y <- NULL
@@ -41,7 +43,7 @@ for (sheet in sheets){
   combined$difference <- rowSums(combined[,c("value.x", "value.y")], na.rm=TRUE)
   combined$abs_difference <- abs(rowSums(combined[,c("value.x", "value.y")], na.rm=TRUE))
   
-  combined <- subset(combined,combined$timeframe == "Yearly" & combined$abs_difference > 1000)
+  combined <- subset(combined,(combined$timeframe == "Yearly" & combined$abs_difference > 1000) | (combined$timeframe == "Year to date" & combined$abs_difference > 50))
   
   write.csv(combined,paste0(sheet,"_comparison.csv"))
   
