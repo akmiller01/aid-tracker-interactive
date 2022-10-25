@@ -13,6 +13,7 @@
 
 current_month <- month(Sys.Date()-75) # Note: This is the less than or equal to so if you want to include up to November, for example, this must say 11.
 current_yyyymm <- format(Sys.Date()-75, "%Y%m") # Note: This must be preceded by a 0 if in the first nine months (i.e. 202105, not 20215)
+# NOTE: Line 36 must be manually updated.
 
 choices <- c("Commitments", "Disbursements")
 sheets <- c("overall","poverty","sector")
@@ -32,7 +33,7 @@ for (sheet in sheets){
   print(setdiff(names(data),names(data_old)))
   print(setdiff(names(data_old),names(data)))
   
-  substr(data$rollingyear,6,7) = "06"
+  substr(data$rollingyear,6,7) = "07" # NOTE: Must be manually updated.
   
   combined <- merge(data,data_old,by=names(data)[!(names(data) %in% c("X","value"))])
   combined$X.x <- NULL
