@@ -58,21 +58,23 @@ for(choice in choices){
         message("Disbursements file for today not found, downloading.")
         download.file("https://ddw.devinit.org/api/export/1528", paste0(filename, ".csv"), method = "libcurl")
       }
-      dat <- read.csv(paste0(filename, ".csv"))
-      saveRDS(dat, paste0(filename, ".RDS"))
+      dat1 <- read.csv(paste0(filename, ".csv"))
+      saveRDS(dat1, paste0(filename, ".RDS"))
     }
-    dat <- readRDS(paste0(filename, ".RDS"))
+    dat1 <- readRDS(paste0(filename, ".RDS"))
     filename <- paste0("Trends in IATI - Disbursements - 2021 onwards ", format(Sys.Date(), "%d%m%y"))
     if(!(paste0(filename, ".RDS") %in% list.files())){
       if(!(paste0(filename, ".csv") %in% list.files())){
         message("Disbursements file for today not found, downloading.")
         download.file("https://ddw.devinit.org/api/export/1510", paste0(filename, ".csv"), method = "libcurl")
       }
-      dat <- read.csv(paste0(filename, ".csv"))
-      saveRDS(dat, paste0(filename, ".RDS"))
+      dat2 <- read.csv(paste0(filename, ".csv"))
+      saveRDS(dat2, paste0(filename, ".RDS"))
     }
-    dat <- readRDS(paste0(filename, ".RDS"))
+    dat2 <- readRDS(paste0(filename, ".RDS"))
     #dat <- fread("Trends in IATI - Disbursements September 18.csv")
+    dat <- rbind(dat1, dat2)
+    rm(dat1, dat2)
   }
   
   meta_columns <- read.csv("meta_columns.csv")
