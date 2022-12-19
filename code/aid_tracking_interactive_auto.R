@@ -11,6 +11,12 @@ setwd(wd)
 setwd("..")
 setwd("input")
 
+if(.Platform$OS.type == "unix") {
+  home = "~/"
+} else {
+  home = "C:/"
+}
+
 all <- read.csv("donors_selected.csv")[,c("country","code","org_type","disbursements","commitments")] # Reading in manual donor quality checks. Binary: 1 = include, 0 = exclude.
 
 #### DDW read-in ####
@@ -26,7 +32,7 @@ retrieval_orgs <- c("XM-DAC-41122")
 retrieval_date <- "251021"
 
 ##
-options(timeout = 1000)
+options(timeout = 1000000)
 ##
 
 for(choice in choices){
@@ -46,11 +52,21 @@ for(choice in choices){
     # Data read-in. These can be retrieved from the DDW, as explained in the ReadME on the repo page.
   }
   if (choice == "disbursements"){
-    filename <- paste0("Trends in IATI - Disbursements ", format(Sys.Date(), "%d%m%y"))
+    filename <- paste0("Trends in IATI - Disbursements - 2018 to 2020 ", format(Sys.Date(), "%d%m%y"))
     if(!(paste0(filename, ".RDS") %in% list.files())){
       if(!(paste0(filename, ".csv") %in% list.files())){
         message("Disbursements file for today not found, downloading.")
-        download.file("https://ddw.devinit.org/api/export/795", paste0(filename, ".csv"), method = "libcurl")
+        download.file("https://ddw.devinit.org/api/export/1528", paste0(filename, ".csv"), method = "libcurl")
+      }
+      dat <- read.csv(paste0(filename, ".csv"))
+      saveRDS(dat, paste0(filename, ".RDS"))
+    }
+    dat <- readRDS(paste0(filename, ".RDS"))
+    filename <- paste0("Trends in IATI - Disbursements - 2021 onwards ", format(Sys.Date(), "%d%m%y"))
+    if(!(paste0(filename, ".RDS") %in% list.files())){
+      if(!(paste0(filename, ".csv") %in% list.files())){
+        message("Disbursements file for today not found, downloading.")
+        download.file("https://ddw.devinit.org/api/export/1510", paste0(filename, ".csv"), method = "libcurl")
       }
       dat <- read.csv(paste0(filename, ".csv"))
       saveRDS(dat, paste0(filename, ".RDS"))
@@ -694,7 +710,9 @@ for(choice in choices){
   
 }
 #### Combination and CSV production ####
-setwd("C:/git/aid-tracker-interactive")
+setwd(
+  paste0(home, "git/aid-tracker-interactive")
+)
 sector <- rbind(t.sector_commitments,t.sector_disbursements)
 sector$org_type[which(sector$aggregate=="Specific donor")] <- sector$country[which(sector$aggregate=="Specific donor")] # Make the org_type be the country field in all 'specific donor' entries.
 sector$flow_type <- tolower(sector$flow_type)
