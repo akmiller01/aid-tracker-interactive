@@ -52,6 +52,13 @@ for(choice in choices){
     # Data read-in. These can be retrieved from the DDW, as explained in the ReadME on the repo page.
   }
   if (choice == "disbursements"){
+    unused_large_columns = c(
+      "Title.Narrative"
+      ,"Description.Narrative"
+      ,"Transaction.Description.Narrative"
+      ,"IATI.Identifier"
+      ,"Transaction.Reference"
+    )
     filename <- paste0("Trends in IATI - Disbursements - 2018 to 2020 ", format(Sys.Date(), "%d%m%y"))
     if(!(paste0(filename, ".RDS") %in% list.files())){
       if(!(paste0(filename, ".csv") %in% list.files())){
@@ -62,6 +69,7 @@ for(choice in choices){
       saveRDS(dat1, paste0(filename, ".RDS"))
     }
     dat1 <- readRDS(paste0(filename, ".RDS"))
+    dat1[,unused_large_columns] = NULL
     filename <- paste0("Trends in IATI - Disbursements - 2021 onwards ", format(Sys.Date(), "%d%m%y"))
     if(!(paste0(filename, ".RDS") %in% list.files())){
       if(!(paste0(filename, ".csv") %in% list.files())){
@@ -72,7 +80,8 @@ for(choice in choices){
       saveRDS(dat2, paste0(filename, ".RDS"))
     }
     dat2 <- readRDS(paste0(filename, ".RDS"))
-    #dat <- fread("Trends in IATI - Disbursements September 18.csv")
+    dat2[,unused_large_columns] = NULL
+    # dat <- fread("Trends in IATI - Disbursements September 18.csv")
     dat <- rbind(dat1, dat2)
     rm(dat1, dat2)
   }
@@ -712,6 +721,7 @@ for(choice in choices){
   
   keep_env = c(
     "home",
+    "filename",
     "t.sector_commitments",
     "t.sector_disbursements",
     "t.income_commitments",
@@ -734,8 +744,25 @@ for(choice in choices){
   drop_env = setdiff(ls(), keep_env)
   rm(list=drop_env)
   gc()
+  if(choice == "commitments"){
+    save(
+      t.sector_commitments,
+      t.income_commitments,
+      t.ldc_commitments,
+      t.poverty_commitments,
+      t.overall_commitments,
+      file=paste0("commitments_processed_",format(Sys.Date(), "%d%m%y"),".RData")
+    )
+    rm(t.sector_commitments,
+       t.income_commitments,
+       t.ldc_commitments,
+       t.poverty_commitments,
+       t.overall_commitments)
+    gc()
+  }
 }
 #### Combination and CSV production ####
+load(paste0("commitments_processed_",format(Sys.Date(), "%d%m%y"),".RData"))
 setwd(
   paste0(home, "git/aid-tracker-interactive")
 )
