@@ -726,6 +726,7 @@ for(choice in choices){
     "current_year",
     "current_yyyymm",
     "choice",
+    "choices",
     "retrieval_reqd",
     "retrieval_orgs",
     "retrieval_date"
