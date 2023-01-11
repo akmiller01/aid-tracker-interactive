@@ -801,6 +801,16 @@ for(choice in choices){
        t.overall_commitments)
     gc()
   }
+  if(choice == "disbursements"){
+    save(
+      t.sector_disbursements,
+      t.income_disbursements,
+      t.ldc_disbursements,
+      t.poverty_disbursements,
+      t.overall_disbursements,
+      file=paste0("disbursements_processed_",format(Sys.Date(), "%d%m%y"),".RData")
+    )
+  }
 }
 #### Combination and CSV production ####
 load(paste0("commitments_processed_",format(Sys.Date(), "%d%m%y"),".RData"))
