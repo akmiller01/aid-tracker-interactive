@@ -710,6 +710,29 @@ for(choice in choices){
   
   assign(paste0("t.","sector_",choice),t.overall)
   
+  keep_env = c(
+    "home",
+    "t.sector_commitments",
+    "t.sector_disbursements",
+    "t.income_commitments",
+    "t.income_dibursements",
+    "t.ldc_commitments",
+    "t.ldc_disbursements",
+    "t.poverty_commitments",
+    "t.poverty_disbursements",
+    "t.overall_commitments",
+    "t.overall_disbursements",
+    "current_month",
+    "current_year",
+    "current_yyyymm",
+    "choice",
+    "retrieval_reqd",
+    "retrieval_orgs",
+    "retrieval_date"
+  )
+  drop_env = setdiff(ls(), keep_env)
+  rm(list=drop_env)
+  gc()
 }
 #### Combination and CSV production ####
 setwd(
