@@ -1,33 +1,89 @@
 "","country","org_type","flow_type","transaction_type","year","quarter","month","aggregate_type","oda_oof_other","variable","timeframe","rollingyear","value.x","value.y","difference","abs_difference"
-"73602","Global Fund","Global Fund","Health","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3920.27594624,-2574.03650859,1346.23943765,1346.23943765
-"73606","Global Fund","Global Fund","Health","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,3920.27594624,-2574.03650859,1346.23943765,1346.23943765
-"73612","Global Fund","Global Fund","Health","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3128.47416058,-2040.51909061,1087.95506997,1087.95506997
-"73616","Global Fund","Global Fund","Health","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,3128.47416058,-2040.51909061,1087.95506997,1087.95506997
-"73662","Global Fund","Global Fund","Health","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3864.23964764,-2282.15452644,1582.0851212,1582.0851212
-"73666","Global Fund","Global Fund","Health","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,3864.23964764,-2282.15452644,1582.0851212,1582.0851212
-"73812","Global Fund","Global Fund","Health","Commitments",2021,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,6820.1001651,-4546.05139582,2274.04876928,2274.04876928
-"73816","Global Fund","Global Fund","Health","Commitments",2021,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,6820.1001651,-4546.05139582,2274.04876928,2274.04876928
-"73832","Global Fund","Global Fund","Health","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3180.94070297,-2088.54990315,1092.39079982,1092.39079982
-"73836","Global Fund","Global Fund","Health","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,3180.94070297,-2088.54990315,1092.39079982,1092.39079982
-"73842","Global Fund","Global Fund","Health","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3495.68281152,-2218.87387383,1276.80893769,1276.80893769
-"73846","Global Fund","Global Fund","Health","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,3495.68281152,-2218.87387383,1276.80893769,1276.80893769
-"73892","Global Fund","Global Fund","Health","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,4179.47317893,-2629.74135954,1549.73181939,1549.73181939
-"73896","Global Fund","Global Fund","Health","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,4179.47317893,-2629.74135954,1549.73181939,1549.73181939
-"74042","Global Fund","Global Fund","Health","Disbursements",2021,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,5007.44722675,-3209.61575557,1797.83147118,1797.83147118
-"74046","Global Fund","Global Fund","Health","Disbursements",2021,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,5007.44722675,-3209.61575557,1797.83147118,1797.83147118
-"121442",NA,"Multilateral","Health","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,7230.16224699604,-5883.84378727679,1346.31845971925,1346.31845971925
-"121446",NA,"Multilateral","Health","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,7149.28498860475,-5802.96550145843,1346.31948714632,1346.31948714632
-"121452",NA,"Multilateral","Health","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,7358.44263806393,-6270.29382052635,1088.14881753758,1088.14881753758
-"121456",NA,"Multilateral","Health","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,7052.0681815454,-5963.91552836205,1088.15265318335,1088.15265318335
-"121502",NA,"Multilateral","Health","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,17105.618100059,-15523.140193589,1582.47790647,1582.47790647
-"121506",NA,"Multilateral","Health","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,17039.6337328908,-15457.1551680507,1582.4785648401,1582.4785648401
-"121652",NA,"Multilateral","Health","Commitments",2021,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,11384.5390030924,-9110.01662824923,2274.52237484317,2274.52237484317
-"121656",NA,"Multilateral","Health","Commitments",2021,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,11302.497015284,-9027.97377628428,2274.52323899972,2274.52323899972
-"121672",NA,"Multilateral","Health","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,6557.14099257444,-5464.65403147646,1092.48696109798,1092.48696109798
-"121676",NA,"Multilateral","Health","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,6378.37784642653,-5285.88920322371,1092.48864320282,1092.48864320282
-"121682",NA,"Multilateral","Health","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,7288.95952487309,-6011.94834811595,1277.01117675714,1277.01117675714
-"121686",NA,"Multilateral","Health","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,7072.02567395553,-5795.01208620816,1277.01358774737,1277.01358774737
-"121732",NA,"Multilateral","Health","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,8120.43007923955,-6570.29810188816,1550.13197735139,1550.13197735139
-"121736",NA,"Multilateral","Health","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,7892.06101099725,-6341.92677709394,1550.13423390331,1550.13423390331
-"121882",NA,"Multilateral","Health","Disbursements",2021,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,19752.7863654104,-17954.5222977287,1798.2640676817,1798.2640676817
-"121886",NA,"Multilateral","Health","Disbursements",2021,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,19449.2676875609,-17651.002784031,1798.2649035299,1798.2649035299
+"36082","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Infrastructure","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2240.60077938432,-1128.4929609072,1112.10781847712,1112.10781847712
+"36090","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Infrastructure","Commitments",2018,NA,NA,"Specific donor","Other flows","Volume","Yearly",NA,2240.60077938432,-1128.4929609072,1112.10781847712,1112.10781847712
+"36092","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Infrastructure","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2494.88754498064,-653.294604377386,1841.59294060325,1841.59294060325
+"36100","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Infrastructure","Commitments",2019,NA,NA,"Specific donor","Other flows","Volume","Yearly",NA,2494.88754498064,-653.294604377386,1841.59294060325,1841.59294060325
+"36112","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Infrastructure","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3562.86457304581,-1215.49286735734,2347.37170568847,2347.37170568847
+"36120","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Infrastructure","Commitments",2020,NA,NA,"Specific donor","Other flows","Volume","Yearly",NA,3562.86457304581,-1215.49286735734,2347.37170568847,2347.37170568847
+"36172","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Infrastructure","Commitments",2021,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2926.99806028037,-1603.31629077556,1323.68176950481,1323.68176950481
+"36180","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Infrastructure","Commitments",2021,NA,NA,"Specific donor","Other flows","Volume","Yearly",NA,2926.99806028037,-1603.31629077556,1323.68176950481,1323.68176950481
+"36962","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Other","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,421.248528249435,-1497.76498454884,-1076.51645629941,1076.51645629941
+"36970","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Other","Commitments",2018,NA,NA,"Specific donor","Other flows","Volume","Yearly",NA,421.248528249435,-1497.76498454884,-1076.51645629941,1076.51645629941
+"36972","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Other","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,540.000206284961,-2729.79181440089,-2189.79160811593,2189.79160811593
+"36980","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Other","Commitments",2019,NA,NA,"Specific donor","Other flows","Volume","Yearly",NA,540.000206284961,-2729.79181440089,-2189.79160811593,2189.79160811593
+"36992","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Other","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,875.701567268693,-3152.88487349556,-2277.18330622687,2277.18330622687
+"37000","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Other","Commitments",2020,NA,NA,"Specific donor","Other flows","Volume","Yearly",NA,875.701567268693,-3152.88487349556,-2277.18330622687,2277.18330622687
+"37052","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Other","Commitments",2021,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1224.54392354659,-2696.68254339108,-1472.13861984449,1472.13861984449
+"37060","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Other","Commitments",2021,NA,NA,"Specific donor","Other flows","Volume","Yearly",NA,1224.54392354659,-2696.68254339108,-1472.13861984449,1472.13861984449
+"102082",NA,"Bilateral","Health","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,8163.1467526747,-9665.28404546778,-1502.13729279308,1502.13729279308
+"102086",NA,"Bilateral","Health","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,8141.43870602898,-9643.57649444273,-1502.13778841375,1502.13778841375
+"102092",NA,"Bilateral","Health","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,8003.9654838843,-9273.81146474577,-1269.84598086147,1269.84598086147
+"102096",NA,"Bilateral","Health","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,7980.02172405006,-9249.86730875907,-1269.84558470901,1269.84558470901
+"102112",NA,"Bilateral","Health","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,11836.6799104736,-13975.436498724,-2138.7565882504,2138.7565882504
+"102116",NA,"Bilateral","Health","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,11790.6099333141,-13929.3688284342,-2138.7588951201,2138.7588951201
+"102172",NA,"Bilateral","Health","Commitments",2021,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,21439.4555501737,-23372.4898933656,-1933.0343431919,1933.0343431919
+"102176",NA,"Bilateral","Health","Commitments",2021,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,21418.193834161,-23351.0361012775,-1932.8422671165,1932.8422671165
+"102302",NA,"Bilateral","Health","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,9703.26651202835,-11308.7983397438,-1605.53182771545,1605.53182771545
+"102306",NA,"Bilateral","Health","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,9673.77574678741,-11279.3273510235,-1605.55160423609,1605.55160423609
+"102312",NA,"Bilateral","Health","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,9559.3433541792,-11040.3364445097,-1480.9930903305,1480.9930903305
+"102316",NA,"Bilateral","Health","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,9530.62489365221,-11011.6195510657,-1480.99465741349,1480.99465741349
+"102332",NA,"Bilateral","Health","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,11492.9499795857,-13199.7467489991,-1706.7967694134,1706.7967694134
+"102336",NA,"Bilateral","Health","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,11454.669420262,-13161.4847593323,-1706.8153390703,1706.8153390703
+"102392",NA,"Bilateral","Health","Disbursements",2021,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,16007.1200031645,-17601.9780388941,-1594.8580357296,1594.8580357296
+"102396",NA,"Bilateral","Health","Disbursements",2021,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,15981.5190260651,-17576.1456536143,-1594.6266275492,1594.6266275492
+"103872",NA,"Bilateral","Other","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,10783.440779312,-14713.5442377773,-3930.1034584653,3930.1034584653
+"103876",NA,"Bilateral","Other","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,10562.6762771576,-14462.1531109442,-3899.4768337866,3899.4768337866
+"103932",NA,"Bilateral","Other","Commitments",2021,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,5718.01327421973,-9294.75624716189,-3576.74297294216,3576.74297294216
+"103936",NA,"Bilateral","Other","Commitments",2021,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,5583.12454213202,-9132.22596436062,-3549.1014222286,3549.1014222286
+"104062",NA,"Bilateral","Other","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,14590.3699960768,-16263.5558588203,-1673.1858627435,1673.1858627435
+"104066",NA,"Bilateral","Other","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,14439.9810504853,-16092.6498899532,-1652.6688394679,1652.6688394679
+"104072",NA,"Bilateral","Other","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,14393.0785426502,-16301.5490168013,-1908.4704741511,1908.4704741511
+"104076",NA,"Bilateral","Other","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,14305.056693411,-16194.36356003,-1889.306866619,1889.306866619
+"104092",NA,"Bilateral","Other","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,16453.6057129034,-18584.4045495025,-2130.7988365991,2130.7988365991
+"104096",NA,"Bilateral","Other","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,16207.9074776568,-18315.3476420826,-2107.4401644258,2107.4401644258
+"104152",NA,"Bilateral","Other","Disbursements",2021,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,14660.1940300903,-17221.1337621182,-2560.9397320279,2560.9397320279
+"104156",NA,"Bilateral","Other","Disbursements",2021,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,14436.5085729391,-16974.0980138477,-2537.5894409086,2537.5894409086
+"110002",NA,"IFI","Infrastructure","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,40773.8702877431,-39586.1357602959,1187.7345274472,1187.7345274472
+"110010",NA,"IFI","Infrastructure","Commitments",2018,NA,NA,"Organisation type","Other flows","Volume","Yearly",NA,2240.04884137321,-1128.22551871706,1111.82332265615,1111.82332265615
+"110012",NA,"IFI","Infrastructure","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,25723.8504823912,-23932.5435901909,1791.3068922003,1791.3068922003
+"110020",NA,"IFI","Infrastructure","Commitments",2019,NA,NA,"Organisation type","Other flows","Volume","Yearly",NA,2494.3214851717,-653.179616186454,1841.14186898525,1841.14186898525
+"110032",NA,"IFI","Infrastructure","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,23926.4181938622,-21643.033389404,2283.3848044582,2283.3848044582
+"110040",NA,"IFI","Infrastructure","Commitments",2020,NA,NA,"Organisation type","Other flows","Volume","Yearly",NA,3562.23084805103,-1215.30703418935,2346.92381386168,2346.92381386168
+"110092",NA,"IFI","Infrastructure","Commitments",2021,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,18311.5077368964,-16920.8298513496,1390.6778855468,1390.6778855468
+"110100",NA,"IFI","Infrastructure","Commitments",2021,NA,NA,"Organisation type","Other flows","Volume","Yearly",NA,2926.40631951552,-1603.04897513181,1323.35734438371,1323.35734438371
+"110882",NA,"IFI","Other","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,3787.86403380818,-4864.06683794935,-1076.20280414117,1076.20280414117
+"110890",NA,"IFI","Other","Commitments",2018,NA,NA,"Organisation type","Other flows","Volume","Yearly",NA,421.109491151837,-1497.31201622922,-1076.20252507738,1076.20252507738
+"110892",NA,"IFI","Other","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,4266.86719718457,-6456.14322357474,-2189.27602639017,2189.27602639017
+"110900",NA,"IFI","Other","Commitments",2019,NA,NA,"Organisation type","Other flows","Volume","Yearly",NA,539.913623867669,-2729.18996265782,-2189.27633879015,2189.27633879015
+"110912",NA,"IFI","Other","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,2884.58083173571,-5156.37723546658,-2271.79640373087,2271.79640373087
+"110920",NA,"IFI","Other","Commitments",2020,NA,NA,"Organisation type","Other flows","Volume","Yearly",NA,875.562460461105,-3152.30895659113,-2276.74649613002,2276.74649613002
+"110972",NA,"IFI","Other","Commitments",2021,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,3026.2817976265,-4498.07329696527,-1471.79149933877,1471.79149933877
+"110980",NA,"IFI","Other","Commitments",2021,NA,NA,"Organisation type","Other flows","Volume","Yearly",NA,1224.35009111182,-2696.14151889848,-1471.79142778666,1471.79142778666
+"139072","Sweden","Sweden","Other","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3749.51476418156,-7695.01370438128,-3945.49894019972,3945.49894019972
+"139076","Sweden","Sweden","Other","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,3582.69618314613,-7528.20209470743,-3945.5059115613,3945.5059115613
+"139132","Sweden","Sweden","Other","Commitments",2021,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2498.26205377718,-6075.56002630416,-3577.29797252698,3577.29797252698
+"139136","Sweden","Sweden","Other","Commitments",2021,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,2378.08098357456,-5955.38492798442,-3577.30394440986,3577.30394440986
+"139262","Sweden","Sweden","Other","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3626.02697399454,-5254.16469050959,-1628.13771651505,1628.13771651505
+"139266","Sweden","Sweden","Other","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,3614.23105859692,-5242.36895931168,-1628.13790071476,1628.13790071476
+"139272","Sweden","Sweden","Other","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3079.23036400676,-4934.60116738362,-1855.37080337686,1855.37080337686
+"139276","Sweden","Sweden","Other","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,3079.23036400676,-4934.60116738362,-1855.37080337686,1855.37080337686
+"139292","Sweden","Sweden","Other","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,4855.80779652653,-6955.87913785343,-2100.0713413269,2100.0713413269
+"139296","Sweden","Sweden","Other","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,4687.79376145555,-6787.86728458359,-2100.07352312804,2100.07352312804
+"139352","Sweden","Sweden","Other","Disbursements",2021,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,3298.15530642059,-5715.02035007316,-2416.86504365257,2416.86504365257
+"139356","Sweden","Sweden","Other","Disbursements",2021,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,3177.97357147754,-5594.8431292243,-2416.86955774676,2416.86955774676
+"190082","US","US","Health","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,5133.61642419374,-6565.29057016455,-1431.67414597081,1431.67414597081
+"190086","US","US","Health","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,5143.26128710673,-6574.93532097195,-1431.67403386522,1431.67403386522
+"190092","US","US","Health","Commitments",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,4818.81005474709,-6054.03741615541,-1235.22736140832,1235.22736140832
+"190096","US","US","Health","Commitments",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,4819.99689467546,-6055.22424659382,-1235.22735191836,1235.22735191836
+"190112","US","US","Health","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,7415.54491959843,-9332.32578700628,-1916.78086740785,1916.78086740785
+"190116","US","US","Health","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,7415.54491959843,-9332.32578700628,-1916.78086740785,1916.78086740785
+"190172","US","US","Health","Commitments",2021,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,15585.8585815609,-17408.8077735067,-1822.9491919458,1822.9491919458
+"190176","US","US","Health","Commitments",2021,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,15585.8585815609,-17408.8077735067,-1822.9491919458,1822.9491919458
+"190302","US","US","Health","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,5290.24720465682,-6751.16167081105,-1460.91446615423,1460.91446615423
+"190306","US","US","Health","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,5281.9237915772,-6742.83834340132,-1460.91455182412,1460.91455182412
+"190312","US","US","Health","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,5172.6147846428,-6531.07258332117,-1358.45779867837,1358.45779867837
+"190316","US","US","Health","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,5172.61823537379,-6531.07603403039,-1358.4577986566,1358.4577986566
+"190332","US","US","Health","Disbursements",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,6269.47330985584,-7779.33476971967,-1509.86145986383,1509.86145986383
+"190336","US","US","Health","Disbursements",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,6269.47330985584,-7779.33476971967,-1509.86145986383,1509.86145986383
+"190392","US","US","Health","Disbursements",2021,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,10768.4352406631,-12130.4873284978,-1362.0520878347,1362.0520878347
+"190396","US","US","Health","Disbursements",2021,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,10768.4352406631,-12130.4873284978,-1362.0520878347,1362.0520878347
