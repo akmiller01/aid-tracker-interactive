@@ -1,45 +1,41 @@
-country,Channel Name,Donor Name,year,transaction_type,flow_type,value,earmarked_value,unearmarked_value,earmarked_plus_unearmarked,diff_iati_and_both,diff_percentage
-"Gavi, The Vaccine Alliance",Global Alliance for Vaccines and Immunization,Global Alliance for Vaccines and Immunization,2018,Disbursements,ODA,1359.80962446,124.629205,1564.564986,1689.194191,-329.38456654,-19.4995085997191
-"Gavi, The Vaccine Alliance",Global Alliance for Vaccines and Immunization,Global Alliance for Vaccines and Immunization,2019,Disbursements,ODA,1827.35987011,56.354567,2081.161411,2137.515978,-310.156107889999,-14.5101188052967
-"Gavi, The Vaccine Alliance",Global Alliance for Vaccines and Immunization,Global Alliance for Vaccines and Immunization,2020,Disbursements,ODA,1987.24510097,389.893167,1993.314636,2383.207803,-395.96270203,-16.6146947627294
-"Gavi, The Vaccine Alliance",Global Alliance for Vaccines and Immunization,Global Alliance for Vaccines and Immunization,2021,Disbursements,ODA,12438.53656185,2712.687713,1700,4412.687713,8025.84884885,181.881188310821
-Global Fund,"Global Fund to Fight AIDS, Tuberculosis and Malaria",Global Fund,2018,Disbursements,ODA,3182.94070297,17.320322,3282.929513,3300.249835,-117.30913203,-3.55455307613099
-Global Fund,"Global Fund to Fight AIDS, Tuberculosis and Malaria",Global Fund,2019,Disbursements,ODA,3497.68281152,20.75053,3583.303763,3604.054293,-106.371481480001,-2.95143948543179
-Global Fund,"Global Fund to Fight AIDS, Tuberculosis and Malaria",Global Fund,2020,Disbursements,ODA,4181.47317893,84.191383,4254.927259,4339.118642,-157.645463070002,-3.63312174836822
-Global Fund,"Global Fund to Fight AIDS, Tuberculosis and Malaria",Global Fund,2021,Disbursements,ODA,5009.42328163,640.505732,5192.38718,5832.892912,-823.469630370002,-14.1176881316624
-International Committee of the Red Cross,International Committee of the Red Cross,,2018,Disbursements,ODA,0,1608.526917,0,1608.526917,-1608.526917,-100
-International Committee of the Red Cross,International Committee of the Red Cross,,2019,Disbursements,ODA,0,1498.629533,0,1498.629533,-1498.629533,-100
-International Committee of the Red Cross,International Committee of the Red Cross,,2020,Disbursements,ODA,0,1655.100556,0,1655.100556,-1655.100556,-100
-International Committee of the Red Cross,International Committee of the Red Cross,,2021,Disbursements,ODA,0,1713.891719,0,1713.891719,-1713.891719,-100
-International Fund for Agricultural Development,International Fund for Agricultural Development,IFAD,2018,Disbursements,ODA,0,106.112365,810.772829,916.885194,-916.885194,-100
-International Fund for Agricultural Development,International Fund for Agricultural Development,IFAD,2019,Disbursements,ODA,0,113.175783,885.68396,998.859743,-998.859743,-100
-International Fund for Agricultural Development,International Fund for Agricultural Development,IFAD,2020,Disbursements,ODA,0,465.756329,805.808873000001,1271.565202,-1271.565202,-100
-International Fund for Agricultural Development,International Fund for Agricultural Development,IFAD,2021,Disbursements,ODA,0,591.30792,797.538,1388.84592,-1388.84592,-100
-UNAIDS,Joint United Nations Programme on HIV/AIDS,UNAIDS,2018,Disbursements,ODA,57.980327,122.697117,189.450551,312.147668,-254.167341,-81.4253531440767
-UNAIDS,Joint United Nations Programme on HIV/AIDS,UNAIDS,2019,Disbursements,ODA,60.766878,127.017139,135.26688,262.284019,-201.517141,-76.8316505779943
-UNAIDS,Joint United Nations Programme on HIV/AIDS,UNAIDS,2020,Disbursements,ODA,71.035733,37.271476,128.955648,166.227124,-95.1913910000004,-57.2658593311162
-UNAIDS,Joint United Nations Programme on HIV/AIDS,UNAIDS,2021,Disbursements,ODA,69.6711519999999,25.965113,88.2017159999999,114.166829,-44.495677,-38.9742602030227
-UNDP,United Nations Development Programme,UNDP,2018,Disbursements,ODA,4162.33636499999,2959.0035,304.497387,3263.500887,898.835477999986,27.5420632358475
-UNDP,United Nations Development Programme,UNDP,2019,Disbursements,ODA,4272.733927,2349.722313,371.953332999999,2721.675646,1551.058281,56.9890935857681
-UNDP,United Nations Development Programme,UNDP,2020,Disbursements,ODA,4369.43984,3430.00786099999,400.846465999999,3830.85432699999,538.585513000008,14.0591488745484
-UNDP,United Nations Development Programme,UNDP,2021,Disbursements,ODA,4643.97961500001,3580.572442,430.451997000001,4011.024439,632.955176000006,15.7803869217463
-UNICEF,United Nations Childrens Fund,UNICEF,2018,Disbursements,ODA,5353.21610200006,4375.654614,1499.195872,5874.850486,-521.634383999937,-8.87910909806152
-UNICEF,United Nations Childrens Fund,UNICEF,2019,Disbursements,ODA,5650.26054300002,4027.52680100007,1023.47599999998,5051.00280100005,599.257741999973,11.8641340266397
-UNICEF,United Nations Childrens Fund,UNICEF,2020,Disbursements,ODA,5700.75354900003,5707.001063,973.500999999976,6680.50206299998,-979.748513999948,-14.665791653988
-UNICEF,United Nations Childrens Fund,UNICEF,2021,Disbursements,ODA,6321.34204599999,5670.44022400016,906.706999999971,6577.14722400013,-255.805178000135,-3.88930290425456
-UNIDO,United Nations Industrial Development Organisation,,2018,Disbursements,ODA,0,74.227052,0,74.227052,-74.227052,-100
-UNIDO,United Nations Industrial Development Organisation,,2019,Disbursements,ODA,0,83.427119,0,83.427119,-83.427119,-100
-UNIDO,United Nations Industrial Development Organisation,,2020,Disbursements,ODA,0,113.962362,0,113.962362,-113.962362,-100
-UNIDO,United Nations Industrial Development Organisation,,2021,Disbursements,ODA,0,162.832817,0,162.832817,-162.832817,-100
-UNOCHA,Central Emergency Response Fund,Central Emergency Response Fund,2018,Disbursements,ODA,502.313023323309,21.7679,500.50826,522.27616,-19.9631366766913,-3.82233350966876
-UNOCHA,United Nations Office of Co-ordination of Humanitarian Affairs,Central Emergency Response Fund,2018,Disbursements,ODA,502.313023323309,787.871812999999,500.50826,1288.380073,-786.067049676691,-61.0120465342443
-UNOCHA,Central Emergency Response Fund,Central Emergency Response Fund,2019,Disbursements,ODA,541.165120605974,4.52464,537.669991999999,542.194631999999,-1.02951139402524,-0.189878566342065
-UNOCHA,United Nations Office of Co-ordination of Humanitarian Affairs,Central Emergency Response Fund,2019,Disbursements,ODA,541.165120605974,673.760673,537.669991999999,1211.430665,-670.265544394025,-55.3284280940689
-UNOCHA,Central Emergency Response Fund,Central Emergency Response Fund,2020,Disbursements,ODA,787.394255339565,20.48685,848.141,868.62785,-81.233594660435,-9.35194452496946
-UNOCHA,United Nations Office of Co-ordination of Humanitarian Affairs,Central Emergency Response Fund,2020,Disbursements,ODA,787.394255339565,668.712859,848.141,1516.853859,-729.459603660435,-48.0903021297871
-UNOCHA,Central Emergency Response Fund,Central Emergency Response Fund,2021,Disbursements,ODA,610.695640901988,5.541252,548.049,553.590252,57.1053889019879,10.315461425789
-UNOCHA,United Nations Office of Co-ordination of Humanitarian Affairs,Central Emergency Response Fund,2021,Disbursements,ODA,610.695640901988,716.274354,548.049,1264.323354,-653.627713098012,-51.6978280144948
-World Food Programme,World Food Programme,WFP,2018,Disbursements,ODA,6554.877224,5266.205122,185.668493,5451.873615,1103.003609,20.2316430440583
-World Food Programme,World Food Programme,WFP,2019,Disbursements,ODA,7636.704585,5933.00380000001,308.90718,6241.91098000001,1394.79360499999,22.3456183445922
-World Food Programme,World Food Programme,WFP,2020,Disbursements,ODA,8084.405113,6313.289374,323.981801,6637.271175,1447.133938,21.8031462003659
-World Food Programme,World Food Programme,WFP,2021,Disbursements,ODA,9255.995213,7691.84604199998,343.72957,8035.57561199998,1220.41960100002,15.1877060204312
+country,earmarked_value,Donor Name,year,transaction_type,flow_type,value,Channel Name,unearmarked_value,earmarked_plus_unearmarked,diff_iati_and_both,diff_percentage
+"Gavi, The Vaccine Alliance",124.629205,Global Alliance for Vaccines and Immunization,2018,Disbursements,ODA,1359.80962446,Global Alliance for Vaccines and Immunization,1564.564986,1689.194191,-329.38456654,-19.4995085997191
+"Gavi, The Vaccine Alliance",56.354567,Global Alliance for Vaccines and Immunization,2019,Disbursements,ODA,1827.35987011,Global Alliance for Vaccines and Immunization,2081.161411,2137.515978,-310.156107889999,-14.5101188052967
+"Gavi, The Vaccine Alliance",389.893167,Global Alliance for Vaccines and Immunization,2020,Disbursements,ODA,1987.24510097,Global Alliance for Vaccines and Immunization,1993.314636,2383.207803,-395.96270203,-16.6146947627294
+"Gavi, The Vaccine Alliance",2712.687713,Global Alliance for Vaccines and Immunization,2021,Disbursements,ODA,12438.53656185,Global Alliance for Vaccines and Immunization,1700,4412.687713,8025.84884885,181.881188310821
+Global Fund,17.320322,Global Fund,2018,Disbursements,ODA,3182.94070297,"Global Fund to Fight AIDS, Tuberculosis and Malaria",3282.929513,3300.249835,-117.30913203,-3.55455307613099
+Global Fund,20.75053,Global Fund,2019,Disbursements,ODA,3497.68281152,"Global Fund to Fight AIDS, Tuberculosis and Malaria",3583.303763,3604.054293,-106.371481480001,-2.95143948543179
+Global Fund,84.191383,Global Fund,2020,Disbursements,ODA,4181.47317893,"Global Fund to Fight AIDS, Tuberculosis and Malaria",4254.927259,4339.118642,-157.645463070002,-3.63312174836822
+Global Fund,640.505732,Global Fund,2021,Disbursements,ODA,5009.42328163,"Global Fund to Fight AIDS, Tuberculosis and Malaria",5192.38718,5832.892912,-823.469630370002,-14.1176881316624
+International Committee of the Red Cross,1608.526917,,2018,Disbursements,ODA,0,International Committee of the Red Cross,0,1608.526917,-1608.526917,-100
+International Committee of the Red Cross,1498.629533,,2019,Disbursements,ODA,0,International Committee of the Red Cross,0,1498.629533,-1498.629533,-100
+International Committee of the Red Cross,1655.100556,,2020,Disbursements,ODA,0,International Committee of the Red Cross,0,1655.100556,-1655.100556,-100
+International Committee of the Red Cross,1713.891719,,2021,Disbursements,ODA,0,International Committee of the Red Cross,0,1713.891719,-1713.891719,-100
+International Fund for Agricultural Development,106.112365,IFAD,2018,Disbursements,ODA,0,International Fund for Agricultural Development,810.772829,916.885194,-916.885194,-100
+International Fund for Agricultural Development,113.175783,IFAD,2019,Disbursements,ODA,0,International Fund for Agricultural Development,885.68396,998.859743,-998.859743,-100
+International Fund for Agricultural Development,465.756329,IFAD,2020,Disbursements,ODA,0,International Fund for Agricultural Development,805.808873000001,1271.565202,-1271.565202,-100
+International Fund for Agricultural Development,591.30792,IFAD,2021,Disbursements,ODA,0,International Fund for Agricultural Development,797.538,1388.84592,-1388.84592,-100
+UNAIDS,122.697117,UNAIDS,2018,Disbursements,ODA,57.980327,Joint United Nations Programme on HIV/AIDS,189.450551,312.147668,-254.167341,-81.4253531440767
+UNAIDS,127.017139,UNAIDS,2019,Disbursements,ODA,60.766878,Joint United Nations Programme on HIV/AIDS,135.26688,262.284019,-201.517141,-76.8316505779943
+UNAIDS,37.271476,UNAIDS,2020,Disbursements,ODA,71.035733,Joint United Nations Programme on HIV/AIDS,128.955648,166.227124,-95.1913910000004,-57.2658593311162
+UNAIDS,25.965113,UNAIDS,2021,Disbursements,ODA,69.6711519999999,Joint United Nations Programme on HIV/AIDS,88.2017159999999,114.166829,-44.495677,-38.9742602030227
+UNDP,2959.0035,UNDP,2018,Disbursements,ODA,4162.33636499999,United Nations Development Programme,304.497387,3263.500887,898.835477999986,27.5420632358475
+UNDP,2349.722313,UNDP,2019,Disbursements,ODA,4272.733927,United Nations Development Programme,371.953332999999,2721.675646,1551.058281,56.9890935857681
+UNDP,3430.00786099999,UNDP,2020,Disbursements,ODA,4369.43984,United Nations Development Programme,400.846465999999,3830.85432699999,538.585513000008,14.0591488745484
+UNDP,3580.572442,UNDP,2021,Disbursements,ODA,4643.97961500001,United Nations Development Programme,430.451997000001,4011.024439,632.955176000006,15.7803869217463
+UNICEF,4375.654614,UNICEF,2018,Disbursements,ODA,5353.21610200006,United Nations Childrens Fund,1499.195872,5874.850486,-521.634383999937,-8.87910909806152
+UNICEF,4027.52680100007,UNICEF,2019,Disbursements,ODA,5650.26054300002,United Nations Childrens Fund,1023.47599999998,5051.00280100005,599.257741999973,11.8641340266397
+UNICEF,5707.001063,UNICEF,2020,Disbursements,ODA,5700.75354900003,United Nations Childrens Fund,973.500999999976,6680.50206299998,-979.748513999948,-14.665791653988
+UNICEF,5670.44022400016,UNICEF,2021,Disbursements,ODA,6321.34204599999,United Nations Childrens Fund,906.706999999971,6577.14722400013,-255.805178000135,-3.88930290425456
+UNIDO,74.227052,,2018,Disbursements,ODA,0,United Nations Industrial Development Organisation,0,74.227052,-74.227052,-100
+UNIDO,83.427119,,2019,Disbursements,ODA,0,United Nations Industrial Development Organisation,0,83.427119,-83.427119,-100
+UNIDO,113.962362,,2020,Disbursements,ODA,0,United Nations Industrial Development Organisation,0,113.962362,-113.962362,-100
+UNIDO,162.832817,,2021,Disbursements,ODA,0,United Nations Industrial Development Organisation,0,162.832817,-162.832817,-100
+UNOCHA,809.639712999999,Central Emergency Response Fund,2018,Disbursements,ODA,502.313023323309,United Nations Office of Co-ordination of Humanitarian Affairs,500.50826,1310.147973,-807.834949676691,-61.6598251743195
+UNOCHA,678.285313,Central Emergency Response Fund,2019,Disbursements,ODA,541.165120605974,United Nations Office of Co-ordination of Humanitarian Affairs,537.669991999999,1215.955305,-674.790184394025,-55.4946535961719
+UNOCHA,689.199709,Central Emergency Response Fund,2020,Disbursements,ODA,787.394255339565,United Nations Office of Co-ordination of Humanitarian Affairs,848.141,1537.340709,-749.946453660435,-48.7820591278205
+UNOCHA,721.815606,Central Emergency Response Fund,2021,Disbursements,ODA,610.695640901988,United Nations Office of Co-ordination of Humanitarian Affairs,548.049,1269.864606,-659.168965098012,-51.9086020654089
+World Food Programme,5266.205122,WFP,2018,Disbursements,ODA,6554.877224,World Food Programme,185.668493,5451.873615,1103.003609,20.2316430440583
+World Food Programme,5933.00380000001,WFP,2019,Disbursements,ODA,7636.704585,World Food Programme,308.90718,6241.91098000001,1394.79360499999,22.3456183445922
+World Food Programme,6313.289374,WFP,2020,Disbursements,ODA,8084.405113,World Food Programme,323.981801,6637.271175,1447.133938,21.8031462003659
+World Food Programme,7691.84604199998,WFP,2021,Disbursements,ODA,9255.995213,World Food Programme,343.72957,8035.57561199998,1220.41960100002,15.1877060204312

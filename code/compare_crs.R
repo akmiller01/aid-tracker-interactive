@@ -62,6 +62,7 @@ channel_name_mapping = c(
 )
 
 earmarked_tab$country = channel_name_mapping[earmarked_tab$`Channel Name`]
+earmarked_tab = earmarked_tab[,.(earmarked_value=sum(earmarked_value, na.rm=T), `Channel Name`=first(`Channel Name`)), by=.(year, country)]
 
 overall = merge(overall, earmarked_tab, by=c("country", "year"), all.x=T)
 overall = overall[,c(1, 8, 6, 2:5, 9, 7)]
