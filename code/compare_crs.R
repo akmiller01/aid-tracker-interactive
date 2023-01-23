@@ -65,7 +65,7 @@ earmarked_tab$country = channel_name_mapping[earmarked_tab$`Channel Name`]
 earmarked_tab = earmarked_tab[,.(earmarked_value=sum(earmarked_value, na.rm=T), `Channel Name`=first(`Channel Name`)), by=.(year, country)]
 
 overall = merge(overall, earmarked_tab, by=c("country", "year"), all.x=T)
-overall = overall[,c(1, 8, 6, 2:5, 9, 7)]
+overall = overall[,c(1, 9, 6, 2:5, 7:8)]
 overall = subset(overall, !is.na(`Donor Name`) | !is.na(`Channel Name`))
 overall$earmarked_value[which(is.na(overall$earmarked_value))] = 0
 overall$unearmarked_value[which(is.na(overall$unearmarked_value))] = 0
