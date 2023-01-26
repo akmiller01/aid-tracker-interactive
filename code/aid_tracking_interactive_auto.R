@@ -11,6 +11,12 @@ setwd(wd)
 setwd("..")
 setwd("input")
 
+if(.Platform$OS.type == "unix") {
+  home = "~/"
+} else {
+  home = "C:/"
+}
+
 all <- read.csv("donors_selected.csv")[,c("country","code","org_type","disbursements","commitments")] # Reading in manual donor quality checks. Binary: 1 = include, 0 = exclude.
 
 #### DDW read-in ####
@@ -26,7 +32,7 @@ retrieval_orgs <- c("XM-DAC-41122")
 retrieval_date <- "251021"
 
 ##
-options(timeout = 1000)
+options(timeout = 1000000)
 ##
 
 for(choice in choices){
@@ -46,17 +52,60 @@ for(choice in choices){
     # Data read-in. These can be retrieved from the DDW, as explained in the ReadME on the repo page.
   }
   if (choice == "disbursements"){
-    filename <- paste0("Trends in IATI - Disbursements ", format(Sys.Date(), "%d%m%y"))
+    unused_large_columns = c(
+      "Title.Narrative"
+      ,"Description.Narrative"
+      ,"Transaction.Description.Narrative"
+      ,"IATI.Identifier"
+      ,"Transaction.Reference"
+      ,"Implementing.Organisation.Narrative"
+      ,"Funding.Organisation.Narrative"
+      ,"Extending.Organisation.Narrative"
+      ,"Accountable.Organisation.Narrative"
+      ,"Transaction.Provider.Organisation.Provider.Activity.ID"
+      ,"Transaction.Provider.Organisation.Narrative"
+      ,"Transaction.Provider.Organisation.Reference"
+      ,"Transaction.Receiver.Organisation.Receiver.Activity.ID"
+      ,"Transaction.Receiver.Organisation.Narrative"
+      ,"Transaction.Receiver.Organisation.Reference"
+      ,"IATI.Registry.Package.ID"
+      ,"DAC.Policy.Marker.Code"
+      ,"DAC.Policy.Marker.Significance"
+      ,"Humanitarian.Scope.Narrative"
+      ,"Humanitarian.Emergency.Code...Calculated"
+      ,"Humanitarian.Appeal.Code...Calculated"
+      ,"Tag.Narrative"
+      ,"Tag.Code"
+    )
+    filename <- paste0("Trends in IATI - Disbursements - 2018 to 2020 ", format(Sys.Date(), "%d%m%y"))
     if(!(paste0(filename, ".RDS") %in% list.files())){
       if(!(paste0(filename, ".csv") %in% list.files())){
         message("Disbursements file for today not found, downloading.")
-        download.file("https://ddw.devinit.org/api/export/795", paste0(filename, ".csv"), method = "libcurl")
+        download.file("https://ddw.devinit.org/api/export/1528", paste0(filename, ".csv"), method = "libcurl")
       }
-      dat <- read.csv(paste0(filename, ".csv"))
-      saveRDS(dat, paste0(filename, ".RDS"))
+      dat1 <- read.csv(paste0(filename, ".csv"))
+      saveRDS(dat1, paste0(filename, ".RDS"))
     }
-    dat <- readRDS(paste0(filename, ".RDS"))
-    #dat <- fread("Trends in IATI - Disbursements September 18.csv")
+    dat1 <- readRDS(paste0(filename, ".RDS"))
+    dat1[,unused_large_columns] = NULL
+    gc()
+    filename <- paste0("Trends in IATI - Disbursements - 2021 onwards ", format(Sys.Date(), "%d%m%y"))
+    if(!(paste0(filename, ".RDS") %in% list.files())){
+      if(!(paste0(filename, ".csv") %in% list.files())){
+        message("Disbursements file for today not found, downloading.")
+        download.file("https://ddw.devinit.org/api/export/1510", paste0(filename, ".csv"), method = "libcurl")
+      }
+      dat2 <- read.csv(paste0(filename, ".csv"))
+      saveRDS(dat2, paste0(filename, ".RDS"))
+    }
+    dat2 <- readRDS(paste0(filename, ".RDS"))
+    dat2[,unused_large_columns] = NULL
+    gc()
+    # dat <- fread("Trends in IATI - Disbursements September 18.csv")
+    dat <- rbind(dat1, dat2)
+    gc()
+    rm(dat1, dat2)
+    gc()
   }
   
   meta_columns <- read.csv("meta_columns.csv")
@@ -103,22 +152,32 @@ for(choice in choices){
   assign(choice,agg_oda_filtered) # Name the dataframe either 'disbursements' or 'commitments', respectively.
   rm(agg_oda_filtered)
   
+  gc()
   #### Further filter of dataset ####
   
   t = get(choice)
   t$year <- t$x_transaction_year
   t$month <- as.numeric(substr(t$x_yyyymm,5,6))
   t <- subset(t,x_yyyymm <= current_yyyymm)
+  gc()
   memory.limit(1000000000)
   t <- merge(t,unique(all),by.x="reporting_org_ref",by.y="code") # Merge in name and 'country' title for multiple agencies.
+  gc()
   
   t <- subset(t,t[[choice]]==1) # Filter by reporting organisations by whether they are included for commitments/disbursements.
+  gc()
   
   t <- subset(t,t$x_finance_type != "GNI: Gross National Income") # Removing DAC artefacts which are not flows.
-  t <- subset(t,t$x_finance_type != 1)
-  t <- subset(t,t$x_finance_type != "Guarantees/insurance")
-  t <- subset(t,t$x_finance_type != 1100)
+  gc()
   
+  t <- subset(t,t$x_finance_type != 1)
+  gc()
+  
+  t <- subset(t,t$x_finance_type != "Guarantees/insurance")
+  gc()
+  
+  t <- subset(t,t$x_finance_type != 1100)
+  gc()
   # Note: GNI is a DAC artefact so needs removal and Guarantees/insurance is conditional.
   
   # Flow and Finance type sorting
@@ -133,20 +192,20 @@ for(choice in choices){
   t$x_flow_type_code[t$x_flow_type_code=="50"] <- "Other flows"
   
   # Grouping flow types
-  
   t$flow_type <- t$x_flow_type_code
   t$flow_type[which(t$x_flow_type_code %in% c("OOF","Non-export credit OOF"))] <- "OOF"
   t$flow_type[which(t$x_flow_type_code %in% c("Private Development Finance","Private Market","Non flow","Other flows"))] <- "Other flows"
-  
+
   # Making two separate data frames, one for overall and one for sector detail, as detailed in the IATI use guide - Reach out to Bill if you can't find this.
-  
   t <- t[which(!is.na(t$org_type)),]
   t.hold <- t
   t <- data.table(t)[x_recipient_number==1 & x_sector_number==1]
+  gc()
   
   t$x_original_transaction_value_usd <- t$x_original_transaction_value_usd/1000000
   t.hold$x_transaction_value_usd <- t.hold$x_transaction_value_usd/1000000
   t.hold$x_recipient_transaction_value_usd <- t.hold$x_recipient_transaction_value_usd/1000000
+
   
   #### Flows tab ####
   
@@ -234,6 +293,7 @@ for(choice in choices){
   
   assign(paste0("t.overall","_",choice),t.overall)
   
+  gc()
   #### Poverty tab ####
   
   # Read in income file from inputs and label fully.
@@ -276,6 +336,8 @@ for(choice in choices){
     return(yout)
   }
   
+  gc()
+  
   povcalcuts <- fread("p20-p80 data.csv")
   povcalyears <- c(2015:2022)
   povcal_additional <- subset(povcalcuts,povcalcuts$RequestYear==2021)
@@ -295,6 +357,7 @@ for(choice in choices){
   t.hold[ExtPovHC>=0.05&ExtPovHC<0.2]$poverty_band <- "5-20%"
   t.hold[ExtPovHC>=0.2]$poverty_band <- "Above 20%"
   
+  gc()
   # Read in LDCs and add a yes/no column.
   
   ldc <- read.csv("LDC_lookup.csv")
@@ -306,7 +369,8 @@ for(choice in choices){
   t.calc <- t.calc[which(!is.na(income_group))]
   t.calc$ldc[which(is.na(t.calc$ldc))]<-0
   t.calc <- t.calc[which(x_sector_number==1),] # Use recipient value in this now, as detailed in the IATI use guide.
-  
+  gc()
+
   # Income #
   
   t.months <- t.calc[year>2017,.(total_spend=sum(x_recipient_transaction_value_usd, na.rm=T)),by=.(year,month,x_yyyymm,reporting_org_ref,country,org_type,income_group,poverty_band,ldc,flow_type)]
@@ -398,6 +462,7 @@ for(choice in choices){
   t.overall$value[which(t.overall$variable=="Proportion")] <- t.overall$value[which(t.overall$variable=="Proportion")]*2
   
   assign(paste0("t.income_",choice),t.overall)
+  gc()
   
   # Poverty #
   
@@ -490,6 +555,7 @@ for(choice in choices){
   t.overall$value[which(t.overall$variable=="Proportion")] <- t.overall$value[which(t.overall$variable=="Proportion")]*2
   
   assign(paste0("t.poverty_",choice),t.overall)
+  gc()
   
   # LDC #
   
@@ -584,6 +650,7 @@ for(choice in choices){
   t.overall$value[which(t.overall$variable=="Proportion")] <- t.overall$value[which(t.overall$variable=="Proportion")]*2
   
   assign(paste0("t.ldc_",choice),t.overall)
+  gc()
   
   #### Sector tab ####
   
@@ -692,9 +759,64 @@ for(choice in choices){
   
   assign(paste0("t.","sector_",choice),t.overall)
   
+  keep_env = c(
+    "home",
+    "all",
+    "filename",
+    "t.sector_commitments",
+    "t.sector_disbursements",
+    "t.income_commitments",
+    "t.income_disbursements",
+    "t.ldc_commitments",
+    "t.ldc_disbursements",
+    "t.poverty_commitments",
+    "t.poverty_disbursements",
+    "t.overall_commitments",
+    "t.overall_disbursements",
+    "current_month",
+    "current_year",
+    "current_yyyymm",
+    "choice",
+    "choices",
+    "retrieval_reqd",
+    "retrieval_orgs",
+    "retrieval_date"
+  )
+  drop_env = setdiff(ls(), keep_env)
+  rm(list=drop_env)
+  gc()
+  if(choice == "commitments"){
+    save(
+      t.sector_commitments,
+      t.income_commitments,
+      t.ldc_commitments,
+      t.poverty_commitments,
+      t.overall_commitments,
+      file=paste0("commitments_processed_",format(Sys.Date(), "%d%m%y"),".RData")
+    )
+    rm(t.sector_commitments,
+       t.income_commitments,
+       t.ldc_commitments,
+       t.poverty_commitments,
+       t.overall_commitments)
+    gc()
+  }
+  if(choice == "disbursements"){
+    save(
+      t.sector_disbursements,
+      t.income_disbursements,
+      t.ldc_disbursements,
+      t.poverty_disbursements,
+      t.overall_disbursements,
+      file=paste0("disbursements_processed_",format(Sys.Date(), "%d%m%y"),".RData")
+    )
+  }
 }
 #### Combination and CSV production ####
-setwd("C:/git/aid-tracker-interactive")
+load(paste0("commitments_processed_",format(Sys.Date(), "%d%m%y"),".RData"))
+setwd(
+  paste0(home, "git/aid-tracker-interactive")
+)
 sector <- rbind(t.sector_commitments,t.sector_disbursements)
 sector$org_type[which(sector$aggregate=="Specific donor")] <- sector$country[which(sector$aggregate=="Specific donor")] # Make the org_type be the country field in all 'specific donor' entries.
 sector$flow_type <- tolower(sector$flow_type)
