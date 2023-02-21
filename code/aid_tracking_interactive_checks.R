@@ -33,7 +33,7 @@ for (sheet in sheets){
   print(setdiff(names(data),names(data_old)))
   print(setdiff(names(data_old),names(data)))
   
-  substr(data$rollingyear,6,7) = "09" # NOTE: Must be manually updated.
+  substr(data$rollingyear,6,7) = "11" # NOTE: Must be manually updated.
   
   combined <- merge(data,data_old,by=names(data)[!(names(data) %in% c("X","value"))])
   combined$X.x <- NULL
