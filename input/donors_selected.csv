@@ -1,4 +1,4 @@
-country,code,name,org_type,commitments,disbursements,gha,Comments - comm,Comments - disb,
+country,code,name,org_type,commitments,disbursements,gha,Comments - comm,Comments - disb,Comments - donor update
 UNFPA,41119,UNFPA,multilateral,0,0,,"No consistency, missing 2020 and wildly differnet values",Nothing prior to 2020,
 World Bank,44000,World Bank,ifi,1,1,,magnitude consistency not there but is expected.,,
 Global Fund,47045,Global Fund,multilateral,1,1,,magnitude consistency not there but appears fine,OK,
@@ -49,8 +49,25 @@ World Food Programme,XM-DAC-41140,World Food Programme,multilateral,1,1,,OK,OK,
 African Development Bank Group,XM-DAC-46002,African Development Bank Group,ifi,1,1,,,,
 Asian Development Bank,XM-DAC-46004,Asian Development Bank,ifi,1,1,,Consistency problem for 2021?,Consistency isn't great but mainly because of 2020 big spend,
 International Development Law Organization (IDLO),XM-DAC-47059,International Development Law Organization (IDLO),multilateral,0,1,,,Consistency isn't great but mainly because of 2020 big spend,
-US,US-18,US - Millennium Challenge Corporation,bilateral,1,1,,Why do we exclude?,Why do we exclude?,
-US,US-GOV-1,US - U.S. Agency for International Development,bilateral,1,1,1,,,
 International Finance Corporation,XM-DAC-903,International Finance Corporation,ifi,0,0,,,,
-US,US-USAGOV,US - The federal government of the United States,bilateral,0,0,,Only til July,Only til July,
 UNOCHA,XM-OCHA-CERF,UNOCHA - Central Emergency Response Fund (CERF),multilateral,0,1,,Check,Generally fine but basically nothing reported in 2019? Will check,
+US,US-GOV-1,US - United States Agency for International Development (USAID),bilateral,1,1,,,,February 2023 update (as 'US - The federal government of the United States' (US-USAGOV) now removed)
+US,US-GOV-10,US - Peace Corp,bilateral,1,1,,,,February 2023 update
+US,US-GOV-11,US - Department of State,bilateral,1,1,,,,February 2023 update
+US,US-GOV-12,US - U.S. Trade and Development Agency,bilateral,1,1,,,,February 2023 update
+US,US-GOV-13,US - U.S. African Development Foundation,bilateral,1,1,,,,February 2023 update - currently 'US-GOV-13-ADF' on IATI registry
+US,US-GOV-14,US - U.S. Health and Human Services,bilateral,1,1,,,,February 2023 update
+US,US-GOV-15,US - U.S Department of Justice,bilateral,1,1,,,,February 2023 update
+US,US-GOV-16,US - U.S. Department of Commerce,bilateral,1,1,,,,February 2023 update
+US,US-GOV-17,US - U.S. Department of Labor,bilateral,1,1,,,,February 2023 update
+US,US-18,US - Millennium Challenge Corporation,bilateral,1,1,,,,February 2023 update
+US,US-GOV-19,US - U.S. Department of Homeland Security,bilateral,1,1,,,,February 2023 update
+US,US-GOV-2,US - U.S. Department of Agriculture,bilateral,1,1,,,,February 2023 update
+US,US-GOV-20,US - U.S. Department of Energy,bilateral,1,1,,,,February 2023 update
+US,US-GOV-21,US - Inter-American Foundation,bilateral,1,1,,,,February 2023 update
+US,US-GOV-22,US - U.S. International Development Finance Corporation,bilateral,1,1,,,,February 2023 update
+US,US-GOV-23,US - U.S. Federal Trade Commission,bilateral,1,1,,,,February 2023 update - currently The U.S. Federal Trade Commission has code 'US-GOV-TBD' on IATI registry
+US,US-GOV-32,US - U.S. Environmental Protection Agency,bilateral,1,1,,,,February 2023 update
+US,US-GOV-6,US - U.S. Department of the Treasury,bilateral,1,1,,,,February 2023 update
+US,US-GOV-7,US - U.S. Department of Defense,bilateral,1,1,,,,February 2023 update
+US,US-GOV-9,US - U.S. Department of Interior,bilateral,1,1,,,,February 2023 update
