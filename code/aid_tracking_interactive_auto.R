@@ -41,7 +41,8 @@ for(choice in choices){
       dat <- fread(paste0(filename, ".csv"))
       saveRDS(dat, paste0(filename, ".RDS"))
     }
-    dat <- readRDS(paste0(filename, ".RDS"))
+    #dat <- readRDS(paste0(filename, ".RDS"))
+    dat <- readRDS("Trends in IATI - Commitments 200323.RDS")
     #dat <- fread("Trends in IATI - Commitments September 18.csv")
     # Data read-in. These can be retrieved from the DDW, as explained in the ReadME on the repo page.
   }
@@ -60,6 +61,7 @@ for(choice in choices){
       saveRDS(dat, paste0(filename, ".RDS"))
     }
     dat <- readRDS(paste0(filename, ".RDS"))
+    dat <- readRDS("Trends in IATI - Disbursements 200323.RDS")
     #dat <- fread("Trends in IATI - Disbursements September 18.csv")
   }
   
@@ -601,8 +603,8 @@ for(choice in choices){
   names(full_itep_list) <- c("ITEP","sector")
   full_itep_list$sector <- as.character(full_itep_list$sector)
   
-  
-  t.sector <- subset(t.hold,x_sector_vocabulary %in% c("1","2",""))
+  t.sector <- subset(t.hold,x_vocabulary_number == "1")
+  t.sector <- subset(t.sector,x_sector_vocabulary %in% c("1","2",""))
   t.sector <- merge(t.sector,full_list,by.x="x_dac3_sector",by.y="sector",all.x=T) 
   t.sector <- merge(t.sector,full_itep_list,by.x="x_dac3_sector",by.y="sector",all.x=T)
   
@@ -704,14 +706,16 @@ sector <- rbind(t.sector_commitments,t.sector_disbursements)
 sector$org_type[which(sector$aggregate=="Specific donor")] <- sector$country[which(sector$aggregate=="Specific donor")] # Make the org_type be the country field in all 'specific donor' entries.
 sector$flow_type <- tolower(sector$flow_type)
 substr(sector$flow_type,1,1) <- toupper(substr(sector$flow_type,1,1))
-write.csv(sector,paste0("sector_", format(Sys.Date(), "%d%m%y"), ".csv"))
+#write.csv(sector,paste0("sector_", format(Sys.Date(), "%d%m%y"), ".csv"))
+write.csv(sector, "sector_200323_sector_update.csv")
 
 poverty <- rbind(t.income_commitments,t.income_disbursements,t.ldc_commitments,t.ldc_disbursements,t.poverty_commitments,t.poverty_disbursements)
 poverty$org_type[which(poverty$aggregate=="Specific donor")] <- poverty$country[which(poverty$aggregate=="Specific donor")]
-write.csv(poverty,paste0("poverty_", format(Sys.Date(), "%d%m%y"), ".csv"))  
+#write.csv(poverty,paste0("poverty_", format(Sys.Date(), "%d%m%y"), ".csv"))  
+write.csv(poverty, "poverty_200323_sector_update.csv") 
 
 overall <- rbind(t.overall_commitments,t.overall_disbursements)
 overall$org_type[which(overall$aggregate=="Specific donor")] <- overall$country[which(overall$aggregate=="Specific donor")]
-write.csv(overall,paste0("overall_", format(Sys.Date(), "%d%m%y"), ".csv"))
-
+#write.csv(overall,paste0("overall_", format(Sys.Date(), "%d%m%y"), ".csv"))
+write.csv(overall, "overall_200323_sector_update.csv") 
 
