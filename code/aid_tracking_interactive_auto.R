@@ -604,7 +604,7 @@ for(choice in choices){
   full_itep_list$sector <- as.character(full_itep_list$sector)
   
   t.sector <- subset(t.hold,x_vocabulary_number == "1")
-  t.sector <- subset(t.hold,x_sector_vocabulary %in% c("1","2",""))
+  t.sector <- subset(t.sector,x_sector_vocabulary %in% c("1","2",""))
   t.sector <- merge(t.sector,full_list,by.x="x_dac3_sector",by.y="sector",all.x=T) 
   t.sector <- merge(t.sector,full_itep_list,by.x="x_dac3_sector",by.y="sector",all.x=T)
   
