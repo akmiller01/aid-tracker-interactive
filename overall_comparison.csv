@@ -1,143 +1,169 @@
 "","country","org_type","flow_type","transaction_type","year","quarter","month","aggregate_type","variable","timeframe","rollingyear","value.x","value.y","difference","abs_difference"
-"156","African Development Bank Group","African Development Bank Group","ODA","Commitments",2022,NA,NA,"Specific donor","Volume","Yearly",NA,7754.76590076268,-6325.60993441813,1429.15596634455,1429.15596634455
-"160","African Development Bank Group","African Development Bank Group","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",9009.26119620901,-9386.5192130066,-377.25801679759,377.25801679759
-"161","African Development Bank Group","African Development Bank Group","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",5956.57981451679,-6560.44221431297,-603.862399796179,603.862399796179
-"162","African Development Bank Group","African Development Bank Group","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",7713.57282899294,-6331.66591779489,1381.90691119805,1381.90691119805
-"214","African Development Bank Group","African Development Bank Group","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",5958.91503899098,-6138.95207152445,-180.03703253347,180.03703253347
-"215","African Development Bank Group","African Development Bank Group","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",3904.96860931185,-4201.56582149891,-296.59721218706,296.59721218706
-"216","African Development Bank Group","African Development Bank Group","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",3688.12377493518,-3314.1978563581,373.92591857708,373.92591857708
-"592","Asian Development Bank","Asian Development Bank","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",5516.41947715605,-5462.06765190212,54.3518252539297,54.3518252539297
-"593","Asian Development Bank","Asian Development Bank","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",2929.35377730831,-2995.75136766975,-66.3975903614401,66.3975903614401
-"594","Asian Development Bank","Asian Development Bank","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",1895.47666406835,-1378.17228640952,517.30437765883,517.30437765883
-"646","Asian Development Bank","Asian Development Bank","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",3964.08115618163,-3783.65321846459,180.42793771704,180.42793771704
-"648","Asian Development Bank","Asian Development Bank","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",1825.81529990627,-1974.12413585838,-148.30883595211,148.30883595211
-"700","Asian Development Bank","Asian Development Bank","OOF","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",22461.23877951,-22631.739288404,-170.500508893998,170.500508893998
-"701","Asian Development Bank","Asian Development Bank","OOF","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",15567.7756168517,-15688.3780264902,-120.602409638499,120.602409638499
-"702","Asian Development Bank","Asian Development Bank","OOF","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",6193.48333593165,-5209.82771359048,983.65562234117,983.65562234117
-"754","Asian Development Bank","Asian Development Bank","OOF","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",18520.2484317322,-18271.8641756992,248.384256033001,248.384256033001
-"755","Asian Development Bank","Asian Development Bank","OOF","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",13323.0042880175,-13159.8282526471,163.176035370401,163.176035370401
-"756","Asian Development Bank","Asian Development Bank","OOF","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",8976.00283461373,-9286.12407577161,-310.12124115788,310.12124115788
-"971","Belgium","Belgium","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",1234.66331283844,-1180.06216936986,54.6011434685802,54.6011434685802
-"972","Belgium","Belgium","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",854.93182079409,-1024.96841081009,-170.036590016,170.036590016
-"1294","Canada","Canada","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",2240.79269908473,-2304.28773268964,-63.4950336049101,63.4950336049101
-"1295","Canada","Canada","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",2238.29228967711,-2354.10042394599,-115.80813426888,115.80813426888
-"1672","Denmark","Denmark","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",1475.43870832366,-1845.30162109799,-369.86291277433,369.86291277433
-"1673","Denmark","Denmark","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",1519.67817492385,-1880.19527844103,-360.51710351718,360.51710351718
-"1674","Denmark","Denmark","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",1326.41256627799,-1603.32595673169,-276.9133904537,276.9133904537
-"1676","Denmark","Denmark","ODA","Disbursements",2018,NA,NA,"Specific donor","Volume","Yearly",NA,1574.65723699509,-2629.14171138155,-1054.48447438646,1054.48447438646
-"1726","Denmark","Denmark","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",1970.45802099132,-2899.62863452369,-929.17061353237,929.17061353237
-"1727","Denmark","Denmark","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",2443.65987636178,-3065.68445350293,-622.02457714115,622.02457714115
-"1728","Denmark","Denmark","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",2592.62555747071,-1902.1474512097,690.47810626101,690.47810626101
-"2320","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Other flows","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",10006.6364046864,-10353.9459710871,-347.3095664007,347.3095664007
-"2321","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Other flows","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",9100.40424185826,-8964.25106572718,136.15317613108,136.15317613108
-"2376","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Other flows","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",2786.08506586821,-2230.82200588846,555.26305997975,555.26305997975
-"2536","European Commission","European Commission","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",9755.17200793744,-10625.6571886124,-870.485180674959,870.485180674959
-"2590","European Commission","European Commission","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",12731.8915845726,-12441.7226869981,290.1688975745,290.1688975745
-"2591","European Commission","European Commission","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",12818.3617694563,-13109.862710756,-291.500941299701,291.500941299701
-"2592","European Commission","European Commission","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",9026.97776873386,-9340.61274128339,-313.634972549531,313.634972549531
-"2754","European Commission","European Commission","Other flows","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",5852.09462882164,-5696.18443188659,155.91019693505,155.91019693505
-"2806","European Commission","European Commission","Other flows","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",507.200455263372,-422.875705529304,84.324749734068,84.324749734068
-"2807","European Commission","European Commission","Other flows","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",141.409219451907,-241.787796644131,-100.378577192224,100.378577192224
-"3024","Finland","Finland","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",116.72111323671,-272.90093707176,-156.17982383505,156.17982383505
-"3401","Gavi, The Vaccine Alliance","Gavi, The Vaccine Alliance","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",7448.15689197,-5956.20298157,1491.9539104,1491.9539104
-"3402","Gavi, The Vaccine Alliance","Gavi, The Vaccine Alliance","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",1049.03068144,-2175.74497121,-1126.71428977,1126.71428977
-"3455","Gavi, The Vaccine Alliance","Gavi, The Vaccine Alliance","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",14560.11826981,-12446.57356807,2113.54470174,2113.54470174
-"3456","Gavi, The Vaccine Alliance","Gavi, The Vaccine Alliance","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",6784.02486933,-8925.44418883,-2141.4193195,2141.4193195
-"3828","Germany","Germany","ODA","Commitments",2022,NA,NA,"Specific donor","Volume","Yearly",NA,12205.484553366,-9838.27733370872,2367.20721965728,2367.20721965728
-"3832","Germany","Germany","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",17500.9311650521,-17216.7007182734,284.2304467787,284.2304467787
-"3833","Germany","Germany","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",11668.3022922817,-11531.7194758897,136.582816392,136.582816392
-"3834","Germany","Germany","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",11896.8984039069,-9846.27733370872,2050.62107019818,2050.62107019818
-"3886","Germany","Germany","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",3304.90045331657,-3157.71478488907,147.1856684275,147.1856684275
-"3887","Germany","Germany","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",2973.92847226328,-3127.19389027512,-153.26541801184,153.26541801184
-"3888","Germany","Germany","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",3160.28274357721,-2336.4551847451,823.82755883211,823.82755883211
-"4264","Global Fund","Global Fund","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",5728.31595037,-3874.23964764,1854.07630273,1854.07630273
-"4265","Global Fund","Global Fund","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",5164.43955066,-6830.1001651,-1665.66061444,1665.66061444
-"4266","Global Fund","Global Fund","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",1960.74596864,-2307.41097298,-346.66500434,346.66500434
-"4318","Global Fund","Global Fund","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",4478.71213786,-4189.47317893,289.23895893,289.23895893
-"4319","Global Fund","Global Fund","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",4794.83352667,-5017.42328163,-222.58975496,222.58975496
-"4320","Global Fund","Global Fund","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",3206.68833001,-3564.09195021,-357.4036202,357.4036202
-"4588","Inter-American Development Bank","Inter-American Development Bank","Not specified","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",600.543808588752,-681.343808588752,-80.8000000000001,80.8000000000001
-"4858","Inter-American Development Bank","Inter-American Development Bank","OOF","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",12075.0623074255,-11837.2967419917,237.7655654338,237.7655654338
-"4859","Inter-American Development Bank","Inter-American Development Bank","OOF","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",10190.3302925315,-10243.2392493128,-52.9089567813007,52.9089567813007
-"4860","Inter-American Development Bank","Inter-American Development Bank","OOF","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",159.456175935343,-997.09769506828,-837.641519132937,837.641519132937
-"5092","International Committee of the Red Cross","International Committee of the Red Cross","OOF","Disbursements",2021,NA,NA,"Specific donor","Volume","Yearly",NA,1653.95897476226,0,1653.95897476226,1653.95897476226
-"5129","International Committee of the Red Cross","International Committee of the Red Cross","OOF","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",1666.80005807779,0,1666.80005807779,1666.80005807779
-"5130","International Committee of the Red Cross","International Committee of the Red Cross","OOF","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",1736.29914301849,-1865.72996986999,-129.4308268515,129.4308268515
-"5723","International Fund for Agricultural Development","International Fund for Agricultural Development","OOF","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",912.532880374099,-971.525685487039,-58.99280511294,58.99280511294
-"6420",NA,"Bilateral","ODA","Commitments",2022,NA,NA,"Organisation type","Volume","Yearly",NA,95495.1362534634,-92829.1794553657,2665.9567980977,2665.9567980977
-"6424",NA,"Bilateral","ODA","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2020-12",79673.4651685974,-77885.3880507933,1788.07711780409,1788.07711780409
-"6425",NA,"Bilateral","ODA","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2021-12",81365.6582177612,-81616.1819945844,-250.523776823204,250.523776823204
-"6426",NA,"Bilateral","ODA","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2022-12",87851.67434657,-92836.8992626951,-4985.22491612509,4985.22491612509
-"6428",NA,"Bilateral","ODA","Disbursements",2018,NA,NA,"Organisation type","Volume","Yearly",NA,72672.6976380905,-73854.8117743213,-1182.1141362308,1182.1141362308
-"6430",NA,"Bilateral","ODA","Disbursements",2019,NA,NA,"Organisation type","Volume","Yearly",NA,72754.0433281098,-73958.3451552852,-1204.30182717541,1204.30182717541
-"6432",NA,"Bilateral","ODA","Disbursements",2020,NA,NA,"Organisation type","Volume","Yearly",NA,76168.5056000023,-77285.3871999554,-1116.88159995309,1116.88159995309
-"6474",NA,"Bilateral","ODA","Disbursements",2022,NA,NA,"Organisation type","Volume","Yearly",NA,82742.6188007842,-80432.7993222876,2309.8194784966,2309.8194784966
-"6480",NA,"Bilateral","ODA","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2022-12",76099.1254018678,-80440.7664976818,-4341.641095814,4341.641095814
-"6586",NA,"Bilateral","OOF","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2020-12",15.294032825162,-69.3391643004875,-54.0451314753255,54.0451314753255
-"6640",NA,"Bilateral","Other flows","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2020-12",9517.43305612382,-21031.1129793027,-11513.6799231789,11513.6799231789
-"6641",NA,"Bilateral","Other flows","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2021-12",6308.73380636353,-6405.61052004836,-96.8767136848301,96.8767136848301
-"6642",NA,"Bilateral","Other flows","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2022-12",5867.43397099411,-5712.55719779328,154.87677320083,154.87677320083
-"6694",NA,"Bilateral","Other flows","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2020-12",801.398244788133,-11961.9734113353,-11160.5751665472,11160.5751665472
-"6695",NA,"Bilateral","Other flows","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2021-12",403.420291096168,-562.217962662165,-158.797671565997,158.797671565997
-"6748",NA,"IFI","Not specified","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2020-12",624.829336307895,-703.8831492217,-79.053812913805,79.053812913805
-"6852",NA,"IFI","ODA","Commitments",2022,NA,NA,"Organisation type","Volume","Yearly",NA,35668.1754921192,-33722.0774943474,1946.09799777179,1946.09799777179
-"6856",NA,"IFI","ODA","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2020-12",47986.2566556108,-48309.2874754298,-323.030819819003,323.030819819003
-"6857",NA,"IFI","ODA","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2021-12",39986.1118447739,-40656.2413781912,-670.129533417297,670.129533417297
-"6858",NA,"IFI","ODA","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2022-12",35525.9687423978,-33725.5578854524,1800.4108569454,1800.4108569454
-"6911",NA,"IFI","ODA","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2021-12",27740.8608392014,-28043.7662843038,-302.905445102402,302.905445102402
-"6912",NA,"IFI","ODA","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2022-12",27744.730252954,-26255.7489870898,1488.9812658642,1488.9812658642
-"6964",NA,"IFI","OOF","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2020-12",58119.9944983606,-58306.7939838985,-186.7994855379,186.7994855379
-"6965",NA,"IFI","OOF","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2021-12",47873.2149053,-47977.1659108955,-103.951005595496,103.951005595496
-"6966",NA,"IFI","OOF","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2022-12",26160.1094978973,-25289.2092988206,870.900199076703,870.900199076703
-"7018",NA,"IFI","OOF","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2020-12",51306.9896484804,-50811.6358086972,495.353839783194,495.353839783194
-"7019",NA,"IFI","OOF","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2021-12",45113.5073518848,-44992.4120937065,121.095258178299,121.095258178299
-"7020",NA,"IFI","OOF","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2022-12",34337.2659407128,-33287.0419830352,1050.2239576776,1050.2239576776
-"7072",NA,"IFI","Other flows","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2020-12",9996.61550738166,-10344.0367444075,-347.421237025839,347.421237025839
-"7073",NA,"IFI","Other flows","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2021-12",9091.38656723388,-8954.64346315638,136.743104077499,136.743104077499
-"7128",NA,"IFI","Other flows","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2022-12",2775.30596329829,-2220.00234495537,555.30361834292,555.30361834292
-"7288",NA,"Multilateral","ODA","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2020-12",28811.5646668029,-26891.7112853482,1919.8533814547,1919.8533814547
-"7289",NA,"Multilateral","ODA","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2021-12",27948.9325202479,-28100.0791869995,-151.1466667516,151.1466667516
-"7290",NA,"Multilateral","ODA","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2022-12",31975.7850156805,-24530.6638843285,7445.121131352,7445.121131352
-"7306",NA,"Multilateral","ODA","Disbursements",2021,NA,NA,"Organisation type","Volume","Yearly",NA,32056.4131432928,-38374.3533934958,-6317.940250203,6317.940250203
-"7342",NA,"Multilateral","ODA","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2020-12",25626.6496802772,-25209.4531172389,417.196563038302,417.196563038302
-"7343",NA,"Multilateral","ODA","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2021-12",34554.6062701638,-38381.9794730969,-3827.3732029331,3827.3732029331
-"7344",NA,"Multilateral","ODA","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2022-12",38791.7799780035,-37507.7917163937,1283.9882616098,1283.9882616098
-"7414",NA,"Multilateral","OOF","Disbursements",2021,NA,NA,"Organisation type","Volume","Yearly",NA,3172.33128769533,-1522.09081872339,1650.24046897194,1650.24046897194
-"7451",NA,"Multilateral","OOF","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2021-12",3128.29801393084,-1522.40958838333,1605.88842554751,1605.88842554751
-"7452",NA,"Multilateral","OOF","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2022-12",3168.9811994835,-3319.38110607845,-150.39990659495,150.39990659495
-"7722","Netherlands","Netherlands","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",4152.54249141145,-4628.53566598393,-475.99317457248,475.99317457248
-"7775","Netherlands","Netherlands","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",3885.43254345724,-4000.78697662303,-115.35443316579,115.35443316579
-"7776","Netherlands","Netherlands","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",4135.53722070169,-4050.48218253299,85.0550381686999,85.0550381686999
-"8584","Sweden","Sweden","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",5580.94637587904,-5760.47919533252,-179.53281945348,179.53281945348
-"8585","Sweden","Sweden","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",6690.94888513043,-6079.19843075283,611.7504543776,611.7504543776
-"8586","Sweden","Sweden","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",3041.67510153419,-5956.93438870661,-2915.25928717242,2915.25928717242
-"8638","Sweden","Sweden","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",6161.8434681141,-6920.67366428906,-758.83019617496,758.83019617496
-"8639","Sweden","Sweden","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",6539.22483365652,-6602.56031861462,-63.3354849581001,63.3354849581001
-"8640","Sweden","Sweden","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",3955.86421010592,-4965.91061231098,-1010.04640220506,1010.04640220506
-"8746","Sweden","Sweden","OOF","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",0,-53.7313146626594,-53.7313146626594,53.7313146626594
-"8801","Sweden","Sweden","Other flows","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",0,-60.0977510458645,-60.0977510458645,60.0977510458645
-"8855","Sweden","Sweden","Other flows","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",0,-60.1120979881191,-60.1120979881191,60.1120979881191
-"9502","UK","UK","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",14364.5310014023,-14163.9030991068,200.6279022955,200.6279022955
-"9503","UK","UK","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",10130.7042187296,-10399.4946969543,-268.790478224701,268.790478224701
-"9504","UK","UK","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",5693.81128829533,-5986.92336493956,-293.11207664423,293.11207664423
-"10043","UNDP","UNDP","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",4859.750067,-4643.97961500001,215.77045199999,215.77045199999
-"10044","UNDP","UNDP","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",4380.846544,-4212.886903,167.959641,167.959641
-"10314","UNICEF","UNICEF","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",16758.5336450002,-7926.14618100007,8832.38746400013,8832.38746400013
-"10330","UNICEF","UNICEF","ODA","Disbursements",2021,NA,NA,"Specific donor","Volume","Yearly",NA,1.000007,-6321.342054,-6320.342047,6320.342047
-"10367","UNICEF","UNICEF","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",413.415976999998,-6329.342054,-5915.926077,5915.926077
-"10368","UNICEF","UNICEF","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",11479.5867089998,-7922.80105599999,3556.78565299981,3556.78565299981
-"11446","UNOCHA","UNOCHA","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",875.916577623753,-795.111548623753,80.805029,80.805029
-"11824","US","US","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",32902.4709354875,-29980.3948287807,2922.0761067068,2922.0761067068
-"11825","US","US","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",38368.6189446646,-39097.0751413814,-728.456196716797,728.456196716797
-"11826","US","US","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",47329.5853632568,-50696.1006088721,-3366.51524561529,3366.51524561529
-"11878","US","US","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",28205.4657983567,-27094.9961163631,1110.4696819936,1110.4696819936
-"11879","US","US","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-12",34342.7903377475,-32816.4687482639,1526.3215894836,1526.3215894836
-"11880","US","US","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",44258.5433422062,-48312.6957274024,-4054.1523851962,4054.1523851962
-"12040","US","US","Other flows","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",56.9724455125337,-11611.7485092193,-11554.7760637068,11554.7760637068
-"12094","US","US","Other flows","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2020-12",174.893282643255,-11395.9085376368,-11221.0152549935,11221.0152549935
-"12258","World Bank","World Bank","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",25927.1230612597,-26024.2760077209,-97.1529464611995,97.1529464611995
-"12312","World Bank","World Bank","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",22227.7954813248,-20963.8411485293,1263.9543327955,1263.9543327955
-"12366","World Bank","World Bank","OOF","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",18596.6098947403,-18692.9854222791,-96.3755275387994,96.3755275387994
-"12420","World Bank","World Bank","OOF","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",25205.2063386752,-23007.8966814707,2197.3096572045,2197.3096572045
-"12690","World Food Programme","World Food Programme","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",12218.952702,-12132.907747,86.0449550000012,86.0449550000012
-"12744","World Food Programme","World Food Programme","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-12",12218.952702,-12132.907747,86.0449550000012,86.0449550000012
+"110","African Development Bank Group","African Development Bank Group","ODA","Commitments",2018,NA,NA,"Specific donor","Volume","Yearly",NA,5939.83008813454,-11417.3245667394,-5477.49447860486,5477.49447860486
+"114","African Development Bank Group","African Development Bank Group","ODA","Commitments",2020,NA,NA,"Specific donor","Volume","Yearly",NA,7541.45495009364,-9085.82403853276,-1544.36908843912,1544.36908843912
+"160","African Development Bank Group","African Development Bank Group","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",7256.24845160306,-9009.26119620901,-1753.01274460595,1753.01274460595
+"161","African Development Bank Group","African Development Bank Group","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",6335.5495481713,-5956.57981451679,378.96973365451,378.96973365451
+"162","African Development Bank Group","African Development Bank Group","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",6472.3972223869,-7713.57282899294,-1241.17560660604,1241.17560660604
+"214","African Development Bank Group","African Development Bank Group","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",6154.82879338677,-5958.91503899098,195.91375439579,195.91375439579
+"215","African Development Bank Group","African Development Bank Group","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",4083.76615838869,-3904.96860931185,178.79754907684,178.79754907684
+"216","African Development Bank Group","African Development Bank Group","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",3588.52314484366,-3688.12377493518,-99.6006300915201,99.6006300915201
+"268","African Development Bank Group","African Development Bank Group","OOF","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",1038.6837048703,-1217.56581609939,-178.88211122909,178.88211122909
+"269","African Development Bank Group","African Development Bank Group","OOF","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",732.602964585809,-622.898180868881,109.704783716928,109.704783716928
+"586","Asian Development Bank","Asian Development Bank","ODA","Commitments",2022,NA,NA,"Specific donor","Volume","Yearly",NA,3670.0353088055,-1892.22066645706,1777.81464234844,1777.81464234844
+"594","Asian Development Bank","Asian Development Bank","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",3672.05735814434,-1895.47666406835,1776.58069407599,1776.58069407599
+"646","Asian Development Bank","Asian Development Bank","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",3864.34116889401,-3964.08115618163,-99.7399872876199,99.7399872876199
+"647","Asian Development Bank","Asian Development Bank","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",2207.65688736702,-2312.81444385249,-105.15755648547,105.15755648547
+"648","Asian Development Bank","Asian Development Bank","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",1887.04109523008,-1825.81529990627,61.22579532381,61.22579532381
+"694","Asian Development Bank","Asian Development Bank","OOF","Commitments",2022,NA,NA,"Specific donor","Volume","Yearly",NA,12250.0096800745,-6190.73933354294,6059.27034653156,6059.27034653156
+"700","Asian Development Bank","Asian Development Bank","OOF","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",22553.2729217434,-22461.23877951,92.0341422333986,92.0341422333986
+"701","Asian Development Bank","Asian Development Bank","OOF","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",15376.7698952751,-15567.7756168517,-191.005721576601,191.005721576601
+"702","Asian Development Bank","Asian Development Bank","OOF","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",12253.4876307357,-6193.48333593165,6060.00429480405,6060.00429480405
+"748","Asian Development Bank","Asian Development Bank","OOF","Disbursements",2022,NA,NA,"Specific donor","Volume","Yearly",NA,12909.0209340283,-10229.5237093709,2679.4972246574,2679.4972246574
+"754","Asian Development Bank","Asian Development Bank","OOF","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",19282.6559778529,-18520.2484317322,762.407546120699,762.407546120699
+"755","Asian Development Bank","Asian Development Bank","OOF","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",13742.849646343,-13323.0042880175,419.8453583255,419.8453583255
+"756","Asian Development Bank","Asian Development Bank","OOF","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",10268.1954563299,-8976.00283461373,1292.19262171617,1292.19262171617
+"970","Belgium","Belgium","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",1171.06220377489,-852.383546002924,318.678657771966,318.678657771966
+"971","Belgium","Belgium","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",1350.80351964428,-1234.66331283844,116.14020680584,116.14020680584
+"972","Belgium","Belgium","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",1570.88574585398,-854.93182079409,715.95392505989,715.95392505989
+"1240","Canada","Canada","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",1833.08173598117,-1898.86224707035,-65.78051108918,65.78051108918
+"1242","Canada","Canada","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",1898.15522374529,-1970.39601522265,-72.2407914773601,72.2407914773601
+"1296","Canada","Canada","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",2124.44794078324,-1959.2172106637,165.23073011954,165.23073011954
+"1672","Denmark","Denmark","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",1894.59177125265,-1475.43870832366,419.15306292899,419.15306292899
+"1673","Denmark","Denmark","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",1883.2509429193,-1519.67817492385,363.57276799545,363.57276799545
+"1674","Denmark","Denmark","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",1195.3351953021,-1326.41256627799,-131.07737097589,131.07737097589
+"1676","Denmark","Denmark","ODA","Disbursements",2018,NA,NA,"Specific donor","Volume","Yearly",NA,2629.14171138155,-1574.65723699509,1054.48447438646,1054.48447438646
+"1726","Denmark","Denmark","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",2960.15944663395,-1970.45802099132,989.70142564263,989.70142564263
+"1727","Denmark","Denmark","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",2932.92914041866,-2443.65987636178,489.26926405688,489.26926405688
+"1728","Denmark","Denmark","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",2678.20170071076,-2592.62555747071,85.57614324005,85.57614324005
+"2320","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Other flows","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",9809.27162149975,-10006.6364046864,-197.364783186649,197.364783186649
+"2321","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Other flows","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",8935.17346037511,-9100.40424185826,-165.230781483149,165.230781483149
+"2322","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Other flows","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",9210.06415866,-8910.98555973867,299.078598921329,299.078598921329
+"2374","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Other flows","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",1796.67457050652,-1510.69349448653,285.98107601999,285.98107601999
+"2375","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Other flows","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",1923.33068984617,-2001.1493700406,-77.81868019443,77.81868019443
+"2376","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Other flows","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",2664.70116109001,-2786.08506586821,-121.3839047782,121.3839047782
+"2536","European Commission","European Commission","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",9050.79188198145,-9755.17200793744,-704.380125955991,704.380125955991
+"2537","European Commission","European Commission","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",12904.2758364362,-13344.6730929477,-440.3972565115,440.3972565115
+"2538","European Commission","European Commission","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",21370.7913506477,-17871.5466951056,3499.2446555421,3499.2446555421
+"2590","European Commission","European Commission","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",12947.8691812687,-12731.8915845726,215.977596696099,215.977596696099
+"2591","European Commission","European Commission","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",12499.5234361462,-12818.3617694563,-318.838333310099,318.838333310099
+"2702","European Commission","European Commission","Other flows","Commitments",2018,NA,NA,"Specific donor","Volume","Yearly",NA,316.964610864994,-12154.7833454248,-11837.8187345598,11837.8187345598
+"2704","European Commission","European Commission","Other flows","Commitments",2019,NA,NA,"Specific donor","Volume","Yearly",NA,953.458885594312,-8451.28330589231,-7497.824420298,7497.824420298
+"2706","European Commission","European Commission","Other flows","Commitments",2020,NA,NA,"Specific donor","Volume","Yearly",NA,165.769939948707,-9290.39633726956,-9124.62639732085,9124.62639732085
+"2716","European Commission","European Commission","Other flows","Commitments",2021,NA,NA,"Specific donor","Volume","Yearly",NA,35.1469956576667,-6124.62303074745,-6089.47603508978,6089.47603508978
+"2746","European Commission","European Commission","Other flows","Commitments",2022,NA,NA,"Specific donor","Volume","Yearly",NA,100.963907380599,-5788.43969967047,-5687.47579228987,5687.47579228987
+"2752","European Commission","European Commission","Other flows","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",171.809396840652,-9322.71582122315,-9150.9064243825,9150.9064243825
+"2753","European Commission","European Commission","Other flows","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",34.9819341068039,-6094.16157487562,-6059.17964076882,6059.17964076882
+"2754","European Commission","European Commission","Other flows","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",132.997439652559,-5852.09462882164,-5719.09718916908,5719.09718916908
+"2969","Finland","Finland","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",2576.33237474471,-1662.46539594371,913.866978801,913.866978801
+"2970","Finland","Finland","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",0,-55.847936736,-55.847936736,55.847936736
+"3023","Finland","Finland","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",2131.65968441218,-1503.91736393173,627.74232048045,627.74232048045
+"3024","Finland","Finland","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",0,-116.72111323671,-116.72111323671,116.72111323671
+"3401","Gavi, The Vaccine Alliance","Gavi, The Vaccine Alliance","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",7773.76598751,-7448.15689197,325.60909554,325.60909554
+"3402","Gavi, The Vaccine Alliance","Gavi, The Vaccine Alliance","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",1189.59827355,-1049.03068144,140.56759211,140.56759211
+"3454","Gavi, The Vaccine Alliance","Gavi, The Vaccine Alliance","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",2237.48800651,-2019.27523553,218.21277098,218.21277098
+"3455","Gavi, The Vaccine Alliance","Gavi, The Vaccine Alliance","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",15534.23678629,-14560.11826981,974.118516479999,974.118516479999
+"3456","Gavi, The Vaccine Alliance","Gavi, The Vaccine Alliance","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",6480.49183923,-6784.02486933,-303.5330301,303.5330301
+"3826","Germany","Germany","ODA","Commitments",2022,NA,NA,"Specific donor","Volume","Yearly",NA,13227.9624037512,-12205.484553366,1022.4778503852,1022.4778503852
+"3832","Germany","Germany","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",17796.1521594061,-17500.9311650521,295.220994354,295.220994354
+"3833","Germany","Germany","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",12891.7278788092,-11668.3022922817,1223.4255865275,1223.4255865275
+"3834","Germany","Germany","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",11580.2775553529,-11896.8984039069,-316.620848553999,316.620848553999
+"3886","Germany","Germany","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",3241.18271643547,-3304.90045331657,-63.7177368810999,63.7177368810999
+"3887","Germany","Germany","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",3140.42650271912,-2973.92847226328,166.49803045584,166.49803045584
+"3888","Germany","Germany","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",3074.52196482644,-3160.28274357721,-85.76077875077,85.76077875077
+"4264","Global Fund","Global Fund","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",6100.42206503,-5728.31595037,372.10611466,372.10611466
+"4265","Global Fund","Global Fund","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",4890.87007126,-5164.43955066,-273.5694794,273.5694794
+"4266","Global Fund","Global Fund","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",1703.66973781,-1960.74596864,-257.07623083,257.07623083
+"4318","Global Fund","Global Fund","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",4248.87605958,-4478.71213786,-229.83607828,229.83607828
+"4319","Global Fund","Global Fund","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",5007.28813128,-4794.83352667,212.45460461,212.45460461
+"4320","Global Fund","Global Fund","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",2776.05785931,-3206.68833001,-430.6304707,430.6304707
+"4858","Inter-American Development Bank","Inter-American Development Bank","OOF","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",11914.991116093,-12075.0623074255,-160.071191332499,160.071191332499
+"4859","Inter-American Development Bank","Inter-American Development Bank","OOF","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",10275.6162556346,-10190.3302925315,85.2859631031006,85.2859631031006
+"4860","Inter-American Development Bank","Inter-American Development Bank","OOF","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",0,-159.456175935343,-159.456175935343,159.456175935343
+"5130","International Committee of the Red Cross","International Committee of the Red Cross","OOF","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",1989.76556087455,-1736.29914301849,253.46641785606,253.46641785606
+"6378",NA,"Bilateral","ODA","Commitments",2020,NA,NA,"Organisation type","Volume","Yearly",NA,79177.2492923432,-77800.7034402194,1376.5458521238,1376.5458521238
+"6418",NA,"Bilateral","ODA","Commitments",2022,NA,NA,"Organisation type","Volume","Yearly",NA,97949.9354257292,-95495.1362534634,2454.7991722658,2454.7991722658
+"6425",NA,"Bilateral","ODA","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2022-01",83067.2839511208,-81365.6582177612,1701.6257333596,1701.6257333596
+"6426",NA,"Bilateral","ODA","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2023-01",93046.9785273513,-87851.67434657,5195.3041807813,5195.3041807813
+"6428",NA,"Bilateral","ODA","Disbursements",2018,NA,NA,"Organisation type","Volume","Yearly",NA,73865.2897789673,-72672.6976380905,1192.5921408768,1192.5921408768
+"6430",NA,"Bilateral","ODA","Disbursements",2019,NA,NA,"Organisation type","Volume","Yearly",NA,73842.3937697427,-72754.0433281098,1088.35044163291,1088.35044163291
+"6432",NA,"Bilateral","ODA","Disbursements",2020,NA,NA,"Organisation type","Volume","Yearly",NA,77266.1763654923,-76168.5056000023,1097.67076548999,1097.67076548999
+"6472",NA,"Bilateral","ODA","Disbursements",2022,NA,NA,"Organisation type","Volume","Yearly",NA,83902.5442000467,-82742.6188007842,1159.9253992625,1159.9253992625
+"6478",NA,"Bilateral","ODA","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2021-01",79437.7355103519,-77322.8053213095,2114.9301890424,2114.9301890424
+"6479",NA,"Bilateral","ODA","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2022-01",82550.6227693909,-81174.3300538939,1376.29271549701,1376.29271549701
+"6480",NA,"Bilateral","ODA","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2023-01",78703.9885863259,-76099.1254018678,2604.8631844581,2604.8631844581
+"6590",NA,"Bilateral","Other flows","Commitments",2018,NA,NA,"Organisation type","Volume","Yearly",NA,14734.5934778275,-26570.1902348461,-11835.5967570186,11835.5967570186
+"6592",NA,"Bilateral","Other flows","Commitments",2019,NA,NA,"Organisation type","Volume","Yearly",NA,14915.4786135091,-22411.3699053623,-7495.8912918532,7495.8912918532
+"6594",NA,"Bilateral","Other flows","Commitments",2020,NA,NA,"Organisation type","Volume","Yearly",NA,11923.7481675579,-21047.0377648043,-9123.2895972464,9123.2895972464
+"6604",NA,"Bilateral","Other flows","Commitments",2021,NA,NA,"Organisation type","Volume","Yearly",NA,336.427488947411,-6421.83119640725,-6085.40370745984,6085.40370745984
+"6634",NA,"Bilateral","Other flows","Commitments",2022,NA,NA,"Organisation type","Volume","Yearly",NA,119.292304934673,-5803.20799143722,-5683.91568650255,5683.91568650255
+"6640",NA,"Bilateral","Other flows","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2021-01",374.700638392246,-9517.43305612382,-9142.73241773157,9142.73241773157
+"6641",NA,"Bilateral","Other flows","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2022-01",257.153409297,-6308.73380636353,-6051.58039706653,6051.58039706653
+"6642",NA,"Bilateral","Other flows","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2023-01",147.256998272366,-5867.43397099411,-5720.17697272174,5720.17697272174
+"6695",NA,"Bilateral","Other flows","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2022-01",345.30451249992,-403.420291096168,-58.115778596248,58.115778596248
+"6806",NA,"IFI","ODA","Commitments",2018,NA,NA,"Organisation type","Volume","Yearly",NA,34937.6030325141,-40412.177203135,-5474.5741706209,5474.5741706209
+"6810",NA,"IFI","ODA","Commitments",2020,NA,NA,"Organisation type","Volume","Yearly",NA,46473.4079474276,-48013.2375467418,-1539.8295993142,1539.8295993142
+"6850",NA,"IFI","ODA","Commitments",2022,NA,NA,"Organisation type","Volume","Yearly",NA,36854.1866312578,-35668.1754921192,1186.0111391386,1186.0111391386
+"6856",NA,"IFI","ODA","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2021-01",46232.5778712539,-47986.2566556108,-1753.6787843569,1753.6787843569
+"6857",NA,"IFI","ODA","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2022-01",40367.1266770452,-39986.1118447739,381.014832271299,381.014832271299
+"6858",NA,"IFI","ODA","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2023-01",36083.1126665188,-35525.9687423978,557.143924120996,557.143924120996
+"6910",NA,"IFI","ODA","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2021-01",30076.2655927295,-29993.6854976444,82.5800950851008,82.5800950851008
+"6911",NA,"IFI","ODA","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2022-01",27801.2906035743,-27740.8608392014,60.4297643729005,60.4297643729005
+"6912",NA,"IFI","ODA","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2023-01",26938.1327101401,-27744.730252954,-806.597542813899,806.597542813899
+"6958",NA,"IFI","OOF","Commitments",2022,NA,NA,"Organisation type","Volume","Yearly",NA,32448.0905224566,-26272.9321314754,6175.1583909812,6175.1583909812
+"6965",NA,"IFI","OOF","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2022-01",47749.5547198776,-47873.2149053,-123.660185422406,123.660185422406
+"6966",NA,"IFI","OOF","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2023-01",32333.5678190386,-26160.1094978973,6173.4583211413,6173.4583211413
+"7012",NA,"IFI","OOF","Disbursements",2022,NA,NA,"Organisation type","Volume","Yearly",NA,36922.9083794834,-34245.4653081673,2677.4430713161,2677.4430713161
+"7018",NA,"IFI","OOF","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2021-01",51898.7827281484,-51306.9896484804,591.793079668001,591.793079668001
+"7019",NA,"IFI","OOF","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2022-01",45610.6055819582,-45113.5073518848,497.098230073403,497.098230073403
+"7020",NA,"IFI","OOF","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2023-01",34527.117877306,-34337.2659407128,189.851936593201,189.851936593201
+"7072",NA,"IFI","Other flows","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2021-01",9799.20301969483,-9996.61550738166,-197.41248768683,197.41248768683
+"7073",NA,"IFI","Other flows","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2022-01",8925.97777801061,-9091.38656723388,-165.408789223269,165.408789223269
+"7074",NA,"IFI","Other flows","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2023-01",9203.39275273653,-8904.92457151105,298.46818122548,298.46818122548
+"7126",NA,"IFI","Other flows","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2021-01",1785.22101513873,-1499.08775308608,286.13326205265,286.13326205265
+"7127",NA,"IFI","Other flows","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2022-01",1912.04323625964,-1989.92925275045,-77.8860164908099,77.8860164908099
+"7128",NA,"IFI","Other flows","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2023-01",2654.7055430752,-2775.30596329829,-120.60042022309,120.60042022309
+"7288",NA,"Multilateral","ODA","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2021-01",29115.3205674858,-28811.5646668029,303.7559006829,303.7559006829
+"7289",NA,"Multilateral","ODA","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2022-01",28206.8574570301,-27948.9325202479,257.924936782198,257.924936782198
+"7290",NA,"Multilateral","ODA","Commitments",NA,NA,NA,"Organisation type","Volume","Year to date","2023-01",22921.4576876664,-31975.7850156805,-9054.3273280141,9054.3273280141
+"7306",NA,"Multilateral","ODA","Disbursements",2021,NA,NA,"Organisation type","Volume","Yearly",NA,38378.5037385626,-32056.4131432928,6322.0905952698,6322.0905952698
+"7336",NA,"Multilateral","ODA","Disbursements",2022,NA,NA,"Organisation type","Volume","Yearly",NA,45582.7895328455,-37824.8258931912,7757.9636396543,7757.9636396543
+"7342",NA,"Multilateral","ODA","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2021-01",25447.3042222284,-25626.6496802772,-179.345458048803,179.345458048803
+"7343",NA,"Multilateral","ODA","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2022-01",43044.9631228907,-34554.6062701638,8490.3568527269,8490.3568527269
+"7344",NA,"Multilateral","ODA","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2023-01",42090.8397818892,-38791.7799780035,3299.0598038857,3299.0598038857
+"7452",NA,"Multilateral","OOF","Disbursements",NA,NA,NA,"Organisation type","Volume","Year to date","2023-01",3423.48164735664,-3168.9811994835,254.50044787314,254.50044787314
+"7720","Netherlands","Netherlands","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",4683.2475221508,-4570.01417469913,113.23334745167,113.23334745167
+"7721","Netherlands","Netherlands","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",2895.86758828785,-3045.89002003649,-150.02243174864,150.02243174864
+"7722","Netherlands","Netherlands","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",4668.01764379027,-4152.54249141145,515.47515237882,515.47515237882
+"7774","Netherlands","Netherlands","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",4020.59207938038,-3930.74773369153,89.8443456888499,89.8443456888499
+"7775","Netherlands","Netherlands","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",3800.88893062615,-3885.43254345724,-84.5436128310903,84.5436128310903
+"7776","Netherlands","Netherlands","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",4360.92784360011,-4135.53722070169,225.39062289842,225.39062289842
+"8585","Sweden","Sweden","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",6870.38847146635,-6690.94888513043,179.43958633592,179.43958633592
+"8586","Sweden","Sweden","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",3446.63439761539,-3041.67510153419,404.9592960812,404.9592960812
+"8638","Sweden","Sweden","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",5813.12794020872,-6161.8434681141,-348.71552790538,348.71552790538
+"8639","Sweden","Sweden","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",6592.91370757702,-6539.22483365652,53.6888739205006,53.6888739205006
+"8640","Sweden","Sweden","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",4048.29232593742,-3955.86421010592,92.4281158315002,92.4281158315002
+"9448","UK","UK","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",1460.21448996747,-1276.41648980909,183.79800015838,183.79800015838
+"9449","UK","UK","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",55.958543083168,-277.257357640368,-221.2988145572,221.2988145572
+"9503","UK","UK","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",10211.933308064,-10130.7042187296,81.2290893344016,81.2290893344016
+"9504","UK","UK","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",5288.1493727346,-5693.81128829533,-405.66191556073,405.66191556073
+"10043","UNDP","UNDP","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",5079.324496,-4859.750067,219.574429,219.574429
+"10044","UNDP","UNDP","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",4161.272115,-4380.846544,-219.574429,219.574429
+"10314","UNICEF","UNICEF","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",7908.66662599999,-16758.5336450002,-8849.86701900021,8849.86701900021
+"10330","UNICEF","UNICEF","ODA","Disbursements",2021,NA,NA,"Specific donor","Volume","Yearly",NA,6313.48083800001,-1.000007,6312.48083100001,6312.48083100001
+"10360","UNICEF","UNICEF","ODA","Disbursements",2022,NA,NA,"Specific donor","Volume","Yearly",NA,15753.9355290001,-7996.64943799999,7757.28609100011,7757.28609100011
+"10367","UNICEF","UNICEF","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",7280.74427600001,-413.415976999998,6867.32829900001,6867.32829900001
+"10368","UNICEF","UNICEF","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",15853.4100460001,-11479.5867089998,4373.8233370003,4373.8233370003
+"11446","UNOCHA","UNOCHA","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",762.458047623753,-875.916577623753,-113.45853,113.45853
+"11824","US","US","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",32688.9335690624,-32902.4709354875,-213.537366425102,213.537366425102
+"11825","US","US","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",38182.7393816646,-38368.6189446646,-185.879563000002,185.879563000002
+"11826","US","US","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",48695.5524142567,-47329.5853632568,1365.9670509999,1365.9670509999
+"11878","US","US","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2021-01",29111.369191615,-28205.4657983567,905.903393258297,905.903393258297
+"11879","US","US","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",34668.2565056971,-34342.7903377475,325.466167949598,325.466167949598
+"11880","US","US","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",46150.4238062063,-44258.5433422062,1891.8804640001,1891.8804640001
+"12312","World Bank","World Bank","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",21472.4237746134,-22227.7954813248,-755.371706711401,755.371706711401
+"12366","World Bank","World Bank","OOF","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",18692.6600774887,-18596.6098947403,96.0501827484004,96.0501827484004
+"12420","World Bank","World Bank","OOF","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",24263.9614423866,-25205.2063386752,-941.244896288601,941.244896288601
+"12689","World Food Programme","World Food Programme","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",9500.904547,-9286.57417599999,214.330371000011,214.330371000011
+"12690","World Food Programme","World Food Programme","ODA","Commitments",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",12129.122463,-12218.952702,-89.8302390000008,89.8302390000008
+"12743","World Food Programme","World Food Programme","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2022-01",9500.904547,-9286.57417599999,214.330371000011,214.330371000011
+"12744","World Food Programme","World Food Programme","ODA","Disbursements",NA,NA,NA,"Specific donor","Volume","Year to date","2023-01",12129.122463,-12218.952702,-89.8302390000008,89.8302390000008
