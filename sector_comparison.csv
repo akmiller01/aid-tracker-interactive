@@ -1,26 +1,68 @@
 "","country","org_type","flow_type","transaction_type","year","quarter","month","aggregate_type","oda_oof_other","variable","timeframe","rollingyear","value.x","value.y","difference","abs_difference"
-"784","African Development Bank Group","African Development Bank Group","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",351.392482638522,-445.093246282473,-93.700763643951,93.700763643951
-"796","African Development Bank Group","African Development Bank Group","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",171.421044833936,-265.121808477887,-93.700763643951,93.700763643951
-"1056","African Development Bank Group","African Development Bank Group","Agriculture and food security","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",589.294903468662,-647.485250375054,-58.1903469063919,58.1903469063919
-"1068","African Development Bank Group","African Development Bank Group","Agriculture and food security","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",589.294903468662,-647.485250375054,-58.1903469063919,58.1903469063919
-"1324","African Development Bank Group","African Development Bank Group","Business and industry","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",189.385065483365,-298.025686756224,-108.640621272859,108.640621272859
-"1342","African Development Bank Group","African Development Bank Group","Business and industry","Commitments",NA,NA,NA,"Specific donor","OOF","Volume","Year to date","2021-03",134.423512999322,-243.064156815765,-108.640643816443,108.640643816443
-"4026","African Development Bank Group","African Development Bank Group","Governance and security","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",1138.20099178129,-1195.03481329845,-56.83382151716,56.83382151716
-"4038","African Development Bank Group","African Development Bank Group","Governance and security","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",1138.20099178129,-1195.03481329845,-56.83382151716,56.83382151716
-"4294","African Development Bank Group","African Development Bank Group","Governance and security","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",3380.55532634718,-3534.81691706272,-154.26159071554,154.26159071554
-"4306","African Development Bank Group","African Development Bank Group","Governance and security","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",3380.55532634718,-3534.81691706272,-154.26159071554,154.26159071554
-"5644","African Development Bank Group","African Development Bank Group","Infrastructure","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",1499.14907253847,-2002.68966620212,-503.54059366365,503.54059366365
-"5645","African Development Bank Group","African Development Bank Group","Infrastructure","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",3147.80536346904,-2871.84578535433,275.95957811471,275.95957811471
-"5646","African Development Bank Group","African Development Bank Group","Infrastructure","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",2012.77291770476,-2308.23266745376,-295.459749749,295.459749749
-"5656","African Development Bank Group","African Development Bank Group","Infrastructure","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",1060.12187984814,-1583.10220501561,-522.98032516747,522.98032516747
-"5657","African Development Bank Group","African Development Bank Group","Infrastructure","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",3046.42063852512,-2751.02157338685,295.39906513827,295.39906513827
-"5658","African Development Bank Group","African Development Bank Group","Infrastructure","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",1652.1591810952,-1947.61951445035,-295.46033335515,295.46033335515
-"5916","African Development Bank Group","African Development Bank Group","Infrastructure","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",985.492056672611,-1058.19338847915,-72.7013318065389,72.7013318065389
-"5928","African Development Bank Group","African Development Bank Group","Infrastructure","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",985.492056672611,-1058.19338847915,-72.7013318065389,72.7013318065389
-"6995","African Development Bank Group","African Development Bank Group","Other","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",65.5523866402431,-5.67110452324642,59.8812821169967,59.8812821169967
-"6996","African Development Bank Group","African Development Bank Group","Other","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",5.01993015189719,-66.1153623542584,-61.0954322023612,61.0954322023612
-"7007","African Development Bank Group","African Development Bank Group","Other","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",65.5523866402431,-5.67110452324642,59.8812821169967,59.8812821169967
-"7008","African Development Bank Group","African Development Bank Group","Other","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",5.01993015189719,-66.1153623542584,-61.0954322023612,61.0954322023612
+"602","African Development Bank Group","African Development Bank Group","Agriculture and food security","Commitments",2021,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,425.246579482967,-1504.61167572725,-1079.36509624428,1079.36509624428
+"606","African Development Bank Group","African Development Bank Group","Agriculture and food security","Commitments",2021,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,316.622955585294,-1395.99349822947,-1079.37054264418,1079.37054264418
+"784","African Development Bank Group","African Development Bank Group","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",305.796561883862,-445.093246282473,-139.296684398611,139.296684398611
+"785","African Development Bank Group","African Development Bank Group","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",496.496113444845,-1575.27234724401,-1078.77623379917,1078.77623379917
+"786","African Development Bank Group","African Development Bank Group","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",1399.27391814076,-2141.5039413876,-742.23002324684,742.23002324684
+"796","African Development Bank Group","African Development Bank Group","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",125.821277229526,-265.121808477887,-139.300531248361,139.300531248361
+"797","African Development Bank Group","African Development Bank Group","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",387.704947315924,-1466.48118111509,-1078.77623379917,1078.77623379917
+"798","African Development Bank Group","African Development Bank Group","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",1398.33013427113,-2140.5606098866,-742.23047561547,742.23047561547
+"1054","African Development Bank Group","African Development Bank Group","Agriculture and food security","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",131.706455136713,-386.50064406089,-254.794188924177,254.794188924177
+"1055","African Development Bank Group","African Development Bank Group","Agriculture and food security","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",133.594578198655,-362.494140902381,-228.899562703726,228.899562703726
+"1056","African Development Bank Group","African Development Bank Group","Agriculture and food security","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",447.104285603305,-647.485250375054,-200.380964771749,200.380964771749
+"1066","African Development Bank Group","African Development Bank Group","Agriculture and food security","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",131.706455136713,-386.50064406089,-254.794188924177,254.794188924177
+"1067","African Development Bank Group","African Development Bank Group","Agriculture and food security","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",133.594578198655,-362.494140902381,-228.899562703726,228.899562703726
+"1068","African Development Bank Group","African Development Bank Group","Agriculture and food security","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",447.104285603305,-647.485250375054,-200.380964771749,200.380964771749
+"1324","African Development Bank Group","African Development Bank Group","Business and industry","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",189.396781041389,-298.025686756224,-108.628905714835,108.628905714835
+"1342","African Development Bank Group","African Development Bank Group","Business and industry","Commitments",NA,NA,NA,"Specific donor","OOF","Volume","Year to date","2021-03",134.432676243258,-243.064156815765,-108.631480572507,108.631480572507
+"2945","African Development Bank Group","African Development Bank Group","Environment","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",4.05839870381646,-124.333825511533,-120.275426807717,120.275426807717
+"2957","African Development Bank Group","African Development Bank Group","Environment","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",4.05839870381646,-124.333825511533,-120.275426807717,120.275426807717
+"4026","African Development Bank Group","African Development Bank Group","Governance and security","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",919.627608772004,-1195.03481329845,-275.407204526446,275.407204526446
+"4038","African Development Bank Group","African Development Bank Group","Governance and security","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",919.627608772004,-1195.03481329845,-275.407204526446,275.407204526446
+"4294","African Development Bank Group","African Development Bank Group","Governance and security","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",3366.09932392114,-3534.81691706272,-168.71759314158,168.71759314158
+"4306","African Development Bank Group","African Development Bank Group","Governance and security","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",3366.09932392114,-3534.81691706272,-168.71759314158,168.71759314158
+"5402","African Development Bank Group","African Development Bank Group","Infrastructure","Commitments",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1451.32591008584,-2888.49370900248,-1437.16779891664,1437.16779891664
+"5406","African Development Bank Group","African Development Bank Group","Infrastructure","Commitments",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1193.72881770535,-2630.91936549268,-1437.19054778733,1437.19054778733
+"5422","African Development Bank Group","African Development Bank Group","Infrastructure","Commitments",2020,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,2396.45386720744,-3746.3603983015,-1349.90653109406,1349.90653109406
+"5426","African Development Bank Group","African Development Bank Group","Infrastructure","Commitments",2020,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1797.78137247177,-3147.72526324604,-1349.94389077427,1349.94389077427
+"5462","African Development Bank Group","African Development Bank Group","Infrastructure","Commitments",2021,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,1607.98042768103,-2771.00030316141,-1163.01987548038,1163.01987548038
+"5466","African Development Bank Group","African Development Bank Group","Infrastructure","Commitments",2021,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,1488.53407909709,-2651.56374052915,-1163.02966143206,1163.02966143206
+"5644","African Development Bank Group","African Development Bank Group","Infrastructure","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",780.347930313225,-2002.68966620212,-1222.3417358889,1222.3417358889
+"5645","African Development Bank Group","African Development Bank Group","Infrastructure","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",2209.10510044897,-2871.84578535433,-662.74068490536,662.74068490536
+"5646","African Development Bank Group","African Development Bank Group","Infrastructure","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",1709.7165930555,-2308.23266745376,-598.51607439826,598.51607439826
+"5656","African Development Bank Group","African Development Bank Group","Infrastructure","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",341.28101706706,-1583.10220501561,-1241.82118794855,1241.82118794855
+"5657","African Development Bank Group","African Development Bank Group","Infrastructure","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",2107.69711639958,-2751.02157338685,-643.32445698727,643.32445698727
+"5658","African Development Bank Group","African Development Bank Group","Infrastructure","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",1349.01919388024,-1947.61951445035,-598.60032057011,598.60032057011
+"5672","African Development Bank Group","African Development Bank Group","Infrastructure","Disbursements",2018,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,460.300498682514,-1583.73686739617,-1123.43636871366,1123.43636871366
+"5676","African Development Bank Group","African Development Bank Group","Infrastructure","Disbursements",2018,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,460.300498682514,-1583.73686739617,-1123.43636871366,1123.43636871366
+"5682","African Development Bank Group","African Development Bank Group","Infrastructure","Disbursements",2019,NA,NA,"Specific donor","All flows","Volume","Yearly",NA,449.254667144309,-1597.13842532697,-1147.88375818266,1147.88375818266
+"5686","African Development Bank Group","African Development Bank Group","Infrastructure","Disbursements",2019,NA,NA,"Specific donor","ODA","Volume","Yearly",NA,448.573517671042,-1596.45747464482,-1147.88395697378,1147.88395697378
+"5914","African Development Bank Group","African Development Bank Group","Infrastructure","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",691.853964839191,-1602.45246689202,-910.598502052829,910.598502052829
+"5915","African Development Bank Group","African Development Bank Group","Infrastructure","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",445.20587632377,-1491.35548855048,-1046.14961222671,1046.14961222671
+"5916","African Development Bank Group","African Development Bank Group","Infrastructure","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",355.479394766126,-1058.19338847915,-702.713993713024,702.713993713024
+"5926","African Development Bank Group","African Development Bank Group","Infrastructure","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",691.588801226688,-1602.18737475129,-910.598573524602,910.598573524602
+"5927","African Development Bank Group","African Development Bank Group","Infrastructure","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",445.20587632377,-1491.35548855048,-1046.14961222671,1046.14961222671
+"5928","African Development Bank Group","African Development Bank Group","Infrastructure","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",355.479394766126,-1058.19338847915,-702.713993713024,702.713993713024
+"6725","African Development Bank Group","African Development Bank Group","Other social services","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",115.063470797536,-170.886808505772,-55.823337708236,55.823337708236
+"6726","African Development Bank Group","African Development Bank Group","Other social services","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",145.811620362534,-201.437718202371,-55.626097839837,55.626097839837
+"6737","African Development Bank Group","African Development Bank Group","Other social services","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",115.063470797536,-170.886808505772,-55.823337708236,55.823337708236
+"6738","African Development Bank Group","African Development Bank Group","Other social services","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",145.811620362534,-201.437718202371,-55.626097839837,55.626097839837
+"6995","African Development Bank Group","African Development Bank Group","Other","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",60.0560132024693,-5.67110452324642,54.3849086792229,54.3849086792229
+"6996","African Development Bank Group","African Development Bank Group","Other","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",5.02019368781266,-66.1153623542584,-61.0951686664457,61.0951686664457
+"7007","African Development Bank Group","African Development Bank Group","Other","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",60.0560132024693,-5.67110452324642,54.3849086792229,54.3849086792229
+"7008","African Development Bank Group","African Development Bank Group","Other","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",5.02019368781266,-66.1153623542584,-61.0951686664457,61.0951686664457
+"8074","African Development Bank Group","African Development Bank Group","Water and sanitation","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",144.293868755443,-634.56739886928,-490.273530113837,490.273530113837
+"8075","African Development Bank Group","African Development Bank Group","Water and sanitation","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",156.326440394221,-400.43222403633,-244.105783642109,244.105783642109
+"8076","African Development Bank Group","African Development Bank Group","Water and sanitation","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",256.476543264035,-387.95948331301,-131.482940048975,131.482940048975
+"8086","African Development Bank Group","African Development Bank Group","Water and sanitation","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",144.293868755443,-634.56739886928,-490.273530113837,490.273530113837
+"8087","African Development Bank Group","African Development Bank Group","Water and sanitation","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",156.326440394221,-400.43222403633,-244.105783642109,244.105783642109
+"8088","African Development Bank Group","African Development Bank Group","Water and sanitation","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",256.476543264035,-387.95948331301,-131.482940048975,131.482940048975
+"8344","African Development Bank Group","African Development Bank Group","Water and sanitation","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",147.183456554276,-454.271373087133,-307.087916532857,307.087916532857
+"8345","African Development Bank Group","African Development Bank Group","Water and sanitation","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",179.188741256037,-521.533959598986,-342.345218342949,342.345218342949
+"8346","African Development Bank Group","African Development Bank Group","Water and sanitation","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",125.74970704825,-390.766342936667,-265.016635888417,265.016635888417
+"8356","African Development Bank Group","African Development Bank Group","Water and sanitation","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",147.183456554276,-447.94032777522,-300.756871220944,300.756871220944
+"8357","African Development Bank Group","African Development Bank Group","Water and sanitation","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",179.188741256037,-518.201744994976,-339.013003738939,339.013003738939
+"8358","African Development Bank Group","African Development Bank Group","Water and sanitation","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",125.74970704825,-390.766342936667,-265.016635888417,265.016635888417
 "9154","Asian Development Bank","Asian Development Bank","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",635.106200174861,-688.431467877036,-53.325267702175,53.325267702175
 "9156","Asian Development Bank","Asian Development Bank","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",1668.1600197164,-1576.00085016623,92.15916955017,92.15916955017
 "9168","Asian Development Bank","Asian Development Bank","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",647.91524071616,-555.756071165987,92.159169550173,92.159169550173
@@ -65,16 +107,16 @@
 "25096","Canada","Canada","Governance and security","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",257.859604705326,-341.108523683777,-83.248918978451,83.248918978451
 "26164","Canada","Canada","Humanitarian","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",336.684620459264,-276.153825000784,60.53079545848,60.53079545848
 "26176","Canada","Canada","Humanitarian","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",336.285712429651,-275.754916208317,60.530796221334,60.530796221334
-"34266","Denmark","Denmark","Health","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",133.650199314739,-242.46957299447,-108.819373679731,108.819373679731
-"34278","Denmark","Denmark","Health","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",133.650199314739,-242.46957299447,-108.819373679731,108.819373679731
+"34266","Denmark","Denmark","Health","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",133.650162712867,-242.46957299447,-108.819410281603,108.819410281603
+"34278","Denmark","Denmark","Health","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",133.650162712867,-242.46957299447,-108.819410281603,108.819410281603
 "34534","Denmark","Denmark","Humanitarian","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",474.682195049023,-385.737170388759,88.945024660264,88.945024660264
-"34535","Denmark","Denmark","Humanitarian","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",325.988867897275,-458.68794829413,-132.699080396855,132.699080396855
+"34535","Denmark","Denmark","Humanitarian","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",325.986596617224,-458.68794829413,-132.701351676906,132.701351676906
 "34546","Denmark","Denmark","Humanitarian","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",474.682195049023,-385.737170388759,88.945024660264,88.945024660264
-"34547","Denmark","Denmark","Humanitarian","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",325.988867897275,-458.68794829413,-132.699080396855,132.699080396855
-"36426","Denmark","Denmark","Other","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",255.233870237474,-161.62984990722,93.604020330254,93.604020330254
-"36438","Denmark","Denmark","Other","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",255.233870237474,-161.62984990722,93.604020330254,93.604020330254
-"36696","Denmark","Denmark","Other","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",729.21154016525,-630.928825159998,98.2827150052519,98.2827150052519
-"36708","Denmark","Denmark","Other","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",729.21154016525,-630.928825159998,98.2827150052519,98.2827150052519
+"34547","Denmark","Denmark","Humanitarian","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",325.986596617224,-458.68794829413,-132.701351676906,132.701351676906
+"36426","Denmark","Denmark","Other","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",255.511077638018,-161.62984990722,93.881227730798,93.881227730798
+"36438","Denmark","Denmark","Other","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",255.511077638018,-161.62984990722,93.881227730798,93.881227730798
+"36696","Denmark","Denmark","Other","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",729.21138208942,-630.928825159998,98.282556929422,98.282556929422
+"36708","Denmark","Denmark","Other","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",729.21138208942,-630.928825159998,98.282556929422,98.282556929422
 "38584","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",525.65645524816,-403.290956648723,122.365498599437,122.365498599437
 "38585","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",174.380114007302,-303.01337384092,-128.633259833618,128.633259833618
 "38608","European Bank for Reconstruction and Development","European Bank for Reconstruction and Development","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","Other flows","Volume","Year to date","2021-03",525.65645524816,-403.290956648723,122.365498599437,122.365498599437
@@ -172,34 +214,36 @@
 "67756","Gavi, The Vaccine Alliance","Gavi, The Vaccine Alliance","Health","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",3244.94463563,-2810.02367252,434.92096311,434.92096311
 "67757","Gavi, The Vaccine Alliance","Gavi, The Vaccine Alliance","Health","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",15806.19639184,-15935.50740635,-129.31101451,129.31101451
 "67758","Gavi, The Vaccine Alliance","Gavi, The Vaccine Alliance","Health","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",5376.112389,-5642.91019525,-266.79780625,266.79780625
-"72064","Germany","Germany","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",1451.21107988299,-1510.4099569797,-59.19887709671,59.19887709671
-"72065","Germany","Germany","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",577.480872026061,-649.182772352908,-71.7019003268471,71.7019003268471
-"72066","Germany","Germany","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",985.390314842157,-1059.79125149603,-74.4009366538731,74.4009366538731
-"72076","Germany","Germany","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",1451.21107988299,-1510.4099569797,-59.19887709671,59.19887709671
-"72077","Germany","Germany","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",577.480872026061,-649.182772352908,-71.7019003268471,71.7019003268471
-"72078","Germany","Germany","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",985.390314842157,-1059.79125149603,-74.4009366538731,74.4009366538731
-"72604","Germany","Germany","Business and industry","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",2375.64193329622,-2487.87165975072,-112.2297264545,112.2297264545
-"72616","Germany","Germany","Business and industry","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",2375.64193329622,-2487.87165975072,-112.2297264545,112.2297264545
-"73685","Germany","Germany","Education","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",1527.94717345311,-1591.92630220994,-63.9791287568301,63.9791287568301
-"73697","Germany","Germany","Education","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",1527.94717345311,-1591.92630220994,-63.9791287568301,63.9791287568301
-"74224","Germany","Germany","Environment","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",809.980895090066,-885.01444618944,-75.033551099374,75.033551099374
-"74236","Germany","Germany","Environment","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",809.980895090066,-885.01444618944,-75.033551099374,75.033551099374
-"75305","Germany","Germany","Governance and security","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",1847.94693708161,-1899.47769623699,-51.5307591553799,51.5307591553799
-"75306","Germany","Germany","Governance and security","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",1346.27600980313,-1293.11896000178,53.15704980135,53.15704980135
-"75317","Germany","Germany","Governance and security","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",1847.94693708161,-1899.47769623699,-51.5307591553799,51.5307591553799
-"75318","Germany","Germany","Governance and security","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",1346.27600980313,-1293.11896000178,53.15704980135,53.15704980135
-"76384","Germany","Germany","Humanitarian","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",1219.85507276277,-1318.63295705685,-98.77788429408,98.77788429408
-"76385","Germany","Germany","Humanitarian","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",909.025324538468,-988.092061923599,-79.066737385131,79.066737385131
-"76396","Germany","Germany","Humanitarian","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",1219.85507276277,-1318.63295705685,-98.77788429408,98.77788429408
-"76397","Germany","Germany","Humanitarian","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",909.025324538468,-988.092061923599,-79.066737385131,79.066737385131
+"72064","Germany","Germany","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",1451.21089465761,-1510.4099569797,-59.19906232209,59.19906232209
+"72065","Germany","Germany","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",577.481873210496,-649.182772352908,-71.700899142412,71.700899142412
+"72066","Germany","Germany","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",985.402553695039,-1059.79125149603,-74.3886978009911,74.3886978009911
+"72076","Germany","Germany","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",1451.21089465761,-1510.4099569797,-59.19906232209,59.19906232209
+"72077","Germany","Germany","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",577.481873210496,-649.182772352908,-71.700899142412,71.700899142412
+"72078","Germany","Germany","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",985.402553695039,-1059.79125149603,-74.3886978009911,74.3886978009911
+"72604","Germany","Germany","Business and industry","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",2376.79391016863,-2487.87165975072,-111.07774958209,111.07774958209
+"72616","Germany","Germany","Business and industry","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",2376.79391016863,-2487.87165975072,-111.07774958209,111.07774958209
+"73685","Germany","Germany","Education","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",1527.94761603319,-1591.92630220994,-63.9786861767502,63.9786861767502
+"73697","Germany","Germany","Education","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",1527.94761603319,-1591.92630220994,-63.9786861767502,63.9786861767502
+"74224","Germany","Germany","Environment","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",811.553000014973,-885.01444618944,-73.461446174467,73.461446174467
+"74236","Germany","Germany","Environment","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",811.553000014973,-885.01444618944,-73.461446174467,73.461446174467
+"75306","Germany","Germany","Governance and security","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",1351.991023042,-1293.11896000178,58.8720630402202,58.8720630402202
+"75318","Germany","Germany","Governance and security","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",1351.991023042,-1293.11896000178,58.8720630402202,58.8720630402202
+"75845","Germany","Germany","Health","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",1274.32704814876,-1606.86022614115,-332.53317799239,332.53317799239
+"75846","Germany","Germany","Health","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",539.656359096359,-641.724109051599,-102.06774995524,102.06774995524
+"75857","Germany","Germany","Health","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",1274.32704814876,-1606.86022614115,-332.53317799239,332.53317799239
+"75858","Germany","Germany","Health","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",539.656359096359,-641.724109051599,-102.06774995524,102.06774995524
+"76384","Germany","Germany","Humanitarian","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",1219.85505313915,-1318.63295705685,-98.7779039177001,98.7779039177001
+"76385","Germany","Germany","Humanitarian","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",909.022699246261,-988.092061923599,-79.0693626773379,79.0693626773379
+"76396","Germany","Germany","Humanitarian","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",1219.85505313915,-1318.63295705685,-98.7779039177001,98.7779039177001
+"76397","Germany","Germany","Humanitarian","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",909.022699246261,-988.092061923599,-79.0693626773379,79.0693626773379
 "76656","Germany","Germany","Humanitarian","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",2280.2657659449,-2358.66408841256,-78.3983224676599,78.3983224676599
 "76668","Germany","Germany","Humanitarian","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",2280.2657659449,-2358.66408841256,-78.3983224676599,78.3983224676599
-"76924","Germany","Germany","Infrastructure","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",1437.97340293154,-1673.73381374705,-235.76041081551,235.76041081551
-"76925","Germany","Germany","Infrastructure","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",1324.2209006112,-1258.08038114082,66.14051947038,66.14051947038
-"76926","Germany","Germany","Infrastructure","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",1480.85882442385,-1573.10860238253,-92.2497779586802,92.2497779586802
-"76936","Germany","Germany","Infrastructure","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",1437.97340293154,-1673.73381374705,-235.76041081551,235.76041081551
-"76937","Germany","Germany","Infrastructure","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",1324.2209006112,-1258.08038114082,66.14051947038,66.14051947038
-"76938","Germany","Germany","Infrastructure","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",1480.85882442385,-1573.10860238253,-92.2497779586802,92.2497779586802
+"76924","Germany","Germany","Infrastructure","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",1418.56740820269,-1673.73381374705,-255.16640554436,255.16640554436
+"76925","Germany","Germany","Infrastructure","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",1324.32676247844,-1258.08038114082,66.2463813376201,66.2463813376201
+"76926","Germany","Germany","Infrastructure","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",1506.51882303163,-1573.10860238253,-66.5897793509,66.5897793509
+"76936","Germany","Germany","Infrastructure","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",1418.56740820269,-1673.73381374705,-255.16640554436,255.16640554436
+"76937","Germany","Germany","Infrastructure","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",1324.32676247844,-1258.08038114082,66.2463813376201,66.2463813376201
+"76938","Germany","Germany","Infrastructure","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",1506.51882303163,-1573.10860238253,-66.5897793509,66.5897793509
 "84214","Global Fund","Global Fund","Health","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",6206.67407615,-6357.48072414,-150.806647990001,150.806647990001
 "84215","Global Fund","Global Fund","Health","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",4458.54746991,-4538.00412417,-79.4566542600005,79.4566542600005
 "84226","Global Fund","Global Fund","Health","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",6206.67407615,-6357.48072414,-150.806647990001,150.806647990001
@@ -291,311 +335,333 @@
 "97445","International Fund for Agricultural Development","International Fund for Agricultural Development","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",458.352553334823,-532.914253163868,-74.561699829045,74.561699829045
 "97462","International Fund for Agricultural Development","International Fund for Agricultural Development","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","OOF","Volume","Year to date","2021-03",383.568262881888,-304.184954838085,79.383308043803,79.383308043803
 "97463","International Fund for Agricultural Development","International Fund for Agricultural Development","Agriculture and food security","Commitments",NA,NA,NA,"Specific donor","OOF","Volume","Year to date","2022-03",458.352553334823,-532.914253163868,-74.561699829045,74.561699829045
-"113644",NA,"Bilateral","Administrative costs of donors","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",3387.35096739682,-3331.03090140798,56.3200659888403,56.3200659888403
-"113656",NA,"Bilateral","Administrative costs of donors","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",3387.31190528557,-3330.99183929672,56.3200659888498,56.3200659888498
-"114184",NA,"Bilateral","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",5232.27664236638,-5316.2397641494,-83.9631217830201,83.9631217830201
-"114185",NA,"Bilateral","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",4056.95371518184,-4006.10389681812,50.8498183637198,50.8498183637198
-"114196",NA,"Bilateral","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",5201.83789829835,-5285.95277176844,-84.1148734700892,84.1148734700892
-"114197",NA,"Bilateral","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",4054.96235147592,-4004.27604667955,50.6863047963702,50.6863047963702
-"114724",NA,"Bilateral","Business and industry","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",5063.26670335312,-5257.7408171566,-194.474113803481,194.474113803481
-"114725",NA,"Bilateral","Business and industry","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",3706.50148691507,-3603.36023903755,103.14124787752,103.14124787752
-"114726",NA,"Bilateral","Business and industry","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",5053.48955520566,-5160.76790375526,-107.2783485496,107.2783485496
-"114736",NA,"Bilateral","Business and industry","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",4972.8388749393,-5166.93790247024,-194.09902753094,194.09902753094
-"114737",NA,"Bilateral","Business and industry","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",3680.73366590184,-3576.74601911114,103.9876467907,103.9876467907
-"114738",NA,"Bilateral","Business and industry","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",5020.71633480491,-5128.86456358523,-108.14822878032,108.14822878032
-"114995",NA,"Bilateral","Business and industry","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",3445.69645017403,-3394.30838547712,51.3880646969101,51.3880646969101
-"114996",NA,"Bilateral","Business and industry","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",1774.11975234766,-1852.7946103099,-78.6748579622399,78.6748579622399
-"115007",NA,"Bilateral","Business and industry","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",3420.68626515362,-3368.24864531437,52.4376198392497,52.4376198392497
-"115008",NA,"Bilateral","Business and industry","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",1761.27512138939,-1838.13115112408,-76.8560297346899,76.8560297346899
-"115534",NA,"Bilateral","Debt relief","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",319.331310816345,-408.770580186607,-89.439269370262,89.439269370262
-"115546",NA,"Bilateral","Debt relief","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",319.331310816345,-408.770580186607,-89.439269370262,89.439269370262
-"115804",NA,"Bilateral","Education","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",3433.36581062474,-3526.52176055139,-93.15594992665,93.15594992665
-"115806",NA,"Bilateral","Education","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",3432.58711905508,-3493.00617903858,-60.4190599834997,60.4190599834997
-"115816",NA,"Bilateral","Education","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",3396.40805485323,-3489.56401321406,-93.15595836083,93.15595836083
-"115818",NA,"Bilateral","Education","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",3433.62812523374,-3494.04718580862,-60.4190605748799,60.4190605748799
-"116074",NA,"Bilateral","Education","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",3763.17551533429,-3930.16685602747,-166.99134069318,166.99134069318
-"116086",NA,"Bilateral","Education","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",3703.05977085111,-3871.86049524857,-168.80072439746,168.80072439746
-"116344",NA,"Bilateral","Environment","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",2167.89266799228,-2276.5722146371,-108.67954664482,108.67954664482
-"116345",NA,"Bilateral","Environment","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",2619.46962888507,-2554.94867454912,64.5209543359501,64.5209543359501
-"116356",NA,"Bilateral","Environment","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",2168.27722443369,-2276.95676965381,-108.67954522012,108.67954522012
-"116357",NA,"Bilateral","Environment","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",2619.32509451745,-2554.80414067764,64.5209538398099,64.5209538398099
-"116614",NA,"Bilateral","Environment","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",1931.77338638388,-1668.07073798381,263.70264840007,263.70264840007
-"116615",NA,"Bilateral","Environment","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",2039.05153823671,-1940.41937486721,98.6321633694999,98.6321633694999
-"116616",NA,"Bilateral","Environment","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",1832.93963698031,-1529.37122244272,303.56841453759,303.56841453759
-"116626",NA,"Bilateral","Environment","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",1930.72303433661,-1666.97478214266,263.74825219395,263.74825219395
-"116627",NA,"Bilateral","Environment","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",2038.65562060138,-1940.03809996743,98.6175206339499,98.6175206339499
-"116628",NA,"Bilateral","Environment","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",1832.50008328052,-1528.92442363586,303.57565964466,303.57565964466
-"117425",NA,"Bilateral","Governance and security","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",11560.0183927825,-11649.9459542789,-89.9275614964008,89.9275614964008
-"117426",NA,"Bilateral","Governance and security","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",23690.5969806275,-23537.2025939156,153.394386711898,153.394386711898
-"117437",NA,"Bilateral","Governance and security","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",10776.6877035202,-10853.4684563766,-76.7807528564008,76.7807528564008
-"117438",NA,"Bilateral","Governance and security","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",23692.6451376359,-23539.751533053,152.8936045829,152.8936045829
-"117694",NA,"Bilateral","Governance and security","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",11332.503729633,-11456.4700413662,-123.9663117332,123.9663117332
-"117695",NA,"Bilateral","Governance and security","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",10906.416774917,-10986.905799135,-80.4890242180008,80.4890242180008
-"117706",NA,"Bilateral","Governance and security","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",10610.7255942907,-10694.6735042889,-83.9479099982,83.9479099982
-"117719",NA,"Bilateral","Governance and security","Disbursements",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2022-03",715.429496716696,-765.47424488392,-50.044748167224,50.044748167224
-"117964",NA,"Bilateral","Health","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",18073.9396040788,-18372.7119610996,-298.7723570208,298.7723570208
-"117965",NA,"Bilateral","Health","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",22320.4484187234,-22194.5256027692,125.9228159542,125.9228159542
-"117966",NA,"Bilateral","Health","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",11336.2816950966,-11398.9882242416,-62.7065291449999,62.7065291449999
-"117976",NA,"Bilateral","Health","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",18030.4497064993,-18329.2077322999,-298.758025800598,298.758025800598
-"117977",NA,"Bilateral","Health","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",22319.6514019716,-22193.7429570744,125.908444897203,125.908444897203
-"117978",NA,"Bilateral","Health","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",11336.2011035834,-11398.9076334086,-62.7065298252001,62.7065298252001
-"118235",NA,"Bilateral","Health","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",16861.1905656229,-16740.0281748772,121.1623907457,121.1623907457
-"118236",NA,"Bilateral","Health","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",11566.0669224169,-11810.1925971922,-244.1256747753,244.1256747753
-"118247",NA,"Bilateral","Health","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",16854.4917569735,-16733.2100893236,121.281667649902,121.281667649902
-"118248",NA,"Bilateral","Health","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",11563.9786610513,-11808.5209178293,-244.542256778001,244.542256778001
-"118262",NA,"Bilateral","Humanitarian","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,14047.4842854322,-15372.7403502929,-1325.2560648607,1325.2560648607
-"118266",NA,"Bilateral","Humanitarian","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,14047.6517401439,-15372.907804985,-1325.2560648411,1325.2560648411
-"118272",NA,"Bilateral","Humanitarian","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,13333.6372269016,-14454.5190430634,-1120.8818161618,1120.8818161618
-"118276",NA,"Bilateral","Humanitarian","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,13322.8529319637,-14443.7347508171,-1120.8818188534,1120.8818188534
-"118282",NA,"Bilateral","Humanitarian","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,13211.4392434412,-14426.2610204017,-1214.8217769605,1214.8217769605
-"118286",NA,"Bilateral","Humanitarian","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,13211.3444426292,-14426.1662196448,-1214.8217770156,1214.8217770156
-"118322",NA,"Bilateral","Humanitarian","Commitments",2021,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,15020.6864029019,-16618.0656395764,-1597.3792366745,1597.3792366745
-"118326",NA,"Bilateral","Humanitarian","Commitments",2021,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,15009.9538225014,-16607.3330813039,-1597.3792588025,1597.3792588025
-"118452",NA,"Bilateral","Humanitarian","Commitments",2022,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,17642.6831171214,-18786.7718003094,-1144.088683188,1144.088683188
-"118456",NA,"Bilateral","Humanitarian","Commitments",2022,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,17642.6650346017,-18786.7537178051,-1144.0886832034,1144.0886832034
-"118504",NA,"Bilateral","Humanitarian","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",14762.6030637396,-15900.1247842906,-1137.521720551,1137.521720551
-"118505",NA,"Bilateral","Humanitarian","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",14356.2969747928,-16147.9082802595,-1791.6113054667,1791.6113054667
-"118506",NA,"Bilateral","Humanitarian","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",15642.3217697454,-17716.9192037973,-2074.5974340519,2074.5974340519
-"118516",NA,"Bilateral","Humanitarian","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",14753.6337240067,-15897.1732806921,-1143.5395566854,1143.5395566854
-"118517",NA,"Bilateral","Humanitarian","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",14354.4048304761,-16139.9984089221,-1785.593578446,1785.593578446
-"118518",NA,"Bilateral","Humanitarian","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",15642.3043377352,-17716.9282881027,-2074.6239503675,2074.6239503675
-"118532",NA,"Bilateral","Humanitarian","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,12192.1921736745,-14049.062833212,-1856.8706595375,1856.8706595375
-"118536",NA,"Bilateral","Humanitarian","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,12193.1150158963,-14049.9856753157,-1856.8706594194,1856.8706594194
-"118542",NA,"Bilateral","Humanitarian","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,11857.6902100445,-14103.4951667887,-2245.8049567442,2245.8049567442
-"118546",NA,"Bilateral","Humanitarian","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,11856.9020932893,-14102.7070506683,-2245.804957379,2245.804957379
-"118552",NA,"Bilateral","Humanitarian","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,13811.4017216268,-15777.4161327999,-1966.0144111731,1966.0144111731
-"118556",NA,"Bilateral","Humanitarian","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,13811.3081072067,-15777.3225184105,-1966.0144112038,1966.0144112038
-"118592",NA,"Bilateral","Humanitarian","Disbursements",2021,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,16795.7049496326,-19373.783169022,-2578.0782193894,2578.0782193894
-"118596",NA,"Bilateral","Humanitarian","Disbursements",2021,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,16785.5665515312,-19363.644777607,-2578.0782260758,2578.0782260758
-"118722",NA,"Bilateral","Humanitarian","Disbursements",2022,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,17217.6604901991,-19254.2904096362,-2036.6299194371,2036.6299194371
-"118726",NA,"Bilateral","Humanitarian","Disbursements",2022,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,17217.6424078634,-19254.2723273114,-2036.629919448,2036.629919448
-"118774",NA,"Bilateral","Humanitarian","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",14233.4825836716,-16137.775914188,-1904.2933305164,1904.2933305164
-"118775",NA,"Bilateral","Humanitarian","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",17880.3554379508,-20982.7078438441,-3102.3524058933,3102.3524058933
-"118776",NA,"Bilateral","Humanitarian","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",15832.0020264076,-18527.0742537045,-2695.0722272969,2695.0722272969
-"118786",NA,"Bilateral","Humanitarian","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",14226.709838953,-16132.1277294098,-1905.4178904568,1905.4178904568
-"118787",NA,"Bilateral","Humanitarian","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",17876.9169739748,-20978.1448432861,-3101.2278693113,3101.2278693113
-"118788",NA,"Bilateral","Humanitarian","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",15831.9839408587,-18527.0561685649,-2695.0722277062,2695.0722277062
-"119044",NA,"Bilateral","Infrastructure","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",3103.97147327438,-3342.67806145609,-238.70658818171,238.70658818171
-"119045",NA,"Bilateral","Infrastructure","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",5334.54139141641,-5211.8437697425,122.69762167391,122.69762167391
-"119046",NA,"Bilateral","Infrastructure","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",4135.63940378486,-4238.78609806178,-103.146694276919,103.146694276919
-"119056",NA,"Bilateral","Infrastructure","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",3068.6046350665,-3291.21097947762,-222.60634441112,222.60634441112
-"119057",NA,"Bilateral","Infrastructure","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",5166.23591076248,-5043.46026152711,122.77564923537,122.77564923537
-"119058",NA,"Bilateral","Infrastructure","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",4093.01326224719,-4196.29267248366,-103.27941023647,103.27941023647
-"119314",NA,"Bilateral","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",2507.61649772375,-2443.50290965615,64.1135880675997,64.1135880675997
-"119326",NA,"Bilateral","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",2374.5407389016,-2310.19735432202,64.3433845795798,64.3433845795798
-"119854",NA,"Bilateral","Other social services","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",2876.53146809225,-2801.84019222743,74.69127586482,74.69127586482
-"119856",NA,"Bilateral","Other social services","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",2912.32546111633,-2841.91095226473,70.4145088516002,70.4145088516002
-"119866",NA,"Bilateral","Other social services","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",2867.39370578825,-2792.88472805517,74.50897773308,74.50897773308
-"119868",NA,"Bilateral","Other social services","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",2911.82345034687,-2841.40991069971,70.4135396471597,70.4135396471597
-"120124",NA,"Bilateral","Other social services","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",1848.78162335307,-1930.53453525508,-81.7529119020101,81.7529119020101
-"120136",NA,"Bilateral","Other social services","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",1833.50560246307,-1915.32302209864,-81.8174196355699,81.8174196355699
-"120172",NA,"Bilateral","Other","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,11660.3538628731,-12818.6040584457,-1158.2501955726,1158.2501955726
-"120176",NA,"Bilateral","Other","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,11535.4106434164,-12693.6608685453,-1158.2502251289,1158.2502251289
-"120394",NA,"Bilateral","Other","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",10620.7304241464,-11329.9418378229,-709.211413676499,709.211413676499
-"120395",NA,"Bilateral","Other","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",7357.33223675536,-7880.77919783888,-523.446961083519,523.446961083519
-"120396",NA,"Bilateral","Other","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",8259.67411303727,-8146.94900949751,112.72510353976,112.72510353976
-"120406",NA,"Bilateral","Other","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",10520.3312859193,-11227.9430070407,-707.6117211214,707.6117211214
-"120407",NA,"Bilateral","Other","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",7344.67260771762,-7868.24729352721,-523.57468580959,523.57468580959
-"120408",NA,"Bilateral","Other","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",8278.67442874498,-8165.62379093631,113.05063780867,113.05063780867
-"120664",NA,"Bilateral","Other","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",15622.62697706,-16451.4905091705,-828.863532110501,828.863532110501
-"120665",NA,"Bilateral","Other","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",12829.6541442683,-13162.2792753051,-332.625131036801,332.625131036801
-"120666",NA,"Bilateral","Other","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",7947.78110087052,-8869.66870420142,-921.8876033309,921.8876033309
-"120676",NA,"Bilateral","Other","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",15506.3702555265,-16336.7213262274,-830.351070700899,830.351070700899
-"120677",NA,"Bilateral","Other","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",12771.0402727597,-13103.3651606811,-332.324887921401,332.324887921401
-"120678",NA,"Bilateral","Other","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",7935.36554243462,-8857.55081689247,-922.18527445785,922.18527445785
-"121744",NA,"Bilateral","Water and sanitation","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",1301.42962484842,-1352.13151344271,-50.70188859429,50.70188859429
-"121756",NA,"Bilateral","Water and sanitation","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",1281.96128089021,-1334.57403336257,-52.6127524723599,52.6127524723599
-"122554",NA,"IFI","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",5673.78774368324,-5841.19126443401,-167.40352075077,167.40352075077
-"122555",NA,"IFI","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",3784.72954767979,-4113.30511391591,-328.57556623612,328.57556623612
-"122556",NA,"IFI","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",3819.58624799071,-3747.2001289536,72.3861190371099,72.3861190371099
+"113644",NA,"Bilateral","Administrative costs of donors","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",3387.35095471764,-3331.03090140798,56.3200533096601,56.3200533096601
+"113656",NA,"Bilateral","Administrative costs of donors","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",3387.31189260759,-3330.99183929672,56.3200533108698,56.3200533108698
+"114184",NA,"Bilateral","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",5232.27666325694,-5316.2397641494,-83.9631008924598,83.9631008924598
+"114185",NA,"Bilateral","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",4060.29505171289,-4006.10389681812,54.1911548947701,54.1911548947701
+"114196",NA,"Bilateral","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",5201.83791883251,-5285.95277176844,-84.1148529359298,84.1148529359298
+"114197",NA,"Bilateral","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",4058.30368863192,-4004.27604667955,54.0276419523702,54.0276419523702
+"114456",NA,"Bilateral","Agriculture and food security","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",3719.04080385301,-3627.4485109825,91.5922928705099,91.5922928705099
+"114468",NA,"Bilateral","Agriculture and food security","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",3693.74574725902,-3603.2559717025,90.4897755565198,90.4897755565198
+"114724",NA,"Bilateral","Business and industry","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",5064.41952568385,-5257.7408171566,-193.32129147275,193.32129147275
+"114725",NA,"Bilateral","Business and industry","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",3721.61043824671,-3603.36023903755,118.25019920916,118.25019920916
+"114726",NA,"Bilateral","Business and industry","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",5056.60342335637,-5160.76790375526,-104.16448039889,104.16448039889
+"114736",NA,"Bilateral","Business and industry","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",4973.99169517355,-5166.93790247024,-192.94620729669,192.94620729669
+"114737",NA,"Bilateral","Business and industry","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",3695.84261867012,-3576.74601911114,119.09659955898,119.09659955898
+"114738",NA,"Bilateral","Business and industry","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",5023.4788580218,-5128.86456358523,-105.38570556343,105.38570556343
+"115007",NA,"Bilateral","Business and industry","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",3418.92546892468,-3368.24864531437,50.6768236103098,50.6768236103098
+"115534",NA,"Bilateral","Debt relief","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",319.331309347649,-408.770580186607,-89.439270838958,89.439270838958
+"115546",NA,"Bilateral","Debt relief","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",319.331309347649,-408.770580186607,-89.439270838958,89.439270838958
+"115804",NA,"Bilateral","Education","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",3433.50784560348,-3526.52176055139,-93.0139149479101,93.0139149479101
+"115806",NA,"Bilateral","Education","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",3438.13604847777,-3493.00617903858,-54.8701305608097,54.8701305608097
+"115816",NA,"Bilateral","Education","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",3396.55008853478,-3489.56401321406,-93.0139246792801,93.0139246792801
+"115818",NA,"Bilateral","Education","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",3439.17705453828,-3494.04718580862,-54.8701312703397,54.8701312703397
+"116074",NA,"Bilateral","Education","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",3738.857847798,-3930.16685602747,-191.30900822947,191.30900822947
+"116076",NA,"Bilateral","Education","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",2289.78417620878,-2125.22153175397,164.56264445481,164.56264445481
+"116086",NA,"Bilateral","Education","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",3678.74209717341,-3871.86049524857,-193.11839807516,193.11839807516
+"116088",NA,"Bilateral","Education","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",2248.92894173252,-2123.04081802793,125.88812370459,125.88812370459
+"116344",NA,"Bilateral","Environment","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",2169.46435764319,-2276.5722146371,-107.10785699391,107.10785699391
+"116345",NA,"Bilateral","Environment","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",2619.46969554699,-2554.94867454912,64.52102099787,64.52102099787
+"116356",NA,"Bilateral","Environment","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",2169.84891408224,-2276.95676965381,-107.10785557157,107.10785557157
+"116357",NA,"Bilateral","Environment","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",2619.32516117563,-2554.80414067764,64.5210204979899,64.5210204979899
+"116614",NA,"Bilateral","Environment","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",1932.12796324049,-1668.07073798381,264.05722525668,264.05722525668
+"116615",NA,"Bilateral","Environment","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",2020.93850533396,-1940.41937486721,80.5191304667499,80.5191304667499
+"116616",NA,"Bilateral","Environment","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",1950.55627133734,-1529.37122244272,421.18504889462,421.18504889462
+"116626",NA,"Bilateral","Environment","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",1931.077611102,-1666.97478214266,264.10282895934,264.10282895934
+"116627",NA,"Bilateral","Environment","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",2020.54258758707,-1940.03809996743,80.50448761964,80.50448761964
+"116628",NA,"Bilateral","Environment","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",1943.73602641507,-1528.92442363586,414.81160277921,414.81160277921
+"117425",NA,"Bilateral","Governance and security","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",11593.8623610144,-11649.9459542789,-56.0835932645005,56.0835932645005
+"117426",NA,"Bilateral","Governance and security","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",23695.8397098989,-23537.2025939156,158.6371159833,158.6371159833
+"117438",NA,"Bilateral","Governance and security","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",23697.8878742579,-23539.751533053,158.1363412049,158.1363412049
+"117694",NA,"Bilateral","Governance and security","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",11322.8361703902,-11456.4700413662,-133.633870976,133.633870976
+"117695",NA,"Bilateral","Governance and security","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",10809.0148686707,-10986.905799135,-177.8909304643,177.8909304643
+"117696",NA,"Bilateral","Governance and security","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",19909.7010567221,-19790.6706355915,119.030421130599,119.030421130599
+"117706",NA,"Bilateral","Governance and security","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",10601.0579998259,-10694.6735042889,-93.6155044629995,93.6155044629995
+"117707",NA,"Bilateral","Governance and security","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",10075.6284067539,-10201.8794983024,-126.2510915485,126.2510915485
+"117708",NA,"Bilateral","Governance and security","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",19802.8141961812,-19690.1332617873,112.680934393898,112.680934393898
+"117719",NA,"Bilateral","Governance and security","Disbursements",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2022-03",715.429542710015,-765.47424488392,-50.0447021739051,50.0447021739051
+"117964",NA,"Bilateral","Health","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",18073.939552659,-18372.7119610996,-298.7724084406,298.7724084406
+"117965",NA,"Bilateral","Health","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",22003.6337960394,-22194.5256027692,-190.8918067298,190.8918067298
+"117966",NA,"Bilateral","Health","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",11263.3471659246,-11398.9882242416,-135.641058317,135.641058317
+"117976",NA,"Bilateral","Health","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",18030.4496551979,-18329.2077322999,-298.758077102,298.758077102
+"117977",NA,"Bilateral","Health","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",22002.8367794045,-22193.7429570744,-190.906177669898,190.906177669898
+"117978",NA,"Bilateral","Health","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",11263.266574414,-11398.9076334086,-135.641058994601,135.641058994601
+"118235",NA,"Bilateral","Health","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",16860.5371225155,-16740.0281748772,120.5089476383,120.5089476383
+"118247",NA,"Bilateral","Health","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",16853.8383124055,-16733.2100893236,120.628223081902,120.628223081902
+"118262",NA,"Bilateral","Humanitarian","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,14047.2297751394,-15372.7403502929,-1325.5105751535,1325.5105751535
+"118266",NA,"Bilateral","Humanitarian","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,14047.3972298506,-15372.907804985,-1325.5105751344,1325.5105751344
+"118272",NA,"Bilateral","Humanitarian","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,13333.6369683599,-14454.5190430634,-1120.8820747035,1120.8820747035
+"118276",NA,"Bilateral","Humanitarian","Commitments",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,13322.8526734701,-14443.7347508171,-1120.882077347,1120.882077347
+"118282",NA,"Bilateral","Humanitarian","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,13211.4400662948,-14426.2610204017,-1214.8209541069,1214.8209541069
+"118286",NA,"Bilateral","Humanitarian","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,13211.3452654846,-14426.1662196448,-1214.8209541602,1214.8209541602
+"118322",NA,"Bilateral","Humanitarian","Commitments",2021,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,15020.6863129912,-16618.0656395764,-1597.3793265852,1597.3793265852
+"118326",NA,"Bilateral","Humanitarian","Commitments",2021,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,15009.953732621,-16607.3330813039,-1597.3793486829,1597.3793486829
+"118452",NA,"Bilateral","Humanitarian","Commitments",2022,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,17642.684967694,-18786.7718003094,-1144.0868326154,1144.0868326154
+"118456",NA,"Bilateral","Humanitarian","Commitments",2022,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,17642.6668851619,-18786.7537178051,-1144.0868326432,1144.0868326432
+"118504",NA,"Bilateral","Humanitarian","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",14762.6029783995,-15900.1247842906,-1137.5218058911,1137.5218058911
+"118505",NA,"Bilateral","Humanitarian","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",14356.2970029971,-16147.9082802595,-1791.6112772624,1791.6112772624
+"118506",NA,"Bilateral","Humanitarian","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",15642.3214262671,-17716.9192037973,-2074.5977775302,2074.5977775302
+"118516",NA,"Bilateral","Humanitarian","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",14753.6336387612,-15897.1732806921,-1143.5396419309,1143.5396419309
+"118517",NA,"Bilateral","Humanitarian","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",14354.4048586893,-16139.9984089221,-1785.5935502328,1785.5935502328
+"118518",NA,"Bilateral","Humanitarian","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",15642.3039942635,-17716.9282881027,-2074.6242938392,2074.6242938392
+"118532",NA,"Bilateral","Humanitarian","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,12080.9373969729,-14049.062833212,-1968.1254362391,1968.1254362391
+"118536",NA,"Bilateral","Humanitarian","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,12081.8602392017,-14049.9856753157,-1968.125436114,1968.125436114
+"118542",NA,"Bilateral","Humanitarian","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,11761.6788729921,-14103.4951667887,-2341.8162937966,2341.8162937966
+"118546",NA,"Bilateral","Humanitarian","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,11760.8907561954,-14102.7070506683,-2341.8162944729,2341.8162944729
+"118552",NA,"Bilateral","Humanitarian","Disbursements",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,13741.299756583,-15777.4161327999,-2036.1163762169,2036.1163762169
+"118556",NA,"Bilateral","Humanitarian","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,13741.2061421598,-15777.3225184105,-2036.1163762507,2036.1163762507
+"118592",NA,"Bilateral","Humanitarian","Disbursements",2021,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,16780.6583694629,-19373.783169022,-2593.1247995591,2593.1247995591
+"118596",NA,"Bilateral","Humanitarian","Disbursements",2021,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,16770.5199713032,-19363.644777607,-2593.1248063038,2593.1248063038
+"118722",NA,"Bilateral","Humanitarian","Disbursements",2022,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,17134.9521529441,-19254.2904096362,-2119.3382566921,2119.3382566921
+"118726",NA,"Bilateral","Humanitarian","Disbursements",2022,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,17125.2267357504,-19254.2723273114,-2129.045591561,2129.045591561
+"118774",NA,"Bilateral","Humanitarian","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",14163.653401057,-16137.775914188,-1974.122513131,1974.122513131
+"118775",NA,"Bilateral","Humanitarian","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",17781.2084824909,-20982.7078438441,-3201.4993613532,3201.4993613532
+"118776",NA,"Bilateral","Humanitarian","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",16001.8625639533,-18527.0742537045,-2525.2116897512,2525.2116897512
+"118786",NA,"Bilateral","Humanitarian","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",14156.8806557897,-16132.1277294098,-1975.2470736201,1975.2470736201
+"118787",NA,"Bilateral","Humanitarian","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",17777.7700180779,-20978.1448432861,-3200.3748252082,3200.3748252082
+"118788",NA,"Bilateral","Humanitarian","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",15955.5674847369,-18527.0561685649,-2571.488683828,2571.488683828
+"119044",NA,"Bilateral","Infrastructure","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",3084.56879111198,-3342.67806145609,-258.10927034411,258.10927034411
+"119045",NA,"Bilateral","Infrastructure","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",5334.64695007345,-5211.8437697425,122.80318033095,122.80318033095
+"119046",NA,"Bilateral","Infrastructure","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",4161.2676308951,-4238.78609806178,-77.5184671666793,77.5184671666793
+"119056",NA,"Bilateral","Infrastructure","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",3049.20195289602,-3291.21097947762,-242.0090265816,242.0090265816
+"119057",NA,"Bilateral","Infrastructure","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",5166.34147343404,-5043.46026152711,122.881211906931,122.881211906931
+"119058",NA,"Bilateral","Infrastructure","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",4118.64148864224,-4196.29267248366,-77.6511838414199,77.6511838414199
+"119314",NA,"Bilateral","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",2508.43655853674,-2443.50290965615,64.9336488805898,64.9336488805898
+"119326",NA,"Bilateral","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",2375.36079180548,-2310.19735432202,65.1634374834598,65.1634374834598
+"119854",NA,"Bilateral","Other social services","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",2876.53148954471,-2801.84019222743,74.6912973172798,74.6912973172798
+"119856",NA,"Bilateral","Other social services","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",2911.88869634386,-2841.91095226473,69.9777440791299,69.9777440791299
+"119866",NA,"Bilateral","Other social services","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",2867.39372708835,-2792.88472805517,74.5089990331799,74.5089990331799
+"119868",NA,"Bilateral","Other social services","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",2911.38668560734,-2841.40991069971,69.97677490763,69.97677490763
+"120124",NA,"Bilateral","Other social services","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",1848.09500639622,-1930.53453525508,-82.4395288588601,82.4395288588601
+"120136",NA,"Bilateral","Other social services","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",1832.81898411652,-1915.32302209864,-82.5040379821201,82.5040379821201
+"120172",NA,"Bilateral","Other","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,11664.3970955078,-12818.6040584457,-1154.2069629379,1154.2069629379
+"120176",NA,"Bilateral","Other","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,11539.4538530286,-12693.6608685453,-1154.2070155167,1154.2070155167
+"120394",NA,"Bilateral","Other","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",10622.5543690857,-11329.9418378229,-707.387468737201,707.387468737201
+"120395",NA,"Bilateral","Other","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",7361.36404508864,-7880.77919783888,-519.41515275024,519.41515275024
+"120396",NA,"Bilateral","Other","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",8259.99204391954,-8146.94900949751,113.043034422029,113.043034422029
+"120406",NA,"Bilateral","Other","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",10522.1552305521,-11227.9430070407,-705.7877764886,705.7877764886
+"120407",NA,"Bilateral","Other","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",7348.70441668974,-7868.24729352721,-519.54287683747,519.54287683747
+"120408",NA,"Bilateral","Other","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",8278.99235976567,-8165.62379093631,113.368568829361,113.368568829361
+"120664",NA,"Bilateral","Other","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",15620.5583431571,-16451.4905091705,-830.932166013401,830.932166013401
+"120665",NA,"Bilateral","Other","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",12813.3870753432,-13162.2792753051,-348.8921999619,348.8921999619
+"120666",NA,"Bilateral","Other","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",8761.14966076637,-8869.66870420142,-108.51904343505,108.51904343505
+"120676",NA,"Bilateral","Other","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",15504.3016170371,-16336.7213262274,-832.419709190301,832.419709190301
+"120677",NA,"Bilateral","Other","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",12754.7731946165,-13103.3651606811,-348.5919660646,348.5919660646
+"120678",NA,"Bilateral","Other","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",8741.86119278366,-8857.55081689247,-115.689624108811,115.689624108811
+"121744",NA,"Bilateral","Water and sanitation","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",1301.0582694419,-1352.13151344271,-51.0732440008101,51.0732440008101
+"121756",NA,"Bilateral","Water and sanitation","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",1281.58992403951,-1334.57403336257,-52.98410932306,52.98410932306
+"122372",NA,"IFI","Agriculture and food security","Commitments",2021,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,3689.88218194131,-4971.8921134937,-1282.00993155239,1282.00993155239
+"122376",NA,"IFI","Agriculture and food security","Commitments",2021,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,2020.97790489264,-3160.23415094065,-1139.25624604801,1139.25624604801
+"122554",NA,"IFI","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",5628.23040030046,-5841.19126443401,-212.96086413355,212.96086413355
+"122555",NA,"IFI","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",2705.2757982312,-4113.30511391591,-1408.02931568471,1408.02931568471
+"122556",NA,"IFI","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",3090.01714119781,-3747.2001289536,-657.18298775579,657.18298775579
 "122561",NA,"IFI","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","Not specified","Volume","Year to date","2022-03",0,-100.003585584353,-100.003585584353,100.003585584353
-"122566",NA,"IFI","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",2885.12208296769,-2979.87825947322,-94.7561765055302,94.7561765055302
-"122567",NA,"IFI","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",2688.11217890548,-2747.11600685467,-59.0038279491901,59.0038279491901
-"122568",NA,"IFI","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",3086.8559896783,-3014.36455692653,72.4914327517699,72.4914327517699
-"122572",NA,"IFI","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",2261.91743259643,-2456.90854048275,-194.99110788632,194.99110788632
-"122578",NA,"IFI","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2021-03",525.448157989841,-403.104403693608,122.343754296233,122.343754296233
-"122579",NA,"IFI","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2022-03",174.285633768948,-302.857397965268,-128.57176419632,128.57176419632
-"122824",NA,"IFI","Agriculture and food security","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",4494.80144530742,-4547.61680676617,-52.81536145875,52.81536145875
-"122825",NA,"IFI","Agriculture and food security","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",4066.14837616825,-4191.37195598873,-125.223579820481,125.223579820481
-"122826",NA,"IFI","Agriculture and food security","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",4171.68463424416,-3974.12350109488,197.561133149281,197.561133149281
-"122830",NA,"IFI","Agriculture and food security","Disbursements",NA,NA,NA,"Organisation type","Not specified","Volume","Year to date","2021-03",3.29923929525254,-84.0563266327251,-80.7570873374726,80.7570873374726
-"122831",NA,"IFI","Agriculture and food security","Disbursements",NA,NA,NA,"Organisation type","Not specified","Volume","Year to date","2022-03",0.100033526226037,-100.10268611491,-100.002652588684,100.002652588684
-"122838",NA,"IFI","Agriculture and food security","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",2314.01350211159,-2244.56454989257,69.4489522190197,69.4489522190197
-"122842",NA,"IFI","Agriculture and food security","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",2041.76459269236,-1977.00748104987,64.7571116424901,64.7571116424901
-"122844",NA,"IFI","Agriculture and food security","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2023-03",1701.43664510482,-1573.31121515412,128.1254299507,128.1254299507
-"122852",NA,"IFI","Business and industry","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,10136.9870535204,-11152.554365346,-1015.5673118256,1015.5673118256
-"122872",NA,"IFI","Business and industry","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,15694.3912019949,-18679.4587033683,-2985.0675013734,2985.0675013734
-"122878",NA,"IFI","Business and industry","Commitments",2020,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,7000.27867989345,-9668.80449798348,-2668.52581809003,2668.52581809003
-"123094",NA,"IFI","Business and industry","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",16259.0065728924,-19346.8791538623,-3087.8725809699,3087.8725809699
-"123095",NA,"IFI","Business and industry","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",9586.26355855739,-10275.2956585775,-689.032100020109,689.032100020109
-"123096",NA,"IFI","Business and industry","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",8477.38420305757,-8362.91185064661,114.472352410961,114.472352410961
-"123100",NA,"IFI","Business and industry","Commitments",NA,NA,NA,"Organisation type","Not specified","Volume","Year to date","2021-03",17.202628426446,-247.221288843973,-230.018660417527,230.018660417527
+"122566",NA,"IFI","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",2839.56368252428,-2979.87825947322,-140.31457694894,140.31457694894
+"122567",NA,"IFI","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",1608.65147144652,-2747.11600685467,-1138.46453540815,1138.46453540815
+"122568",NA,"IFI","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",2357.27571913227,-3014.36455692653,-657.08883779426,657.08883779426
+"122572",NA,"IFI","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",2261.9182463424,-2456.90854048275,-194.99029414035,194.99029414035
+"122578",NA,"IFI","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2021-03",525.448401286724,-403.104403693608,122.343997593116,122.343997593116
+"122579",NA,"IFI","Agriculture and food security","Commitments",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2022-03",174.292571918234,-302.857397965268,-128.564826047034,128.564826047034
+"122824",NA,"IFI","Agriculture and food security","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",4246.38411437083,-4547.61680676617,-301.232692395341,301.232692395341
+"122825",NA,"IFI","Agriculture and food security","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",3815.47789847156,-4191.37195598873,-375.89405751717,375.89405751717
+"122826",NA,"IFI","Agriculture and food security","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",4029.46469801975,-3974.12350109488,55.34119692487,55.34119692487
+"122830",NA,"IFI","Agriculture and food security","Disbursements",NA,NA,NA,"Organisation type","Not specified","Volume","Year to date","2021-03",3.29925052395873,-84.0563266327251,-80.7570761087664,80.7570761087664
+"122831",NA,"IFI","Agriculture and food security","Disbursements",NA,NA,NA,"Organisation type","Not specified","Volume","Year to date","2022-03",0.100036328789408,-100.10268611491,-100.002649786121,100.002649786121
+"122836",NA,"IFI","Agriculture and food security","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",2201.31592497731,-2486.55299908358,-285.23707410627,285.23707410627
+"122837",NA,"IFI","Agriculture and food security","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",2041.96715146253,-2320.31425503564,-278.34710357311,278.34710357311
+"122838",NA,"IFI","Agriculture and food security","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",2171.78807918712,-2244.56454989257,-72.7764707054503,72.7764707054503
+"122842",NA,"IFI","Agriculture and food security","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",2041.76893886957,-1977.00748104987,64.7614578197001,64.7614578197001
+"122844",NA,"IFI","Agriculture and food security","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2023-03",1701.44210449807,-1573.31121515412,128.13088934395,128.13088934395
+"122852",NA,"IFI","Business and industry","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,10131.8985225455,-11152.554365346,-1020.6558428005,1020.6558428005
+"122872",NA,"IFI","Business and industry","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,15626.8468345484,-18679.4587033683,-3052.6118688199,3052.6118688199
+"122878",NA,"IFI","Business and industry","Commitments",2020,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,7000.28051105623,-9668.80449798348,-2668.52398692725,2668.52398692725
+"123094",NA,"IFI","Business and industry","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",16259.057230685,-19346.8791538623,-3087.8219231773,3087.8219231773
+"123095",NA,"IFI","Business and industry","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",9586.34559981743,-10275.2956585775,-688.950058760069,688.950058760069
+"123096",NA,"IFI","Business and industry","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",8477.48817322525,-8362.91185064661,114.576322578641,114.576322578641
+"123100",NA,"IFI","Business and industry","Commitments",NA,NA,NA,"Organisation type","Not specified","Volume","Year to date","2021-03",17.2026332242397,-247.221288843973,-230.018655619733,230.018655619733
 "123101",NA,"IFI","Business and industry","Commitments",NA,NA,NA,"Organisation type","Not specified","Volume","Year to date","2022-03",0,-140.018374278285,-140.018374278285,140.018374278285
-"123106",NA,"IFI","Business and industry","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",3706.08401974937,-3783.04023979122,-76.95622004185,76.95622004185
-"123112",NA,"IFI","Business and industry","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",7368.36738425191,-10178.7275926661,-2810.36020841419,2810.36020841419
-"123113",NA,"IFI","Business and industry","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",3298.07390331329,-3720.83493124986,-422.76102793657,422.76102793657
-"123119",NA,"IFI","Business and industry","Commitments",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2022-03",3817.28844109449,-3943.55112912095,-126.26268802646,126.26268802646
-"123120",NA,"IFI","Business and industry","Commitments",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2023-03",4932.48145920856,-4797.429295436,135.052163772561,135.052163772561
-"123312",NA,"IFI","Business and industry","Disbursements",2022,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,6376.79940017179,-4447.787060892,1929.01233927979,1929.01233927979
-"123318",NA,"IFI","Business and industry","Disbursements",2022,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,4118.80191466595,-2188.22896465918,1930.57295000677,1930.57295000677
-"123364",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",11650.6063857373,-12281.0266671689,-630.420281431601,630.420281431601
-"123365",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",6635.36697776049,-6736.45407470564,-101.08709694515,101.08709694515
-"123366",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",6698.86372664464,-4701.95120127337,1996.91252537127,1996.91252537127
-"123370",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","Not specified","Volume","Year to date","2021-03",12.4894768435311,-215.414417842171,-202.92494099864,202.92494099864
-"123371",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","Not specified","Volume","Year to date","2022-03",1.15008278255479,-163.613170314697,-162.463087532142,162.463087532142
-"123376",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",2533.13077656784,-2720.11646521153,-186.98568864369,186.98568864369
-"123377",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",1807.7788042463,-1866.6214153024,-58.8426110560999,58.8426110560999
-"123378",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",1376.98656383714,-1248.63731318287,128.34925065427,128.34925065427
-"123382",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",9091.44872724374,-9331.81703300364,-240.368305759899,240.368305759899
-"123383",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",4597.45873703752,-4486.23911492469,111.219622112831,111.219622112831
-"123384",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2023-03",4646.92423854194,-2774.52190092365,1872.40233761829,1872.40233761829
-"124174",NA,"IFI","Education","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",6556.38127494992,-6708.87953045908,-152.49825550916,152.49825550916
-"124175",NA,"IFI","Education","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",2843.52912567494,-2932.96097866081,-89.4318529858697,89.4318529858697
-"124192",NA,"IFI","Education","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",2788.33887037513,-2938.34167256347,-150.00280218834,150.00280218834
-"124444",NA,"IFI","Education","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",3772.36657232501,-3824.22919988045,-51.8626275554398,51.8626275554398
-"124445",NA,"IFI","Education","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",3561.61097121221,-3623.35461650248,-61.7436452902698,61.7436452902698
-"124446",NA,"IFI","Education","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",4560.2019717874,-4176.18515605945,384.01681572795,384.01681572795
-"124458",NA,"IFI","Education","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",2562.45050886472,-2400.99762751038,161.45288135434,161.45288135434
-"124464",NA,"IFI","Education","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2023-03",1997.75146292268,-1775.18752854907,222.56393437361,222.56393437361
-"124985",NA,"IFI","Environment","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",640.616725678782,-504.912536322598,135.704189356184,135.704189356184
-"124986",NA,"IFI","Environment","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",540.935379214965,-149.660173416225,391.27520579874,391.27520579874
-"125003",NA,"IFI","Environment","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",380.594265152625,-218.891230438297,161.703034714328,161.703034714328
-"125004",NA,"IFI","Environment","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2023-03",414.661462457991,-33.1527246421183,381.508737815873,381.508737815873
-"125552",NA,"IFI","Governance and security","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,7322.4894668875,-10203.0829127893,-2880.5934459018,2880.5934459018
-"125558",NA,"IFI","Governance and security","Commitments",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,3132.66046780767,-5814.52114253339,-2681.86067472572,2681.86067472572
-"125562",NA,"IFI","Governance and security","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,6711.80144760891,-10422.6068119119,-3710.80536430299,3710.80536430299
-"125568",NA,"IFI","Governance and security","Commitments",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,4015.04419414842,-7585.92460756056,-3570.88041341214,3570.88041341214
-"125572",NA,"IFI","Governance and security","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,16565.1607294962,-19265.761068337,-2700.6003388408,2700.6003388408
-"125578",NA,"IFI","Governance and security","Commitments",2020,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,9090.06698903624,-11454.4960339537,-2364.42904491746,2364.42904491746
-"125612",NA,"IFI","Governance and security","Commitments",2021,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,7252.66021587072,-10564.5038956291,-3311.84367975838,3311.84367975838
-"125618",NA,"IFI","Governance and security","Commitments",2021,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,3896.71038549581,-7203.0485434521,-3306.33815795629,3306.33815795629
-"125794",NA,"IFI","Governance and security","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",14554.4500866133,-20427.3882268584,-5872.9381402451,5872.9381402451
-"125795",NA,"IFI","Governance and security","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",5616.947907057,-8720.65157962201,-3103.70367256501,3103.70367256501
-"125796",NA,"IFI","Governance and security","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",2879.14373404242,-2943.52753791077,-64.3838038683502,64.3838038683502
+"123106",NA,"IFI","Business and industry","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",3706.08471647518,-3783.04023979122,-76.9555233160399,76.9555233160399
+"123112",NA,"IFI","Business and industry","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",7368.39285673267,-10178.7275926661,-2810.33473593343,2810.33473593343
+"123113",NA,"IFI","Business and industry","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",3298.09087689499,-3720.83493124986,-422.74405435487,422.74405435487
+"123119",NA,"IFI","Business and industry","Commitments",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2022-03",3817.34023698072,-3943.55112912095,-126.21089214023,126.21089214023
+"123120",NA,"IFI","Business and industry","Commitments",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2023-03",4932.56903386278,-4797.429295436,135.13973842678,135.13973842678
+"123312",NA,"IFI","Business and industry","Disbursements",2022,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,6369.9355907776,-4447.787060892,1922.1485298856,1922.1485298856
+"123318",NA,"IFI","Business and industry","Disbursements",2022,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,4118.80532610895,-2188.22896465918,1930.57636144977,1930.57636144977
+"123364",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",11649.4152408334,-12281.0266671689,-631.611426335501,631.611426335501
+"123365",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",6633.08320501327,-6736.45407470564,-103.37086969237,103.37086969237
+"123366",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",6693.28123673208,-4701.95120127337,1991.33003545871,1991.33003545871
+"123370",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","Not specified","Volume","Year to date","2021-03",12.4895970816638,-215.414417842171,-202.924820760507,202.924820760507
+"123371",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","Not specified","Volume","Year to date","2022-03",1.1500872912538,-163.613170314697,-162.463083023443,162.463083023443
+"123376",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",2531.90831919224,-2720.11646521153,-188.20814601929,188.20814601929
+"123377",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",1805.47103569984,-1866.6214153024,-61.15037960256,61.15037960256
+"123378",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",1371.38796832246,-1248.63731318287,122.75065513959,122.75065513959
+"123382",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",9091.47987246575,-9331.81703300364,-240.337160537889,240.337160537889
+"123383",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",4597.47810337298,-4486.23911492469,111.23898844829,111.23898844829
+"123384",NA,"IFI","Business and industry","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2023-03",4646.93809999088,-2774.52190092365,1872.41619906723,1872.41619906723
+"124174",NA,"IFI","Education","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",6556.03245502058,-6708.87953045908,-152.847075438501,152.847075438501
+"124175",NA,"IFI","Education","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",2843.53200893734,-2932.96097866081,-89.4289697234699,89.4289697234699
+"124192",NA,"IFI","Education","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",2788.33971025663,-2938.34167256347,-150.00196230684,150.00196230684
+"124444",NA,"IFI","Education","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",3744.61829496853,-3824.22919988045,-79.61090491192,79.61090491192
+"124445",NA,"IFI","Education","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",3526.53901456803,-3623.35461650248,-96.8156019344501,96.8156019344501
+"124446",NA,"IFI","Education","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",4538.59497446295,-4176.18515605945,362.4098184035,362.4098184035
+"124456",NA,"IFI","Education","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",1914.78558678446,-1971.06815173457,-56.2825649501099,56.2825649501099
+"124457",NA,"IFI","Education","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",1886.85463018448,-1952.2789475787,-65.42431739422,65.42431739422
+"124458",NA,"IFI","Education","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",2540.84037077015,-2400.99762751038,139.84274325977,139.84274325977
+"124464",NA,"IFI","Education","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2023-03",1997.75460369281,-1775.18752854907,222.56707514374,222.56707514374
+"124715",NA,"IFI","Environment","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",253.107549324196,-373.158589694813,-120.051040370617,120.051040370617
+"124727",NA,"IFI","Environment","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",131.562728769976,-251.61374096494,-120.051012194964,120.051012194964
+"124985",NA,"IFI","Environment","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",640.618487959382,-504.912536322598,135.705951636784,135.705951636784
+"124986",NA,"IFI","Environment","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",530.921348806294,-149.660173416225,381.261175390069,381.261175390069
+"125003",NA,"IFI","Environment","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",380.595804463875,-218.891230438297,161.704574025578,161.704574025578
+"125004",NA,"IFI","Environment","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2023-03",414.665437361127,-33.1527246421183,381.512712719009,381.512712719009
+"125552",NA,"IFI","Governance and security","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,7277.88432487747,-10203.0829127893,-2925.19858791183,2925.19858791183
+"125558",NA,"IFI","Governance and security","Commitments",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,3132.66188858729,-5814.52114253339,-2681.8592539461,2681.8592539461
+"125562",NA,"IFI","Governance and security","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,6670.82990449279,-10422.6068119119,-3751.77690741911,3751.77690741911
+"125568",NA,"IFI","Governance and security","Commitments",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,4015.04685062129,-7585.92460756056,-3570.87775693927,3570.87775693927
+"125572",NA,"IFI","Governance and security","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,16565.1641598497,-19265.761068337,-2700.5969084873,2700.5969084873
+"125578",NA,"IFI","Governance and security","Commitments",2020,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,9090.06905198434,-11454.4960339537,-2364.42698196936,2364.42698196936
+"125612",NA,"IFI","Governance and security","Commitments",2021,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,7188.1180448599,-10564.5038956291,-3376.3858507692,3376.3858507692
+"125618",NA,"IFI","Governance and security","Commitments",2021,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,3896.71488122111,-7203.0485434521,-3306.33366223099,3306.33366223099
+"125794",NA,"IFI","Governance and security","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",14554.0381356889,-20427.3882268584,-5873.3500911695,5873.3500911695
+"125795",NA,"IFI","Governance and security","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",5552.87188596422,-8720.65157962201,-3167.77969365779,3167.77969365779
+"125796",NA,"IFI","Governance and security","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",2660.61117243099,-2943.52753791077,-282.91636547978,282.91636547978
 "125800",NA,"IFI","Governance and security","Commitments",NA,NA,NA,"Organisation type","Not specified","Volume","Year to date","2021-03",0,-220.004475313066,-220.004475313066,220.004475313066
-"125806",NA,"IFI","Governance and security","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",7814.19598279728,-7919.49356651073,-105.29758371345,105.29758371345
-"125808",NA,"IFI","Governance and security","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",1541.555891102,-1605.93502166213,-64.3791305601301,64.3791305601301
-"125812",NA,"IFI","Governance and security","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",6740.25410381604,-12287.8901850346,-5547.63608121856,5547.63608121856
-"125813",NA,"IFI","Governance and security","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",2613.80289467928,-5750.23495016759,-3136.43205548831,3136.43205548831
-"126012",NA,"IFI","Governance and security","Disbursements",2022,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,9693.57654442369,-6336.04558574774,3357.53095867595,3357.53095867595
-"126018",NA,"IFI","Governance and security","Disbursements",2022,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,6952.87089077846,-3595.32522330737,3357.54566747109,3357.54566747109
-"126064",NA,"IFI","Governance and security","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",15052.6729087177,-16384.2634015104,-1331.5904927927,1331.5904927927
-"126065",NA,"IFI","Governance and security","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",11266.21439275,-11342.6749339614,-76.4605412113997,76.4605412113997
-"126066",NA,"IFI","Governance and security","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",8034.51811351865,-4833.61165954654,3200.90645397211,3200.90645397211
+"125806",NA,"IFI","Governance and security","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",7813.78130778536,-7919.49356651073,-105.71225872537,105.71225872537
+"125808",NA,"IFI","Governance and security","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",1323.02090504052,-1605.93502166213,-282.91411662161,282.91411662161
+"125812",NA,"IFI","Governance and security","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",6740.25682790355,-12287.8901850346,-5547.63335713105,5547.63335713105
+"125813",NA,"IFI","Governance and security","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",2613.81253012375,-5750.23495016759,-3136.42242004384,3136.42242004384
+"126012",NA,"IFI","Governance and security","Disbursements",2022,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,9678.48953202892,-6336.04558574774,3342.44394628118,3342.44394628118
+"126018",NA,"IFI","Governance and security","Disbursements",2022,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,6952.87710697337,-3595.32522330737,3357.551883666,3357.551883666
+"126064",NA,"IFI","Governance and security","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",15037.4927784089,-16384.2634015104,-1346.7706231015,1346.7706231015
+"126065",NA,"IFI","Governance and security","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",11247.3314050239,-11342.6749339614,-95.3435289374993,95.3435289374993
+"126066",NA,"IFI","Governance and security","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",8021.80790283181,-4833.61165954654,3188.19624328527,3188.19624328527
 "126070",NA,"IFI","Governance and security","Disbursements",NA,NA,NA,"Organisation type","Not specified","Volume","Year to date","2021-03",0,-229.585123868972,-229.585123868972,229.585123868972
-"126076",NA,"IFI","Governance and security","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",7091.66721258657,-7401.38893418052,-309.72172159395,309.72172159395
-"126082",NA,"IFI","Governance and security","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",7961.00569613115,-8753.28934346092,-792.283647329769,792.283647329769
-"126084",NA,"IFI","Governance and security","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2023-03",5467.01109422185,-2311.60220948899,3155.40888473286,3155.40888473286
-"126112",NA,"IFI","Health","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,9502.04584720048,-10594.6715741006,-1092.62572690012,1092.62572690012
-"126118",NA,"IFI","Health","Commitments",2020,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,4649.10478813428,-5669.1109288294,-1020.00614069512,1020.00614069512
-"126334",NA,"IFI","Health","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",10375.063445155,-11377.5724143135,-1002.5089691585,1002.5089691585
-"126335",NA,"IFI","Health","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",11698.7319417511,-12169.7026156049,-470.970673853799,470.970673853799
-"126336",NA,"IFI","Health","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",2263.03640141966,-2130.68302913559,132.35337228407,132.35337228407
-"126346",NA,"IFI","Health","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",4844.40106905497,-4904.04880429369,-59.6477352387201,59.6477352387201
-"126348",NA,"IFI","Health","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",1132.81081041523,-1000.45746070726,132.35334970797,132.35334970797
-"126352",NA,"IFI","Health","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",5528.91212731285,-6451.7728901212,-922.86076280835,922.86076280835
-"126353",NA,"IFI","Health","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",6702.60944148352,-7132.61203443213,-430.00259294861,430.00259294861
-"126604",NA,"IFI","Health","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",7641.79117031551,-7917.62411140609,-275.832941090581,275.832941090581
-"126605",NA,"IFI","Health","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",8805.82634985218,-9220.41929500907,-414.59294515689,414.59294515689
-"126606",NA,"IFI","Health","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",5939.34717606931,-5213.44652445674,725.90065161257,725.90065161257
-"126616",NA,"IFI","Health","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",3265.92192741849,-3340.92637517562,-75.0044477571296,75.0044477571296
-"126617",NA,"IFI","Health","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",2742.8286917656,-2863.8439792833,-121.0152875177,121.0152875177
-"126618",NA,"IFI","Health","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",3268.37815042306,-3151.57436612492,116.80378429814,116.80378429814
-"126622",NA,"IFI","Health","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",4373.1187318638,-4559.92801769091,-186.809285827109,186.809285827109
-"126623",NA,"IFI","Health","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",6062.99765808658,-6336.99619119493,-273.998533108351,273.998533108351
-"126624",NA,"IFI","Health","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2023-03",2670.96902564625,-2061.87215833182,609.09686731443,609.09686731443
-"126875",NA,"IFI","Humanitarian","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",1019.00305663452,-1084.48093852363,-65.4778818891099,65.4778818891099
-"126893",NA,"IFI","Humanitarian","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",565.523790008674,-615.52827585578,-50.0044858471059,50.0044858471059
-"127172",NA,"IFI","Infrastructure","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,32081.3269230411,-35813.4937627412,-3732.1668397001,3732.1668397001
-"127178",NA,"IFI","Infrastructure","Commitments",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,19222.2873309063,-22369.6472542186,-3147.3599233123,3147.3599233123
-"127182",NA,"IFI","Infrastructure","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,23541.530602895,-25599.5358464362,-2058.0052435412,2058.0052435412
-"127188",NA,"IFI","Infrastructure","Commitments",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,14105.6643880816,-16124.4099894612,-2018.7456013796,2018.7456013796
-"127414",NA,"IFI","Infrastructure","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",21358.9665794011,-22229.4627640436,-870.496184642499,870.496184642499
-"127415",NA,"IFI","Infrastructure","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",14316.9164064566,-14997.3330345401,-680.4166280835,680.4166280835
-"127416",NA,"IFI","Infrastructure","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",10282.8186128683,-10162.604187395,120.214425473299,120.214425473299
-"127426",NA,"IFI","Infrastructure","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",9547.03278586102,-10141.3153650988,-594.282579237781,594.282579237781
-"127427",NA,"IFI","Infrastructure","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",6932.54113644615,-6798.62615276321,133.91498368294,133.91498368294
-"127428",NA,"IFI","Infrastructure","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",2259.53204654579,-2407.29158510017,-147.75953855438,147.75953855438
-"127432",NA,"IFI","Infrastructure","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",8086.27937137254,-8461.62807380908,-375.348702436541,375.348702436541
-"127433",NA,"IFI","Infrastructure","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",5057.5836209655,-5826.49757604841,-768.91395508291,768.91395508291
-"127438",NA,"IFI","Infrastructure","Commitments",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2021-03",3725.55440795116,-3626.41931347008,99.1350944810802,99.1350944810802
-"127440",NA,"IFI","Infrastructure","Commitments",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2023-03",3715.35838478076,-3436.05690248868,279.30148229208,279.30148229208
-"127632",NA,"IFI","Infrastructure","Disbursements",2022,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,14635.3572981882,-13622.2425917151,1013.1147064731,1013.1147064731
-"127638",NA,"IFI","Infrastructure","Disbursements",2022,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,7889.7236697964,-6871.87339613671,1017.85027365969,1017.85027365969
-"127684",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",18152.6918470148,-18054.5296412458,98.1622057690001,98.1622057690001
-"127685",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",16819.6813382335,-16741.8100439822,77.8712942512975,77.8712942512975
-"127686",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",14844.3648940088,-13413.3173294972,1431.0475645116,1431.0475645116
-"127696",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",5751.99853402249,-6058.4269496869,-306.42841566441,306.42841566441
-"127697",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",6087.11207145096,-6367.82096406829,-280.70889261733,280.70889261733
-"127698",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",4978.0856581066,-4778.96225420681,199.12340389979,199.12340389979
-"127702",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",11021.4863717226,-10626.376327447,395.1100442756,395.1100442756
-"127703",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",9677.48382552427,-9144.78884194821,532.694983576061,532.694983576061
-"127704",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2023-03",8469.26446893687,-7228.92428865502,1240.34018028185,1240.34018028185
-"127708",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2021-03",1377.96584363873,-1325.4654512992,52.50039233953,52.50039233953
-"127709",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2022-03",1054.58542501164,-1184.50723636401,-129.92181135237,129.92181135237
+"126076",NA,"IFI","Governance and security","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",7076.4493463879,-7401.38893418052,-324.93958779262,324.93958779262
+"126082",NA,"IFI","Governance and security","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",7961.04343202096,-8753.28934346092,-792.24591143996,792.24591143996
+"126084",NA,"IFI","Governance and security","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2023-03",5467.03235294023,-2311.60220948899,3155.43014345124,3155.43014345124
+"126112",NA,"IFI","Health","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,9502.04968748388,-10594.6715741006,-1092.62188661672,1092.62188661672
+"126118",NA,"IFI","Health","Commitments",2020,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,4649.10636586988,-5669.1109288294,-1020.00456295952,1020.00456295952
+"126334",NA,"IFI","Health","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",10375.0681323122,-11377.5724143135,-1002.5042820013,1002.5042820013
+"126335",NA,"IFI","Health","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",11698.7684595614,-12169.7026156049,-470.9341560435,470.9341560435
+"126336",NA,"IFI","Health","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",2263.04237891779,-2130.68302913559,132.3593497822,132.3593497822
+"126346",NA,"IFI","Health","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",4844.40406135593,-4904.04880429369,-59.6447429377604,59.6447429377604
+"126348",NA,"IFI","Health","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",1132.81669145282,-1000.45746070726,132.35923074556,132.35923074556
+"126352",NA,"IFI","Health","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",5528.91382216903,-6451.7728901212,-922.85906795217,922.85906795217
+"126353",NA,"IFI","Health","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",6702.63329862723,-7132.61203443213,-429.9787358049,429.9787358049
+"126604",NA,"IFI","Health","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",7636.92141336575,-7917.62411140609,-280.702698040341,280.702698040341
+"126605",NA,"IFI","Health","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",8803.4074871737,-9220.41929500907,-417.01180783537,417.01180783537
+"126606",NA,"IFI","Health","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",5935.84235913156,-5213.44652445674,722.39583467482,722.39583467482
+"126616",NA,"IFI","Health","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",3261.04302101683,-3340.92637517562,-79.8833541587896,79.8833541587896
+"126617",NA,"IFI","Health","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",2740.39515392907,-2863.8439792833,-123.44882535423,123.44882535423
+"126618",NA,"IFI","Health","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",3264.86611576708,-3151.57436612492,113.29174964216,113.29174964216
+"126622",NA,"IFI","Health","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",4373.12784892362,-4559.92801769091,-186.80016876729,186.80016876729
+"126623",NA,"IFI","Health","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",6063.01233324463,-6336.99619119493,-273.9838579503,273.9838579503
+"126624",NA,"IFI","Health","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2023-03",2670.97624336449,-2061.87215833182,609.10408503267,609.10408503267
+"126875",NA,"IFI","Humanitarian","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",1019.00301532943,-1084.48093852363,-65.4779231941999,65.4779231941999
+"126893",NA,"IFI","Humanitarian","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",565.523614595257,-615.52827585578,-50.004661260523,50.004661260523
+"127172",NA,"IFI","Infrastructure","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,30669.2754023434,-35813.4937627412,-5144.2183603978,5144.2183603978
+"127176",NA,"IFI","Infrastructure","Commitments",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,9243.60422773819,-11235.0297101534,-1991.42548241521,1991.42548241521
+"127178",NA,"IFI","Infrastructure","Commitments",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,19222.2991199338,-22369.6472542186,-3147.3481342848,3147.3481342848
+"127182",NA,"IFI","Infrastructure","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,22587.4375198371,-25599.5358464362,-3012.0983265991,3012.0983265991
+"127188",NA,"IFI","Infrastructure","Commitments",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,13969.9227872328,-16124.4099894612,-2154.4872022284,2154.4872022284
+"127192",NA,"IFI","Infrastructure","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,22332.0787245569,-24115.7934649075,-1783.7147403506,1783.7147403506
+"127196",NA,"IFI","Infrastructure","Commitments",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,10842.1056670705,-12263.593433776,-1421.4877667055,1421.4877667055
+"127232",NA,"IFI","Infrastructure","Commitments",2021,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,16050.9023527752,-18075.9616638744,-2025.0593110992,2025.0593110992
+"127236",NA,"IFI","Infrastructure","Commitments",2021,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,6452.3684560836,-7776.68952246985,-1324.32106638625,1324.32106638625
+"127414",NA,"IFI","Infrastructure","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",20640.5359617862,-22229.4627640436,-1588.9268022574,1588.9268022574
+"127415",NA,"IFI","Infrastructure","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",13378.0527955717,-14997.3330345401,-1619.2802389684,1619.2802389684
+"127416",NA,"IFI","Infrastructure","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",9979.70421002629,-10162.604187395,-182.89997736871,182.89997736871
+"127426",NA,"IFI","Infrastructure","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",8828.55723005911,-10141.3153650988,-1312.75813503969,1312.75813503969
+"127427",NA,"IFI","Infrastructure","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",5993.61797151083,-6798.62615276321,-805.008181252379,805.008181252379
+"127428",NA,"IFI","Infrastructure","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",1956.36718926023,-2407.29158510017,-450.92439583994,450.92439583994
+"127432",NA,"IFI","Infrastructure","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",8086.28746471094,-8461.62807380908,-375.340609098141,375.340609098141
+"127433",NA,"IFI","Infrastructure","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",5057.61916080322,-5826.49757604841,-768.87841524519,768.87841524519
+"127438",NA,"IFI","Infrastructure","Commitments",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2021-03",3725.59125279974,-3626.41931347008,99.1719393296598,99.1719393296598
+"127440",NA,"IFI","Infrastructure","Commitments",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2023-03",3715.40516187082,-3436.05690248868,279.34825938214,279.34825938214
+"127442",NA,"IFI","Infrastructure","Disbursements",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,17219.8942098933,-18340.7079999739,-1120.8137900806,1120.8137900806
+"127446",NA,"IFI","Infrastructure","Disbursements",2018,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,4105.93205840062,-5733.77610576032,-1627.8440473597,1627.8440473597
+"127452",NA,"IFI","Infrastructure","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,16700.1580220175,-18155.3795152903,-1455.2214932728,1455.2214932728
+"127456",NA,"IFI","Infrastructure","Disbursements",2019,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,4941.52223233313,-6371.3875493236,-1429.86531699047,1429.86531699047
+"127466",NA,"IFI","Infrastructure","Disbursements",2020,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,4032.4789358591,-5222.08193845092,-1189.60300259182,1189.60300259182
+"127506",NA,"IFI","Infrastructure","Disbursements",2021,NA,NA,"Organisation type","ODA","Volume","Yearly",NA,5703.31150955992,-6928.6898122411,-1225.37830268118,1225.37830268118
+"127638",NA,"IFI","Infrastructure","Disbursements",2022,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,7889.73073151303,-6871.87339613671,1017.85733537632,1017.85733537632
+"127684",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",17243.0237768994,-18054.5296412458,-811.5058643464,811.5058643464
+"127685",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",15819.4795432748,-16741.8100439822,-922.330500707401,922.330500707401
+"127686",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",14214.713375719,-13413.3173294972,801.3960462218,801.3960462218
+"127696",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",4842.27899319826,-6058.4269496869,-1216.14795648864,1216.14795648864
+"127697",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",5086.81829287766,-6367.82096406829,-1281.00267119063,1281.00267119063
+"127698",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",4348.39130970226,-4778.96225420681,-430.57094450455,430.57094450455
+"127702",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",11021.522112599,-10626.376327447,395.145785151999,395.145785151999
+"127703",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",9677.55787719217,-9144.78884194821,532.76903524396,532.76903524396
+"127704",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2023-03",8469.29853245227,-7228.92428865502,1240.37424379725,1240.37424379725
+"127708",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2021-03",1377.98154835178,-1325.4654512992,52.5160970525801,52.5160970525801
+"127709",NA,"IFI","Infrastructure","Disbursements",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2022-03",1054.60335680595,-1184.50723636401,-129.90387955806,129.90387955806
 "127955",NA,"IFI",NA,"Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",0,-700.018568336688,-700.018568336688,700.018568336688
 "127973",NA,"IFI",NA,"Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",0,-700.018568336688,-700.018568336688,700.018568336688
-"127982",NA,"IFI","Other social services","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,3940.87715934299,-6097.49089000317,-2156.61373066018,2156.61373066018
-"127988",NA,"IFI","Other social services","Commitments",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,1674.80592571613,-3738.28821748654,-2063.48229177041,2063.48229177041
-"127992",NA,"IFI","Other social services","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,4833.59144183058,-6866.64711877701,-2033.05567694643,2033.05567694643
-"127998",NA,"IFI","Other social services","Commitments",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,2726.01725417347,-4695.14474503217,-1969.1274908587,1969.1274908587
-"128002",NA,"IFI","Other social services","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,16526.07763163,-19153.073847804,-2626.996216174,2626.996216174
-"128008",NA,"IFI","Other social services","Commitments",2020,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,11385.8646065382,-13812.8856725643,-2427.0210660261,2427.0210660261
-"128042",NA,"IFI","Other social services","Commitments",2021,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,6574.75320039841,-7989.78130901339,-1415.02810861498,1415.02810861498
-"128048",NA,"IFI","Other social services","Commitments",2021,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,2790.32756508956,-4090.35884894849,-1300.03128385893,1300.03128385893
-"128224",NA,"IFI","Other social services","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",15745.8714322927,-20273.2880015711,-4527.4165692784,4527.4165692784
-"128225",NA,"IFI","Other social services","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",4669.49471232277,-5857.86472881156,-1188.37001648879,1188.37001648879
-"128226",NA,"IFI","Other social services","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",3457.3015207629,-3273.81795502199,183.48356574091,183.48356574091
+"127982",NA,"IFI","Other social services","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,3885.43839284723,-6097.49089000317,-2212.05249715594,2212.05249715594
+"127988",NA,"IFI","Other social services","Commitments",2018,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,1674.81001893038,-3738.28821748654,-2063.47819855616,2063.47819855616
+"127992",NA,"IFI","Other social services","Commitments",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,4833.59598260399,-6866.64711877701,-2033.05113617302,2033.05113617302
+"127998",NA,"IFI","Other social services","Commitments",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,2726.02004865234,-4695.14474503217,-1969.12469637983,1969.12469637983
+"128002",NA,"IFI","Other social services","Commitments",2020,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,16526.0829053434,-19153.073847804,-2626.9909424606,2626.9909424606
+"128008",NA,"IFI","Other social services","Commitments",2020,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,11385.868108465,-13812.8856725643,-2427.0175640993,2427.0175640993
+"128042",NA,"IFI","Other social services","Commitments",2021,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,6568.83854630821,-7989.78130901339,-1420.94276270518,1420.94276270518
+"128048",NA,"IFI","Other social services","Commitments",2021,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,2790.33131593559,-4090.35884894849,-1300.0275330129,1300.0275330129
+"128224",NA,"IFI","Other social services","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",15744.663690258,-20273.2880015711,-4528.6243113131,4528.6243113131
+"128225",NA,"IFI","Other social services","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",4664.81073158725,-5857.86472881156,-1193.05399722431,1193.05399722431
+"128226",NA,"IFI","Other social services","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",3431.03652536807,-3273.81795502199,157.21857034608,157.21857034608
 "128230",NA,"IFI","Other social services","Commitments",NA,NA,NA,"Organisation type","Not specified","Volume","Year to date","2021-03",0,-50.0006904070534,-50.0006904070534,50.0006904070534
-"128236",NA,"IFI","Other social services","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",6432.85572330307,-6582.616129854,-149.76040655093,149.76040655093
-"128237",NA,"IFI","Other social services","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",1701.71070902372,-1816.36792962712,-114.6572206034,114.6572206034
-"128238",NA,"IFI","Other social services","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",1607.52100425866,-1426.61460554197,180.90639871669,180.90639871669
-"128242",NA,"IFI","Other social services","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",9276.64442152739,-13603.9219751294,-4327.27755360201,4327.27755360201
-"128243",NA,"IFI","Other social services","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",2575.63252220817,-3675.76753320592,-1100.13501099775,1100.13501099775
-"128494",NA,"IFI","Other social services","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",13142.391218551,-14776.7718917918,-1634.3806732408,1634.3806732408
-"128495",NA,"IFI","Other social services","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",9461.83098506958,-9091.79580256475,370.035182504831,370.035182504831
-"128496",NA,"IFI","Other social services","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",6979.70663605137,-6376.58866913434,603.11796691703,603.11796691703
-"128506",NA,"IFI","Other social services","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",4016.09356401074,-4088.60102231046,-72.5074582997199,72.5074582997199
-"128507",NA,"IFI","Other social services","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",2516.73057076721,-2598.89128151957,-82.16071075236,82.16071075236
-"128508",NA,"IFI","Other social services","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",2834.31241735229,-2752.63632451846,81.6760928338304,81.6760928338304
-"128512",NA,"IFI","Other social services","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",9126.04691033121,-10666.0271754865,-1539.98026515529,1539.98026515529
-"128513",NA,"IFI","Other social services","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",6945.10041430238,-6491.88500946311,453.21540483927,453.21540483927
-"128514",NA,"IFI","Other social services","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2023-03",4145.39421869908,-3623.95234461588,521.4418740832,521.4418740832
-"128764",NA,"IFI","Other","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",2381.59088798215,-2526.66018624483,-145.06929826268,145.06929826268
-"128765",NA,"IFI","Other","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",2576.06692401061,-2681.02320977557,-104.95628576496,104.95628576496
-"128766",NA,"IFI","Other","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",1324.31338037841,-1403.80316111182,-79.4897807334098,79.4897807334098
-"128777",NA,"IFI","Other","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",459.15838344883,-399.312181269621,59.846202179209,59.846202179209
-"128783",NA,"IFI","Other","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",1019.82587292774,-1247.81419847048,-227.98832554274,227.98832554274
-"128788",NA,"IFI","Other","Commitments",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2021-03",617.515334799944,-762.59771693324,-145.082382133296,145.082382133296
-"128789",NA,"IFI","Other","Commitments",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2022-03",1097.08266763404,-1033.89683003547,63.1858375985701,63.1858375985701
-"128790",NA,"IFI","Other","Commitments",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2023-03",665.657257507403,-747.003811616628,-81.3465541092251,81.3465541092251
-"128802",NA,"IFI","Other","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,3586.14627070246,-2303.42247724968,1282.72379345278,1282.72379345278
-"128808",NA,"IFI","Other","Disbursements",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,2348.8055608357,-1048.00343660909,1300.80212422661,1300.80212422661
-"128858",NA,"IFI","Other","Disbursements",2021,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,2225.66360112956,-1191.58424639853,1034.07935473103,1034.07935473103
-"128982",NA,"IFI","Other","Disbursements",2022,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,3144.37550513475,-2077.62371948543,1066.75178564932,1066.75178564932
-"128988",NA,"IFI","Other","Disbursements",2022,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,1990.85429505642,-921.556120940462,1069.29817411596,1069.29817411596
-"129034",NA,"IFI","Other","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",2757.40016459698,-2699.80290940338,57.5972551936002,57.5972551936002
-"129035",NA,"IFI","Other","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",3546.13752089721,-2558.04841074605,988.08911015116,988.08911015116
-"129036",NA,"IFI","Other","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",3178.78254008448,-1897.69524276921,1281.08729731527,1281.08729731527
-"129052",NA,"IFI","Other","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",1293.89241496372,-1102.39427923855,191.49813572517,191.49813572517
-"129053",NA,"IFI","Other","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",2235.84409529668,-1202.18794453106,1033.65615076562,1033.65615076562
-"129054",NA,"IFI","Other","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2023-03",2022.99278774658,-794.399216899448,1228.59357084713,1228.59357084713
-"129058",NA,"IFI","Other","Disbursements",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2021-03",328.75477648882,-455.219874131481,-126.465097642661,126.465097642661
-"129844",NA,"IFI","Water and sanitation","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",4183.86842429593,-4466.01019572952,-282.14177143359,282.14177143359
-"129845",NA,"IFI","Water and sanitation","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",3902.00982990971,-4164.21021685148,-262.20038694177,262.20038694177
-"129846",NA,"IFI","Water and sanitation","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",1908.40024654985,-1808.17223160574,100.22801494411,100.22801494411
-"129857",NA,"IFI","Water and sanitation","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",1928.50745921073,-1995.43093142767,-66.9234722169399,66.9234722169399
-"129858",NA,"IFI","Water and sanitation","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",1311.36590553013,-1201.11416960087,110.25173592926,110.25173592926
-"129862",NA,"IFI","Water and sanitation","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",1985.548811009,-2252.59647478054,-267.04766377154,267.04766377154
-"129863",NA,"IFI","Water and sanitation","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",1591.86055477882,-1791.85736126382,-199.996806485,199.996806485
-"130115",NA,"IFI","Water and sanitation","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",4707.45812656084,-4575.1795798531,132.27854670774,132.27854670774
-"130116",NA,"IFI","Water and sanitation","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",4250.94061975313,-3628.43679686537,622.50382288776,622.50382288776
-"130127",NA,"IFI","Water and sanitation","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",1937.30042681107,-2009.54941156533,-72.2489847542599,72.2489847542599
-"130132",NA,"IFI","Water and sanitation","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",2787.85914406074,-2667.03591465504,120.8232294057,120.8232294057
-"130133",NA,"IFI","Water and sanitation","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",2662.62207415696,-2429.90150800793,232.72056614903,232.72056614903
-"130134",NA,"IFI","Water and sanitation","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2023-03",2436.82599390377,-1857.15688202047,579.6691118833,579.6691118833
-"130386",NA,"Multilateral","Administrative costs of donors","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",4505.07201585225,-2611.86166781192,1893.21034804033,1893.21034804033
-"130398",NA,"Multilateral","Administrative costs of donors","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",4505.07201585225,-2611.86166781192,1893.21034804033,1893.21034804033
+"128236",NA,"IFI","Other social services","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",6431.64309774118,-6582.616129854,-150.97303211282,150.97303211282
+"128237",NA,"IFI","Other social services","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",1697.01054244634,-1816.36792962712,-119.35738718078,119.35738718078
+"128238",NA,"IFI","Other social services","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",1581.24426212277,-1426.61460554197,154.6296565808,154.6296565808
+"128242",NA,"IFI","Other social services","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",9276.64907168542,-13603.9219751294,-4327.27290344398,4327.27290344398
+"128243",NA,"IFI","Other social services","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",2575.64503843566,-3675.76753320592,-1100.12249477026,1100.12249477026
+"128494",NA,"IFI","Other social services","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",13106.3741425992,-14776.7718917918,-1670.3977491926,1670.3977491926
+"128495",NA,"IFI","Other social services","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",9405.10768138311,-9091.79580256475,313.31187881836,313.31187881836
+"128496",NA,"IFI","Other social services","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",6932.78228107266,-6376.58866913434,556.19361193832,556.19361193832
+"128506",NA,"IFI","Other social services","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",3980.05758629907,-4088.60102231046,-108.54343601139,108.54343601139
+"128507",NA,"IFI","Other social services","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",2459.9770846334,-2598.89128151957,-138.91419688617,138.91419688617
+"128512",NA,"IFI","Other social services","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",9126.06581204037,-10666.0271754865,-1539.96136344613,1539.96136344613
+"128513",NA,"IFI","Other social services","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",6945.1305967497,-6491.88500946311,453.24558728659,453.24558728659
+"128514",NA,"IFI","Other social services","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2023-03",4145.40529115908,-3623.95234461588,521.4529465432,521.4529465432
+"128764",NA,"IFI","Other","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",2381.59337590051,-2526.66018624483,-145.06681034432,145.06681034432
+"128765",NA,"IFI","Other","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",2570.58144292066,-2681.02320977557,-110.44176685491,110.44176685491
+"128766",NA,"IFI","Other","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",1324.32020933169,-1403.80316111182,-79.48295178013,79.48295178013
+"128777",NA,"IFI","Other","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",453.664993441051,-399.312181269621,54.35281217143,54.35281217143
+"128783",NA,"IFI","Other","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",1019.82961480242,-1247.81419847048,-227.98458366806,227.98458366806
+"128788",NA,"IFI","Other","Commitments",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2021-03",617.515610037391,-762.59771693324,-145.082106895849,145.082106895849
+"128789",NA,"IFI","Other","Commitments",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2022-03",1097.08683467718,-1033.89683003547,63.1900046417099,63.1900046417099
+"128790",NA,"IFI","Other","Commitments",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2023-03",665.664786764589,-747.003811616628,-81.339024852039,81.339024852039
+"128802",NA,"IFI","Other","Disbursements",2019,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,3581.07694727503,-2303.42247724968,1277.65447002535,1277.65447002535
+"128808",NA,"IFI","Other","Disbursements",2019,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,2348.80858678646,-1048.00343660909,1300.80515017737,1300.80515017737
+"128858",NA,"IFI","Other","Disbursements",2021,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,2225.66486556475,-1191.58424639853,1034.08061916622,1034.08061916622
+"128982",NA,"IFI","Other","Disbursements",2022,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,3140.77532536089,-2077.62371948543,1063.15160587546,1063.15160587546
+"128988",NA,"IFI","Other","Disbursements",2022,NA,NA,"Organisation type","OOF","Volume","Yearly",NA,1990.85594504825,-921.556120940462,1069.29982410779,1069.29982410779
+"129034",NA,"IFI","Other","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",2755.51082344567,-2699.80290940338,55.7079140422902,55.7079140422902
+"129035",NA,"IFI","Other","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",3541.21349425485,-2558.04841074605,983.1650835088,983.1650835088
+"129036",NA,"IFI","Other","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",3175.9758952213,-1897.69524276921,1278.28065245209,1278.28065245209
+"129047",NA,"IFI","Other","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",1029.91427810964,-1080.84322645978,-50.92894835014,50.92894835014
+"129052",NA,"IFI","Other","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",1293.89642833059,-1102.39427923855,191.50214909204,191.50214909204
+"129053",NA,"IFI","Other","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",2235.85125269286,-1202.18794453106,1033.6633081618,1033.6633081618
+"129054",NA,"IFI","Other","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2023-03",2023.00092910606,-794.399216899448,1228.60171220661,1228.60171220661
+"129058",NA,"IFI","Other","Disbursements",NA,NA,NA,"Organisation type","Other flows","Volume","Year to date","2021-03",328.756687881668,-455.219874131481,-126.463186249813,126.463186249813
+"129602",NA,"IFI","Water and sanitation","Commitments",2018,NA,NA,"Organisation type","All flows","Volume","Yearly",NA,6693.31902856405,-7811.63694995701,-1118.31792139296,1118.31792139296
+"129844",NA,"IFI","Water and sanitation","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",3700.59191612137,-4466.01019572952,-765.41827960815,765.41827960815
+"129845",NA,"IFI","Water and sanitation","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",3659.95303938515,-4164.21021685148,-504.25717746633,504.25717746633
+"129856",NA,"IFI","Water and sanitation","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",1543.04677912099,-2040.80455529521,-497.75777617422,497.75777617422
+"129857",NA,"IFI","Water and sanitation","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",1686.4460130894,-1995.43093142767,-308.98491833827,308.98491833827
+"129862",NA,"IFI","Water and sanitation","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",1985.5526042293,-2252.59647478054,-267.04387055124,267.04387055124
+"129863",NA,"IFI","Water and sanitation","Commitments",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",1591.86298273386,-1791.85736126382,-199.99437852996,199.99437852996
+"130114",NA,"IFI","Water and sanitation","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",4324.06406640561,-4589.55931036254,-265.49524395693,265.49524395693
+"130115",NA,"IFI","Water and sanitation","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",4356.08774897241,-4575.1795798531,-219.09183088069,219.09183088069
+"130116",NA,"IFI","Water and sanitation","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",4019.66644594504,-3628.43679686537,391.22964907967,391.22964907967
+"130126",NA,"IFI","Water and sanitation","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",1416.19245727287,-1753.39272231667,-337.2002650438,337.2002650438
+"130127",NA,"IFI","Water and sanitation","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",1588.58815884678,-2009.54941156533,-420.96125271855,420.96125271855
+"130128",NA,"IFI","Water and sanitation","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",1471.03741359362,-1660.82808217957,-189.79066858595,189.79066858595
+"130132",NA,"IFI","Water and sanitation","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2021-03",2780.89568287156,-2667.03591465504,113.85976821652,113.85976821652
+"130133",NA,"IFI","Water and sanitation","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2022-03",2659.96245558996,-2429.90150800793,230.06094758203,230.06094758203
+"130134",NA,"IFI","Water and sanitation","Disbursements",NA,NA,NA,"Organisation type","OOF","Volume","Year to date","2023-03",2436.83509340445,-1857.15688202047,579.67821138398,579.67821138398
+"130386",NA,"Multilateral","Administrative costs of donors","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",4505.07189239328,-2611.86166781192,1893.21022458136,1893.21022458136
+"130398",NA,"Multilateral","Administrative costs of donors","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",4505.07189239328,-2611.86166781192,1893.21022458136,1893.21022458136
 "130655",NA,"Multilateral","Administrative costs of donors","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",2487.83910400181,-2386.97630813449,100.86279586732,100.86279586732
 "130656",NA,"Multilateral","Administrative costs of donors","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",4593.85433823097,-3821.18390764776,772.67043058321,772.67043058321
 "130667",NA,"Multilateral","Administrative costs of donors","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",2487.83910400181,-2386.97630813449,100.86279586732,100.86279586732
@@ -617,19 +683,19 @@
 "134447",NA,"Multilateral","Governance and security","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",2702.67263749381,-2563.32348193213,139.34915556168,139.34915556168
 "134448",NA,"Multilateral","Governance and security","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",2932.3408816633,-2640.11593003701,292.22495162629,292.22495162629
 "134704",NA,"Multilateral","Health","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",17495.903662207,-17653.9912772849,-158.087615077897,158.087615077897
-"134706",NA,"Multilateral","Health","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",11659.8505000421,-8387.68194471195,3272.16855533015,3272.16855533015
+"134706",NA,"Multilateral","Health","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",11659.8501046586,-8387.68194471195,3272.16815994665,3272.16815994665
 "134716",NA,"Multilateral","Health","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",17443.9184375064,-17593.9502156072,-150.031778100802,150.031778100802
-"134718",NA,"Multilateral","Health","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",11551.2425477632,-8279.07387969242,3272.16866807078,3272.16866807078
+"134718",NA,"Multilateral","Health","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",11551.2421523797,-8279.07387969242,3272.16827268728,3272.16827268728
 "134974",NA,"Multilateral","Health","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",9454.47941733783,-9085.14132428283,369.338093055001,369.338093055001
 "134976",NA,"Multilateral","Health","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",17076.4861993811,-15920.5977893928,1155.8884099883,1155.8884099883
 "134986",NA,"Multilateral","Health","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",9269.76208587639,-8865.86684589247,403.89523998392,403.89523998392
 "134988",NA,"Multilateral","Health","Disbursements",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",16934.6879178541,-15774.6765283746,1160.0113894795,1160.0113894795
 "135244",NA,"Multilateral","Humanitarian","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",7989.47814080536,-7797.23811007428,192.240030731081,192.240030731081
 "135245",NA,"Multilateral","Humanitarian","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",9555.45691950347,-9439.31542466096,116.14149484251,116.14149484251
-"135246",NA,"Multilateral","Humanitarian","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",12354.8218870874,-11636.9057638584,717.916123229001,717.916123229001
+"135246",NA,"Multilateral","Humanitarian","Commitments",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",12354.8213612319,-11636.9057638584,717.9155973735,717.9155973735
 "135256",NA,"Multilateral","Humanitarian","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2021-03",7721.3523258508,-7529.11229511973,192.24003073107,192.24003073107
 "135257",NA,"Multilateral","Humanitarian","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2022-03",9242.00089336495,-9125.85894821699,116.14194514796,116.14194514796
-"135258",NA,"Multilateral","Humanitarian","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",12040.4657978959,-11322.9638929157,717.501904980199,717.501904980199
+"135258",NA,"Multilateral","Humanitarian","Commitments",NA,NA,NA,"Organisation type","ODA","Volume","Year to date","2023-03",12040.4652720404,-11322.9638929157,717.501379124698,717.501379124698
 "135514",NA,"Multilateral","Humanitarian","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2021-03",9039.01040496326,-8919.94015832856,119.070246634699,119.070246634699
 "135515",NA,"Multilateral","Humanitarian","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2022-03",11215.1632554673,-11047.8922397565,167.271015710799,167.271015710799
 "135516",NA,"Multilateral","Humanitarian","Disbursements",NA,NA,NA,"Organisation type","All flows","Volume","Year to date","2023-03",13437.1259501303,-13500.2251391171,-63.0991889868001,63.0991889868001
@@ -651,13 +717,13 @@
 "139834","Netherlands","Netherlands","Business and industry","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",265.264857082249,-344.480881100998,-79.216024018749,79.216024018749
 "139846","Netherlands","Netherlands","Business and industry","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",257.449142169112,-336.08633675806,-78.637194588948,78.637194588948
 "143615","Netherlands","Netherlands","Humanitarian","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",1060.60914287979,-462.715152287967,597.893990591823,597.893990591823
-"143616","Netherlands","Netherlands","Humanitarian","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",350.418155595323,-930.916907530722,-580.498751935399,580.498751935399
+"143616","Netherlands","Netherlands","Humanitarian","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",350.418019229094,-930.916907530722,-580.498888301628,580.498888301628
 "143627","Netherlands","Netherlands","Humanitarian","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",1060.58430369042,-462.673789433265,597.910514257155,597.910514257155
-"143628","Netherlands","Netherlands","Humanitarian","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",350.40068198541,-930.926005169302,-580.525323183892,580.525323183892
+"143628","Netherlands","Netherlands","Humanitarian","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",350.400545626968,-930.926005169302,-580.525459542334,580.525459542334
 "143885","Netherlands","Netherlands","Humanitarian","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",492.464350615026,-318.68396827843,173.780382336596,173.780382336596
-"143886","Netherlands","Netherlands","Humanitarian","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",426.767364370363,-663.363816612209,-236.596452241846,236.596452241846
+"143886","Netherlands","Netherlands","Humanitarian","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",426.767347288886,-663.363816612209,-236.596469323323,236.596469323323
 "143897","Netherlands","Netherlands","Humanitarian","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",492.373341534671,-318.592959198075,173.780382336596,173.780382336596
-"143898","Netherlands","Netherlands","Humanitarian","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",426.749245958666,-663.345698200512,-236.596452241846,236.596452241846
+"143898","Netherlands","Netherlands","Humanitarian","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",426.749228877188,-663.345698200512,-236.596469323324,236.596469323324
 "145504","Netherlands","Netherlands","Other","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",841.593437646923,-927.182305180389,-85.588867533466,85.588867533466
 "145505","Netherlands","Netherlands","Other","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",462.096342691988,-394.521904835483,67.574437856505,67.574437856505
 "145516","Netherlands","Netherlands","Other","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",836.862393622538,-922.22607105629,-85.3636774337521,85.3636774337521
@@ -698,26 +764,34 @@
 "162526","Sweden","Sweden","Other","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",2525.43001774624,-2784.35780776367,-258.92779001743,258.92779001743
 "162527","Sweden","Sweden","Other","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",2874.31527545406,-3219.89537960928,-345.58010415522,345.58010415522
 "162528","Sweden","Sweden","Other","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",1050.1371952478,-1439.87056057798,-389.73336533018,389.73336533018
-"174124","UK","UK","Debt relief","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",96.2719630385964,-192.533172528659,-96.2612094900626,96.2612094900626
-"174136","UK","UK","Debt relief","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",96.2719630385964,-192.533172528659,-96.2612094900626,96.2612094900626
-"176285","UK","UK","Governance and security","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",894.80050277833,-798.840764919335,95.959737858995,95.959737858995
-"176297","UK","UK","Governance and security","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",894.80050277833,-798.840764919335,95.959737858995,95.959737858995
-"176826","UK","UK","Health","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",296.985928022948,-395.400970909259,-98.415042886311,98.415042886311
-"176838","UK","UK","Health","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",296.985928022948,-395.400970909259,-98.415042886311,98.415042886311
-"177364","UK","UK","Humanitarian","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",1645.62561024121,-1905.00070603473,-259.37509579352,259.37509579352
-"177365","UK","UK","Humanitarian","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",1137.48968235389,-1079.57717610543,57.91250624846,57.91250624846
-"177366","UK","UK","Humanitarian","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",641.788874362479,-590.182332722512,51.606541639967,51.606541639967
-"177376","UK","UK","Humanitarian","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",1645.62561024121,-1905.00070603473,-259.37509579352,259.37509579352
-"177377","UK","UK","Humanitarian","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",1137.48968235389,-1079.57717610543,57.91250624846,57.91250624846
-"177378","UK","UK","Humanitarian","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",641.788874362479,-590.182332722512,51.606541639967,51.606541639967
+"173046","UK","UK","Agriculture and food security","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",228.840872010467,-174.06366238148,54.777209628987,54.777209628987
+"173058","UK","UK","Agriculture and food security","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",227.118026755181,-174.06366238148,53.054364373701,53.054364373701
+"173586","UK","UK","Business and industry","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",167.856666542553,-79.3554604455461,88.5012060970069,88.5012060970069
+"173598","UK","UK","Business and industry","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",167.781105984037,-79.3554604455461,88.4256455384909,88.4256455384909
+"174124","UK","UK","Debt relief","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",96.2720512787816,-192.533172528659,-96.2611212498774,96.2611212498774
+"174136","UK","UK","Debt relief","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",96.2720512787816,-192.533172528659,-96.2611212498774,96.2611212498774
+"174666","UK","UK","Education","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",409.629627508862,-236.890997913499,172.738629595363,172.738629595363
+"174678","UK","UK","Education","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",370.923055045797,-236.890997913499,134.032057132298,134.032057132298
+"175206","UK","UK","Environment","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",274.631011529851,-170.261013803199,104.369997726652,104.369997726652
+"175218","UK","UK","Environment","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",268.245618143138,-170.261013803199,97.984604339939,97.984604339939
+"176286","UK","UK","Governance and security","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",381.840619441381,-270.216459133709,111.624160307672,111.624160307672
+"176298","UK","UK","Governance and security","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",375.48853087778,-270.216459133709,105.272071744071,105.272071744071
+"176826","UK","UK","Health","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",559.715243334779,-395.400970909259,164.31427242552,164.31427242552
+"176838","UK","UK","Health","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",529.958926122162,-395.400970909259,134.557955212903,134.557955212903
+"177364","UK","UK","Humanitarian","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",1575.78738388237,-1905.00070603473,-329.21332215236,329.21332215236
+"177366","UK","UK","Humanitarian","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",811.978449877584,-590.182332722512,221.796117155072,221.796117155072
+"177376","UK","UK","Humanitarian","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",1575.78738388237,-1905.00070603473,-329.21332215236,329.21332215236
+"177378","UK","UK","Humanitarian","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",765.649162740933,-590.182332722512,175.466830018421,175.466830018421
+"177906","UK","UK","Infrastructure","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",204.999306272685,-138.972436679329,66.026869593356,66.026869593356
+"177918","UK","UK","Infrastructure","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",204.321160322055,-138.972436679329,65.348723642726,65.348723642726
 "178984","UK","UK","Other","Commitments",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",895.785824772198,-1051.05658956666,-155.270764794462,155.270764794462
 "178996","UK","UK","Other","Commitments",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",895.785824772198,-1051.05658956666,-155.270764794462,155.270764794462
-"179254","UK","UK","Other","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",5722.02949253427,-5954.06405786122,-232.034565326951,232.034565326951
-"179255","UK","UK","Other","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",4177.61217300694,-4085.0438473935,92.5683256134398,92.5683256134398
-"179256","UK","UK","Other","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",1369.94457760643,-1981.8691385227,-611.92456091627,611.92456091627
-"179266","UK","UK","Other","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",5722.02949253427,-5954.06405786122,-232.034565326951,232.034565326951
-"179267","UK","UK","Other","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",4177.61217300694,-4085.0438473935,92.5683256134398,92.5683256134398
-"179268","UK","UK","Other","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",1369.94457760643,-1981.8691385227,-611.92456091627,611.92456091627
+"179254","UK","UK","Other","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",5719.24020467998,-5954.06405786122,-234.82385318124,234.82385318124
+"179255","UK","UK","Other","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2022-03",4161.41974605064,-4085.0438473935,76.3758986571402,76.3758986571402
+"179256","UK","UK","Other","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",2183.66369392154,-1981.8691385227,201.79455539884,201.79455539884
+"179266","UK","UK","Other","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",5719.24020467998,-5954.06405786122,-234.82385318124,234.82385318124
+"179267","UK","UK","Other","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2022-03",4161.41974605064,-4085.0438473935,76.3758986571402,76.3758986571402
+"179268","UK","UK","Other","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2023-03",2176.78451190389,-1981.8691385227,194.91537338119,194.91537338119
 "182764","UNAIDS","UNAIDS","Health","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2021-03",0,-70.535733,-70.535733,70.535733
 "182766","UNAIDS","UNAIDS","Health","Disbursements",NA,NA,NA,"Specific donor","All flows","Volume","Year to date","2023-03",144.716699,-76.800024,67.916675,67.916675
 "182776","UNAIDS","UNAIDS","Health","Disbursements",NA,NA,NA,"Specific donor","ODA","Volume","Year to date","2021-03",0,-70.535733,-70.535733,70.535733
