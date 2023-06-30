@@ -11,7 +11,7 @@ setwd(wd)
 setwd("..")
 setwd("input")
 
-all <- read.csv("donors_selected_feb2023.csv")[,c("country","code","org_type","disbursements","commitments")] # Reading in manual donor quality checks. Binary: 1 = include, 0 = exclude. *Orignally this was 'donors_selected'
+all <- read.csv("donors_selected.csv")[,c("country","code","org_type","disbursements","commitments")] # Reading in manual donor quality checks. Binary: 1 = include, 0 = exclude. *Orignally this was 'donors_selected'
 
 #### DDW read-in ####
 
@@ -32,36 +32,36 @@ options(timeout = 1000000) #updated from 1000
 for(choice in choices){
   
   if (choice == "commitments"){
-    filename <- paste0("Trends in IATI - Commitments ", format(Sys.Date(), "%d%m%y"))
-    if(!(paste0(filename, ".RDS") %in% list.files())){
-      if(!(paste0(filename, ".csv") %in% list.files())){
-        message("Commitments file for today not found, downloading.")
-        download.file("https://ddw.devinit.org/api/export/1648", paste0(filename, ".csv"), method = "libcurl") # updated from query 793
-      }
-      dat <- fread(paste0(filename, ".csv"))
-      saveRDS(dat, paste0(filename, ".RDS"))
-    }
-    #dat <- readRDS(paste0(filename, ".RDS"))
-    dat <- readRDS("Trends in IATI - Commitments 200323.RDS")
+    # filename <- paste0("Trends in IATI - Commitments ", format(Sys.Date(), "%d%m%y"))
+    # if(!(paste0(filename, ".RDS") %in% list.files())){
+    #  if(!(paste0(filename, ".csv") %in% list.files())){
+    #    message("Commitments file for today not found, downloading.")
+    #    download.file("https://ddw.devinit.org/api/export/1648", paste0(filename, ".csv"), method = "libcurl") # updated from query 793
+    #  }
+    #  dat <- fread(paste0(filename, ".csv"))
+    #  saveRDS(dat, paste0(filename, ".RDS"))
+    # }
+    # dat <- readRDS(paste0(filename, ".RDS"))
+    dat <- readRDS("Trends in IATI - Commitments 300623.RDS")
     #dat <- fread("Trends in IATI - Commitments September 18.csv")
     # Data read-in. These can be retrieved from the DDW, as explained in the ReadME on the repo page.
   }
   if (choice == "disbursements"){ 
-    filename <- paste0("Trends in IATI - Disbursements ", format(Sys.Date(), "%d%m%y"))
-    if(!(paste0(filename, ".RDS") %in% list.files())){
-      if(!(paste0(filename, ".csv") %in% list.files())){
-        message("Disbursements file for today not found, downloading.") # updated disbursements lines below to merge both ddw queries here instead of in separate script
-        #download.file("https://ddw.devinit.org/api/export/795", paste0(filename, ".csv"), method = "libcurl") #DDW query 795 not used
-        download.file("https://ddw.devinit.org/api/export/1650", paste0("Trends in IATI - Disbursements 2018 to 2020 ", format(Sys.Date(), "%d%m%y"), ".csv"), method = "libcurl") # updated from DDW query 1528 'Trends in IATI - Disbursements - 2018 to 2020'
-        download.file("https://ddw.devinit.org/api/export/1656", paste0("Trends in IATI - Disbursements - 2021 onwards ", format(Sys.Date(), "%d%m%y"), ".csv"), method = "libcurl") # updated from DDW query 1510 'Trends in IATI - Disbursements - 2021 onwards'
-      }
-      dat1 <- fread(paste0("Trends in IATI - Disbursements 2018 to 2020 ", format(Sys.Date(), "%d%m%y"), ".csv"))
-      dat2 <- fread(paste0("Trends in IATI - Disbursements - 2021 onwards ", format(Sys.Date(), "%d%m%y"), ".csv"))
-      dat <- rbind(dat1,dat2)
-      saveRDS(dat, paste0(filename, ".RDS"))
-    }
-    dat <- readRDS(paste0(filename, ".RDS"))
-    dat <- readRDS("Trends in IATI - Disbursements 200323.RDS")
+    # filename <- paste0("Trends in IATI - Disbursements ", format(Sys.Date(), "%d%m%y"))
+    # if(!(paste0(filename, ".RDS") %in% list.files())){
+    #  if(!(paste0(filename, ".csv") %in% list.files())){
+    #    message("Disbursements file for today not found, downloading.") # updated disbursements lines below to merge both ddw queries here instead of in separate script
+    #    #download.file("https://ddw.devinit.org/api/export/795", paste0(filename, ".csv"), method = "libcurl") #DDW query 795 not used
+    #    download.file("https://ddw.devinit.org/api/export/1650", paste0("Trends in IATI - Disbursements 2018 to 2020 ", format(Sys.Date(), "%d%m%y"), ".csv"), method = "libcurl") # updated from DDW query 1528 'Trends in IATI - Disbursements - 2018 to 2020'
+    #    download.file("https://ddw.devinit.org/api/export/1656", paste0("Trends in IATI - Disbursements - 2021 onwards ", format(Sys.Date(), "%d%m%y"), ".csv"), method = "libcurl") # updated from DDW query 1510 'Trends in IATI - Disbursements - 2021 onwards'
+    #  }
+    #  dat1 <- fread(paste0("Trends in IATI - Disbursements 2018 to 2020 ", format(Sys.Date(), "%d%m%y"), ".csv"))
+    #  dat2 <- fread(paste0("Trends in IATI - Disbursements - 2021 onwards ", format(Sys.Date(), "%d%m%y"), ".csv"))
+    #  dat <- rbind(dat1,dat2)
+    #  saveRDS(dat, paste0(filename, ".RDS"))
+    # }
+    # dat <- readRDS(paste0(filename, ".RDS"))
+    dat <- readRDS("Trends in IATI - Disbursements 300623.RDS")
     #dat <- fread("Trends in IATI - Disbursements September 18.csv")
   }
   
@@ -126,6 +126,17 @@ for(choice in choices){
   t <- subset(t,t$x_finance_type != 1100) # *update this to 'x_finance_type_code'?
   
   # Note: GNI is a DAC artefact so needs removal and Guarantees/insurance is conditional.
+  
+  # *June 2023 Update - To remove government observations from AfDB (XM-DAC-46002) by column 'Extending Organisation Narrative' (extending_orgs)
+  afdb_government_update <- TRUE
+  if(afdb_government_update){
+    afdb <- t[reporting_org_ref == "XM-DAC-46002"]
+    afdb[, government_extending_organisation:= ifelse(grepl("government", tolower(paste(extending_orgs))), "Y", "N")] 
+    afdb <- afdb[government_extending_organisation != "Y"]
+    t <- t[reporting_org_ref != "XM-DAC-46002"]
+    afdb$government_extending_organisation <- NULL
+    t <- rbind(t, afdb)
+  }
   
   # Flow and Finance type sorting
   
@@ -244,7 +255,7 @@ for(choice in choices){
   
   # Read in income file from inputs and label fully.
   
-  income_groups <- fread("income.csv",header =T,na.strings = "..") # *when is this income classification file from?
+  income_groups <- fread("income.csv",header =T,na.strings = "..") 
   income_groups <- melt(income_groups,id.vars=c("iso3","country"))
   names(income_groups)[3:4] <- c("year","income_group")
   income_groups$year <- as.integer(as.character(income_groups$year))
@@ -284,7 +295,7 @@ for(choice in choices){
   }
   
   povcalcuts <- fread("extremepovertyto2023.csv") # original this data was obtained from the 'p20-p80 data.csv' which used the World Bank $1.90 headcount for the variable 'EPL'
-  povcalyears <- c(2015:2022) # *will this need to be updated in 2023 for next tracker update?
+  povcalyears <- c(2015:2023) # *will this need to be updated in 2023 for next tracker update?
   #povcal_additional <- subset(povcalcuts,povcalcuts$year==2021) # L.285-287 are no longer required as new file has years 2022 & 2023
   #povcal_additional$year <- 2022
   #povcalcuts <- rbind(povcalcuts,povcal_additional)
@@ -605,8 +616,8 @@ for(choice in choices){
   
   t.sector <- subset(t.hold,x_vocabulary_number == "1")
   t.sector <- subset(t.sector,x_sector_vocabulary %in% c("1","2",""))
-  t.sector <- merge(t.sector,full_list,by.x="x_dac3_sector",by.y="sector",all.x=T) 
-  t.sector <- merge(t.sector,full_itep_list,by.x="x_dac3_sector",by.y="sector",all.x=T)
+  t.sector <- merge(t.sector,full_list,by.x="x_dac3_sector",by.y="sector",all.x=T) # to add 'category' (Aggregate)
+  t.sector <- merge(t.sector,full_itep_list,by.x="x_dac3_sector",by.y="sector",all.x=T) # to add 'ITEP'
   
   t.sector$ITEP <- gsub("&","and",t.sector$ITEP) # Communications change.
   
@@ -641,6 +652,7 @@ for(choice in choices){
   t.months_donor <- data.table(t.months)[,.(value=sum(value,na.rm=T)),by=.(month,quarter,year,org_type,flow_type,transaction_type,aggregate_type,ITEP)]
   t.months_donor$aggregate_type = "Organisation type"
   t.months_donor$country <- NA
+  
   t.months <- rbind(t.months,t.months_donor)
   
   t.months <- data.table(t.months)[,.(value=sum(value,na.rm=T)),by=.(month,quarter,year,org_type,country,transaction_type,aggregate_type,ITEP,flow_type)]
@@ -707,15 +719,21 @@ sector$org_type[which(sector$aggregate=="Specific donor")] <- sector$country[whi
 sector$flow_type <- tolower(sector$flow_type)
 substr(sector$flow_type,1,1) <- toupper(substr(sector$flow_type,1,1))
 #write.csv(sector,paste0("sector_", format(Sys.Date(), "%d%m%y"), ".csv"))
-write.csv(sector, "sector_200323_sector_update.csv")
+write.csv(sector,paste0("sector_", format(Sys.Date(), "%d%m%y"), "_gov_update", ".csv"))
+#write.csv(sector,paste0("sector_", format(Sys.Date(), "%d%m%y"), "_v2.csv"))
+#write.csv(sector, "sector_260523_poverty_update_v2.csv")
 
 poverty <- rbind(t.income_commitments,t.income_disbursements,t.ldc_commitments,t.ldc_disbursements,t.poverty_commitments,t.poverty_disbursements)
 poverty$org_type[which(poverty$aggregate=="Specific donor")] <- poverty$country[which(poverty$aggregate=="Specific donor")]
-#write.csv(poverty,paste0("poverty_", format(Sys.Date(), "%d%m%y"), ".csv"))  
-write.csv(poverty, "poverty_200323_sector_update.csv") 
+#write.csv(poverty,paste0("poverty_", format(Sys.Date(), "%d%m%y"), ".csv"))
+write.csv(poverty,paste0("poverty_", format(Sys.Date(), "%d%m%y"), "_gov_update", ".csv"))  
+#write.csv(poverty,paste0("poverty_", format(Sys.Date(), "%d%m%y"), "_v2.csv")) 
+#write.csv(poverty, "poverty_260523_poverty_update_v2.csv") 
 
 overall <- rbind(t.overall_commitments,t.overall_disbursements)
 overall$org_type[which(overall$aggregate=="Specific donor")] <- overall$country[which(overall$aggregate=="Specific donor")]
 #write.csv(overall,paste0("overall_", format(Sys.Date(), "%d%m%y"), ".csv"))
-write.csv(overall, "overall_200323_sector_update.csv") 
+write.csv(overall,paste0("overall_", format(Sys.Date(), "%d%m%y"), "_gov_update", ".csv"))
+#write.csv(overall,paste0("overall_", format(Sys.Date(), "%d%m%y"), "_v2.csv"))
+#write.csv(overall, "overall_260523_poverty_update_v2.csv") 
 
