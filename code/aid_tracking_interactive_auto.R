@@ -1,15 +1,23 @@
 # Code to produce graphs needed for the live IATI COVID tracker page #
 
 
-list.of.packages <- c("data.table", "anytime", "ggplot2", "scales", "bsts", "dplyr", "plyr","Hmisc","reshape2","splitstackshape","Cairo","svglite","extrafont","jsonlite","countrycode","openxlsx","english","stringr","tidyr","rstudioapi")
+list.of.packages <- c("data.table", "dplyr", "plyr","reshape2","openxlsx","english","stringr","tidyr","rstudioapi","RPostgreSQL")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 lapply(list.of.packages, require, character.only=T)
 
-wd <- dirname(getActiveDocumentContext()$path) # Setting working directory to the input. Check this is where you locally have this repository, else change it.
+wd <- "/root/aid-tracker-interactive/input"
 setwd(wd)
-setwd("..")
-setwd("input")
+
+script.dir = "/root/ddw-analyst-ui/"
+
+drv = dbDriver("PostgreSQL")
+con = dbConnect(drv,
+                dbname=db.dbname
+                ,user=db.user
+                ,password=db.password
+                ,host=db.host
+                ,port=db.port)
 
 all <- read.csv("donors_selected.csv")[,c("country","code","org_type","disbursements","commitments")] # Reading in manual donor quality checks. Binary: 1 = include, 0 = exclude. *Orignally this was 'donors_selected'
 
@@ -21,48 +29,77 @@ current_yyyymm <- format(Sys.Date()-75, "%Y%m") # Note: This must be preceded by
 
 choices <- c("commitments", "disbursements")
 
-retrieval_reqd <- FALSE
-retrieval_orgs <- c("XM-DAC-41122")
-retrieval_date <- "251021"
+# retrieval_reqd <- FALSE
+# retrieval_orgs <- c("XM-DAC-41122")
+# retrieval_date <- "251021"
 
-##
-options(timeout = 1000000) #updated from 1000
-##
+commit_query =
+  'SELECT 
+    "x_aid_type", "x_country", "x_country_code", "x_country_percentage", "x_covid", "x_currency",
+    "x_dac_aid_type_code", "x_dac3_sector_code", "x_dac3_sector", "x_vocabulary_number",
+    "x_di_sector", "x_finance_type", "x_finance_type_code", "x_flow_type_code", "humanitarian",
+    "last_modified", "x_mod_aid_type_code", "x_mod_aid_type_vocabulary", "reporting_org_narrative",
+    "reporting_org_secondary_reporter", "reporting_org_ref", "x_sector_code", "x_sector_percentage",
+    "x_sector_vocabulary", "x_reporting_org_type", "reporting_org_type_code", "tag_vocabulary",
+    "x_tied_status_code", "x_transaction_date", "collaboration_type", "transaction_disbursement_channel_code",
+    "transaction_humanitarian", "x_transaction_number", "transaction_provider_org_type",
+    "transaction_receiver_org_type", "x_transaction_type", "transaction_type_code",
+    "x_transaction_value", "x_transaction_value_usd", "x_transaction_year", "x_yyyymm",
+    "x_original_transaction_value", "x_original_transaction_value_usd", "x_recipient_number",
+    "x_recipient_code", "x_recipient", "x_recipient_percentage", "x_recipient_vocabulary",
+    "x_recipient_type", "x_recipient_transaction_value", "x_recipient_transaction_value_usd",
+    "x_sector_number", "x_donor_transaction_type", "x_original_transaction_value_USDm", "extending_orgs"
+  FROM "repo"."iati_transactions" 
+  WHERE "x_transaction_year">\'2017\' AND
+    ("reporting_org_type_code"=\'10\' OR "reporting_org_type_code"=\'15\' OR "reporting_org_type_code"=\'40\' OR "reporting_org_ref"=\'47045\') AND
+    ("reporting_org_secondary_reporter"=\'0\' OR reporting_org_secondary_reporter"=\'false\') AND
+    ("transaction_type_code"=\'C\' OR "transaction_type_code"=\'2\')'
+
+disb_query = 
+  'SELECT "x_aid_type", "x_country", "x_country_code", "x_country_percentage",
+    "x_covid", "x_currency", "x_dac_aid_type_code", "x_dac3_sector_code", "x_dac3_sector",
+    "x_vocabulary_number", "x_di_sector", "x_finance_type", "x_finance_type_code",
+    "x_flow_type_code", "humanitarian", "last_modified", "x_mod_aid_type_code",
+    "x_mod_aid_type_vocabulary", "reporting_org_narrative", "reporting_org_secondary_reporter",
+    "reporting_org_ref", "x_sector_code", "x_sector_percentage", "x_sector_vocabulary",
+    "x_reporting_org_type", "reporting_org_type_code", "tag_vocabulary", "x_tied_status_code",
+    "x_transaction_date", "collaboration_type", "transaction_disbursement_channel_code",
+    "transaction_humanitarian", "x_transaction_number", "transaction_provider_org_type",
+    "transaction_receiver_org_type", "x_transaction_type", "transaction_type_code",
+    "x_transaction_value", "x_transaction_value_usd", "x_transaction_year", "x_yyyymm",
+    "x_original_transaction_value", "x_original_transaction_value_usd", "x_recipient_number",
+    "x_recipient_code", "x_recipient", "x_recipient_percentage", "x_recipient_vocabulary",
+    "x_recipient_type", "x_recipient_transaction_value", "x_recipient_transaction_value_usd",
+    "x_sector_number", "x_donor_transaction_type", "x_original_transaction_value_USDm", "extending_orgs" 
+  FROM "repo"."iati_transactions"
+  WHERE ("reporting_org_secondary_reporter"=\'0\' OR "reporting_org_secondary_reporter"=\'false\') AND
+    ("transaction_type_code"=\'3\' OR "transaction_type_code"=\'4\' OR "transaction_type_code"=\'7\' OR
+      "transaction_type_code"=\'8\' OR "transaction_type_code"=\'E\' OR "transaction_type_code"=\'D\' OR
+      "transaction_type_code"=\'R\' OR "transaction_type_code"=\'QP\') AND
+    "x_transaction_year">\'2017\' AND
+    ("reporting_org_type_code"=\'10\' OR "reporting_org_type_code"=\'15\' OR "reporting_org_type_code"=\'40\' OR "reporting_org_ref"=\'47045\')'
+
+
 
 for(choice in choices){
   
   if (choice == "commitments"){
-    # filename <- paste0("Trends in IATI - Commitments ", format(Sys.Date(), "%d%m%y"))
-    # if(!(paste0(filename, ".RDS") %in% list.files())){
-    #  if(!(paste0(filename, ".csv") %in% list.files())){
-    #    message("Commitments file for today not found, downloading.")
-    #    download.file("https://ddw.devinit.org/api/export/1648", paste0(filename, ".csv"), method = "libcurl") # updated from query 793
-    #  }
-    #  dat <- fread(paste0(filename, ".csv"))
-    #  saveRDS(dat, paste0(filename, ".RDS"))
-    # }
-    # dat <- readRDS(paste0(filename, ".RDS"))
-    dat <- readRDS("Trends in IATI - Commitments 300623.RDS")
-    #dat <- fread("Trends in IATI - Commitments September 18.csv")
-    # Data read-in. These can be retrieved from the DDW, as explained in the ReadME on the repo page.
+    filename <- paste0("Trends in IATI - Commitments ", format(Sys.Date(), "%d%m%y"))
+    if(!(paste0(filename, ".RDS") %in% list.files())){
+      message("Commitments file for today not found, downloading.")
+      dat = dbGetQuery(con, commit_query)
+      saveRDS(dat, paste0(filename, ".RDS"))
+    }
+    dat <- readRDS(paste0(filename, ".RDS"))
   }
   if (choice == "disbursements"){ 
-    # filename <- paste0("Trends in IATI - Disbursements ", format(Sys.Date(), "%d%m%y"))
-    # if(!(paste0(filename, ".RDS") %in% list.files())){
-    #  if(!(paste0(filename, ".csv") %in% list.files())){
-    #    message("Disbursements file for today not found, downloading.") # updated disbursements lines below to merge both ddw queries here instead of in separate script
-    #    #download.file("https://ddw.devinit.org/api/export/795", paste0(filename, ".csv"), method = "libcurl") #DDW query 795 not used
-    #    download.file("https://ddw.devinit.org/api/export/1650", paste0("Trends in IATI - Disbursements 2018 to 2020 ", format(Sys.Date(), "%d%m%y"), ".csv"), method = "libcurl") # updated from DDW query 1528 'Trends in IATI - Disbursements - 2018 to 2020'
-    #    download.file("https://ddw.devinit.org/api/export/1656", paste0("Trends in IATI - Disbursements - 2021 onwards ", format(Sys.Date(), "%d%m%y"), ".csv"), method = "libcurl") # updated from DDW query 1510 'Trends in IATI - Disbursements - 2021 onwards'
-    #  }
-    #  dat1 <- fread(paste0("Trends in IATI - Disbursements 2018 to 2020 ", format(Sys.Date(), "%d%m%y"), ".csv"))
-    #  dat2 <- fread(paste0("Trends in IATI - Disbursements - 2021 onwards ", format(Sys.Date(), "%d%m%y"), ".csv"))
-    #  dat <- rbind(dat1,dat2)
-    #  saveRDS(dat, paste0(filename, ".RDS"))
-    # }
-    # dat <- readRDS(paste0(filename, ".RDS"))
-    dat <- readRDS("Trends in IATI - Disbursements 300623.RDS")
-    #dat <- fread("Trends in IATI - Disbursements September 18.csv")
+    filename <- paste0("Trends in IATI - Disbursements ", format(Sys.Date(), "%d%m%y"))
+    if(!(paste0(filename, ".RDS") %in% list.files())){
+      message("Disbursements file for today not found, downloading.") # updated disbursements lines below to merge both ddw queries here instead of in separate script
+      dat = dbGetQuery(con, disb_query)
+      saveRDS(dat, paste0(filename, ".RDS"))
+    }
+    dat <- readRDS(paste0(filename, ".RDS"))
   }
   
   meta_columns <- read.csv("meta_columns.csv")
@@ -71,11 +108,6 @@ for(choice in choices){
   
   # Lines that make column names consistent for what comes below.
   
-  names(dat) <- gsub("...", " - ", names(dat), fixed = TRUE)
-  names(dat) <- gsub(".", " ", names(dat), fixed = TRUE)
-  dictionary <- merge(data.frame(names(dat)),meta_columns[,c("col_alias","col_name")],by.x="names.dat.",by.y="col_alias",all.x=T)
-  dictionary$col_name[which(is.na(dictionary$col_name))] <- dictionary$names.dat.[which(is.na(dictionary$col_name))]
-  names(dat) <- mapvalues(names(dat), from=dictionary$names.dat.,to=dictionary$col_name) # The following `from` values were not present in `x`: Recipient Code, Recipient Code, Recipient Code, Recipient Name, Recipient Name, Recipient Name
   dat$last_modified <- as.character(dat$last_modified)
   if (retrieval_reqd & choice == "commitments"){
     append <- readRDS(paste0("Trends in IATI - Commitments ",retrieval_date,".RDS"))
@@ -88,17 +120,17 @@ for(choice in choices){
     dat <- rbind(dat,append)
   }
   
-  if (retrieval_reqd & choice == "disbursements"){
-    names(dat)[1] <- "iati_identifier"
-    append <- readRDS(paste0("Trends in IATI - Disbursements ",retrieval_date,".RDS"))
-    append <- subset(append,append$`Reporting Organsation Reference` %in% retrieval_orgs)
-    names(append) <- gsub("...", " - ", names(append), fixed = TRUE)
-    names(append) <- gsub(".", " ", names(append), fixed = TRUE)
-    dictionary <- merge(data.frame(names(append)),meta_columns[,c("col_alias","col_name")],by.x="names.append.",by.y="col_alias",all.x=T)
-    dictionary$col_name[which(is.na(dictionary$col_name))] <- dictionary$names.append.[which(is.na(dictionary$col_name))]
-    names(append) <- mapvalues(names(append), from=dictionary$names.append.,to=dictionary$col_name)
-    dat <- rbind(dat,append)
-  }
+  # if (retrieval_reqd & choice == "disbursements"){
+  #   names(dat)[1] <- "iati_identifier"
+  #   append <- readRDS(paste0("Trends in IATI - Disbursements ",retrieval_date,".RDS"))
+  #   append <- subset(append,append$`Reporting Organsation Reference` %in% retrieval_orgs)
+  #   names(append) <- gsub("...", " - ", names(append), fixed = TRUE)
+  #   names(append) <- gsub(".", " ", names(append), fixed = TRUE)
+  #   dictionary <- merge(data.frame(names(append)),meta_columns[,c("col_alias","col_name")],by.x="names.append.",by.y="col_alias",all.x=T)
+  #   dictionary$col_name[which(is.na(dictionary$col_name))] <- dictionary$names.append.[which(is.na(dictionary$col_name))]
+  #   names(append) <- mapvalues(names(append), from=dictionary$names.append.,to=dictionary$col_name)
+  #   dat <- rbind(dat,append)
+  # }
   
   filtered_iati <- dat
   rm(dat)
@@ -115,7 +147,6 @@ for(choice in choices){
   t$year <- t$x_transaction_year
   t$month <- as.numeric(substr(t$x_yyyymm,5,6))
   t <- subset(t,x_yyyymm <= current_yyyymm)
-  memory.limit(1000000000) # Warning message:'memory.limit()' is no longer supported 
   t <- merge(t,unique(all),by.x="reporting_org_ref",by.y="code") # Merge in name and 'country' title for multiple agencies.
   
   t <- subset(t,t[[choice]]==1) # Filter by reporting organisations by whether they are included for commitments/disbursements.
@@ -713,7 +744,7 @@ for(choice in choices){
   
 }
 #### Combination and CSV production ####
-setwd("C:/git/aid-tracker-interactive")
+setwd("/root/aid-tracker-interactive")
 sector <- rbind(t.sector_commitments,t.sector_disbursements)
 sector$org_type[which(sector$aggregate=="Specific donor")] <- sector$country[which(sector$aggregate=="Specific donor")] # Make the org_type be the country field in all 'specific donor' entries.
 sector$flow_type <- tolower(sector$flow_type)
