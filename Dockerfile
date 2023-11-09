@@ -8,5 +8,6 @@ WORKDIR /root
 COPY . /root/aid-tracker-interactive
 
 # Install r-base-core using apt
-RUN apt-get install -y r-base-core
+RUN apt-get update && \
+    apt-get install -y r-base-core
 
