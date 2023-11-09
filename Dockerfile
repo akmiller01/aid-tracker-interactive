@@ -1,5 +1,5 @@
-# Use a base image with Linux (e.g., Ubuntu) that supports apt
-FROM ubuntu:latest
+# Use a base image
+FROM python:3.8
 
 # Set the working directory
 WORKDIR /root
