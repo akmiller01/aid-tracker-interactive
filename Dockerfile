@@ -12,5 +12,5 @@ RUN echo 'tzdata tzdata/Zones/Europe select London' | debconf-set-selections
 
 # Install r-base-core using apt
 RUN apt-get update && \
-    apt-get install -y r-base-core
+    DEBIAN_FRONTEND="noninteractive" apt-get install -y r-base-core
 
