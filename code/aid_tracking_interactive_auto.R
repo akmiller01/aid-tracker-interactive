@@ -7,9 +7,10 @@ if(length(new.packages)) install.packages(new.packages)
 lapply(list.of.packages, require, character.only=T)
 
 wd <- "/root/aid-tracker-interactive/input"
+# wd <- "~/git/aid-tracker-interactive/input"
 setwd(wd)
 
-script.dir = "/root/ddw-analyst-ui/"
+source("../code/constants.R")
 
 drv = dbDriver("PostgreSQL")
 con = dbConnect(drv,
