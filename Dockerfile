@@ -8,6 +8,6 @@ WORKDIR /root
 COPY . /root/aid-tracker-interactive
 
 # Install r-base-core using apt
-RUN apt-get update && \
+RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
     apt-get install -y r-base-core
 
