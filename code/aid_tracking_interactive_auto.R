@@ -3,7 +3,7 @@
 
 list.of.packages <- c("data.table", "dplyr", "plyr","reshape2","openxlsx","english","stringr","tidyr","rstudioapi","RPostgreSQL")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
-if(length(new.packages)) install.packages(new.packages)
+if(length(new.packages)) install.packages(new.packages, repos="http://cran.us.r-project.org")
 lapply(list.of.packages, require, character.only=T)
 
 wd <- "/root/aid-tracker-interactive/input"
