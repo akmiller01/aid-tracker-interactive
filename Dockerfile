@@ -1,5 +1,5 @@
 # Use a base image
-FROM python:3.8
+FROM ubuntu:18.04
 
 # Set the working directory
 WORKDIR /root
